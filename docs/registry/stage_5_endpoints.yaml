@@ -1,0 +1,21 @@
+stage: 5
+registry_type: authorized_endpoints
+description: >
+  Explicit registry of all executable backend endpoints
+  authorized under Stage 5 Controlled Implementation.
+
+execution_pattern: stage_4_constant_endpoint
+
+endpoints:
+  - name: version
+    stage_introduced: 5
+    path: /version
+    method: GET
+    status: authorized
+    implementation: not_present
+    response:
+      type: constant_json
+      value:
+        version: "0.0.1"
+    notes: "Authorized in Stage 5 but not yet implemented. Returns fixed version information with no side effects."
+

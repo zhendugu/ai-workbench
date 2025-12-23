@@ -1,0 +1,23 @@
+stage: 4
+registry_type: authorized_endpoints
+description: >
+  Explicit registry of all executable backend endpoints
+  authorized under Stage 4 Controlled Implementation.
+
+execution_pattern: stage_4_constant_endpoint
+
+endpoints:
+  - name: health_check
+    path: /health
+    method: GET
+    response:
+      type: constant_json
+      value:
+        status: ok
+  - name: version
+    path: /version
+    method: GET
+    response:
+      type: constant_json
+      value:
+        version: "0.0.1"

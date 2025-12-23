@@ -1,0 +1,131 @@
+name: CI Enforcement
+
+on:
+  pull_request:
+    paths:
+      - 'backend/**'
+      - 'frontend/**'
+      - 'docs/**'
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  ci-sentinel:
+    name: ENGINE CI Sentinel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE CI Sentinel Check
+        run: |
+          python3 .github/scripts/check_ci_sentinel.py
+
+  bootstrap:
+    name: ENGINE Bootstrap Check
+    runs-on: ubuntu-latest
+    needs: ci-sentinel
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE Bootstrap Check
+        run: |
+          python3 .github/scripts/bootstrap_check.py
+
+  engine-version-gate:
+    name: ENGINE_VERSION Presence Gate
+    runs-on: ubuntu-latest
+    needs: bootstrap
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE_VERSION Presence Check
+        run: |
+          python3 .github/scripts/check_engine_version_presence.py
+
+  engine-version-value-gate:
+    name: ENGINE_VERSION Value Allowlist Gate
+    runs-on: ubuntu-latest
+    needs: engine-version-gate
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE_VERSION Value Check
+        run: |
+          python3 .github/scripts/check_engine_version_value.py
+
+  anti-tamper:
+    name: ENGINE Anti-Tamper Enforcement
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE Anti-Tamper Check
+        run: |
+          python3 .github/scripts/check_anti_tamper.py
+
+  stage-registry-guard:
+    name: ENGINE Stage/Registry Alignment
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate, anti-tamper]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ENGINE Stage/Registry Alignment Check
+        run: |
+          python3 .github/scripts/check_stage_consistency.py
+
+  stage-guard:
+    name: Stage Guard Rule
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate, anti-tamper, stage-registry-guard]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check stage status
+        run: |
+          python3 .github/scripts/check_stage_guard.py
+
+  stack-lock:
+    name: Technology Stack Lock
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate, anti-tamper, stage-registry-guard]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check backend stack
+        run: |
+          python3 .github/scripts/check_stack_lock.py backend
+      - name: Check frontend stack
+        run: |
+          python3 .github/scripts/check_stack_lock.py frontend
+
+  ssot-lock:
+    name: SSOT Lock
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate, anti-tamper, stage-registry-guard]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check frozen documents
+        run: |
+          python3 .github/scripts/check_ssot_lock.py
+
+  implementation-ban:
+    name: Implementation Ban
+    runs-on: ubuntu-latest
+    needs: [ci-sentinel, bootstrap, engine-version-gate, engine-version-value-gate, anti-tamper, stage-registry-guard]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check backend implementation
+        run: |
+          python3 .github/scripts/check_implementation_ban.py backend
+      - name: Check frontend implementation
+        run: |
+          python3 .github/scripts/check_implementation_ban.py frontend
+

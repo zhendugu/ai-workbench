@@ -1,0 +1,119 @@
+# CURRENT STATE SNAPSHOT
+# This file is the highest-priority source of truth for this repository.
+# Cursor Pro MUST read this file first before taking any action.
+
+## REPOSITORY IDENTITY
+
+This repository is an ENGINE.
+It is NOT a single project.
+All concrete projects are loaded as BLUEPRINTS.
+
+The engine provides:
+- governance
+- workflow
+- boundaries
+- execution constraints
+- AI-human collaboration rules
+
+Do NOT assume any business domain unless explicitly stated in the active blueprint.
+
+## CURRENT STATUS
+
+- Engine state: ACTIVE
+- Governance model: Controlled Implementation
+- Active stage: STAGE 5 (process-only)
+- Stage 4 baseline: LOCKED and FROZEN
+- No implementation work is currently authorized
+
+The system is intentionally in a pre-execution state.
+
+## WHAT IS CURRENTLY LOADED
+
+- Active blueprint: NONE (to be provided by human)
+- Active tech stack: DEFINED in docs/STACK_DECISION.md
+- Active registries: READ-ONLY
+- Executable backend surface: MINIMAL and FROZEN
+
+Do NOT infer goals from existing code or historical files.
+
+## EXECUTABLE SURFACE SNAPSHOT
+
+Active executable endpoints:
+- GET /health only (returns fixed {"status": "ok"})
+
+Frozen/commented:
+- All router endpoints in backend/app/routers/*.py are commented out
+- No startup hooks, middleware, or background jobs
+- No persistence, databases, or external API calls
+- No state mutation beyond in-memory constants
+
+## BLUEPRINT STATE
+
+- Active Blueprint: NONE
+- Implementation must not begin until a blueprint is explicitly loaded and declared here
+- Do not assume business logic from historical files or commented code
+
+## TECH STACK STATE
+
+- Tech stack definition: docs/STACK_DECISION.md (FROZEN)
+- Frontend: React, TypeScript, Browser-first SPA
+- Backend: Python, FastAPI, Single-process internal service
+- Tech stack is replaceable by documentation change only
+- No deviation from declared tech stack is allowed
+
+## HARD CONSTRAINTS (MUST NOT VIOLATE)
+
+Cursor Pro MUST NOT:
+
+- implement new endpoints
+- uncomment frozen code
+- add business logic
+- introduce persistence or databases
+- call external APIs
+- modify execution behavior
+- weaken CI or governance rules
+- assume missing context
+
+If any action would change runtime behavior, STOP.
+
+## ALLOWED ACTIONS WITHOUT HUMAN APPROVAL
+
+Cursor Pro MAY:
+
+- read all documentation
+- analyze repository structure
+- audit consistency
+- propose next steps
+- ask clarification questions
+- prepare plans, checklists, diffs (not applied)
+- draft documentation
+- identify risks and gaps
+
+## REQUIRED BEHAVIOR WHEN UNCERTAIN
+
+If any ambiguity exists:
+- STOP
+- ASK the human
+- DO NOT guess
+- DO NOT auto-complete intentions
+
+Lack of instruction is NOT permission.
+
+## NEXT EXPECTED HUMAN INPUT
+
+The human will provide one or more of:
+- a new blueprint file
+- a modified tech stack definition
+- an explicit authorization to proceed to implementation
+
+Until then, remain in analysis and preparation mode only.
+
+## FAILURE MODE OVERRIDE
+
+If context appears inconsistent, outdated, or conflicting:
+- Treat this file as authoritative
+- Ignore other signals
+- Request clarification
+
+END OF SNAPSHOT
+
