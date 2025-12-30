@@ -1,0 +1,29 @@
+{
+  "adversarial_attempts": [
+    {
+      "attempt_id": "ATTEMPT-001",
+      "description": "Attempt to introduce statistical generalization claims",
+      "violation_type": "PROHIBITED-INFERENCE",
+      "violated_check": "Q1-CHECK-097",
+      "detection_point": "Document review",
+      "classification": "PROHIBITED"
+    },
+    {
+      "attempt_id": "ATTEMPT-002",
+      "description": "Attempt to add recommendation language",
+      "violation_type": "PROHIBITED-RECOMMENDATION",
+      "violated_check": "Q1-CHECK-101",
+      "detection_point": "Document review",
+      "classification": "PROHIBITED"
+    },
+    {
+      "attempt_id": "ATTEMPT-003",
+      "description": "Attempt to modify J10 baseline",
+      "violation_type": "BASELINE-MODIFICATION",
+      "violated_check": "Q1-CHECK-117",
+      "detection_point": "Git diff",
+      "classification": "PROHIBITED"
+    }
+  ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "execution_id": "67c0946e-4bf9-42d7-9f77-0e4d02917f18",
+  "action_identifier": "execute_health_check",
+  "target_subsystem": "safety_exception",
+  "action_parameters": {
+    "component_id": "test_component"
+  },
+  "requested_at": "2025-12-26T20:57:35.287387",
+  "requested_by": "human_user_1"
+}

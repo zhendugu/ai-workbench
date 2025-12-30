@@ -1,0 +1,12 @@
+{
+  "log_id": "98ac6ffa-6271-45cf-913d-f168e89ac643",
+  "task_id": "query_task_log_c8883601-c878-4660-84c3-79a5c57561db",
+  "goal": "Query Task Log (C-OBS-4)",
+  "input": "{'task_id': 'test_task_1', 'status': None, 'limit': 100}",
+  "output": "{'count': 2}",
+  "status": "success",
+  "duration": 2,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T19:08:26.053298",
+  "completed_at": "2025-12-26T19:08:26.053298"
+}

@@ -1,0 +1,24 @@
+{
+  "execution_id": "e59bf2e3-d50d-4cbe-aab3-78bbfd14ad5a",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "dry_run",
+    "execution_preview": {
+      "action_identifier": "store_document",
+      "target_subsystem": "knowledge_management",
+      "action_parameters": {
+        "content": "Test document content",
+        "metadata": {
+          "title": "Test Document"
+        }
+      },
+      "would_execute": "Would execute action 'store_document' on subsystem 'knowledge_management' with parameters: {'content': 'Test document content', 'metadata': {'title': 'Test Document'}}",
+      "execution_blocked": true,
+      "blocked_reason": "dry_run_mode",
+      "note": "This is a DRY-RUN. No real execution was performed."
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T20:51:20.009127",
+  "duration_ms": 1
+}

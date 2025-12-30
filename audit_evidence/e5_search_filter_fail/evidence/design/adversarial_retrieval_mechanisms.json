@@ -1,0 +1,178 @@
+{
+  "adversarial_retrieval_mechanisms_version": "1.0.0",
+  "created_at": "2025-12-27T13:00:00Z",
+  "created_by": "human",
+  "note": "These are adversarial retrieval mechanisms that MUST FAIL constitutional compliance",
+  "adversarial_mechanisms": [
+    {
+      "mechanism_id": "ADV-RETRIEVE-001",
+      "mechanism_name": "Default Filter Enabled",
+      "description": "System enables default filter (e.g., 'recommended categories')",
+      "violation_type": "default_filter",
+      "example": {
+        "scenario": "Default filter 'recommended categories' is enabled on page load",
+        "violation": "Default filter pre-biases results",
+        "expected_result": "FAIL - Must require explicit user selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection, no decision space compression",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-002",
+      "mechanism_name": "Default Sort by Latest or Most Used",
+      "description": "System defaults to sort by 'latest' or 'most used'",
+      "violation_type": "default_sort",
+      "example": {
+        "scenario": "Default sort is 'latest version' instead of pattern_id lexical",
+        "violation": "Default preferential sort compresses decision space",
+        "expected_result": "FAIL - Must use non-preferential default sort"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection, no 'latest is best' semantics",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-003",
+      "mechanism_name": "Auto-Highlight Popular/Common/Standard",
+      "description": "System auto-highlights entries marked as 'popular', 'common', or 'standard'",
+      "violation_type": "recommendation_semantics",
+      "example": {
+        "scenario": "Entries with 'popular' tag are highlighted in results",
+        "violation": "Highlighting implies recommendation",
+        "expected_result": "FAIL - Must present all entries equally"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No recommendation signals, no highlighting",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-004",
+      "mechanism_name": "Semantic Relevance Score Boosting",
+      "description": "System uses semantic relevance score to boost certain entries",
+      "violation_type": "hidden_ranking",
+      "example": {
+        "scenario": "Search results ordered by semantic relevance score, boosting certain entries",
+        "violation": "Hidden ranking based on semantic relevance",
+        "expected_result": "FAIL - Must use literal matching only"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No hidden ranking, no semantic ranking",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-005",
+      "mechanism_name": "Recently Used Panel Truncating to Top-N",
+      "description": "Recently used panel truncates to top-N and hides the rest",
+      "violation_type": "decision_space_compression",
+      "example": {
+        "scenario": "Recently used panel shows only top 5 entries, hiding the rest",
+        "violation": "Truncation hides options as preference mechanism",
+        "expected_result": "FAIL - Must show all options, no truncation"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No decision space compression, no hidden items",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-006",
+      "mechanism_name": "Sticky Filters Auto-Applied on Next Session",
+      "description": "Filters auto-applied on next session without explicit human action",
+      "violation_type": "sticky_state",
+      "example": {
+        "scenario": "Filters from previous session auto-applied on next session",
+        "violation": "Sticky state auto-applied without explicit human action",
+        "expected_result": "FAIL - Must require explicit human action"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No sticky state without explicit human action",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-007",
+      "mechanism_name": "Usage Count Based Ranking",
+      "description": "System ranks results based on usage count from audit",
+      "violation_type": "audit_derived_ranking",
+      "example": {
+        "scenario": "Results ordered by usage_count field from audit records",
+        "violation": "Hidden ranking based on usage/adoption/history/audit",
+        "expected_result": "FAIL - Must not use audit/history for ranking"
+      },
+      "constitutional_violation": {
+        "violates": "AUDIT_EVIDENCE_ONTOLOGY.md - Audit must not drive behavior, HUMAN_DECISION_SELECTION_BOUNDARY.md - No audit/history influence",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-008",
+      "mechanism_name": "Last Used Based Ranking",
+      "description": "System ranks results based on last_used timestamp",
+      "violation_type": "history_derived_ranking",
+      "example": {
+        "scenario": "Results ordered by last_used timestamp, showing recently used first",
+        "violation": "Hidden ranking based on history",
+        "expected_result": "FAIL - Must not use history for ranking"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No history-based influence",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-009",
+      "mechanism_name": "Popularity Based Ranking",
+      "violation_type": "usage_derived_ranking",
+      "description": "System ranks results based on popularity metrics",
+      "example": {
+        "scenario": "Results ordered by popularity score, showing popular entries first",
+        "violation": "Hidden ranking based on popularity",
+        "expected_result": "FAIL - Must not use popularity for ranking"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No usage-based ranking",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-RETRIEVE-010",
+      "mechanism_name": "Trending Based Ranking",
+      "description": "System ranks results based on trending metrics",
+      "violation_type": "usage_derived_ranking",
+      "example": {
+        "scenario": "Results ordered by trending score, showing trending entries first",
+        "violation": "Hidden ranking based on trending",
+        "expected_result": "FAIL - Must not use trending for ranking"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No usage-based ranking",
+        "violation_severity": "HIGH"
+      }
+    }
+  ],
+  "expected_violations": 30,
+  "violation_categories": {
+    "default_filter": 1,
+    "default_sort": 1,
+    "recommendation_semantics": 1,
+    "hidden_ranking": 3,
+    "decision_space_compression": 1,
+    "sticky_state": 1,
+    "audit_derived_ranking": 1,
+    "history_derived_ranking": 1
+  },
+  "constitutional_compliance": {
+    "all_mechanisms_must_fail": true,
+    "no_default_filters_allowed": true,
+    "no_default_preferential_sort_allowed": true,
+    "no_recommendation_signals_allowed": true,
+    "no_hidden_ranking_allowed": true,
+    "no_sticky_state_allowed": true
+  }
+}
+

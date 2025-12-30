@@ -1,0 +1,232 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-J7-001",
+      "name": "Backend Response Order Interpretation as Recommendation",
+      "description": "Frontend interprets backend response order as meaningful or recommended, displaying first items with emphasis or highlighting",
+      "typical_implementation": [
+        "Highlight first 3 items in response",
+        "Add 'Featured' badge to first item",
+        "Display first item with larger font or different color",
+        "Add 'Popular' label to items in first half of response"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 2: No Highlighting or Recommendation",
+        "J2 Constraint 3: No Ordering Implication",
+        "J7 Risk 1: Backend Response Order Interpretation"
+      ]
+    },
+    {
+      "id": "ADV-J7-002",
+      "name": "Error Type Priority Inference",
+      "description": "Frontend infers priority from error types, displaying some errors with more emphasis or suggesting different actions based on error type",
+      "typical_implementation": [
+        "Display 404 errors with 'Try again' button",
+        "Display 500 errors with 'Contact support' suggestion",
+        "Display timeout errors with 'Retry' button",
+        "Categorize errors as 'critical', 'warning', 'info'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 2: Error Type Priority Inference",
+        "J7 Risk 8: Error-to-Suggestion Conversion"
+      ]
+    },
+    {
+      "id": "ADV-J7-003",
+      "name": "Empty Result Interpretation as 'Not Recommended'",
+      "description": "Frontend interprets empty results as 'not recommended' or 'not found', displaying messages that imply the system is suggesting alternatives",
+      "typical_implementation": [
+        "Display 'No capabilities found. Try searching for something else.'",
+        "Display 'No results. Perhaps try a different search term?'",
+        "Display 'Empty list. Check back later or try refreshing.'",
+        "Display 'No data available. Would you like to create one?'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 3: Empty Result Interpretation"
+      ]
+    },
+    {
+      "id": "ADV-J7-004",
+      "name": "Backend Response Abstraction and Summarization",
+      "description": "Frontend abstracts, summarizes, or compares backend responses, reducing information density and potentially hiding important details",
+      "typical_implementation": [
+        "Summarize long error messages",
+        "Abstract complex response structures",
+        "Compare current response with previous responses",
+        "Display 'Simplified view' that hides details"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 10: No Abstraction",
+        "J7 Risk 4: Backend Response Abstraction"
+      ]
+    },
+    {
+      "id": "ADV-J7-005",
+      "name": "Automatic Retry on Failure",
+      "description": "Frontend automatically retries failed requests without explicit human action, hiding failures and potentially creating false sense of reliability",
+      "typical_implementation": [
+        "Auto-retry on network error (3 attempts)",
+        "Auto-retry on timeout (2 attempts)",
+        "Auto-retry on 5xx errors (1 attempt)",
+        "Exponential backoff retry mechanism"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J7 Risk 5: Automatic Retry"
+      ]
+    },
+    {
+      "id": "ADV-J7-006",
+      "name": "Response-Based UI Adjustment",
+      "description": "Frontend adjusts UI behavior based on backend responses, creating dynamic UI that changes based on backend state",
+      "typical_implementation": [
+        "Hide search box if backend returns empty list",
+        "Show 'Try again' button only for certain error types",
+        "Adjust pagination size based on response size",
+        "Change layout based on response content"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 6: No Optimization",
+        "J7 Risk 6: Response-Based UI Adjustment"
+      ]
+    },
+    {
+      "id": "ADV-J7-007",
+      "name": "Backend Trust Assumption",
+      "description": "Frontend assumes backend responses are trustworthy or semantically meaningful, making decisions based on response content",
+      "typical_implementation": [
+        "Assume response order is meaningful",
+        "Assume error messages are user-friendly",
+        "Assume empty results mean 'not available'",
+        "Assume response structure is always valid"
+      ],
+      "violated_constraints": [
+        "J7 Risk 7: Backend Trust Assumption"
+      ]
+    },
+    {
+      "id": "ADV-J7-008",
+      "name": "Error-to-Suggestion Conversion",
+      "description": "Frontend converts errors to user suggestions or next step hints, creating process guidance from error conditions",
+      "typical_implementation": [
+        "Convert 404 to 'Try searching for similar items'",
+        "Convert timeout to 'Check your connection and try again'",
+        "Convert 500 to 'The server is experiencing issues. Please try again later.'",
+        "Convert empty result to 'No items match your search. Try different keywords.'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 8: Error-to-Suggestion Conversion"
+      ]
+    },
+    {
+      "id": "ADV-J7-009",
+      "name": "Timeout Handling with Automatic Retry",
+      "description": "Frontend handles timeout by automatically retrying or suggesting actions, creating process guidance from timeout conditions",
+      "typical_implementation": [
+        "Auto-retry on timeout (2 attempts)",
+        "Display 'Request is taking longer than expected. Retrying...'",
+        "Display 'Timeout occurred. Would you like to retry?' with auto-retry button",
+        "Exponential backoff with automatic retry"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 5: Automatic Retry",
+        "J7 Risk 9: Timeout Handling"
+      ]
+    },
+    {
+      "id": "ADV-J7-010",
+      "name": "Simulated Execution Without Clear Labeling",
+      "description": "Frontend simulates execution without clearly labeling it as simulated, potentially misleading users about backend availability",
+      "typical_implementation": [
+        "Simulate execution without 'Simulated' label",
+        "Display simulated result as if from backend",
+        "Hide backend unavailability",
+        "Display simulated result with same format as real result"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 11: No Behavior Inference",
+        "J7 Risk 10: Simulated Execution Labeling"
+      ]
+    },
+    {
+      "id": "ADV-J7-011",
+      "name": "Backend Response Caching",
+      "description": "Frontend caches backend responses, creating state memory and potentially displaying stale data",
+      "typical_implementation": [
+        "Cache capability list in localStorage",
+        "Cache pattern list in sessionStorage",
+        "Cache execution results",
+        "Use cached data on subsequent page loads"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 20: No State Persistence"
+      ]
+    },
+    {
+      "id": "ADV-J7-012",
+      "name": "Response Order Sorting",
+      "description": "Frontend sorts backend responses by some criteria (alphabetical, length, etc.) instead of preserving registration order",
+      "typical_implementation": [
+        "Sort capabilities alphabetically by name",
+        "Sort patterns by description length",
+        "Sort by ID in ascending order",
+        "Sort by any criteria other than registration order"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 3: No Ordering Implication",
+        "J7 Risk 1: Backend Response Order Interpretation"
+      ]
+    },
+    {
+      "id": "ADV-J7-013",
+      "name": "Error Message Filtering",
+      "description": "Frontend filters or sanitizes error messages, potentially hiding important information or creating false sense of security",
+      "typical_implementation": [
+        "Filter out technical error details",
+        "Sanitize error messages for 'user-friendliness'",
+        "Replace error codes with generic messages",
+        "Hide stack traces or detailed error information"
+      ],
+      "violated_constraints": [
+        "J7 Risk 4: Backend Response Abstraction",
+        "J7 Risk 8: Error-to-Suggestion Conversion"
+      ]
+    },
+    {
+      "id": "ADV-J7-014",
+      "name": "Response-Based Default Selection",
+      "description": "Frontend pre-selects items based on backend response (e.g., first item, most common item, etc.)",
+      "typical_implementation": [
+        "Pre-select first capability in response",
+        "Pre-select capability with most patterns",
+        "Pre-select most recently used capability",
+        "Auto-select first item on page load"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 1: No Default Selection",
+        "J7 Risk 6: Response-Based UI Adjustment"
+      ]
+    },
+    {
+      "id": "ADV-J7-015",
+      "name": "Backend Response Highlighting",
+      "description": "Frontend highlights certain items in backend response based on response metadata or structure",
+      "typical_implementation": [
+        "Highlight items with 'featured' flag in response",
+        "Highlight items with 'popular' flag in response",
+        "Highlight items with 'recommended' flag in response",
+        "Use response metadata to apply visual emphasis"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 2: No Highlighting or Recommendation",
+        "J7 Risk 7: Backend Trust Assumption"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,152 @@
+{
+  "simulation_period": {
+    "start": "2025-12-27T12:00:00Z",
+    "end": "2025-12-27T18:00:00Z",
+    "duration_hours": 6
+  },
+  "usage_sessions": [
+    {
+      "session_id": "SESSION-001",
+      "timestamp": "2025-12-27T12:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-MD-HTML-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T12:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-001",
+          "capability_id": "C-MD-HTML-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T12:01:00Z"
+        }
+      ]
+    },
+    {
+      "session_id": "SESSION-002",
+      "timestamp": "2025-12-27T13:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-TEXT-SUM-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T13:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-002",
+          "capability_id": "C-TEXT-SUM-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T13:02:00Z"
+        }
+      ]
+    },
+    {
+      "session_id": "SESSION-003",
+      "timestamp": "2025-12-27T14:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-LANG-TRANS-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T14:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-003",
+          "capability_id": "C-LANG-TRANS-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T14:01:00Z"
+        }
+      ]
+    },
+    {
+      "session_id": "SESSION-004",
+      "timestamp": "2025-12-27T15:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-MD-HTML-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T15:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-004",
+          "capability_id": "C-MD-HTML-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T15:01:00Z"
+        }
+      ]
+    },
+    {
+      "session_id": "SESSION-005",
+      "timestamp": "2025-12-27T16:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-DATA-VAL-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T16:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-005",
+          "capability_id": "C-DATA-VAL-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T16:02:00Z"
+        }
+      ]
+    },
+    {
+      "session_id": "SESSION-006",
+      "timestamp": "2025-12-27T17:00:00Z",
+      "human_actions": [
+        {
+          "action_type": "capability_selection",
+          "capability_id": "C-TEXT-SUM-001",
+          "selection_method": "explicit_human_action",
+          "timestamp": "2025-12-27T17:00:00Z"
+        },
+        {
+          "action_type": "capability_execution",
+          "execution_id": "EXEC-2025-12-27-006",
+          "capability_id": "C-TEXT-SUM-001",
+          "execution_method": "explicit_human_trigger",
+          "timestamp": "2025-12-27T17:01:00Z"
+        }
+      ]
+    }
+  ],
+  "usage_statistics": {
+    "total_sessions": 6,
+    "total_executions": 6,
+    "capability_usage_count": {
+      "C-MD-HTML-001": 2,
+      "C-TEXT-SUM-001": 2,
+      "C-LANG-TRANS-001": 1,
+      "C-DATA-VAL-001": 1,
+      "C-FORMAT-NORM-001": 0
+    }
+  },
+  "neutrality_verification": {
+    "no_memory_based_optimization": true,
+    "no_recent_highlighting": true,
+    "no_frequent_highlighting": true,
+    "no_continue_shortcuts": true,
+    "no_session_carryover": true,
+    "no_usage_based_ordering": true,
+    "no_frequency_based_presentation": true,
+    "presentation_remains_neutral": true
+  },
+  "constitutional_compliance": {
+    "no_recommendation_semantics": true,
+    "no_default_formation": true,
+    "no_workflow_semantics": true,
+    "no_automation_behavior": true,
+    "no_memory_based_optimization": true
+  }
+}
+

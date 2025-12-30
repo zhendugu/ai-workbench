@@ -1,0 +1,21 @@
+{
+  "execution_id": "f3efcc5f-2b46-4ef5-ad3b-e82771bde93f",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "health_check_id": "16ab20aa-2dc3-4672-bf24-4279fc94d751",
+      "component_id": "test_component",
+      "health_status": "healthy",
+      "check_timestamp": "2025-12-26T21:39:31.875740",
+      "details": {
+        "component_id": "test_component",
+        "check_type": "basic",
+        "response_time_ms": 0
+      }
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T21:39:31.875923",
+  "duration_ms": 0
+}

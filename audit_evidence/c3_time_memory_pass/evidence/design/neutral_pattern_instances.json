@@ -1,0 +1,170 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "pattern-doc-storage-001",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-01-15T08:00:00Z",
+      "created_by": "human-creator-001",
+      "description": "A pattern for storing documents in the knowledge management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-doc-retrieval-001",
+      "pattern_name": "Document Retrieval Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-03-10T10:00:00Z",
+      "created_by": "human-creator-002",
+      "description": "A pattern for retrieving documents from the knowledge management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-2",
+          "reference_type": "informational",
+          "description": "References C-KM-2 (Retrieve Document) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "retrieval",
+        "domain": "knowledge-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-access-control-001",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-04-20T11:00:00Z",
+      "created_by": "human-creator-003",
+      "description": "A pattern for controlling access to documents in the knowledge management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-3",
+          "reference_type": "informational",
+          "description": "References C-KM-3 (Check Access Permission) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "access-control",
+        "domain": "knowledge-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-versioning-001",
+      "pattern_name": "Versioning Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-05-05T12:00:00Z",
+      "created_by": "human-creator-004",
+      "description": "A pattern for versioning documents in the knowledge management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-5",
+          "reference_type": "informational",
+          "description": "References C-KM-5 (Record Document Version) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "versioning",
+        "domain": "knowledge-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-conflict-detection-001",
+      "pattern_name": "Conflict Detection Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-07-20T13:15:00Z",
+      "created_by": "human-creator-005",
+      "description": "A pattern for detecting conflicts in document content within the knowledge management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-4",
+          "reference_type": "informational",
+          "description": "References C-KM-4 (Detect Knowledge Conflict) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "conflict-detection",
+        "domain": "knowledge-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-handoff-validation-001",
+      "pattern_name": "Handoff Validation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-08-10T09:30:00Z",
+      "created_by": "human-creator-006",
+      "description": "A pattern for validating handoff documents in the handoff protocol system.",
+      "capability_references": [
+        {
+          "capability_id": "C-HANDOFF-1",
+          "reference_type": "informational",
+          "description": "References C-HANDOFF-1 (Validate Handoff Document) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "validation",
+        "domain": "handoff-protocol"
+      }
+    },
+    {
+      "pattern_id": "pattern-role-query-001",
+      "pattern_name": "Role Query Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-09-15T14:00:00Z",
+      "created_by": "human-creator-007",
+      "description": "A pattern for querying role definitions in the role management system.",
+      "capability_references": [
+        {
+          "capability_id": "C-ROLE-2",
+          "reference_type": "informational",
+          "description": "References C-ROLE-2 (Query Role Definition) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "query",
+        "domain": "role-management"
+      }
+    },
+    {
+      "pattern_id": "pattern-cell-composition-001",
+      "pattern_name": "Cell Composition Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-10-20T11:45:00Z",
+      "created_by": "human-creator-008",
+      "description": "A pattern for composing cells in the cell composition system.",
+      "capability_references": [
+        {
+          "capability_id": "C-CELL-1",
+          "reference_type": "informational",
+          "description": "References C-CELL-1 (Register Cell Definition) capability"
+        },
+        {
+          "capability_id": "C-CELL-2",
+          "reference_type": "informational",
+          "description": "References C-CELL-2 (Query Cell Definition) capability"
+        }
+      ],
+      "evidence_references": [],
+      "metadata": {
+        "category": "composition",
+        "domain": "cell-composition"
+      }
+    }
+  ]
+}
+

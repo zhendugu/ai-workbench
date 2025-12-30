@@ -1,0 +1,12 @@
+{
+  "log_id": "7615342e-4baa-4cd2-bddb-959c0a242090",
+  "task_id": "task_output_99efbd75-7a52-4cb8-bc4c-56e90cb9c7f9",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_generic', 'failure_reason': 'Generic failure reason'}",
+  "output": "{'output_id': '547d7000-f429-408f-ade5-e4a51cf8c7a6', 'task_id': 'test_task_generic'}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.747093",
+  "completed_at": "2025-12-26T20:16:34.747093"
+}

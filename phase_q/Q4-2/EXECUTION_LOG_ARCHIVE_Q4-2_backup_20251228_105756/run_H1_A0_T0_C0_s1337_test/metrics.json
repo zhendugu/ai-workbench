@@ -1,0 +1,58 @@
+{
+  "run_id": "run_H1_A0_T0_C0_s1337",
+  "seed": 1337,
+  "epochs_completed": 0,
+  "epochs_failed": 1,
+  "tool_calls": [
+    {
+      "epoch": 0,
+      "tool": "schema_lookup",
+      "result": {
+        "tool": "schema_lookup",
+        "input": {
+          "test": "data"
+        },
+        "output": {
+          "input": {
+            "test": "data"
+          },
+          "schema_fragment": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string"
+              }
+            }
+          },
+          "hash": "40b61fe1b15af0a4d5402735b26343e8cf8a045f4d81710e6108a21d91eaf366"
+        },
+        "epoch_id": "epoch_0_48b39f6f"
+      }
+    },
+    {
+      "epoch": 0,
+      "tool": "validate_config",
+      "result": {
+        "tool": "validate_config",
+        "input": {
+          "test": "data"
+        },
+        "output": [
+          {
+            "field": "required_field",
+            "error": "missing_required_field",
+            "message": "Required field is missing"
+          }
+        ],
+        "epoch_id": "epoch_0_48b39f6f"
+      }
+    }
+  ],
+  "state_hashes": [],
+  "errors": [
+    {
+      "epoch": 0,
+      "error": "diff_options() missing 1 required positional argument: 'candidate'"
+    }
+  ]
+}

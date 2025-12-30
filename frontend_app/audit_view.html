@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Records</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 20px;
+            background: white;
+            color: black;
+        }
+        .audit-section {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .audit-section h3 {
+            margin-top: 0;
+            cursor: pointer;
+        }
+        .audit-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .audit-item {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .pagination {
+            margin: 20px 0;
+        }
+        .pagination button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+            margin: 0 5px;
+        }
+        .nav-link {
+            margin: 10px 0;
+            padding: 5px;
+        }
+        .nav-link a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audit Records</h1>
+    <div class="nav-link"><a href="capabilities.html">Capabilities</a> | <a href="patterns.html">Patterns</a></div>
+    
+    <!-- Allowlist Item 4: Collapse / Expand -->
+    <div id="audit-sections"></div>
+    
+    <!-- Allowlist Item 3: Pagination -->
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        // Static audit data (in real system, this would come from backend)
+        const auditRecords = [
+            { timestamp: '2025-12-27T10:00:00Z', action: 'Capability Selected', details: 'C-MD-HTML-001 selected' },
+            { timestamp: '2025-12-27T10:05:00Z', action: 'Capability Executed', details: 'C-MD-HTML-001 executed with parameter: test.md' },
+            { timestamp: '2025-12-27T10:10:00Z', action: 'Capability Selected', details: 'C-TEXT-SUM-001 selected' }
+        ];
+
+        // Allowlist Item 3: Pagination - Fixed page size
+        const PAGE_SIZE = 2;
+        let currentPage = 1;
+
+        // Display audit records in chronological order (write order, no ranking)
+        function displayAuditRecords() {
+            const sectionsDiv = document.getElementById('audit-sections');
+            sectionsDiv.innerHTML = '';
+            
+            // Allowlist Item 4: Collapse / Expand - Create section
+            const section = document.createElement('div');
+            section.className = 'audit-section';
+            const h3 = document.createElement('h3');
+            h3.textContent = 'Audit Records';
+            h3.onclick = () => toggleSection(section);
+            section.appendChild(h3);
+            
+            const list = document.createElement('ul');
+            list.className = 'audit-list';
+            
+            // Pagination: Calculate start and end indices
+            const startIndex = (currentPage - 1) * PAGE_SIZE;
+            const endIndex = startIndex + PAGE_SIZE;
+            const paginated = auditRecords.slice(startIndex, endIndex);
+            
+            paginated.forEach(record => {
+                const item = document.createElement('li');
+                item.className = 'audit-item';
+                item.innerHTML = `
+                    <p>Timestamp: ${record.timestamp}</p>
+                    <p>Action: ${record.action}</p>
+                    <p>Details: ${record.details}</p>
+                `;
+                list.appendChild(item);
+            });
+            
+            section.appendChild(list);
+            sectionsDiv.appendChild(section);
+            
+            // Display pagination controls
+            displayPagination(auditRecords.length);
+        }
+
+        // Allowlist Item 3: Pagination - Display pagination controls
+        function displayPagination(totalItems) {
+            const paginationDiv = document.getElementById('pagination');
+            paginationDiv.innerHTML = '';
+            
+            const totalPages = Math.ceil(totalItems / PAGE_SIZE);
+            
+            if (totalPages > 1) {
+                if (currentPage > 1) {
+                    const prevButton = document.createElement('button');
+                    prevButton.textContent = 'Previous';
+                    prevButton.onclick = () => {
+                        currentPage--;
+                        displayAuditRecords();
+                    };
+                    paginationDiv.appendChild(prevButton);
+                }
+                
+                const pageInfo = document.createElement('span');
+                pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+                paginationDiv.appendChild(pageInfo);
+                
+                if (currentPage < totalPages) {
+                    const nextButton = document.createElement('button');
+                    nextButton.textContent = 'Next';
+                    nextButton.onclick = () => {
+                        currentPage++;
+                        displayAuditRecords();
+                    };
+                    paginationDiv.appendChild(nextButton);
+                }
+            }
+        }
+
+        // Allowlist Item 4: Collapse / Expand - Toggle section visibility
+        function toggleSection(section) {
+            const list = section.querySelector('.audit-list');
+            if (list.style.display === 'none') {
+                list.style.display = 'block';
+            } else {
+                list.style.display = 'none';
+            }
+        }
+
+        // Initialize on page load
+        displayAuditRecords();
+    </script>
+</body>
+</html>
+

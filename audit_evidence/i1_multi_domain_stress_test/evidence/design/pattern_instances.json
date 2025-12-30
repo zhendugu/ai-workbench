@@ -1,0 +1,332 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "P-FORMAT-CONV-A",
+      "pattern_name": "JSON-YAML Converter",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:00:00Z",
+      "created_by": "human",
+      "description": "Converts JSON documents to YAML format",
+      "capability_references": ["C-STRUCT-FORMAT-001"],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive"
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-CONV-B",
+      "pattern_name": "Data Format Transformer",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:01:00Z",
+      "created_by": "human",
+      "description": "Transforms JSON format to YAML representation",
+      "capability_references": ["C-STRUCT-FORMAT-001"],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic"
+      }
+    },
+    {
+      "pattern_id": "P-SCHEMA-NORM-X",
+      "pattern_name": "XML Normalizer",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:02:00Z",
+      "created_by": "human",
+      "description": "Normalizes XML document structure",
+      "capability_references": ["C-STRUCT-SCHEMA-002"],
+      "metadata": {
+        "style": "specific",
+        "naming": "technical"
+      }
+    },
+    {
+      "pattern_id": "P-SCHEMA-NORM-Y",
+      "pattern_name": "Structure Standardizer",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:03:00Z",
+      "created_by": "human",
+      "description": "Standardizes XML structure format",
+      "capability_references": ["C-STRUCT-SCHEMA-002"],
+      "metadata": {
+        "style": "general",
+        "naming": "conceptual"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-FR-1",
+      "pattern_name": "English-French Translator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:04:00Z",
+      "created_by": "human",
+      "description": "Translates English text to French language",
+      "capability_references": ["C-LANG-TRANS-001"],
+      "metadata": {
+        "style": "language-specific",
+        "naming": "explicit"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-FR-2",
+      "pattern_name": "Bilingual Text Converter",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:05:00Z",
+      "created_by": "human",
+      "description": "Converts text from English to French",
+      "capability_references": ["C-LANG-TRANS-001"],
+      "metadata": {
+        "style": "generic",
+        "naming": "functional"
+      }
+    },
+    {
+      "pattern_id": "P-REWRITE-TECH-ALPHA",
+      "pattern_name": "Technical Simplifier",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:06:00Z",
+      "created_by": "human",
+      "description": "Simplifies technical documentation text",
+      "capability_references": ["C-LANG-REWRITE-002"],
+      "metadata": {
+        "style": "domain-specific",
+        "naming": "descriptive"
+      }
+    },
+    {
+      "pattern_id": "P-REWRITE-TECH-BETA",
+      "pattern_name": "Complexity Reducer",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:07:00Z",
+      "created_by": "human",
+      "description": "Reduces complexity in technical writing",
+      "capability_references": ["C-LANG-REWRITE-002"],
+      "metadata": {
+        "style": "abstract",
+        "naming": "conceptual"
+      }
+    },
+    {
+      "pattern_id": "P-SUMM-DOC-1",
+      "pattern_name": "Document Summarizer",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:08:00Z",
+      "created_by": "human",
+      "description": "Creates summary of document content",
+      "capability_references": ["C-INFO-SUMM-001"],
+      "metadata": {
+        "style": "direct",
+        "naming": "verb-based"
+      }
+    },
+    {
+      "pattern_id": "P-SUMM-DOC-2",
+      "pattern_name": "Content Condenser",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:09:00Z",
+      "created_by": "human",
+      "description": "Condenses document into summary form",
+      "capability_references": ["C-INFO-SUMM-001"],
+      "metadata": {
+        "style": "metaphorical",
+        "naming": "process-based"
+      }
+    },
+    {
+      "pattern_id": "P-EXTR-KEY-A",
+      "pattern_name": "Key Information Extractor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:10:00Z",
+      "created_by": "human",
+      "description": "Extracts key information from documents",
+      "capability_references": ["C-INFO-EXTR-002"],
+      "metadata": {
+        "style": "explicit",
+        "naming": "action-oriented"
+      }
+    },
+    {
+      "pattern_id": "P-EXTR-KEY-B",
+      "pattern_name": "Essential Data Puller",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:11:00Z",
+      "created_by": "human",
+      "description": "Pulls essential data from source material",
+      "capability_references": ["C-INFO-EXTR-002"],
+      "metadata": {
+        "style": "informal",
+        "naming": "colloquial"
+      }
+    },
+    {
+      "pattern_id": "P-VAL-FORMAT-1",
+      "pattern_name": "Format Validator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:12:00Z",
+      "created_by": "human",
+      "description": "Validates data format compliance",
+      "capability_references": ["C-JUDGE-VAL-001"],
+      "metadata": {
+        "style": "formal",
+        "naming": "standard"
+      }
+    },
+    {
+      "pattern_id": "P-VAL-FORMAT-2",
+      "pattern_name": "Data Format Checker",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:13:00Z",
+      "created_by": "human",
+      "description": "Checks if data format is valid",
+      "capability_references": ["C-JUDGE-VAL-001"],
+      "metadata": {
+        "style": "casual",
+        "naming": "conversational"
+      }
+    },
+    {
+      "pattern_id": "P-CONS-CHECK-A",
+      "pattern_name": "Consistency Verifier",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:14:00Z",
+      "created_by": "human",
+      "description": "Verifies data consistency across dataset",
+      "capability_references": ["C-JUDGE-CONS-002"],
+      "metadata": {
+        "style": "technical",
+        "naming": "professional"
+      }
+    },
+    {
+      "pattern_id": "P-CONS-CHECK-B",
+      "pattern_name": "Data Harmony Check",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:15:00Z",
+      "created_by": "human",
+      "description": "Checks if data elements are in harmony",
+      "capability_references": ["C-JUDGE-CONS-002"],
+      "metadata": {
+        "style": "poetic",
+        "naming": "metaphorical"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-X",
+      "pattern_name": "Field Mapper",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:16:00Z",
+      "created_by": "human",
+      "description": "Maps field names according to specification",
+      "capability_references": ["C-MAP-FIELD-001"],
+      "metadata": {
+        "style": "precise",
+        "naming": "technical"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-Y",
+      "pattern_name": "Name Translator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:17:00Z",
+      "created_by": "human",
+      "description": "Translates field names between formats",
+      "capability_references": ["C-MAP-FIELD-001"],
+      "metadata": {
+        "style": "analogical",
+        "naming": "conceptual"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-STRUCT-1",
+      "pattern_name": "Structure Aligner",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:18:00Z",
+      "created_by": "human",
+      "description": "Aligns data structure to target format",
+      "capability_references": ["C-MAP-ALIGN-002"],
+      "metadata": {
+        "style": "systematic",
+        "naming": "process-oriented"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-STRUCT-2",
+      "pattern_name": "Data Shape Matcher",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:19:00Z",
+      "created_by": "human",
+      "description": "Matches data shape to required structure",
+      "capability_references": ["C-MAP-ALIGN-002"],
+      "metadata": {
+        "style": "visual",
+        "naming": "metaphorical"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXEC-PURE",
+      "pattern_name": "Pure Rule Executor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:20:00Z",
+      "created_by": "human",
+      "description": "Executes pure function rules without state",
+      "capability_references": ["C-RULE-EXEC-001"],
+      "metadata": {
+        "style": "functional",
+        "naming": "paradigm-based"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXEC-FUNC",
+      "pattern_name": "Stateless Rule Runner",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:21:00Z",
+      "created_by": "human",
+      "description": "Runs rules as stateless functions",
+      "capability_references": ["C-RULE-EXEC-001"],
+      "metadata": {
+        "style": "architectural",
+        "naming": "design-pattern"
+      }
+    },
+    {
+      "pattern_id": "P-CALC-MATH-1",
+      "pattern_name": "Mathematical Calculator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:22:00Z",
+      "created_by": "human",
+      "description": "Performs mathematical calculations",
+      "capability_references": ["C-RULE-CALC-002"],
+      "metadata": {
+        "style": "standard",
+        "naming": "domain-specific"
+      }
+    },
+    {
+      "pattern_id": "P-CALC-MATH-2",
+      "pattern_name": "Number Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:23:00Z",
+      "created_by": "human",
+      "description": "Processes numerical expressions",
+      "capability_references": ["C-RULE-CALC-002"],
+      "metadata": {
+        "style": "generic",
+        "naming": "abstract"
+      }
+    }
+  ],
+  "registration_metadata": {
+    "registration_date": "2025-12-27",
+    "registration_order": "none",
+    "grouping": "none",
+    "priority": "none",
+    "default": "none",
+    "recommendation": "none",
+    "shared_templates": "none",
+    "shared_naming": "none",
+    "shared_practices": "none"
+  },
+  "total_pattern_instances": 24,
+  "patterns_per_capability": 2,
+  "style_diversity": "high",
+  "naming_diversity": "high"
+}
+

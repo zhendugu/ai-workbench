@@ -1,0 +1,323 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "P-DATA-ANALYSIS-001",
+      "pattern_name": "Data Analysis Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:00:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data analysis operations",
+      "capability_references": [{"capability_id": "C-DATA-ANALYSIS-001"}],
+      "metadata": {"tags": ["data", "analysis"]}
+    },
+    {
+      "pattern_id": "P-DATA-ANALYSIS-001",
+      "pattern_name": "Data Analysis Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-12-27T10:05:00Z",
+      "created_by": "human",
+      "description": "Updated version of data analysis pattern",
+      "capability_references": [{"capability_id": "C-DATA-ANALYSIS-001"}],
+      "metadata": {"tags": ["data", "analysis"], "version_lineage": {"parent_version": "1.0.0"}}
+    },
+    {
+      "pattern_id": "P-DATA-CLEANING-001",
+      "pattern_name": "Data Cleaning Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:10:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data cleaning operations",
+      "capability_references": [{"capability_id": "C-DATA-CLEANING-001"}],
+      "metadata": {"tags": ["data", "cleaning"]}
+    },
+    {
+      "pattern_id": "P-DATA-EXTRACTION-001",
+      "pattern_name": "Data Extraction Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:15:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data extraction operations",
+      "capability_references": [{"capability_id": "C-DATA-EXTRACTION-001"}],
+      "metadata": {"tags": ["data", "extraction"]}
+    },
+    {
+      "pattern_id": "P-DATA-TRANSFORMATION-001",
+      "pattern_name": "Data Transformation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:20:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data transformation operations",
+      "capability_references": [{"capability_id": "C-DATA-TRANSFORMATION-001"}],
+      "metadata": {"tags": ["data", "transformation"]}
+    },
+    {
+      "pattern_id": "P-DATA-VALIDATION-001",
+      "pattern_name": "Data Validation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:25:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data validation operations",
+      "capability_references": [{"capability_id": "C-DATA-VALIDATION-001"}],
+      "metadata": {"tags": ["data", "validation"]}
+    },
+    {
+      "pattern_id": "P-DOCUMENT-CONVERSION-001",
+      "pattern_name": "Document Conversion Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:30:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for document conversion operations",
+      "capability_references": [{"capability_id": "C-DOCUMENT-CONVERSION-001"}],
+      "metadata": {"tags": ["document", "conversion"]}
+    },
+    {
+      "pattern_id": "P-DOCUMENT-PARSING-001",
+      "pattern_name": "Document Parsing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:35:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for document parsing operations",
+      "capability_references": [{"capability_id": "C-DOCUMENT-PARSING-001"}],
+      "metadata": {"tags": ["document", "parsing"]}
+    },
+    {
+      "pattern_id": "P-DOCUMENT-PROCESSING-001",
+      "pattern_name": "Document Processing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:40:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for document processing operations",
+      "capability_references": [{"capability_id": "C-DOCUMENT-PROCESSING-001"}],
+      "metadata": {"tags": ["document", "processing"]}
+    },
+    {
+      "pattern_id": "P-EMAIL-PROCESSING-001",
+      "pattern_name": "Email Processing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:45:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for email processing operations",
+      "capability_references": [{"capability_id": "C-EMAIL-PROCESSING-001"}],
+      "metadata": {"tags": ["email", "processing"]}
+    },
+    {
+      "pattern_id": "P-FILE-COMPRESSION-001",
+      "pattern_name": "File Compression Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:50:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for file compression operations",
+      "capability_references": [{"capability_id": "C-FILE-COMPRESSION-001"}],
+      "metadata": {"tags": ["file", "compression"]}
+    },
+    {
+      "pattern_id": "P-FILE-EXTRACTION-001",
+      "pattern_name": "File Extraction Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:55:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for file extraction operations",
+      "capability_references": [{"capability_id": "C-FILE-EXTRACTION-001"}],
+      "metadata": {"tags": ["file", "extraction"]}
+    },
+    {
+      "pattern_id": "P-FORMAT-CONVERSION-001",
+      "pattern_name": "Format Conversion Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:00:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for format conversion operations",
+      "capability_references": [{"capability_id": "C-FORMAT-CONVERSION-001"}],
+      "metadata": {"tags": ["format", "conversion"]}
+    },
+    {
+      "pattern_id": "P-IMAGE-PROCESSING-001",
+      "pattern_name": "Image Processing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:05:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for image processing operations",
+      "capability_references": [{"capability_id": "C-IMAGE-PROCESSING-001"}],
+      "metadata": {"tags": ["image", "processing"]}
+    },
+    {
+      "pattern_id": "P-IMAGE-PROCESSING-001",
+      "pattern_name": "Image Processing Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-12-27T11:10:00Z",
+      "created_by": "human",
+      "description": "Updated version of image processing pattern",
+      "capability_references": [{"capability_id": "C-IMAGE-PROCESSING-001"}],
+      "metadata": {"tags": ["image", "processing"], "version_lineage": {"parent_version": "1.0.0"}}
+    },
+    {
+      "pattern_id": "P-LANGUAGE-TRANSLATION-001",
+      "pattern_name": "Language Translation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:15:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for language translation operations",
+      "capability_references": [{"capability_id": "C-LANGUAGE-TRANSLATION-001"}],
+      "metadata": {"tags": ["language", "translation"]}
+    },
+    {
+      "pattern_id": "P-MARKDOWN-CONVERSION-001",
+      "pattern_name": "Markdown Conversion Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:20:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for markdown conversion operations",
+      "capability_references": [{"capability_id": "C-MARKDOWN-CONVERSION-001"}],
+      "metadata": {"tags": ["markdown", "conversion"]}
+    },
+    {
+      "pattern_id": "P-MARKDOWN-CONVERSION-001",
+      "pattern_name": "Markdown Conversion Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-12-27T11:25:00Z",
+      "created_by": "human",
+      "description": "Updated version of markdown conversion pattern",
+      "capability_references": [{"capability_id": "C-MARKDOWN-CONVERSION-001"}],
+      "metadata": {"tags": ["markdown", "conversion"], "version_lineage": {"parent_version": "1.0.0"}}
+    },
+    {
+      "pattern_id": "P-NETWORK-ANALYSIS-001",
+      "pattern_name": "Network Analysis Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:30:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for network analysis operations",
+      "capability_references": [{"capability_id": "C-NETWORK-ANALYSIS-001"}],
+      "metadata": {"tags": ["network", "analysis"]}
+    },
+    {
+      "pattern_id": "P-PDF-PROCESSING-001",
+      "pattern_name": "PDF Processing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:35:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for PDF processing operations",
+      "capability_references": [{"capability_id": "C-PDF-PROCESSING-001"}],
+      "metadata": {"tags": ["pdf", "processing"]}
+    },
+    {
+      "pattern_id": "P-REPORT-GENERATION-001",
+      "pattern_name": "Report Generation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:40:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for report generation operations",
+      "capability_references": [{"capability_id": "C-REPORT-GENERATION-001"}],
+      "metadata": {"tags": ["report", "generation"]}
+    },
+    {
+      "pattern_id": "P-REPORT-GENERATION-001",
+      "pattern_name": "Report Generation Pattern",
+      "pattern_version": "1.1.0",
+      "created_at": "2025-12-27T11:45:00Z",
+      "created_by": "human",
+      "description": "Updated version of report generation pattern",
+      "capability_references": [{"capability_id": "C-REPORT-GENERATION-001"}],
+      "metadata": {"tags": ["report", "generation"], "version_lineage": {"parent_version": "1.0.0"}}
+    },
+    {
+      "pattern_id": "P-SEARCH-INDEXING-001",
+      "pattern_name": "Search Indexing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:50:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for search indexing operations",
+      "capability_references": [{"capability_id": "C-SEARCH-INDEXING-001"}],
+      "metadata": {"tags": ["search", "indexing"]}
+    },
+    {
+      "pattern_id": "P-SECURITY-SCANNING-001",
+      "pattern_name": "Security Scanning Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:55:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for security scanning operations",
+      "capability_references": [{"capability_id": "C-SECURITY-SCANNING-001"}],
+      "metadata": {"tags": ["security", "scanning"]}
+    },
+    {
+      "pattern_id": "P-TEXT-ANALYSIS-001",
+      "pattern_name": "Text Analysis Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:00:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for text analysis operations",
+      "capability_references": [{"capability_id": "C-TEXT-ANALYSIS-001"}],
+      "metadata": {"tags": ["text", "analysis"]}
+    },
+    {
+      "pattern_id": "P-TEXT-EXTRACTION-001",
+      "pattern_name": "Text Extraction Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:05:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for text extraction operations",
+      "capability_references": [{"capability_id": "C-TEXT-EXTRACTION-001"}],
+      "metadata": {"tags": ["text", "extraction"]}
+    },
+    {
+      "pattern_id": "P-TEXT-SUMMARIZATION-001",
+      "pattern_name": "Text Summarization Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:10:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for text summarization operations",
+      "capability_references": [{"capability_id": "C-TEXT-SUMMARIZATION-001"}],
+      "metadata": {"tags": ["text", "summarization"]}
+    },
+    {
+      "pattern_id": "P-TEXT-SUMMARIZATION-001",
+      "pattern_name": "Text Summarization Pattern",
+      "pattern_version": "1.1.0",
+      "created_at": "2025-12-27T12:15:00Z",
+      "created_by": "human",
+      "description": "Updated version of text summarization pattern",
+      "capability_references": [{"capability_id": "C-TEXT-SUMMARIZATION-001"}],
+      "metadata": {"tags": ["text", "summarization"], "version_lineage": {"parent_version": "1.0.0"}}
+    },
+    {
+      "pattern_id": "P-WEB-SCRAPING-001",
+      "pattern_name": "Web Scraping Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:20:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for web scraping operations",
+      "capability_references": [{"capability_id": "C-WEB-SCRAPING-001"}],
+      "metadata": {"tags": ["web", "scraping"]}
+    },
+    {
+      "pattern_id": "P-XML-PARSING-001",
+      "pattern_name": "XML Parsing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:25:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for XML parsing operations",
+      "capability_references": [{"capability_id": "C-XML-PARSING-001"}],
+      "metadata": {"tags": ["xml", "parsing"]}
+    },
+    {
+      "pattern_id": "P-XML-PROCESSING-001",
+      "pattern_name": "XML Processing Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:30:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for XML processing operations",
+      "capability_references": [{"capability_id": "C-XML-PROCESSING-001"}],
+      "metadata": {"tags": ["xml", "processing"]}
+    }
+  ],
+  "total_pattern_instances": 32,
+  "constitutional_compliance": {
+    "no_ranking_fields": true,
+    "no_usage_stats": true,
+    "no_recommendation_signals": true,
+    "no_latest_preferred": true,
+    "version_lineage_factual_only": true
+  }
+}
+

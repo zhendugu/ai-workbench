@@ -1,0 +1,25 @@
+{
+  "company": {
+    "company_identifier": "FROZEN-COMP-12345678-1234-1234-1234-123456789012",
+    "company_name": "Test Company",
+    "company_description": "Test description",
+    "frozen_at": "2025-12-28T10:00:00Z",
+    "frozen_by": "test-user",
+    "status": "frozen"
+  },
+  "cells": [],
+  "roles": [],
+  "topology": [],
+  "methodology": {
+    "methodology_identifier": "METH-12345678-1234-1234-1234-123456789012",
+    "methodology_name": "Test Methodology",
+    "methodology_description": "Test description"
+  },
+  "freeze_record": {
+    "freeze_record_identifier": "FREEZE-12345678-1234-1234-1234-123456789012",
+    "frozen_company_identifier": "FROZEN-COMP-12345678-1234-1234-1234-123456789012",
+    "frozen_at": "2025-12-28T10:00:00Z",
+    "frozen_by": "test-user"
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "exception_id": "a055f997-303c-4cf7-a512-7ff53c059a5b",
+  "component_id": "test_component_1",
+  "operation_type": "test_operation",
+  "exception_type": "dead_loop",
+  "exception_details": {
+    "operation_count": 150,
+    "max_operations": 100,
+    "description": "Operation count (150) exceeds maximum (100)"
+  },
+  "detected_at": "2025-12-26T20:12:02.877314"
+}

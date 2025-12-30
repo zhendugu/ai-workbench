@@ -1,0 +1,12 @@
+{
+  "log_id": "85845b38-30eb-4bcb-a34d-c9d035ccf079",
+  "task_id": "escalation_record_1c7b326e-fda2-4f9b-98de-1e40054e03be",
+  "goal": "C-SAFE-5: Record Escalation Request",
+  "input": "{'escalation_type': 'knowledge_conflict', 'escalation_reason': 'Knowledge conflict detected', 'component_id': 'test_component_knowledge_conflict'}",
+  "output": "None",
+  "status": "in_progress",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:19:13.223387",
+  "completed_at": "2025-12-26T20:19:13.223387"
+}

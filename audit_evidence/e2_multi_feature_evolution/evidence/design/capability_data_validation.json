@@ -1,0 +1,64 @@
+{
+  "capability_id": "C-DATA-VAL-001",
+  "capability_name": "Data Validation",
+  "capability_version": "1.0.0",
+  "created_at": "2025-12-27T11:40:00Z",
+  "created_by": "human",
+  "element_types": {
+    "capability_identifier": {
+      "unique_id": "C-DATA-VAL-001",
+      "human_readable_name": "Data Validation",
+      "semantic_category": "data_processing",
+      "descriptive_metadata": {
+        "domain": "data_processing",
+        "type": "validation"
+      }
+    },
+    "input_specification": {
+      "input_type": "structured_data",
+      "input_structure": {
+        "format": "application/json",
+        "encoding": "utf-8",
+        "max_size": "5MB"
+      },
+      "input_validation_rules": {
+        "description": "Input must be valid JSON with schema specification",
+        "required_fields": ["data", "schema"]
+      },
+      "input_metadata": {
+        "accepted_extensions": [".json"],
+        "content_type": "application/json"
+      }
+    },
+    "output_specification": {
+      "output_type": "validation_result",
+      "output_structure": {
+        "format": "application/json",
+        "encoding": "utf-8",
+        "structure": "validation report with errors and warnings"
+      },
+      "output_metadata": {
+        "content_type": "application/json",
+        "result_type": "validation_report"
+      }
+    },
+    "semantic_description": {
+      "purpose": "Validates structured data against a specified schema",
+      "scope": "Single data structure validation",
+      "limitations": "Does not process multiple data structures, does not perform data transformation, only validation",
+      "atomic_nature": "This capability performs a single, atomic validation operation",
+      "referability": "This capability can be referenced by Patterns or other descriptive structures"
+    }
+  },
+  "constitutional_compliance": {
+    "is_descriptive": true,
+    "is_atomic": true,
+    "is_referable": true,
+    "no_workflow_semantics": true,
+    "no_execution_coordination": true,
+    "no_judgment_mechanism": true,
+    "no_conditional_logic": true,
+    "no_behavior_trigger": true
+  }
+}
+

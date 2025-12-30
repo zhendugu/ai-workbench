@@ -1,0 +1,19 @@
+{
+  "model_id": "MODEL-FATIGUED-APPROVER",
+  "model_name": "Fatigued-Approver",
+  "model_params": {
+    "attention_decay_rate": 0.01,
+    "trust_accumulation_rate": 0.02,
+    "fatigue_rate": 0.02,
+    "rejection_cost": 0.1
+  },
+  "default_values": {
+    "attention_decay_rate": 0.01,
+    "trust_accumulation_rate": 0.02,
+    "fatigue_rate": 0.02,
+    "rejection_cost": 0.1
+  },
+  "degradation_factors": ["DF-001", "DF-002", "DF-003", "DF-004", "DF-005", "DF-006", "DF-007", "DF-008"],
+  "traceability": "phase_q/HUMAN_MODEL_CATALOG.md MODEL-FATIGUED-APPROVER"
+}
+

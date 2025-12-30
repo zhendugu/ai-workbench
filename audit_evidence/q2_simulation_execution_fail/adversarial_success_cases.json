@@ -1,0 +1,25 @@
+{
+  "adversarial_success_cases": [
+    {
+      "case_id": "CASE-001",
+      "run_id": "[run_id]",
+      "strategy": "[strategy_id]",
+      "human_model": "[model_id]",
+      "triggered_sc": "SC-001",
+      "triggered_metrics": {
+        "METRIC-SC001-001": 85.0,
+        "METRIC-SC001-002": 0.015
+      },
+      "thresholds": {
+        "METRIC-SC001-001": 80.0,
+        "METRIC-SC001-002": 0.01
+      },
+      "log_reference": {
+        "event_id": "[event_id]",
+        "turn_id": "[turn_id]",
+        "line_number": 123
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "log_id": "f99bc5c7-0293-4670-a0cf-2fd5655fea97",
+  "task_id": "escalation_record_beca714f-2fcd-4953-8209-921c052e9cc6",
+  "goal": "C-SAFE-5: Record Escalation Request",
+  "input": "{'escalation_type': 'high_risk', 'component_id': 'test_component_1'}",
+  "output": "{'escalation_id': '85c8218c-2df2-4299-873c-980488b0c348', 'status': 'pending'}",
+  "status": "success",
+  "duration": 1,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:19:13.222682",
+  "completed_at": "2025-12-26T20:19:13.222682"
+}

@@ -1,0 +1,12 @@
+{
+  "log_id": "378e26fd-27b1-45f4-9e6f-b400bf9dc1f5",
+  "task_id": "register_role_759bfc33-7c99-4273-9ca8-ce3bb7087eb2",
+  "goal": "Register Role Definition (C-ROLE-1)",
+  "input": "{'role_id': 'test-role-3', 'requested_by': 'test_user'}",
+  "output": "{'error': \"Missing required field: 'purpose'\", 'error_type': 'ValueError'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T21:57:00.514812",
+  "completed_at": "2025-12-26T21:57:00.514813"
+}

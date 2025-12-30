@@ -1,0 +1,12 @@
+{
+  "log_id": "e61769a8-efb1-47a0-a11e-79b37d63caae",
+  "task_id": "calculate_metrics_dabc99bc-efd1-4036-af59-836c2ba8f283",
+  "goal": "Calculate Basic Metrics (C-OBS-5)",
+  "input": "{'time_window': -1, 'task_id': None, 'status': None}",
+  "output": "{'error': 'time_window must be a positive integer or None'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T19:22:07.431333",
+  "completed_at": "2025-12-26T19:22:07.431333"
+}

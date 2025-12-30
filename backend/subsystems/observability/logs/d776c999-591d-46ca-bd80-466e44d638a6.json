@@ -1,0 +1,12 @@
+{
+  "log_id": "d776c999-591d-46ca-bd80-466e44d638a6",
+  "task_id": "task_output_0a3ddec0-2de8-4e99-9724-112423b98371",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_failure_budget', 'failure_reason': 'Failure budget violation'}",
+  "output": "None",
+  "status": "in_progress",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.746097",
+  "completed_at": "2025-12-26T20:16:34.746097"
+}

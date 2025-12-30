@@ -1,0 +1,30 @@
+{
+  "execution_id": "e7306b61-9f0c-446b-a3a5-6236a008effb",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "valid": false,
+      "errors": [
+        "Missing required field: 'content'",
+        "Missing required field: 'created_at'",
+        "document_type is required (either in document or as parameter)",
+        "document_type is required (either in document or as parameter)",
+        "Missing required field: 'content'"
+      ],
+      "details": {
+        "document_type": null,
+        "validation_errors": [
+          "Missing required field: 'content'",
+          "Missing required field: 'created_at'",
+          "document_type is required (either in document or as parameter)",
+          "document_type is required (either in document or as parameter)",
+          "Missing required field: 'content'"
+        ]
+      }
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T21:48:50.930685",
+  "duration_ms": 0
+}

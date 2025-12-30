@@ -1,0 +1,12 @@
+{
+  "run_id": "run_H1_A0_T1_C0_s1338",
+  "human_model": "H1",
+  "adversary_strategy": "A0",
+  "tool_behavior": "T1",
+  "concurrency": "C0",
+  "seed": 1338,
+  "epochs": 10,
+  "inputs": {
+    "test_input": "input_6"
+  }
+}

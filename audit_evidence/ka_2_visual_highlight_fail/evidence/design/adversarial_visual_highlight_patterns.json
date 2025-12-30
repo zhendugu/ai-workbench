@@ -1,0 +1,220 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-KA-2-001",
+      "name": "VISUAL_HIGHLIGHT with DEFAULT_SELECTION",
+      "description": "VISUAL_HIGHLIGHT combined with DEFAULT_SELECTION",
+      "typical_implementation": [
+        "Visual highlight AND pre-selected state",
+        "Visual highlight AND default selection",
+        "Visual highlight AND checked state"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Scope: DEFAULT_SELECTION must be removed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-002",
+      "name": "VISUAL_HIGHLIGHT with Color Semantics",
+      "description": "Visual highlight uses color with semantic meaning",
+      "typical_implementation": [
+        "Green color for highlighted item (implies correct/good)",
+        "Blue color for highlighted item (implies primary/important)",
+        "Red color for highlighted item (implies urgent/important)",
+        "Yellow/Orange color for highlighted item (implies warning/attention)"
+      ],
+      "violated_constraints": [
+        "KA-2 Hard Constraint: No color semantics allowed",
+        "KA-2 Definition: Only border/background/weight differences allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-003",
+      "name": "VISUAL_HIGHLIGHT with Icons",
+      "description": "Visual highlight includes icons or symbols",
+      "typical_implementation": [
+        "Star icon on highlighted item",
+        "Arrow icon pointing to highlighted item",
+        "Fire icon for highlighted item",
+        "Badge icon on highlighted item"
+      ],
+      "violated_constraints": [
+        "KA-2 Hard Constraint: No icons allowed",
+        "KA-2 Definition: Only CSS visual differences allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-004",
+      "name": "VISUAL_HIGHLIGHT with Animation",
+      "description": "Visual highlight includes animation or motion",
+      "typical_implementation": [
+        "Pulsing animation on highlighted item",
+        "Blinking animation on highlighted item",
+        "Slide-in animation for highlighted item",
+        "Fade-in animation for highlighted item"
+      ],
+      "violated_constraints": [
+        "KA-2 Hard Constraint: No animation allowed",
+        "KA-2 Definition: Visual difference must be static"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-005",
+      "name": "VISUAL_HIGHLIGHT with Text Labels",
+      "description": "Visual highlight combined with text labels",
+      "typical_implementation": [
+        "Highlighted item labeled 'Recommended'",
+        "Highlighted item labeled 'Featured'",
+        "Highlighted item labeled 'Popular'",
+        "Highlighted item labeled 'Best'"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Hard Constraint: No text hints allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-006",
+      "name": "VISUAL_HIGHLIGHT with Sorting Change",
+      "description": "Visual highlight combined with sorting change",
+      "typical_implementation": [
+        "Sort capabilities, then highlight first",
+        "Move highlighted item to top of list",
+        "Reorder list to put highlighted item first"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Hard Constraint: No sorting changes allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-007",
+      "name": "VISUAL_HIGHLIGHT with Hover State Change",
+      "description": "Visual highlight expands on hover",
+      "typical_implementation": [
+        "Hover makes highlight more prominent",
+        "Hover adds additional visual emphasis",
+        "Hover changes highlight to stronger visual difference"
+      ],
+      "violated_constraints": [
+        "KA-2 Hard Constraint: No hover changes leading to difference expansion"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-008",
+      "name": "VISUAL_HIGHLIGHT with State Memory",
+      "description": "Visual highlight based on previous session state",
+      "typical_implementation": [
+        "Highlight last used capability",
+        "Highlight most frequently used capability",
+        "Highlight based on localStorage history"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Hard Constraint: No state memory allowed",
+        "KA-2 Definition: Visual difference must be static"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-009",
+      "name": "VISUAL_HIGHLIGHT with Multiple Visual Differences",
+      "description": "Visual highlight uses multiple visual differences simultaneously",
+      "typical_implementation": [
+        "Border change AND background change",
+        "Border change AND font weight change",
+        "Border change AND size change",
+        "Multiple visual emphasis techniques combined"
+      ],
+      "violated_constraints": [
+        "KA-2 Definition: Minimal injection unit (single visual difference only)",
+        "Single Variable Principle: Single minimal visual difference"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-010",
+      "name": "VISUAL_HIGHLIGHT with Background Change",
+      "description": "Visual highlight uses background color change",
+      "typical_implementation": [
+        "Different background color for highlighted item",
+        "Background brightness difference",
+        "Background shade difference"
+      ],
+      "violated_constraints": [
+        "KA-2 Definition: Only border/background/weight differences allowed (but no color semantics)",
+        "Note: Background change may introduce color semantics"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-011",
+      "name": "VISUAL_HIGHLIGHT with Font Weight Change",
+      "description": "Visual highlight uses font weight change",
+      "typical_implementation": [
+        "Bold text for highlighted item",
+        "Heavier font weight for highlighted item",
+        "Lighter font weight for highlighted item"
+      ],
+      "violated_constraints": [
+        "KA-2 Definition: Font weight difference is allowed, but may be too prominent",
+        "Note: Border difference chosen for minimal visual difference"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-012",
+      "name": "VISUAL_HIGHLIGHT with Size Change",
+      "description": "Visual highlight uses size difference",
+      "typical_implementation": [
+        "Larger font size for highlighted item",
+        "Larger button size for highlighted item",
+        "Different padding/margin for highlighted item"
+      ],
+      "violated_constraints": [
+        "KA-2 Definition: Size change not listed as allowed minimal unit",
+        "Note: Only border/background/weight differences allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-013",
+      "name": "VISUAL_HIGHLIGHT with Multiple Items",
+      "description": "Visual highlight applied to multiple items",
+      "typical_implementation": [
+        "Highlight first AND second capability",
+        "Highlight multiple capabilities",
+        "Highlight items in multiple positions"
+      ],
+      "violated_constraints": [
+        "KA-2 Definition: Minimal injection unit (single item only)",
+        "Single Variable Principle: Single visual highlight"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-014",
+      "name": "VISUAL_HIGHLIGHT with Process Guidance",
+      "description": "Visual highlight combined with process guidance",
+      "typical_implementation": [
+        "Highlight item and show 'Next step' hint",
+        "Highlight item and suggest workflow",
+        "Highlight item and guide through process"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Hard Constraint: No process guidance allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-2-015",
+      "name": "VISUAL_HIGHLIGHT with Grouping",
+      "description": "Visual highlight combined with grouping or classification",
+      "typical_implementation": [
+        "Group capabilities, then highlight first in 'featured' group",
+        "Classify capabilities, then highlight from 'important' category",
+        "Organize capabilities, then highlight from 'recommended' section"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only VISUAL_HIGHLIGHT allowed",
+        "KA-2 Hard Constraint: No grouping changes allowed"
+      ]
+    }
+  ]
+}
+

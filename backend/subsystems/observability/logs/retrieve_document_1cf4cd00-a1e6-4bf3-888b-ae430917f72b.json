@@ -1,0 +1,12 @@
+{
+  "log_id": "d5e8c7fe-9be9-4cf6-83a6-02bc6816c0e6",
+  "task_id": "retrieve_document_1cf4cd00-a1e6-4bf3-888b-ae430917f72b",
+  "goal": "Retrieve Document (C-KM-2)",
+  "input": "{'document_id': '633e57e9-4695-4c0b-a765-c04aec1d1a16', 'requester_id': None}",
+  "output": "{'document_id': '633e57e9-4695-4c0b-a765-c04aec1d1a16', 'version_number': 1, 'content_length': 35}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T16:45:59.230406",
+  "completed_at": "2025-12-26T16:45:59.230406"
+}

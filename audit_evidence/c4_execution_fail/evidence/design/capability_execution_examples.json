@@ -1,0 +1,487 @@
+{
+  "description": "Adversarial examples demonstrating implicit execution orchestration and workflow semantics",
+  "examples": [
+    {
+      "example_id": "ADV-EXEC-001",
+      "title": "Selection Automatically Triggers Execution",
+      "scenario": "Pattern selection automatically triggers capability execution without explicit human execute action",
+      "pattern_selection": {
+        "pattern_id": "pattern-001",
+        "pattern_name": "Document Storage Pattern",
+        "selected_at": "2025-12-26T11:00:00Z",
+        "human_identifier": "user-001"
+      },
+      "automatic_execution": {
+        "triggered_at": "2025-12-26T11:00:00Z",
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "auto-doc-001",
+          "content": "Auto-generated from pattern",
+          "metadata": {
+            "source_pattern": "pattern-001"
+          }
+        },
+        "execution_result": {
+          "status": "executed",
+          "result": {
+            "document_id": "auto-doc-001",
+            "stored_at": "2025-12-26T11:00:01Z"
+          }
+        }
+      },
+      "violation_notes": [
+        "Selection automatically triggers execution",
+        "No explicit human execute action",
+        "Selection and Execution are coupled",
+        "Violates Selection != Execution boundary"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-002",
+      "title": "Execution Plan Pre-Generation",
+      "scenario": "System pre-generates execution plan after pattern selection, suggesting capability sequence",
+      "pattern_selection": {
+        "pattern_id": "pattern-002",
+        "pattern_name": "Multi-Step Document Processing",
+        "selected_at": "2025-12-26T11:05:00Z",
+        "human_identifier": "user-001"
+      },
+      "pre_generated_plan": {
+        "plan_id": "plan-001",
+        "generated_at": "2025-12-26T11:05:01Z",
+        "suggested_sequence": [
+          {
+            "step": 1,
+            "capability_id": "C-KM-1",
+            "suggested_parameters": {
+              "document_id": "doc-201",
+              "content": "Content from pattern",
+              "metadata": {}
+            },
+            "estimated_duration": "1s"
+          },
+          {
+            "step": 2,
+            "capability_id": "C-KM-2",
+            "suggested_parameters": {
+              "document_id": "doc-201"
+            },
+            "estimated_duration": "0.5s",
+            "depends_on": "step-1"
+          },
+          {
+            "step": 3,
+            "capability_id": "C-KM-4",
+            "suggested_parameters": {
+              "document_id": "doc-201"
+            },
+            "estimated_duration": "2s",
+            "depends_on": "step-2"
+          }
+        ],
+        "total_estimated_duration": "3.5s"
+      },
+      "violation_notes": [
+        "System generates execution plan",
+        "Plan suggests capability sequence",
+        "Plan includes dependency information",
+        "Plan includes estimated duration",
+        "Violates no execution plan generation rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-003",
+      "title": "Multi-Capability Sequential Execution",
+      "scenario": "System automatically executes multiple capabilities in sequence after single human action",
+      "human_action": {
+        "action_type": "execute_sequence",
+        "sequence_id": "seq-001",
+        "timestamp": "2025-12-26T11:10:00Z",
+        "human_identifier": "user-001"
+      },
+      "automatic_sequence_execution": {
+        "executions": [
+          {
+            "step": 1,
+            "capability_id": "C-KM-1",
+            "executed_at": "2025-12-26T11:10:01Z",
+            "parameters": {
+              "document_id": "doc-202",
+              "content": "Content",
+              "metadata": {}
+            },
+            "result": {
+              "status": "executed",
+              "document_id": "doc-202"
+            }
+          },
+          {
+            "step": 2,
+            "capability_id": "C-KM-2",
+            "executed_at": "2025-12-26T11:10:02Z",
+            "parameters": {
+              "document_id": "doc-202"
+            },
+            "depends_on": "step-1",
+            "result": {
+              "status": "executed",
+              "content": "Content"
+            }
+          },
+          {
+            "step": 3,
+            "capability_id": "C-KM-4",
+            "executed_at": "2025-12-26T11:10:04Z",
+            "parameters": {
+              "document_id": "doc-202"
+            },
+            "depends_on": "step-2",
+            "result": {
+              "status": "executed",
+              "conflicts": []
+            }
+          }
+        ],
+        "total_duration": "3s"
+      },
+      "violation_notes": [
+        "Multiple capabilities executed in sequence",
+        "Automatic sequencing without explicit per-step action",
+        "Dependency-based execution order",
+        "Single human action triggers multiple executions",
+        "Violates single capability execution rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-004",
+      "title": "Capability Batch Execution",
+      "scenario": "System executes multiple capabilities in batch after single human action",
+      "human_action": {
+        "action_type": "execute_batch",
+        "batch_id": "batch-001",
+        "capabilities": [
+          {
+            "capability_id": "C-KM-1",
+            "parameters": {
+              "document_id": "doc-203",
+              "content": "Content A",
+              "metadata": {}
+            }
+          },
+          {
+            "capability_id": "C-KM-1",
+            "parameters": {
+              "document_id": "doc-204",
+              "content": "Content B",
+              "metadata": {}
+            }
+          },
+          {
+            "capability_id": "C-KM-1",
+            "parameters": {
+              "document_id": "doc-205",
+              "content": "Content C",
+              "metadata": {}
+            }
+          }
+        ],
+        "timestamp": "2025-12-26T11:15:00Z",
+        "human_identifier": "user-001"
+      },
+      "batch_execution": {
+        "executed_at": "2025-12-26T11:15:01Z",
+        "executions": [
+          {
+            "index": 0,
+            "capability_id": "C-KM-1",
+            "status": "executed",
+            "result": {
+              "document_id": "doc-203"
+            }
+          },
+          {
+            "index": 1,
+            "capability_id": "C-KM-1",
+            "status": "executed",
+            "result": {
+              "document_id": "doc-204"
+            }
+          },
+          {
+            "index": 2,
+            "capability_id": "C-KM-1",
+            "status": "executed",
+            "result": {
+              "document_id": "doc-205"
+            }
+          }
+        ],
+        "batch_status": "completed",
+        "total_duration": "1s"
+      },
+      "violation_notes": [
+        "Multiple capabilities executed in batch",
+        "Batch execution semantics",
+        "Single human action triggers multiple executions",
+        "Violates single capability execution rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-005",
+      "title": "Context-Based Parameter Auto-Completion",
+      "scenario": "System automatically completes execution parameters from context, state, or history",
+      "human_action": {
+        "action_type": "execute_with_context",
+        "capability_id": "C-KM-1",
+        "partial_parameters": {
+          "document_id": "doc-206"
+        },
+        "timestamp": "2025-12-26T11:20:00Z",
+        "human_identifier": "user-001"
+      },
+      "available_context": {
+        "previous_execution": {
+          "capability_id": "C-KM-1",
+          "parameters": {
+            "document_id": "doc-205",
+            "content": "Previous content",
+            "metadata": {
+              "author": "user-001"
+            }
+          }
+        },
+        "user_history": [
+          {
+            "capability_id": "C-KM-1",
+            "parameters": {
+              "metadata": {
+                "author": "user-001",
+                "category": "documentation"
+              }
+            }
+          }
+        ]
+      },
+      "auto_completed_execution": {
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-206",
+          "content": "Auto-completed from previous execution",
+          "metadata": {
+            "author": "user-001",
+            "category": "documentation",
+            "auto_completed": true
+          }
+        },
+        "executed_at": "2025-12-26T11:20:01Z",
+        "result": {
+          "status": "executed",
+          "document_id": "doc-206"
+        }
+      },
+      "violation_notes": [
+        "Parameters auto-completed from context",
+        "Parameters inferred from history",
+        "Parameters derived from previous execution",
+        "No explicit parameter provision",
+        "Violates no parameter inference rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-006",
+      "title": "History-Based Execution Optimization",
+      "scenario": "System optimizes execution based on audit history and usage patterns",
+      "human_action": {
+        "action_type": "execute",
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-207",
+          "content": "Content",
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T11:25:00Z",
+        "human_identifier": "user-001"
+      },
+      "optimization_analysis": {
+        "analyzed_at": "2025-12-26T11:25:00Z",
+        "audit_history": [
+          {
+            "capability_id": "C-KM-1",
+            "execution_count": 150,
+            "average_duration": "1.2s",
+            "success_rate": 0.98
+          }
+        ],
+        "optimization_suggestions": [
+          {
+            "suggestion": "Use optimized storage path based on document size",
+            "applied": true
+          },
+          {
+            "suggestion": "Pre-validate metadata based on historical patterns",
+            "applied": true
+          }
+        ]
+      },
+      "optimized_execution": {
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-207",
+          "content": "Content",
+          "metadata": {
+            "optimized": true
+          }
+        },
+        "executed_at": "2025-12-26T11:25:01Z",
+        "optimization_applied": true,
+        "result": {
+          "status": "executed",
+          "document_id": "doc-207",
+          "optimization_benefits": {
+            "duration_reduction": "0.3s"
+          }
+        }
+      },
+      "violation_notes": [
+        "Execution optimized based on audit history",
+        "Audit data influences execution behavior",
+        "History-based execution modification",
+        "Violates audit read-only principle",
+        "Violates no context-based execution rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-007",
+      "title": "Next Step Auto-Execution",
+      "scenario": "System automatically executes next step after successful execution",
+      "human_action": {
+        "action_type": "execute",
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-208",
+          "content": "Content",
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T11:30:00Z",
+        "human_identifier": "user-001"
+      },
+      "initial_execution": {
+        "capability_id": "C-KM-1",
+        "executed_at": "2025-12-26T11:30:01Z",
+        "result": {
+          "status": "executed",
+          "document_id": "doc-208"
+        }
+      },
+      "automatic_next_step": {
+        "triggered_at": "2025-12-26T11:30:02Z",
+        "capability_id": "C-KM-2",
+        "parameters": {
+          "document_id": "doc-208"
+        },
+        "trigger_reason": "Previous step completed successfully",
+        "executed_at": "2025-12-26T11:30:03Z",
+        "result": {
+          "status": "executed",
+          "content": "Content"
+        }
+      },
+      "violation_notes": [
+        "Next step automatically executed",
+        "Success-based automatic triggering",
+        "No explicit human action for next step",
+        "Violates no automatic sequencing rule"
+      ]
+    },
+    {
+      "example_id": "ADV-EXEC-008",
+      "title": "Implicit Capability Dependencies",
+      "scenario": "System infers and enforces capability dependencies for execution",
+      "human_action": {
+        "action_type": "execute",
+        "capability_id": "C-KM-4",
+        "parameters": {
+          "document_id": "doc-209"
+        },
+        "timestamp": "2025-12-26T11:35:00Z",
+        "human_identifier": "user-001"
+      },
+      "dependency_analysis": {
+        "analyzed_at": "2025-12-26T11:35:00Z",
+        "capability_id": "C-KM-4",
+        "inferred_dependencies": [
+          {
+            "capability_id": "C-KM-1",
+            "dependency_type": "prerequisite",
+            "reason": "Document must exist before conflict detection"
+          },
+          {
+            "capability_id": "C-KM-2",
+            "dependency_type": "prerequisite",
+            "reason": "Document must be retrieved before conflict detection"
+          }
+        ]
+      },
+      "dependency_enforced_execution": {
+        "prerequisite_executions": [
+          {
+            "step": "prerequisite-1",
+            "capability_id": "C-KM-1",
+            "executed_at": "2025-12-26T11:35:01Z",
+            "parameters": {
+              "document_id": "doc-209",
+              "content": "Auto-generated for dependency",
+              "metadata": {}
+            },
+            "result": {
+              "status": "executed",
+              "document_id": "doc-209"
+            }
+          },
+          {
+            "step": "prerequisite-2",
+            "capability_id": "C-KM-2",
+            "executed_at": "2025-12-26T11:35:02Z",
+            "parameters": {
+              "document_id": "doc-209"
+            },
+            "result": {
+              "status": "executed",
+              "content": "Auto-generated for dependency"
+            }
+          }
+        ],
+        "main_execution": {
+          "capability_id": "C-KM-4",
+          "executed_at": "2025-12-26T11:35:03Z",
+          "parameters": {
+            "document_id": "doc-209"
+          },
+          "result": {
+            "status": "executed",
+            "conflicts": []
+          }
+        }
+      },
+      "violation_notes": [
+        "Capability dependencies inferred",
+        "Dependencies automatically enforced",
+        "Prerequisite capabilities automatically executed",
+        "No explicit human action for prerequisites",
+        "Violates no dependency inference rule",
+        "Violates single capability execution rule"
+      ]
+    }
+  ],
+  "violation_summary": {
+    "selection_execution_coupling": "Selection automatically triggers execution",
+    "execution_plan_generation": "System generates execution plans",
+    "multi_capability_sequencing": "Multiple capabilities executed in sequence",
+    "batch_execution": "Multiple capabilities executed in batch",
+    "parameter_auto_completion": "Parameters auto-completed from context",
+    "history_based_optimization": "Execution optimized based on audit history",
+    "next_step_auto_execution": "Next step automatically executed",
+    "implicit_dependencies": "Capability dependencies inferred and enforced"
+  }
+}
+

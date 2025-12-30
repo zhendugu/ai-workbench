@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capability Execution</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 20px;
+            background: white;
+            color: black;
+        }
+        .capability-details {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .parameter-form {
+            margin: 20px 0;
+        }
+        .parameter-form input {
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #000;
+            font-family: monospace;
+            width: 300px;
+        }
+        .parameter-form button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+        }
+        .result {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .nav-link {
+            margin: 10px 0;
+            padding: 5px;
+        }
+        .nav-link a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capability Execution</h1>
+    <div class="nav-link"><a href="capabilities.html">Back to Capabilities</a></div>
+    <div id="capability-details" class="capability-details"></div>
+    <div id="parameter-form" class="parameter-form"></div>
+    <div id="result" class="result" style="display: none;"></div>
+
+    <script>
+        // Backend API base URL (configurable, but no automatic detection)
+        const API_BASE_URL = 'http://localhost:8000';
+        const API_TIMEOUT = 10000; // 10 seconds, no automatic adjustment
+
+        // Get capability ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const capabilityId = urlParams.get('id');
+
+        let capability = null;
+
+        // Load capability details from backend API
+        async function loadCapabilityDetails() {
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+                
+                const response = await fetch(`${API_BASE_URL}/api/capabilities`, {
+                    method: 'GET',
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    displayError(`Backend returned error: HTTP ${response.status} - ${errorText}`);
+                    return;
+                }
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    displayError(`Backend returned error: ${data.error}`);
+                    return;
+                }
+                
+                if (data.capabilities && Array.isArray(data.capabilities)) {
+                    capability = data.capabilities.find(c => c.id === capabilityId);
+                    if (!capability) {
+                        document.getElementById('capability-details').innerHTML = '<p>Backend returned: Capability not found in backend response</p>';
+                        return;
+                    }
+                    displayCapabilityDetails();
+                } else {
+                    displayError(`Backend returned error: Invalid response format`);
+                }
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    displayError(`Backend returned error: Request timeout after ${API_TIMEOUT / 1000} seconds`);
+                } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+                    displayError(`Backend returned error: Connection failed - ${error.message}`);
+                } else {
+                    displayError(`Backend returned error: ${error.message}`);
+                }
+            }
+        }
+
+        // Display error (factual only, no interpretation)
+        function displayError(errorMessage) {
+            document.getElementById('capability-details').innerHTML = `<div style="color: red; padding: 10px; border: 1px solid red;">${errorMessage}</div>`;
+        }
+
+        // Display capability details (factual only)
+        function displayCapabilityDetails() {
+            if (!capability) {
+                return;
+            }
+
+            const detailsDiv = document.getElementById('capability-details');
+            detailsDiv.innerHTML = `
+                <h2>${capability.name}</h2>
+                <p>ID: ${capability.id}</p>
+                <p>Description: ${capability.description}</p>
+            `;
+
+            // Display parameter form (empty, no pre-fill)
+            const formDiv = document.getElementById('parameter-form');
+            formDiv.innerHTML = `
+                <h3>Parameters</h3>
+                <input type="text" id="param-input" placeholder="Enter parameter" required>
+                <span id="validation-message" style="color: red; display: none;"></span>
+                <br>
+                <button onclick="executeCapability('${capability.id}')">Execute</button>
+            `;
+
+            // Clear previous result
+            document.getElementById('result').style.display = 'none';
+        }
+
+        // Allowlist Item 5: Parameter Form Field Validation (Format Only)
+        function validateInput(input) {
+            const validationMsg = document.getElementById('validation-message');
+            if (!input.value.trim()) {
+                validationMsg.textContent = 'Parameter is required';
+                validationMsg.style.display = 'inline';
+                return false;
+            }
+            validationMsg.style.display = 'none';
+            return true;
+        }
+
+        // Human explicitly executes capability
+        async function executeCapability(capabilityId) {
+            const input = document.getElementById('param-input');
+            
+            // Allowlist Item 5: Format validation only (no semantic suggestions)
+            if (!validateInput(input)) {
+                return;
+            }
+            
+            const parameter = input.value;
+
+            // Stage 5 constraint: Execution endpoints cannot accept parameters
+            // Attempt to call backend execution endpoint (will return fixed response)
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+                
+                const response = await fetch(`${API_BASE_URL}/api/capabilities/execute`, {
+                    method: 'GET',
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    displayExecutionResult(`Backend returned error: HTTP ${response.status} - ${errorText}`);
+                    return;
+                }
+                
+                const data = await response.json();
+                
+                // Display backend response exactly as received (no interpretation)
+                if (data.status && data.message) {
+                    displayExecutionResult(`Backend returned: ${data.message}`);
+                } else if (data.error) {
+                    displayExecutionResult(`Backend returned error: ${data.error}`);
+                } else {
+                    displayExecutionResult(`Backend returned: ${JSON.stringify(data)}`);
+                }
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    displayExecutionResult(`Backend returned error: Request timeout after ${API_TIMEOUT / 1000} seconds`);
+                } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+                    // Simulated execution fallback (clearly labeled)
+                    displayExecutionResult(`Simulated execution (backend execution not available under Stage constraints): Execution result for ${capabilityId} with parameter: ${parameter}\n\nNote: Backend returned error: Connection failed - ${error.message}`);
+                } else {
+                    displayExecutionResult(`Backend returned error: ${error.message}`);
+                }
+            }
+        }
+
+        // Display execution result (factual only, no interpretation)
+        function displayExecutionResult(result) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<h3>Result</h3><pre style="white-space: pre-wrap;">${result}</pre>`;
+            resultDiv.style.display = 'block';
+        }
+
+        // Initialize on page load - Load from backend
+        loadCapabilityDetails();
+    </script>
+</body>
+</html>
+

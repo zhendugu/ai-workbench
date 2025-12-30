@@ -1,0 +1,19 @@
+{
+  "model_id": "MODEL-DELEGATING-OPTIMIZER",
+  "model_name": "Delegating-Optimizer",
+  "model_params": {
+    "trust_accumulation_rate": 0.05,
+    "fatigue_rate": 0.05,
+    "pattern_following_probability": 0.7,
+    "efficiency_threshold": 0.6
+  },
+  "default_values": {
+    "trust_accumulation_rate": 0.05,
+    "fatigue_rate": 0.05,
+    "pattern_following_probability": 0.7,
+    "efficiency_threshold": 0.6
+  },
+  "degradation_factors": ["DF-002", "DF-003", "DF-004", "DF-006", "DF-007"],
+  "traceability": "phase_q/HUMAN_MODEL_CATALOG.md MODEL-DELEGATING-OPTIMIZER"
+}
+

@@ -1,0 +1,12 @@
+{
+  "log_id": "f030bbdc-7f82-4361-a87e-6c4b75b6a155",
+  "task_id": "task_output_e914d657-80a9-4279-bfef-3a27fe6da7ca",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_timeout', 'failure_reason': 'Operation timeout exceeded'}",
+  "output": "{'output_id': '7ffe2032-9104-485a-b103-5c1ca4d776d0', 'task_id': 'test_task_timeout'}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.745487",
+  "completed_at": "2025-12-26T20:16:34.745487"
+}

@@ -1,0 +1,13 @@
+{
+  "execution_id": "1ee5e756-e6e2-45aa-af2e-21512df166cb",
+  "action_identifier": "format_handoff_document",
+  "target_subsystem": "handoff_protocol",
+  "action_parameters": {
+    "document": {
+      "content": "Test content"
+    },
+    "target_format": "presentation_state"
+  },
+  "requested_at": "2025-12-26T21:53:12.151453",
+  "requested_by": "test_user"
+}

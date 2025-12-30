@@ -1,0 +1,12 @@
+{
+  "log_id": "04e9b2cf-2ec1-4836-b915-26df311b4aa5",
+  "task_id": "task_output_4047ab04-a6f8-453a-95f3-88641837d46b",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_3', 'failure_reason': ''}",
+  "output": "{'error': 'failure_reason must be a non-empty string'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.747391",
+  "completed_at": "2025-12-26T20:16:34.747391"
+}

@@ -1,0 +1,323 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "pattern-access-control-001",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-04-20T11:00:00Z",
+      "created_by": "human-creator-001",
+      "description": "A pattern for controlling access to documents in the knowledge management system. This pattern defines how access permissions are checked and enforced.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-3",
+          "reference_type": "informational",
+          "description": "References C-KM-3 (Check Access Permission) capability"
+        },
+        {
+          "capability_id": "C-ROLE-2",
+          "reference_type": "informational",
+          "description": "References C-ROLE-2 (Query Role Definition) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-acc-001",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        },
+        {
+          "audit_record_id": "audit-acc-002",
+          "evidence_type": "pattern-registration",
+          "reference_purpose": "Documents pattern registration event"
+        }
+      ],
+      "metadata": {
+        "category": "access-control",
+        "domain": "knowledge-management",
+        "functional_area": "security",
+        "related_subsystems": ["role-management", "knowledge-management"],
+        "input_types": ["document_id", "requester_id", "permission_type"],
+        "output_types": ["permission_status", "permission_reason"]
+      }
+    },
+    {
+      "pattern_id": "pattern-access-control-002",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-08-15T14:30:00Z",
+      "created_by": "human-creator-002",
+      "description": "A pattern for controlling access to documents in the knowledge management system. This pattern defines how access permissions are checked and enforced.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-3",
+          "reference_type": "informational",
+          "description": "References C-KM-3 (Check Access Permission) capability"
+        },
+        {
+          "capability_id": "C-ROLE-2",
+          "reference_type": "informational",
+          "description": "References C-ROLE-2 (Query Role Definition) capability"
+        },
+        {
+          "capability_id": "C-ROLE-3",
+          "reference_type": "informational",
+          "description": "References C-ROLE-3 (Validate Role Definition Completeness) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-acc-003",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        },
+        {
+          "audit_record_id": "audit-acc-004",
+          "evidence_type": "pattern-registration",
+          "reference_purpose": "Documents pattern registration event"
+        },
+        {
+          "audit_record_id": "audit-acc-005",
+          "evidence_type": "version-relationship",
+          "reference_purpose": "Documents version relationship declaration"
+        }
+      ],
+      "metadata": {
+        "category": "access-control",
+        "domain": "knowledge-management",
+        "functional_area": "security",
+        "related_subsystems": ["role-management", "knowledge-management"],
+        "input_types": ["document_id", "requester_id", "permission_type"],
+        "output_types": ["permission_status", "permission_reason", "rule_id"],
+        "parent_version": "pattern-access-control-001"
+      }
+    },
+    {
+      "pattern_id": "pattern-doc-retrieval-001",
+      "pattern_name": "Document Retrieval Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-03-10T10:00:00Z",
+      "created_by": "human-creator-003",
+      "description": "A pattern for retrieving documents from the knowledge management system. This pattern defines how documents are retrieved based on identifiers.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-2",
+          "reference_type": "informational",
+          "description": "References C-KM-2 (Retrieve Document) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-ret-001",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        }
+      ],
+      "metadata": {
+        "category": "retrieval",
+        "domain": "knowledge-management",
+        "functional_area": "data-access",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["document_id", "requester_id"],
+        "output_types": ["document_id", "content", "metadata", "version_number"]
+      }
+    },
+    {
+      "pattern_id": "pattern-doc-storage-001",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-01-15T08:00:00Z",
+      "created_by": "human-creator-004",
+      "description": "A pattern for storing documents in the knowledge management system. This pattern defines how documents are stored with metadata and version information.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-stor-001",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        },
+        {
+          "audit_record_id": "audit-stor-002",
+          "evidence_type": "pattern-registration",
+          "reference_purpose": "Documents pattern registration event"
+        }
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["content", "metadata", "requester_id"],
+        "output_types": ["document_id", "version_number", "created_at"]
+      }
+    },
+    {
+      "pattern_id": "pattern-doc-storage-002",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-06-01T09:00:00Z",
+      "created_by": "human-creator-005",
+      "description": "A pattern for storing documents in the knowledge management system. This pattern defines how documents are stored with metadata and version information.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        },
+        {
+          "capability_id": "C-KM-2",
+          "reference_type": "informational",
+          "description": "References C-KM-2 (Retrieve Document) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-stor-003",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        },
+        {
+          "audit_record_id": "audit-stor-004",
+          "evidence_type": "pattern-registration",
+          "reference_purpose": "Documents pattern registration event"
+        },
+        {
+          "audit_record_id": "audit-stor-005",
+          "evidence_type": "version-relationship",
+          "reference_purpose": "Documents version relationship declaration"
+        },
+        {
+          "audit_record_id": "audit-stor-006",
+          "evidence_type": "pattern-modification",
+          "reference_purpose": "Documents pattern modification event"
+        }
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["content", "metadata", "requester_id"],
+        "output_types": ["document_id", "version_number", "created_at"],
+        "parent_version": "pattern-doc-storage-001"
+      }
+    },
+    {
+      "pattern_id": "pattern-doc-storage-003",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "3.0.0",
+      "created_at": "2025-11-10T16:45:00Z",
+      "created_by": "human-creator-006",
+      "description": "A pattern for storing documents in the knowledge management system. This pattern defines how documents are stored with metadata and version information.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        },
+        {
+          "capability_id": "C-KM-2",
+          "reference_type": "informational",
+          "description": "References C-KM-2 (Retrieve Document) capability"
+        },
+        {
+          "capability_id": "C-KM-5",
+          "reference_type": "informational",
+          "description": "References C-KM-5 (Record Document Version) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-stor-007",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        }
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["content", "metadata", "requester_id"],
+        "output_types": ["document_id", "version_number", "created_at"],
+        "parent_version": "pattern-doc-storage-002"
+      }
+    },
+    {
+      "pattern_id": "pattern-versioning-001",
+      "pattern_name": "Versioning Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-05-05T12:00:00Z",
+      "created_by": "human-creator-007",
+      "description": "A pattern for versioning documents in the knowledge management system. This pattern defines how document versions are recorded and tracked.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-5",
+          "reference_type": "informational",
+          "description": "References C-KM-5 (Record Document Version) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-ver-001",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        },
+        {
+          "audit_record_id": "audit-ver-002",
+          "evidence_type": "pattern-registration",
+          "reference_purpose": "Documents pattern registration event"
+        },
+        {
+          "audit_record_id": "audit-ver-003",
+          "evidence_type": "pattern-tag-addition",
+          "reference_purpose": "Documents descriptive tag addition event"
+        }
+      ],
+      "metadata": {
+        "category": "versioning",
+        "domain": "knowledge-management",
+        "functional_area": "data-management",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["document_id", "new_version_content", "created_by"],
+        "output_types": ["version_id", "document_id", "version_number", "created_at"]
+      }
+    },
+    {
+      "pattern_id": "pattern-conflict-detection-001",
+      "pattern_name": "Conflict Detection Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-07-20T13:15:00Z",
+      "created_by": "human-creator-008",
+      "description": "A pattern for detecting conflicts in document content within the knowledge management system. This pattern defines how conflicts are identified and reported.",
+      "capability_references": [
+        {
+          "capability_id": "C-KM-4",
+          "reference_type": "informational",
+          "description": "References C-KM-4 (Detect Knowledge Conflict) capability"
+        }
+      ],
+      "evidence_references": [
+        {
+          "audit_record_id": "audit-conf-001",
+          "evidence_type": "pattern-creation",
+          "reference_purpose": "Documents pattern creation event"
+        }
+      ],
+      "metadata": {
+        "category": "conflict-detection",
+        "domain": "knowledge-management",
+        "functional_area": "data-integrity",
+        "related_subsystems": ["knowledge-management"],
+        "input_types": ["document_content", "existing_document_id"],
+        "output_types": ["conflict_detected", "conflict_id", "conflict_type", "conflicting_fields"]
+      }
+    }
+  ]
+}
+

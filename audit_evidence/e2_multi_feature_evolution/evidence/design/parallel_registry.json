@@ -1,0 +1,74 @@
+{
+  "registry_type": "capability_and_pattern_registry",
+  "registry_version": "1.0.0",
+  "created_at": "2025-12-27T11:50:00Z",
+  "created_by": "human",
+  "registration_method": "parallel_population",
+  "ordering_method": "lexicographic_by_id",
+  "presentation_rules": {
+    "no_defaults": true,
+    "no_ordering_preference": true,
+    "no_categories_implying_preference": true,
+    "identical_presentation_treatment": true,
+    "no_highlighting": true,
+    "no_emphasis": true
+  },
+  "capabilities": [
+    {
+      "capability_id": "C-DATA-VAL-001",
+      "capability_name": "Data Validation",
+      "registered_at": "2025-12-27T11:40:00Z",
+      "registration_order": 3
+    },
+    {
+      "capability_id": "C-FORMAT-NORM-001",
+      "capability_name": "Format Normalization",
+      "registered_at": "2025-12-27T11:45:00Z",
+      "registration_order": 4
+    },
+    {
+      "capability_id": "C-LANG-TRANS-001",
+      "capability_name": "Language Translation",
+      "registered_at": "2025-12-27T11:35:00Z",
+      "registration_order": 2
+    },
+    {
+      "capability_id": "C-MD-HTML-001",
+      "capability_name": "Markdown to HTML Conversion",
+      "registered_at": "2025-12-27T10:00:00Z",
+      "registration_order": 1
+    },
+    {
+      "capability_id": "C-TEXT-SUM-001",
+      "capability_name": "Text Summarization",
+      "registered_at": "2025-12-27T11:30:00Z",
+      "registration_order": 2
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "P-MD-CONV-001",
+      "pattern_name": "Markdown Document Conversion Pattern",
+      "registered_at": "2025-12-27T10:05:00Z",
+      "registration_order": 1
+    }
+  ],
+  "presentation_verification": {
+    "all_capabilities_presented_equally": true,
+    "no_implicit_primary": true,
+    "no_de_facto_default": true,
+    "lexicographic_ordering_only": true,
+    "no_frequency_based_ordering": true,
+    "no_usage_based_ordering": true,
+    "no_time_based_ordering": true
+  },
+  "constitutional_compliance": {
+    "no_ordering_preference": true,
+    "no_defaults": true,
+    "no_categories_implying_preference": true,
+    "identical_presentation_treatment": true,
+    "no_recommendation_semantics": true,
+    "no_workflow_semantics": true
+  }
+}
+

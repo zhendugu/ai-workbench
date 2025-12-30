@@ -1,0 +1,26 @@
+{
+  "run_id": "run_p0_s6",
+  "profile": "P0",
+  "scenario": "Scenario_6",
+  "seed": 48,
+  "epochs": 10,
+  "concurrency": {
+    "threads": 1,
+    "coroutines": 1,
+    "tasks": 1
+  },
+  "fault_injection": {
+    "timeout_prob": 0.0,
+    "exception_prob": 0.0,
+    "cancellation_prob": 0.0,
+    "interruption_prob": 0.0,
+    "partial_write_prob": 0.0
+  },
+  "cache_pool": {
+    "enabled": false,
+    "max_size": 100
+  },
+  "observer": {
+    "enabled": true
+  }
+}

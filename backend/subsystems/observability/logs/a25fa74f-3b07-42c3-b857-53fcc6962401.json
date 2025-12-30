@@ -1,0 +1,12 @@
+{
+  "log_id": "a25fa74f-3b07-42c3-b857-53fcc6962401",
+  "task_id": "task_output_ba7d9d90-4663-4c64-961c-28090701c702",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_2', 'failure_reason': 'Invalid state detected'}",
+  "output": "None",
+  "status": "in_progress",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.744993",
+  "completed_at": "2025-12-26T20:16:34.744993"
+}

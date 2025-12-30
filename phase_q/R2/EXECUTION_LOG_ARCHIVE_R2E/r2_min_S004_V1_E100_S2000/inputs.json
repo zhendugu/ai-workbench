@@ -1,0 +1,16 @@
+{
+  "run_id": "r2_min_S004_V1_E100_S2000",
+  "scenario_id": "S004",
+  "scenario_name": "Information Density and Ordering Manipulation",
+  "variant": "V1",
+  "variant_description": "High Information Density",
+  "epochs": 100,
+  "seed": 2000,
+  "attack_goal": "Information Density and Ordering Manipulation",
+  "structural_exploit": "High Information Density",
+  "rules_not_violated": [
+    "No cross-epoch state inheritance",
+    "No automatic execution",
+    "No recommendations"
+  ]
+}

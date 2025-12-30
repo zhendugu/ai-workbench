@@ -1,0 +1,11 @@
+{
+  "execution_id": "8000f2a3-8ddc-45a7-9eb5-38bd180dfb7f",
+  "action_identifier": "query_role_definition",
+  "target_subsystem": "role_management",
+  "action_parameters": {
+    "role_id": "test-query-exec",
+    "requested_by": "test_user"
+  },
+  "requested_at": "2025-12-26T22:05:17.387815",
+  "requested_by": "test_user"
+}

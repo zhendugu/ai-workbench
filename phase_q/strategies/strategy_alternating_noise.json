@@ -1,0 +1,19 @@
+{
+  "strategy_id": "STRATEGY-ALTERNATING-NOISE",
+  "strategy_name": "Alternating-Noise",
+  "strategy_params": {
+    "high_influence_intensity": 0.8,
+    "low_influence_intensity": 0.3,
+    "alternation_period": 5,
+    "target_preference": "option_001"
+  },
+  "default_values": {
+    "high_influence_intensity": 0.8,
+    "low_influence_intensity": 0.3,
+    "alternation_period": 5,
+    "target_preference": "option_001"
+  },
+  "attack_vectors": ["AV-005", "AV-009", "AV-010", "AV-011"],
+  "traceability": "phase_q/ADVERSARY_STRATEGY_CATALOG.md STRATEGY-ALTERNATING-NOISE"
+}
+

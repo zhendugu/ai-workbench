@@ -1,0 +1,12 @@
+{
+  "log_id": "3d1b9f1c-9748-4785-baea-4b011b6f6c5a",
+  "task_id": "store_document_4890ee55-14e1-4604-86dd-2cf4f4af0c0e",
+  "goal": "Store Document (C-KM-1)",
+  "input": "{'content_length': 35, 'metadata': {'title': 'Test Document for Retrieval', 'author': 'Test Author', 'category': 'test'}}",
+  "output": "{'document_id': '32b8dada-e814-4bd2-b6dc-c70f19fe3235', 'version_number': 1}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T16:37:07.437667",
+  "completed_at": "2025-12-26T16:37:07.437669"
+}

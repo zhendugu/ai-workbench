@@ -1,0 +1,26 @@
+{
+  "run_id": "run_p4_s3",
+  "profile": "P4",
+  "scenario": "Scenario_3",
+  "seed": 1002,
+  "epochs": 200,
+  "concurrency": {
+    "threads": 4,
+    "coroutines": 8,
+    "tasks": 16
+  },
+  "fault_injection": {
+    "timeout_prob": 0.15,
+    "exception_prob": 0.1,
+    "cancellation_prob": 0.05,
+    "interruption_prob": 0.05,
+    "partial_write_prob": 0.02
+  },
+  "cache_pool": {
+    "enabled": false,
+    "max_size": 100
+  },
+  "observer": {
+    "enabled": true
+  }
+}

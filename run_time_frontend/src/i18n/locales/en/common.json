@@ -1,0 +1,109 @@
+{
+  "banner": {
+    "runtimeReadOnly": "RUN-TIME - READ ONLY VIEW",
+    "frozenCannotModify": "This structure is frozen and cannot be modified.",
+    "nothingRunning": "Nothing is running. No data is updating.",
+    "readOnlyView": "This is a read-only view of a structural declaration."
+  },
+  "company": {
+    "frozenCompany": "FROZEN COMPANY",
+    "frozenReadOnly": "FROZEN - READ ONLY",
+    "frozenAt": "Frozen at",
+    "frozenBy": "Frozen by",
+    "companyIdentifier": "Company Identifier",
+    "cannotModify": "This structure cannot be modified.",
+    "companyIdentity": "Company Identity",
+    "frozenStructureIdentity": "Frozen company structure identity and metadata",
+    "frozenCompanyReadOnly": "FROZEN COMPANY - READ ONLY",
+    "frozenStructuralDeclaration": "This is a frozen structural declaration. It cannot be modified. To make changes, create a new Draft in Design-Time.",
+    "companyName": "Company Name",
+    "companyDescription": "Company Description"
+  },
+  "navigation": {
+    "viewNavigation": "View Navigation (No Recommended Order)",
+    "companyOverview": "Company Overview",
+    "structureView": "Structure View",
+    "topologyView": "Topology View",
+    "methodologyContext": "Methodology Context",
+    "freezeRecord": "Freeze Record"
+  },
+  "structure": {
+    "title": "Structure View",
+    "description": "Frozen responsibility declarations (Cells and Roles)",
+    "readOnly": "READ ONLY",
+    "frozenDeclarations": "These are frozen responsibility declarations. Cells do not execute or run.",
+    "cells": "Cells",
+    "noCells": "No cells defined in this frozen structure.",
+    "cellDetail": "Cell Detail",
+    "cellIsDeclaration": "Cell is a frozen responsibility declaration. It is not an executor and does not run.",
+    "cellIdentifier": "Cell Identifier",
+    "cellName": "Cell Name",
+    "responsibilityWhat": "Responsibility (What)",
+    "responsibilityWhatNot": "Responsibility Boundary (What NOT)",
+    "roleConstraints": "Role Constraints",
+    "noRoleConstraints": "No role constraints attached to this cell.",
+    "roleIsConstraint": "Role is a frozen constraint condition attached to this Cell. It is not an independent entity.",
+    "selectCell": "Select a cell to view details"
+  },
+  "topology": {
+    "title": "Topology View",
+    "description": "Frozen declarative topology (structural relationships)",
+    "readOnly": "READ ONLY",
+    "frozenDeclarativeTopology": "This is a frozen declarative topology. Relationships represent structural dependencies, not execution order. Nothing is running.",
+    "viewMode": "View Mode",
+    "canvas": "Canvas",
+    "list": "List",
+    "noRelationships": "No relationships defined in this frozen structure.",
+    "relationshipLegend": "Relationship Legend",
+    "declarativeTopologyView": "This is a declarative topology view.",
+    "relationshipsStructuralDependencies": "Relationships represent structural dependencies, not execution order or runtime flow.",
+    "noCellsDefined": "No cells defined",
+    "noTopologyToVisualize": "No topology to visualize",
+    "relations": "Relations",
+    "noRelationsDefined": "No relations defined",
+    "dependency": "Dependency",
+    "reference": "Reference",
+    "inputOutput": "Input-Output",
+    "dependencyDescription": "Cell A depends on Cell B existing",
+    "referenceDescription": "Cell A references Cell B output",
+    "inputOutputDescription": "Cell A output is Cell B input"
+  },
+  "methodology": {
+    "title": "Methodology Context",
+    "description": "Methodology perspective active at freeze time",
+    "readOnly": "READ ONLY",
+    "noMethodology": "No methodology was specified when this structure was frozen.",
+    "methodologyPerspective": "This is the methodology perspective that was active when frozen. It is read-only and cannot be changed.",
+    "methodologyIdentifier": "Methodology Identifier",
+    "methodologyName": "Methodology Name",
+    "methodologyDescription": "Methodology Description",
+    "methodologyPerspectiveFrozen": "This is the methodology perspective that was active when this structure was frozen. It is read-only and cannot be changed."
+  },
+  "freezeRecord": {
+    "title": "Freeze Record",
+    "description": "Immutable record of the freeze operation",
+    "immutable": "IMMUTABLE",
+    "immutableRecord": "This freeze record is immutable. The structure cannot be unfrozen or modified.",
+    "frozenAt": "Frozen at",
+    "frozenAtDescription": "This timestamp is static and represents the moment of freeze. It does not indicate any change or activity.",
+    "frozenBy": "Frozen by",
+    "frozenCompanyIdentifier": "Frozen Company Identifier",
+    "copyCompanyIdentifier": "Copy Company Identifier",
+    "freezeRecordIdentifier": "Freeze Record Identifier",
+    "previousDraftId": "Previous Draft ID",
+    "freezeSummary": "Freeze Summary",
+    "immutableStatement": "This freeze record is immutable. The structure cannot be unfrozen or modified. To make changes, create a new Draft in Design-Time."
+  },
+  "errors": {
+    "invalidSnapshot": "Invalid Snapshot (Read-Only)",
+    "snapshotValidationFailed": "Snapshot validation failed",
+    "snapshotDoesNotConform": "This snapshot does not conform to Authority Layer schemas and cannot be displayed.",
+    "loading": "Loading frozen company structure..."
+  },
+  "language": {
+    "switch": "Language",
+    "english": "English",
+    "chinese": "中文"
+  }
+}
+

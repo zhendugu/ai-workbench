@@ -1,0 +1,177 @@
+{
+  "adversarial_attempts_version": "1.0.0",
+  "created_at": "2025-12-27T12:20:00Z",
+  "created_by": "human",
+  "note": "These are adversarial attempts that MUST FAIL constitutional compliance",
+  "adversarial_mechanisms": [
+    {
+      "mechanism_id": "ADV-001",
+      "mechanism_name": "Infer Authorization from Audit/History",
+      "description": "System infers authorization from audit records showing previous usage",
+      "violation_type": "privilege_inference",
+      "example": {
+        "scenario": "Operator used C-MD-HTML-001 last time, system infers authorization for next time",
+        "violation": "Authorization inferred from history/audit instead of explicit record",
+        "expected_result": "FAIL - Must require explicit authorization"
+      },
+      "constitutional_violation": {
+        "violates": "AUTHORIZATION_GOVERNANCE_ONTOLOGY.md - Authorization must be explicit, non-inferable",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-002",
+      "mechanism_name": "Auto-Grant Permissions Based on Role Heuristics",
+      "description": "System auto-grants permissions based on role patterns or heuristics",
+      "violation_type": "auto_grant",
+      "example": {
+        "scenario": "ROLE_OPERATOR in WORKSPACE-A gets auto-granted permissions for all capabilities in that workspace",
+        "violation": "Permissions auto-granted without explicit authorization",
+        "expected_result": "FAIL - Must require explicit authorization"
+      },
+      "constitutional_violation": {
+        "violates": "AUTHORIZATION_GOVERNANCE_ONTOLOGY.md - Authorization must be explicit, cannot be auto-granted",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-003",
+      "mechanism_name": "Continue Previous Session Bypassing Gate",
+      "description": "Continue button that bypasses explicit authorization gate",
+      "violation_type": "gate_bypass",
+      "example": {
+        "scenario": "Continue previous session button that auto-selects workspace and capability, bypassing authorization check",
+        "violation": "UI convenience bypasses explicit authorization requirement",
+        "expected_result": "FAIL - Must require explicit authorization even with continue"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No decision space compression, no bypass via UI",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-004",
+      "mechanism_name": "Preselect Workspace for Convenience",
+      "description": "System preselects workspace based on recent usage or frequency",
+      "violation_type": "default_selection",
+      "example": {
+        "scenario": "System preselects WORKSPACE-A because it was used most recently",
+        "violation": "Default selection of workspace",
+        "expected_result": "FAIL - Must require explicit selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-005",
+      "mechanism_name": "Preselect Pattern for Convenience",
+      "description": "System preselects pattern based on recent usage or frequency",
+      "violation_type": "default_selection",
+      "example": {
+        "scenario": "System preselects P-MD-CONV-001 because it was used most frequently",
+        "violation": "Default selection of pattern",
+        "expected_result": "FAIL - Must require explicit selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-006",
+      "mechanism_name": "Preselect Capability for Convenience",
+      "description": "System preselects capability based on recent usage or frequency",
+      "violation_type": "default_selection",
+      "example": {
+        "scenario": "System preselects C-MD-HTML-001 because it was used most recently",
+        "violation": "Default selection of capability",
+        "expected_result": "FAIL - Must require explicit selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-007",
+      "mechanism_name": "Audit-Derived Access Control Logic",
+      "description": "System uses audit records to derive access control decisions",
+      "violation_type": "audit_derived_logic",
+      "example": {
+        "scenario": "System checks audit records to determine if operator should have access, instead of checking explicit authorization",
+        "violation": "Access control derived from audit instead of explicit authorization",
+        "expected_result": "FAIL - Must use explicit authorization only"
+      },
+      "constitutional_violation": {
+        "violates": "AUDIT_EVIDENCE_ONTOLOGY.md - Audit must not drive behavior, AUTHORIZATION_GOVERNANCE_ONTOLOGY.md - Authorization must be explicit",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-008",
+      "mechanism_name": "Cross-Workspace Recent Panels",
+      "description": "Recent panels show items from other workspaces",
+      "violation_type": "workspace_isolation_violation",
+      "example": {
+        "scenario": "Recent panel in WORKSPACE-A shows items from WORKSPACE-B",
+        "violation": "Cross-workspace influence",
+        "expected_result": "FAIL - Workspaces must be isolated"
+      },
+      "constitutional_violation": {
+        "violates": "Workspace isolation requirements",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-009",
+      "mechanism_name": "Cross-Workspace Carryover of Filters/Search",
+      "description": "Filters or search state carries over between workspaces",
+      "violation_type": "workspace_isolation_violation",
+      "example": {
+        "scenario": "Search query in WORKSPACE-A is pre-filled in WORKSPACE-B",
+        "violation": "Cross-workspace state carryover",
+        "expected_result": "FAIL - Workspaces must be isolated"
+      },
+      "constitutional_violation": {
+        "violates": "Workspace isolation requirements",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-010",
+      "mechanism_name": "Shared Defaults Across Workspaces",
+      "description": "Default selections shared across workspaces",
+      "violation_type": "workspace_isolation_violation",
+      "example": {
+        "scenario": "Default capability selection in WORKSPACE-A affects WORKSPACE-B",
+        "violation": "Shared defaults across workspaces",
+        "expected_result": "FAIL - Workspaces must be isolated, no shared defaults"
+      },
+      "constitutional_violation": {
+        "violates": "Workspace isolation requirements, HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection",
+        "violation_severity": "MEDIUM"
+      }
+    }
+  ],
+  "expected_violations": 25,
+  "violation_categories": {
+    "privilege_inference": 1,
+    "auto_grant": 1,
+    "gate_bypass": 1,
+    "default_selection": 3,
+    "audit_derived_logic": 1,
+    "workspace_isolation_violation": 3
+  },
+  "constitutional_compliance": {
+    "all_attempts_must_fail": true,
+    "no_privilege_inference_allowed": true,
+    "no_auto_grant_allowed": true,
+    "no_gate_bypass_allowed": true,
+    "no_default_selection_allowed": true,
+    "no_audit_derived_logic_allowed": true,
+    "no_workspace_isolation_violation_allowed": true
+  }
+}
+

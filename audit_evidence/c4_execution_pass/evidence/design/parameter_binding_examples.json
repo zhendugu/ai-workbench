@@ -1,0 +1,151 @@
+{
+  "description": "Examples of explicit parameter binding without inference or completion",
+  "examples": [
+    {
+      "example_id": "PARAM-001",
+      "title": "Explicit Parameter Provision",
+      "scenario": "Human provides all parameters explicitly, no inference or completion",
+      "capability_id": "C-KM-1",
+      "human_provided_parameters": {
+        "document_id": "doc-126",
+        "content": "Example document content",
+        "metadata": {
+          "author": "user-001",
+          "created_at": "2025-12-26T10:30:00Z"
+        }
+      },
+      "system_behavior": {
+        "parameter_validation": "descriptive_only",
+        "parameter_inference": "none",
+        "parameter_completion": "none",
+        "default_values": "none"
+      },
+      "compliance_notes": [
+        "All parameters explicitly provided",
+        "No parameter inference",
+        "No parameter completion",
+        "No default values"
+      ]
+    },
+    {
+      "example_id": "PARAM-002",
+      "title": "Explicit Parameter Validation",
+      "scenario": "System validates parameters descriptively, does not infer or complete",
+      "capability_id": "C-ROLE-1",
+      "human_provided_parameters": {
+        "role_id": "role-002",
+        "role_name": "Manager",
+        "permissions": ["read", "write", "delete"]
+      },
+      "system_behavior": {
+        "parameter_validation": {
+          "role_id": "valid_format",
+          "role_name": "non_empty",
+          "permissions": "valid_list"
+        },
+        "parameter_inference": "none",
+        "parameter_completion": "none",
+        "default_values": "none"
+      },
+      "compliance_notes": [
+        "Validation is descriptive only",
+        "No parameter inference",
+        "No parameter completion",
+        "No default values"
+      ]
+    },
+    {
+      "example_id": "PARAM-003",
+      "title": "Missing Parameter - Explicit Error",
+      "scenario": "Human omits required parameter, system returns explicit error without inference",
+      "capability_id": "C-KM-1",
+      "human_provided_parameters": {
+        "document_id": "doc-127",
+        "content": "Example content"
+      },
+      "system_behavior": {
+        "parameter_validation": {
+          "status": "failed",
+          "missing_parameters": ["metadata"],
+          "error_message": "Required parameter 'metadata' is missing"
+        },
+        "parameter_inference": "none",
+        "parameter_completion": "none",
+        "default_values": "none"
+      },
+      "compliance_notes": [
+        "System returns explicit error",
+        "No parameter inference",
+        "No parameter completion",
+        "No default values",
+        "Human must explicitly provide missing parameter"
+      ]
+    },
+    {
+      "example_id": "PARAM-004",
+      "title": "No Context-Based Parameter Derivation",
+      "scenario": "System does not derive parameters from context, state, or history",
+      "capability_id": "C-CELL-1",
+      "human_provided_parameters": {
+        "cell_id": "cell-002",
+        "cell_name": "Example Cell",
+        "roles": ["role-001"]
+      },
+      "available_context": {
+        "previous_cell": "cell-001",
+        "user_history": ["cell-001", "cell-003"],
+        "audit_records": []
+      },
+      "system_behavior": {
+        "parameter_validation": "descriptive_only",
+        "context_derivation": "none",
+        "history_derivation": "none",
+        "state_derivation": "none",
+        "parameter_inference": "none",
+        "parameter_completion": "none"
+      },
+      "compliance_notes": [
+        "No context-based parameter derivation",
+        "No history-based parameter derivation",
+        "No state-based parameter derivation",
+        "All parameters explicitly provided"
+      ]
+    },
+    {
+      "example_id": "PARAM-005",
+      "title": "No Pattern-Based Parameter Inference",
+      "scenario": "System does not infer parameters from pattern selection",
+      "capability_id": "C-KM-1",
+      "pattern_selection": {
+        "pattern_id": "pattern-001",
+        "pattern_name": "Document Storage Pattern"
+      },
+      "human_provided_parameters": {
+        "document_id": "doc-128",
+        "content": "Example content",
+        "metadata": {}
+      },
+      "system_behavior": {
+        "parameter_validation": "descriptive_only",
+        "pattern_based_inference": "none",
+        "parameter_completion": "none",
+        "default_values": "none"
+      },
+      "compliance_notes": [
+        "Pattern selection does not infer parameters",
+        "All parameters explicitly provided",
+        "No pattern-based parameter completion",
+        "Selection and Execution are separated"
+      ]
+    }
+  ],
+  "compliance_summary": {
+    "explicit_parameter_provision": "All parameters must be explicitly provided by human",
+    "no_parameter_inference": "No parameter inference from context, state, or history",
+    "no_parameter_completion": "No automatic parameter completion",
+    "no_default_values": "No default parameter values",
+    "explicit_validation_only": "Parameter validation is descriptive only, not behavioral",
+    "selection_execution_separation": "Pattern selection does not infer execution parameters"
+  }
+}
+

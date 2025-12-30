@@ -1,0 +1,12 @@
+{
+  "log_id": "91967151-9dd0-4201-8bdb-8d0ee7e9aa0a",
+  "task_id": "query_role_8b2f1211-8ad2-4ac4-b45c-4bab596cd893",
+  "goal": "Query Role Definition (C-ROLE-2)",
+  "input": "{'role_id': 'test-role', 'requested_by': ''}",
+  "output": "{'error': 'requested_by must be a non-empty string', 'error_type': 'ValueError'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T22:05:10.301857",
+  "completed_at": "2025-12-26T22:05:10.301858"
+}

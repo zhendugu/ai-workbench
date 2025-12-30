@@ -1,0 +1,16 @@
+{
+  "cell_id": "test-cell-1",
+  "role_ids": [
+    "role-1",
+    "role-2"
+  ],
+  "input_contract": {
+    "input_type": "string",
+    "required": true
+  },
+  "output_format": {
+    "output_type": "dict",
+    "schema": {}
+  },
+  "registered_at": "2025-12-26T23:32:19.235122"
+}

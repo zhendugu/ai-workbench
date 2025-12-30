@@ -1,0 +1,154 @@
+{
+  "adversarial_allowlist_drift_patterns": [
+    {
+      "id": "AADP-001",
+      "name": "Partitioned Views with Default Section",
+      "description": "Partitioned views implementation with 'Most Used' section expanded by default, other sections collapsed",
+      "allowlist_item": "Allowlist Item 1: Basic Partitioned Views",
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 1 (No Default Selection), Allowlist Item 1 minimum boundary (No default section active), DENY-031"
+    },
+    {
+      "id": "AADP-002",
+      "name": "Search with Ranking",
+      "description": "Search implementation that ranks results by relevance score, top 3 results highlighted",
+      "allowlist_item": "Allowlist Item 2: Literal Search (No Ranking)",
+      "why_it_looks_reasonable": "Shows most relevant results first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 16 (No Search with Ranking), Allowlist Item 2 minimum boundary (No ranking algorithm), DENY-012"
+    },
+    {
+      "id": "AADP-003",
+      "name": "Pagination with Default Page",
+      "description": "Pagination implementation that starts on 'Most Relevant' page instead of first page",
+      "allowlist_item": "Allowlist Item 3: Pagination / Virtual Scrolling",
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 1 (No Default Selection), Allowlist Item 3 minimum boundary (No default page), DENY-001"
+    },
+    {
+      "id": "AADP-004",
+      "name": "Collapse/Expand with State Persistence",
+      "description": "Collapse/expand implementation that remembers which sections were expanded, restores on page load",
+      "allowlist_item": "Allowlist Item 4: Collapse / Expand",
+      "why_it_looks_reasonable": "Improves user experience by remembering preferences",
+      "why_it_violates": "Creates state memory and compresses decision space",
+      "triggered_boundary": "J2 Constraint 20 (No State Persistence), Allowlist Item 4 minimum boundary (No state persistence), DENY-023"
+    },
+    {
+      "id": "AADP-005",
+      "name": "Form Validation with Suggestions",
+      "description": "Form validation that suggests values based on previous inputs or context",
+      "allowlist_item": "Allowlist Item 5: Parameter Form Field Validation",
+      "why_it_looks_reasonable": "Helps users enter correct values",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 15 (No Auto-Complete with Suggestions), Allowlist Item 5 minimum boundary (No value suggestions), DENY-026"
+    },
+    {
+      "id": "AADP-006",
+      "name": "Search with Auto-Complete",
+      "description": "Search input field with auto-complete dropdown based on previous searches",
+      "allowlist_item": "Allowlist Item 2: Literal Search (No Ranking)",
+      "why_it_looks_reasonable": "Improves search efficiency",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 15 (No Auto-Complete with Suggestions), Allowlist Item 2 minimum boundary (Text input only, no auto-complete), DENY-026"
+    },
+    {
+      "id": "AADP-007",
+      "name": "Pagination with Usage-Based Page Ordering",
+      "description": "Pagination that orders pages by usage frequency, most used page first",
+      "allowlist_item": "Allowlist Item 3: Pagination / Virtual Scrolling",
+      "why_it_looks_reasonable": "Shows most useful content first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 3 (No Ordering Implication), Allowlist Item 3 minimum boundary (No page ordering that implies preference), DENY-011"
+    },
+    {
+      "id": "AADP-008",
+      "name": "Partitioned Views with Highlighting",
+      "description": "Partitioned views with highlighted 'Featured' section, visual emphasis on certain sections",
+      "allowlist_item": "Allowlist Item 1: Basic Partitioned Views",
+      "why_it_looks_reasonable": "Draws attention to important content",
+      "why_it_violates": "Creates visual emphasis that implies preference",
+      "triggered_boundary": "J2 Constraint 2 (No Highlighting or Recommendation), Allowlist Item 1 minimum boundary (No highlighting of sections), DENY-004"
+    },
+    {
+      "id": "AADP-009",
+      "name": "Collapse/Expand with Default Collapsed State",
+      "description": "Collapse/expand implementation with sections collapsed by default, requires explicit expansion",
+      "allowlist_item": "Allowlist Item 4: Collapse / Expand",
+      "why_it_looks_reasonable": "Reduces initial complexity",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 1 (No Default Selection), Allowlist Item 4 minimum boundary (No default state), DENY-001"
+    },
+    {
+      "id": "AADP-010",
+      "name": "Search with Result Highlighting",
+      "description": "Search implementation that highlights matching text in results, top results emphasized",
+      "allowlist_item": "Allowlist Item 2: Literal Search (No Ranking)",
+      "why_it_looks_reasonable": "Makes matches easier to see",
+      "why_it_violates": "Creates visual emphasis that implies preference",
+      "triggered_boundary": "J2 Constraint 2 (No Highlighting or Recommendation), Allowlist Item 2 minimum boundary (No result highlighting), DENY-004"
+    },
+    {
+      "id": "AADP-011",
+      "name": "Form Validation with Semantic Suggestions",
+      "description": "Form validation that suggests semantically related values, e.g., 'You might want to enter X'",
+      "allowlist_item": "Allowlist Item 5: Parameter Form Field Validation",
+      "why_it_looks_reasonable": "Provides helpful guidance",
+      "why_it_violates": "Creates recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 21 (No Contextual Help with Suggestions), Allowlist Item 5 minimum boundary (No 'you might want to enter X' messages), DENY-019"
+    },
+    {
+      "id": "AADP-012",
+      "name": "Pagination with Memory of Last Page",
+      "description": "Pagination that remembers last viewed page, restores on page load",
+      "allowlist_item": "Allowlist Item 3: Pagination / Virtual Scrolling",
+      "why_it_looks_reasonable": "Improves user experience by resuming where left off",
+      "why_it_violates": "Creates state memory and compresses decision space",
+      "triggered_boundary": "J2 Constraint 20 (No State Persistence), Allowlist Item 3 minimum boundary (No memory of page navigation), DENY-021"
+    },
+    {
+      "id": "AADP-013",
+      "name": "Partitioned Views with Section Ordering",
+      "description": "Partitioned views with sections ordered by importance or usage, 'Most Used' section first",
+      "allowlist_item": "Allowlist Item 1: Basic Partitioned Views",
+      "why_it_looks_reasonable": "Shows most important content first",
+      "why_it_violates": "Creates ordering that implies preference",
+      "triggered_boundary": "J2 Constraint 3 (No Ordering Implication), Allowlist Item 1 minimum boundary (No section ordering that implies preference), DENY-006"
+    },
+    {
+      "id": "AADP-014",
+      "name": "Search with 'Top Results' Limiting",
+      "description": "Search implementation that limits results to 'top 10' matches, hides remaining results",
+      "allowlist_item": "Allowlist Item 2: Literal Search (No Ranking)",
+      "why_it_looks_reasonable": "Reduces clutter",
+      "why_it_violates": "Compresses decision space and creates factual default",
+      "triggered_boundary": "J2 Constraint 12 (No Decision Space Compression), Allowlist Item 2 minimum boundary (All matches displayed), DENY-012"
+    },
+    {
+      "id": "AADP-015",
+      "name": "Collapse/Expand with Smart Default State",
+      "description": "Collapse/expand implementation that intelligently determines which sections to expand based on context or usage",
+      "allowlist_item": "Allowlist Item 4: Collapse / Expand",
+      "why_it_looks_reasonable": "Shows relevant content automatically",
+      "why_it_violates": "Creates smart defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 24 (No Smart Defaults), Allowlist Item 4 minimum boundary (No default state), DENY-003"
+    }
+  ],
+  "total_patterns": 15,
+  "all_patterns_structural_violations": true,
+  "all_patterns_non_repairable": true,
+  "all_patterns_seemingly_reasonable": true,
+  "allowlist_drift_categories": {
+    "default_selection": 3,
+    "highlighting": 2,
+    "ordering": 2,
+    "state_persistence": 3,
+    "suggestions": 2,
+    "decision_space_compression": 1,
+    "smart_defaults": 1,
+    "ranking": 1
+  }
+}
+

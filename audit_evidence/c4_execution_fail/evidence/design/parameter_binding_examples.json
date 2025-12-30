@@ -1,0 +1,209 @@
+{
+  "description": "Adversarial examples demonstrating parameter inference, completion, and context-based derivation",
+  "examples": [
+    {
+      "example_id": "ADV-PARAM-001",
+      "title": "Context-Based Parameter Inference",
+      "scenario": "System infers execution parameters from context, state, or previous execution",
+      "capability_id": "C-KM-1",
+      "human_provided_parameters": {
+        "document_id": "doc-210"
+      },
+      "available_context": {
+        "previous_execution": {
+          "capability_id": "C-KM-1",
+          "parameters": {
+            "content": "Previous content",
+            "metadata": {
+              "author": "user-001",
+              "category": "documentation"
+            }
+          }
+        },
+        "current_state": {
+          "active_document": "doc-209",
+          "user_session": "session-001"
+        }
+      },
+      "inferred_parameters": {
+        "document_id": "doc-210",
+        "content": "Inferred from previous execution",
+        "metadata": {
+          "author": "user-001",
+          "category": "documentation",
+          "inferred": true
+        }
+      },
+      "violation_notes": [
+        "Parameters inferred from context",
+        "Parameters derived from previous execution",
+        "No explicit parameter provision",
+        "Violates no parameter inference rule"
+      ]
+    },
+    {
+      "example_id": "ADV-PARAM-002",
+      "title": "History-Based Parameter Completion",
+      "scenario": "System completes missing parameters from user history and audit data",
+      "capability_id": "C-ROLE-1",
+      "human_provided_parameters": {
+        "role_id": "role-003",
+        "role_name": "Developer"
+      },
+      "user_history": {
+        "previous_roles": [
+          {
+            "role_id": "role-001",
+            "permissions": ["read", "write"],
+            "metadata": {
+              "department": "engineering"
+            }
+          },
+          {
+            "role_id": "role-002",
+            "permissions": ["read", "write", "delete"],
+            "metadata": {
+              "department": "engineering"
+            }
+          }
+        ],
+        "audit_records": [
+          {
+            "capability_id": "C-ROLE-1",
+            "most_common_permissions": ["read", "write"],
+            "most_common_metadata": {
+              "department": "engineering"
+            }
+          }
+        ]
+      },
+      "completed_parameters": {
+        "role_id": "role-003",
+        "role_name": "Developer",
+        "permissions": ["read", "write"],
+        "metadata": {
+          "department": "engineering",
+          "completed_from_history": true
+        }
+      },
+      "violation_notes": [
+        "Parameters completed from history",
+        "Parameters inferred from audit data",
+        "No explicit parameter provision",
+        "Violates no parameter inference rule",
+        "Violates audit read-only principle"
+      ]
+    },
+    {
+      "example_id": "ADV-PARAM-003",
+      "title": "Pattern-Based Parameter Derivation",
+      "scenario": "System derives execution parameters from pattern selection",
+      "capability_id": "C-KM-1",
+      "pattern_selection": {
+        "pattern_id": "pattern-003",
+        "pattern_name": "Document Storage Pattern",
+        "pattern_metadata": {
+          "suggested_parameters": {
+            "content": "Pattern-based content template",
+            "metadata": {
+              "source": "pattern",
+              "template": "standard"
+            }
+          }
+        }
+      },
+      "human_provided_parameters": {
+        "document_id": "doc-211"
+      },
+      "derived_parameters": {
+        "document_id": "doc-211",
+        "content": "Pattern-based content template",
+        "metadata": {
+          "source": "pattern",
+          "template": "standard",
+          "derived_from_pattern": true
+        }
+      },
+      "violation_notes": [
+        "Parameters derived from pattern",
+        "Pattern selection influences execution parameters",
+        "Selection and Execution are coupled",
+        "Violates Selection != Execution boundary"
+      ]
+    },
+    {
+      "example_id": "ADV-PARAM-004",
+      "title": "Default Parameter Values",
+      "scenario": "System provides default parameter values when human omits them",
+      "capability_id": "C-CELL-1",
+      "human_provided_parameters": {
+        "cell_id": "cell-003",
+        "cell_name": "Example Cell"
+      },
+      "default_values": {
+        "roles": ["default-role"],
+        "metadata": {
+          "created_by": "system",
+          "default": true
+        }
+      },
+      "execution_parameters": {
+        "cell_id": "cell-003",
+        "cell_name": "Example Cell",
+        "roles": ["default-role"],
+        "metadata": {
+          "created_by": "system",
+          "default": true
+        }
+      },
+      "violation_notes": [
+        "Default parameter values provided",
+        "No explicit parameter provision",
+        "System infers missing parameters",
+        "Violates no default values rule"
+      ]
+    },
+    {
+      "example_id": "ADV-PARAM-005",
+      "title": "State-Based Parameter Adaptation",
+      "scenario": "System adapts execution parameters based on current system state",
+      "capability_id": "C-KM-1",
+      "human_provided_parameters": {
+        "document_id": "doc-212",
+        "content": "Content"
+      },
+      "system_state": {
+        "storage_quota": {
+          "used": 0.85,
+          "limit": 1.0
+        },
+        "optimization_mode": "enabled",
+        "compression_enabled": true
+      },
+      "adapted_parameters": {
+        "document_id": "doc-212",
+        "content": "Content",
+        "metadata": {
+          "compressed": true,
+          "optimized": true,
+          "quota_aware": true,
+          "adapted_from_state": true
+        }
+      },
+      "violation_notes": [
+        "Parameters adapted from system state",
+        "State-based parameter modification",
+        "No explicit parameter provision",
+        "Violates no context-based execution rule"
+      ]
+    }
+  ],
+  "violation_summary": {
+    "context_based_inference": "Parameters inferred from context, state, or previous execution",
+    "history_based_completion": "Parameters completed from user history and audit data",
+    "pattern_based_derivation": "Parameters derived from pattern selection",
+    "default_values": "Default parameter values provided when human omits them",
+    "state_based_adaptation": "Parameters adapted based on current system state"
+  }
+}
+

@@ -1,0 +1,48 @@
+name: Constitutional Enforcement
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'audit_evidence/**'
+      - 'scripts/constitutional_diff_detect.py'
+      - 'scripts/evidence_pack_validate.py'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'docs/**'
+      - 'audit_evidence/**'
+      - 'scripts/constitutional_diff_detect.py'
+      - 'scripts/evidence_pack_validate.py'
+
+jobs:
+  constitutional-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check constitutional file changes
+        env:
+          GIT_DIFF_RANGE: ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha || github.sha }}
+          CONSTITUTIONAL_CHANGE_AUTH: ${{ env.CONSTITUTIONAL_CHANGE_AUTH }}
+          CONSTITUTIONAL_CHANGE_SCOPE: ${{ env.CONSTITUTIONAL_CHANGE_SCOPE }}
+          CONSTITUTIONAL_CHANGE_RATIONALE: ${{ env.CONSTITUTIONAL_CHANGE_RATIONALE }}
+        run: |
+          python3 scripts/constitutional_diff_detect.py "$GIT_DIFF_RANGE"
+
+      - name: Validate evidence pack structure
+        if: contains(github.event.head_commit.message, 'audit_evidence') || contains(join(github.event.commits.*.message, ' '), 'audit_evidence')
+        run: |
+          python3 scripts/evidence_pack_validate.py
+
+

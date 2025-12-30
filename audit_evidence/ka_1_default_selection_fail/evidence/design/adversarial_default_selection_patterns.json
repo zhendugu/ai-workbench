@@ -1,0 +1,221 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-KA-1-001",
+      "name": "Multiple Default Selection",
+      "description": "Experiment injects multiple default selections instead of single",
+      "typical_implementation": [
+        "Pre-select first capability AND first pattern",
+        "Pre-select multiple capabilities on same page",
+        "Pre-select capability AND pre-fill parameter field"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Scope: Only capabilities.html allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-002",
+      "name": "Default Selection with Visual Emphasis",
+      "description": "Default selection includes visual emphasis beyond minimal indication",
+      "typical_implementation": [
+        "Default-selected capability has different background color",
+        "Default-selected capability has bold text",
+        "Default-selected capability has icon or badge",
+        "Default-selected capability is highlighted"
+      ],
+      "violated_constraints": [
+        "KA-1 Hard Constraint: No visual reinforcement allowed",
+        "J2 Constraint 2: No Highlighting or Recommendation"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-003",
+      "name": "Default Selection with Text Labels",
+      "description": "Default selection includes text labels suggesting recommendation",
+      "typical_implementation": [
+        "Default-selected capability labeled 'Recommended'",
+        "Default-selected capability labeled 'Suggested'",
+        "Default-selected capability labeled 'Default for you'",
+        "Text hint: 'This is the default option'"
+      ],
+      "violated_constraints": [
+        "KA-1 Hard Constraint: No text hints allowed",
+        "J2 Constraint 4: No Process Guidance"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-004",
+      "name": "Default Selection with Sorting Change",
+      "description": "Default selection combined with sorting change",
+      "typical_implementation": [
+        "Sort capabilities by usage, then pre-select first",
+        "Move most-used capability to top, then pre-select",
+        "Reorder list to put default at top"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No sorting changes allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-005",
+      "name": "Default Selection with State Memory",
+      "description": "Default selection based on previous session state",
+      "typical_implementation": [
+        "Pre-select last used capability",
+        "Pre-select most frequently used capability",
+        "Pre-select based on localStorage history"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: Default must be static",
+        "J2 Constraint 5: No State Memory"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-006",
+      "name": "Default Selection with Process Guidance",
+      "description": "Default selection combined with process guidance",
+      "typical_implementation": [
+        "Pre-select capability and show 'Next step' hint",
+        "Pre-select capability and suggest workflow",
+        "Pre-select capability and guide through process"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No process guidance allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-007",
+      "name": "Default Selection with Auto-Execution",
+      "description": "Default selection triggers automatic execution",
+      "typical_implementation": [
+        "Pre-select capability and auto-execute",
+        "Pre-select capability and auto-navigate",
+        "Pre-select capability and auto-submit"
+      ],
+      "violated_constraints": [
+        "KA-1 Hard Constraint: No automatic execution allowed",
+        "J2 Constraint 1: No Default Selection (with auto-execution)"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-008",
+      "name": "Default Selection with Parameter Pre-Fill",
+      "description": "Default selection combined with parameter pre-fill",
+      "typical_implementation": [
+        "Pre-select capability AND pre-fill parameter field",
+        "Pre-select capability with default parameter values",
+        "Pre-select capability with suggested parameters"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No parameter pre-fill allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-009",
+      "name": "Default Selection with Context-Based Change",
+      "description": "Default selection changes based on context or history",
+      "typical_implementation": [
+        "Pre-select different capability based on time of day",
+        "Pre-select different capability based on user type",
+        "Pre-select different capability based on previous actions"
+      ],
+      "violated_constraints": [
+        "KA-1 Hard Constraint: Default must be static",
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 7: No Learning"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-010",
+      "name": "Default Selection with Multiple Pages",
+      "description": "Default selection injected on multiple pages",
+      "typical_implementation": [
+        "Pre-select capability on capabilities.html AND patterns.html",
+        "Pre-select on multiple pages simultaneously",
+        "Pre-select across different views"
+      ],
+      "violated_constraints": [
+        "KA-1 Scope: Only capabilities.html and capability_run.html allowed",
+        "Single Variable Principle: Single injection point only"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-011",
+      "name": "Default Selection with Backend Modification",
+      "description": "Default selection requires backend API changes",
+      "typical_implementation": [
+        "Backend API returns 'default' flag for capabilities",
+        "Backend API sorts capabilities to put default first",
+        "Backend API provides default selection logic"
+      ],
+      "violated_constraints": [
+        "KA-1 Scope: Frontend only, no backend modification",
+        "J7 Neutrality: Backend API must remain neutral"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-012",
+      "name": "Default Selection with Grouping",
+      "description": "Default selection combined with grouping or classification",
+      "typical_implementation": [
+        "Group capabilities, then pre-select first in 'recommended' group",
+        "Classify capabilities, then pre-select from 'important' category",
+        "Organize capabilities, then pre-select from 'featured' section"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No grouping changes allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-013",
+      "name": "Default Selection with Recent/Frequent Tracking",
+      "description": "Default selection based on recent or frequent usage",
+      "typical_implementation": [
+        "Pre-select most recently used capability",
+        "Pre-select most frequently used capability",
+        "Pre-select based on usage count"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: Default must be static",
+        "J2 Constraint 13: No Recently Used / Frequently Used"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-014",
+      "name": "Default Selection with Error Interpretation",
+      "description": "Default selection combined with error interpretation",
+      "typical_implementation": [
+        "Pre-select capability and suggest it on error",
+        "Pre-select capability based on error type",
+        "Pre-select capability as error recovery suggestion"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No error interpretation allowed"
+      ]
+    },
+    {
+      "id": "ADV-KA-1-015",
+      "name": "Default Selection with Caching",
+      "description": "Default selection combined with caching mechanism",
+      "typical_implementation": [
+        "Cache default selection in localStorage",
+        "Cache default selection for faster load",
+        "Use cached default selection across sessions"
+      ],
+      "violated_constraints": [
+        "Single Variable Principle: Only DEFAULT_SELECTION allowed",
+        "KA-1 Hard Constraint: No state memory allowed",
+        "J2 Constraint 5: No State Memory"
+      ]
+    }
+  ]
+}
+

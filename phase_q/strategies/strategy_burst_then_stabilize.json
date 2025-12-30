@@ -1,0 +1,19 @@
+{
+  "strategy_id": "STRATEGY-BURST-THEN-STABILIZE",
+  "strategy_name": "Burst-Then-Stabilize",
+  "strategy_params": {
+    "burst_duration": 20,
+    "burst_intensity": 0.8,
+    "stabilize_intensity": 0.7,
+    "target_preference": "option_001"
+  },
+  "default_values": {
+    "burst_duration": 20,
+    "burst_intensity": 0.8,
+    "stabilize_intensity": 0.7,
+    "target_preference": "option_001"
+  },
+  "attack_vectors": ["AV-001", "AV-008", "AV-003", "AV-006"],
+  "traceability": "phase_q/ADVERSARY_STRATEGY_CATALOG.md STRATEGY-BURST-THEN-STABILIZE"
+}
+

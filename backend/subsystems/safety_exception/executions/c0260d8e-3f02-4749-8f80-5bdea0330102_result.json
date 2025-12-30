@@ -1,0 +1,23 @@
+{
+  "execution_id": "c0260d8e-3f02-4749-8f80-5bdea0330102",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "dry_run",
+    "execution_preview": {
+      "action_identifier": "record_escalation_request",
+      "target_subsystem": "safety_exception",
+      "action_parameters": {
+        "escalation_type": "high_risk",
+        "escalation_reason": "Attempting to trigger escalation via execution",
+        "component_id": "test_component"
+      },
+      "would_execute": "Would execute action 'record_escalation_request' on subsystem 'safety_exception' with parameters: {'escalation_type': 'high_risk', 'escalation_reason': 'Attempting to trigger escalation via execution', 'component_id': 'test_component'}",
+      "execution_blocked": true,
+      "blocked_reason": "dry_run_mode",
+      "note": "This is a DRY-RUN. No real execution was performed."
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T20:57:37.658559",
+  "duration_ms": 0
+}

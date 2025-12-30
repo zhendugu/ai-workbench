@@ -1,0 +1,12 @@
+{
+  "log_id": "51b88660-8090-4ed3-b15c-750b82827565",
+  "task_id": "detect_knowledge_conflict_6bfc141c-e2c8-4766-ad02-e3fa4c59623a",
+  "goal": "Detect Knowledge Conflict (C-KM-4)",
+  "input": "{'existing_document_id': '00000000-0000-0000-0000-000000000000', 'content_length': 12}",
+  "output": "{'error': 'Existing document not found: 00000000-0000-0000-0000-000000000000', 'error_type': 'FileNotFoundError', 'error_details': {'existing_document_id': '00000000-0000-0000-0000-000000000000', 'content_length': 12}}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T17:05:41.244904",
+  "completed_at": "2025-12-26T17:05:41.244904"
+}

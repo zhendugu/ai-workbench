@@ -1,0 +1,12 @@
+{
+  "log_id": "44ca3aa1-21a4-44e1-8773-f8f4b040976d",
+  "task_id": "execute_action_dry_run_ecdf00a9-d043-4938-aad6-87965e9225ef",
+  "goal": "C-EXEC-1: Execute Single Action (DRY-RUN)",
+  "input": "{'action_identifier': 'test_action', 'target_subsystem': 'invalid_subsystem', 'execution_mode': 'dry_run'}",
+  "output": "{'error': \"target_subsystem must be one of: knowledge_management, observability, safety_exception, got 'invalid_subsystem'\"}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:51:20.010296",
+  "completed_at": "2025-12-26T20:51:20.010296"
+}

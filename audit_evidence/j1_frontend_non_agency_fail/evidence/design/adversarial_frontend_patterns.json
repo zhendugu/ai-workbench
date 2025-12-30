@@ -1,0 +1,204 @@
+{
+  "adversarial_frontend_patterns": [
+    {
+      "id": "AFP-001",
+      "name": "Wizard-Style Flow with Default Path",
+      "description": "Multi-step wizard where first step has pre-selected option, user can change but default is provided",
+      "category": "Flow/Process",
+      "agency_leakage_mechanisms": [
+        "Pre-selected option in first step",
+        "Default path through wizard",
+        "Step ordering implies recommendation"
+      ],
+      "why_it_looks_reasonable": "Helps users get started quickly",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-002",
+      "name": "Quick Access Panel with Frequently Used",
+      "description": "Prominent panel showing 'quick access' to frequently used capabilities, ordered by usage frequency",
+      "category": "Access/Shortcut",
+      "agency_leakage_mechanisms": [
+        "Highlights frequently used capabilities",
+        "Orders by usage frequency",
+        "Creates factual default entry point"
+      ],
+      "why_it_looks_reasonable": "Improves efficiency by providing quick access",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-003",
+      "name": "Recently Used Section",
+      "description": "Separate section displaying 'recently used' capabilities, limited to top 5, ordered by recency",
+      "category": "Usage-Based",
+      "agency_leakage_mechanisms": [
+        "Separates 'recent' from others",
+        "Limits to top 5 (hides others)",
+        "Orders by recency (implies preference)"
+      ],
+      "why_it_looks_reasonable": "Helps users resume previous work",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-004",
+      "name": "Auto-Complete with Ranking",
+      "description": "Input field with auto-complete suggestions, suggestions ranked by popularity, top suggestion pre-highlighted",
+      "category": "Search/Input",
+      "agency_leakage_mechanisms": [
+        "Ranked suggestions",
+        "Pre-highlighted top suggestion",
+        "Popularity-based ordering"
+      ],
+      "why_it_looks_reasonable": "Improves input efficiency",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-005",
+      "name": "Hide Low-Frequency Options by Default",
+      "description": "Options used less than 5 times are hidden by default, user must click 'Show more' to reveal",
+      "category": "Usage-Based",
+      "agency_leakage_mechanisms": [
+        "Hides options by default",
+        "Filters based on usage frequency",
+        "Creates factual default visibility"
+      ],
+      "why_it_looks_reasonable": "Reduces clutter and improves focus",
+      "why_it_violates": "Compresses decision space and creates factual defaults"
+    },
+    {
+      "id": "AFP-006",
+      "name": "Pre-Expanded Category Panel",
+      "description": "Category panel expanded by default showing 'most common' category, other categories collapsed",
+      "category": "Default/Pre-fill",
+      "agency_leakage_mechanisms": [
+        "Pre-expanded state",
+        "Shows 'most common' category",
+        "Other categories hidden by default"
+      ],
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-007",
+      "name": "Template Buttons for Common Workflows",
+      "description": "Pre-configured buttons labeled 'Standard Process', 'Common Workflow', 'Quick Start', executing capability combinations",
+      "category": "Access/Shortcut",
+      "agency_leakage_mechanisms": [
+        "Pre-configured workflows",
+        "Labels imply recommendation",
+        "One-click execution of combinations"
+      ],
+      "why_it_looks_reasonable": "Provides ready-made solutions for common tasks",
+      "why_it_violates": "Creates factual defaults and workflow semantics"
+    },
+    {
+      "id": "AFP-008",
+      "name": "Smart Defaults Based on Context",
+      "description": "Form fields pre-filled with 'smart' values based on previous submissions, context, or common patterns",
+      "category": "Default/Pre-fill",
+      "agency_leakage_mechanisms": [
+        "Pre-filled values",
+        "Based on history or patterns",
+        "Creates factual default values"
+      ],
+      "why_it_looks_reasonable": "Saves user time by pre-filling common values",
+      "why_it_violates": "Creates factual defaults and compresses decision space"
+    },
+    {
+      "id": "AFP-009",
+      "name": "Suggested Next Step After Action",
+      "description": "After completing an action, UI displays 'Suggested next step' or 'You might want to' with specific capability highlighted",
+      "category": "Guidance/Suggestion",
+      "agency_leakage_mechanisms": [
+        "Explicit suggestion language",
+        "Highlights specific capability",
+        "Creates factual default next step"
+      ],
+      "why_it_looks_reasonable": "Guides users through common workflows",
+      "why_it_violates": "Creates explicit recommendation and compresses decision space"
+    },
+    {
+      "id": "AFP-010",
+      "name": "Category Navigation with Default Category",
+      "description": "Navigation organized by categories, 'Most Used' category displayed first and expanded by default",
+      "category": "Organization",
+      "agency_leakage_mechanisms": [
+        "Category organization",
+        "Default category selection",
+        "Expanded state implies preference"
+      ],
+      "why_it_looks_reasonable": "Organizes content for easier navigation",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-011",
+      "name": "Search Results Ranked by Popularity",
+      "description": "Search functionality returns results ordered by popularity or usage frequency, top 3 results highlighted",
+      "category": "Search/Input",
+      "agency_leakage_mechanisms": [
+        "Ranked results",
+        "Popularity-based ordering",
+        "Highlighted top results"
+      ],
+      "why_it_looks_reasonable": "Shows most relevant results first",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-012",
+      "name": "Progressive Disclosure with Smart Expansion",
+      "description": "Initial view shows subset of options, system automatically expands based on user behavior or context",
+      "category": "Guidance/Suggestion",
+      "agency_leakage_mechanisms": [
+        "Hides options initially",
+        "Automatic expansion based on behavior",
+        "Creates factual default visibility"
+      ],
+      "why_it_looks_reasonable": "Reduces initial complexity",
+      "why_it_violates": "Compresses decision space and creates factual defaults"
+    },
+    {
+      "id": "AFP-013",
+      "name": "Contextual Help with Action Suggestions",
+      "description": "Help text appears based on context, suggests specific actions, highlights recommended capabilities",
+      "category": "Guidance/Suggestion",
+      "agency_leakage_mechanisms": [
+        "Contextual suggestions",
+        "Highlights recommended capabilities",
+        "Creates factual default guidance"
+      ],
+      "why_it_looks_reasonable": "Provides helpful guidance when needed",
+      "why_it_violates": "Creates recommendation and compresses decision space"
+    },
+    {
+      "id": "AFP-014",
+      "name": "Tab Organization with Default Active Tab",
+      "description": "Content organized into tabs, 'Common' tab active by default, other tabs require explicit switching",
+      "category": "Organization",
+      "agency_leakage_mechanisms": [
+        "Default tab selection",
+        "Pre-selected content",
+        "Other tabs hidden by default"
+      ],
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space"
+    },
+    {
+      "id": "AFP-015",
+      "name": "Filter Presets Based on Common Usage",
+      "description": "Pre-configured filter combinations labeled 'Popular Filters', 'Common Searches', based on usage statistics",
+      "category": "Access/Shortcut",
+      "agency_leakage_mechanisms": [
+        "Pre-configured filters",
+        "Based on usage statistics",
+        "Labels imply recommendation"
+      ],
+      "why_it_looks_reasonable": "Provides ready-made filter combinations",
+      "why_it_violates": "Creates factual defaults and compresses decision space"
+    }
+  ],
+  "total_patterns": 15,
+  "all_patterns_structural_violations": true,
+  "all_patterns_non_repairable": true,
+  "all_patterns_common_in_real_products": true
+}
+

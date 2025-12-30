@@ -1,0 +1,14 @@
+{
+  "execution_id": "dbce9ee6-2ba8-4dae-b942-08d6b522506d",
+  "action_identifier": "store_document",
+  "target_subsystem": "knowledge_management",
+  "action_parameters": {
+    "content": "Test document content for real execution",
+    "metadata": {
+      "title": "Test Document",
+      "author": "test_user"
+    }
+  },
+  "requested_at": "2025-12-26T21:39:27.935022",
+  "requested_by": "test_user_1"
+}

@@ -1,0 +1,14 @@
+{
+  "output_id": "eed35a64-47b9-483c-b123-adad0364b991",
+  "task_id": "test_task_conflict",
+  "reason": "Knowledge conflict detected",
+  "suggestions": [
+    "Conflicting information or state detected",
+    "Multiple versions or states may exist simultaneously"
+  ],
+  "risk_warnings": [
+    "Conflicting information may lead to inconsistent system state",
+    "Multiple versions or states may require resolution"
+  ],
+  "generated_at": "2025-12-26T20:16:34.746721"
+}

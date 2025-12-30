@@ -1,0 +1,104 @@
+{
+  "input_set_id": "input_set_run_025",
+  "scenarios": [
+    {
+      "scenario_id": "scenario_001",
+      "scenario_name": "Configuration Type Selection",
+      "options": [
+        {
+          "option_id": "option_001",
+          "option_name": "Configuration Type A",
+          "properties": {
+            "feature_support": [
+              "feature_1",
+              "feature_2"
+            ],
+            "resource_requirements": {
+              "cpu": 2,
+              "memory": 4
+            }
+          }
+        },
+        {
+          "option_id": "option_002",
+          "option_name": "Configuration Type B",
+          "properties": {
+            "feature_support": [
+              "feature_2",
+              "feature_3"
+            ],
+            "resource_requirements": {
+              "cpu": 4,
+              "memory": 8
+            }
+          }
+        },
+        {
+          "option_id": "option_003",
+          "option_name": "Configuration Type C",
+          "properties": {
+            "feature_support": [
+              "feature_1",
+              "feature_3"
+            ],
+            "resource_requirements": {
+              "cpu": 1,
+              "memory": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_002",
+      "scenario_name": "Parameter Value Input",
+      "options": [
+        {
+          "option_id": "param_001",
+          "option_name": "Parameter Value Range",
+          "properties": {
+            "min_value": 1,
+            "max_value": 100,
+            "default_value": null
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_003",
+      "scenario_name": "Configuration Scope Definition",
+      "options": [
+        {
+          "option_id": "component_001",
+          "option_name": "Component A",
+          "properties": {
+            "type": "server",
+            "location": "datacenter_1"
+          }
+        },
+        {
+          "option_id": "component_002",
+          "option_name": "Component B",
+          "properties": {
+            "type": "server",
+            "location": "datacenter_2"
+          }
+        },
+        {
+          "option_id": "component_003",
+          "option_name": "Component C",
+          "properties": {
+            "type": "database",
+            "location": "datacenter_1"
+          }
+        }
+      ]
+    }
+  ],
+  "simulation_params": {
+    "session_duration": 100,
+    "turn_count": 100,
+    "random_seed": 42
+  },
+  "generation_timestamp": "2026-01-10T00:00:00Z"
+}

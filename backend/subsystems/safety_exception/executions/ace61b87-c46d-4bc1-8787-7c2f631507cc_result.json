@@ -1,0 +1,22 @@
+{
+  "execution_id": "ace61b87-c46d-4bc1-8787-7c2f631507cc",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "valid": false,
+      "errors": [
+        {
+          "field": "role_id",
+          "code": "EMPTY_VALUE",
+          "message": "role_id must be non-empty (strict mode)"
+        }
+      ],
+      "warnings": [],
+      "normalized": null
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T23:17:04.402634",
+  "duration_ms": 0
+}

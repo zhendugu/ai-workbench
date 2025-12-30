@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Non-Agentic Frontend Prototype</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 20px;
+            background: white;
+            color: black;
+        }
+        .capability-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .capability-item {
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .capability-item button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+        }
+        .capability-details {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .parameter-form {
+            margin: 20px 0;
+        }
+        .parameter-form input {
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #000;
+            font-family: monospace;
+        }
+        .parameter-form button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+        }
+        .result {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capability List</h1>
+    <ul id="capability-list" class="capability-list"></ul>
+    <div id="capability-details" class="capability-details" style="display: none;"></div>
+    <div id="parameter-form" class="parameter-form" style="display: none;"></div>
+    <div id="result" class="result" style="display: none;"></div>
+
+    <script>
+        // Static capability data (in real system, this would come from backend)
+        const capabilities = [
+            { id: 'C-MD-HTML-001', name: 'Markdown to HTML Conversion', description: 'Converts Markdown document to HTML format' },
+            { id: 'C-TEXT-SUM-001', name: 'Text Summarization', description: 'Summarizes text document' },
+            { id: 'C-LANG-TRANS-001', name: 'Language Translation', description: 'Translates text between languages' },
+            { id: 'C-DATA-VAL-001', name: 'Data Validation', description: 'Validates data structure' },
+            { id: 'C-FORMAT-NORM-001', name: 'Format Normalization', description: 'Normalizes data format' }
+        ];
+
+        // Display capabilities in registration order (no sorting, no highlighting)
+        function displayCapabilities() {
+            const list = document.getElementById('capability-list');
+            list.innerHTML = '';
+            capabilities.forEach(capability => {
+                const item = document.createElement('li');
+                item.className = 'capability-item';
+                const button = document.createElement('button');
+                button.textContent = capability.name;
+                button.onclick = () => selectCapability(capability.id);
+                item.appendChild(button);
+                list.appendChild(item);
+            });
+        }
+
+        // Human explicitly selects capability
+        function selectCapability(capabilityId) {
+            const capability = capabilities.find(c => c.id === capabilityId);
+            if (!capability) return;
+
+            // Display capability details (factual only)
+            const detailsDiv = document.getElementById('capability-details');
+            detailsDiv.innerHTML = `
+                <h2>${capability.name}</h2>
+                <p>ID: ${capability.id}</p>
+                <p>Description: ${capability.description}</p>
+            `;
+            detailsDiv.style.display = 'block';
+
+            // Display parameter form (empty, no pre-fill)
+            const formDiv = document.getElementById('parameter-form');
+            formDiv.innerHTML = `
+                <h3>Parameters</h3>
+                <input type="text" id="param-input" placeholder="Enter parameter">
+                <button onclick="executeCapability('${capabilityId}')">Execute</button>
+            `;
+            formDiv.style.display = 'block';
+
+            // Clear previous result
+            document.getElementById('result').style.display = 'none';
+        }
+
+        // Human explicitly executes capability
+        function executeCapability(capabilityId) {
+            const input = document.getElementById('param-input');
+            const parameter = input.value;
+
+            // Simulate backend call (in real system, this would be actual API call)
+            const result = `Execution result for ${capabilityId} with parameter: ${parameter}`;
+
+            // Display result (factual only, no interpretation)
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<h3>Result</h3><p>${result}</p>`;
+            resultDiv.style.display = 'block';
+        }
+
+        // Initialize on page load
+        displayCapabilities();
+    </script>
+</body>
+</html>
+

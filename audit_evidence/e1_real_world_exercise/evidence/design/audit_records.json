@@ -1,0 +1,136 @@
+{
+  "audit_records": [
+    {
+      "event_type": "capability_definition",
+      "event_id": "AUDIT-2025-12-27-001",
+      "timestamp": "2025-12-27T10:00:00Z",
+      "source": "human",
+      "event_record": {
+        "action": "capability_defined",
+        "capability_id": "C-MD-HTML-001",
+        "capability_name": "Markdown to HTML Conversion",
+        "definition_location": "audit_evidence/e1_real_world_exercise/evidence/design/capability_markdown_to_html.json"
+      },
+      "state_snapshot": {
+        "capabilities_count": 1,
+        "capabilities": ["C-MD-HTML-001"]
+      },
+      "temporal_marker": "2025-12-27T10:00:00Z",
+      "source_reference": {
+        "type": "capability_definition",
+        "identifier": "C-MD-HTML-001"
+      },
+      "constitutional_compliance": {
+        "is_passive": true,
+        "is_read_only": true,
+        "does_not_influence_behavior": true,
+        "is_factual_only": true,
+        "no_judgment": true,
+        "no_recommendation": true
+      }
+    },
+    {
+      "event_type": "pattern_instance_creation",
+      "event_id": "AUDIT-2025-12-27-002",
+      "timestamp": "2025-12-27T10:05:00Z",
+      "source": "human",
+      "event_record": {
+        "action": "pattern_instance_created",
+        "pattern_id": "P-MD-CONV-001",
+        "pattern_name": "Markdown Document Conversion Pattern",
+        "instance_location": "audit_evidence/e1_real_world_exercise/evidence/design/pattern_markdown_conversion.json"
+      },
+      "state_snapshot": {
+        "patterns_count": 1,
+        "patterns": ["P-MD-CONV-001"]
+      },
+      "temporal_marker": "2025-12-27T10:05:00Z",
+      "source_reference": {
+        "type": "pattern_instance",
+        "identifier": "P-MD-CONV-001"
+      },
+      "constitutional_compliance": {
+        "is_passive": true,
+        "is_read_only": true,
+        "does_not_influence_behavior": true,
+        "is_factual_only": true,
+        "no_judgment": true,
+        "no_recommendation": true
+      }
+    },
+    {
+      "event_type": "human_selection",
+      "event_id": "AUDIT-2025-12-27-003",
+      "timestamp": "2025-12-27T10:10:00Z",
+      "source": "human",
+      "event_record": {
+        "action": "capability_selected",
+        "capability_id": "C-MD-HTML-001",
+        "selection_method": "explicit_human_action",
+        "selection_location": "human_selection_flow"
+      },
+      "state_snapshot": {
+        "selected_capability": "C-MD-HTML-001",
+        "selection_state": "selected_not_executed"
+      },
+      "temporal_marker": "2025-12-27T10:10:00Z",
+      "source_reference": {
+        "type": "human_selection",
+        "identifier": "SELECTION-2025-12-27-001"
+      },
+      "constitutional_compliance": {
+        "is_passive": true,
+        "is_read_only": true,
+        "does_not_influence_behavior": true,
+        "is_factual_only": true,
+        "no_judgment": true,
+        "no_recommendation": true,
+        "records_selection_only": true,
+        "does_not_trigger_execution": true
+      }
+    },
+    {
+      "event_type": "capability_execution",
+      "event_id": "AUDIT-2025-12-27-004",
+      "timestamp": "2025-12-27T10:15:00Z",
+      "source": "human",
+      "event_record": {
+        "action": "capability_executed",
+        "execution_id": "EXEC-2025-12-27-001",
+        "capability_id": "C-MD-HTML-001",
+        "execution_method": "explicit_human_trigger",
+        "execution_status": "completed",
+        "input_provided_by": "human",
+        "parameters_provided_by": "human"
+      },
+      "state_snapshot": {
+        "execution_id": "EXEC-2025-12-27-001",
+        "capability_id": "C-MD-HTML-001",
+        "execution_status": "completed",
+        "execution_timestamp": "2025-12-27T10:15:00Z"
+      },
+      "temporal_marker": "2025-12-27T10:15:00Z",
+      "source_reference": {
+        "type": "capability_execution",
+        "identifier": "EXEC-2025-12-27-001"
+      },
+      "constitutional_compliance": {
+        "is_passive": true,
+        "is_read_only": true,
+        "does_not_influence_behavior": true,
+        "is_factual_only": true,
+        "no_judgment": true,
+        "no_recommendation": true,
+        "records_execution_only": true,
+        "does_not_trigger_future_execution": true
+      }
+    }
+  ],
+  "audit_metadata": {
+    "total_records": 4,
+    "audit_period": "2025-12-27T10:00:00Z to 2025-12-27T10:15:00Z",
+    "audit_scope": "E1 Real World Development Exercise",
+    "constitutional_compliance_verified": true
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "execution_id": "a0bc9eb0-5adc-4eb9-be92-d859f76d30f3",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "formatted_document": {
+        "document_id": "doc-123",
+        "content": "Test content",
+        "created_at": "2025-12-26T15:30:00.000000",
+        "document_type": "work_state",
+        "source_role": null,
+        "target_role": null,
+        "metadata": null
+      },
+      "format_type": "work_state"
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T21:53:12.150758",
+  "duration_ms": 1
+}

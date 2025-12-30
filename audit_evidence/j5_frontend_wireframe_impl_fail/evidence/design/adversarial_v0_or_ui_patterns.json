@@ -1,0 +1,148 @@
+{
+  "adversarial_v0_or_ui_patterns": [
+    {
+      "id": "AVP-001",
+      "name": "V0 Output with 'Recommended' Section",
+      "description": "V0 wireframe includes a 'Recommended Capabilities' section at the top, with visual emphasis",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might interpret 'most useful' as helpful organization",
+      "why_it_violates": "Creates explicit recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 2 (No Highlighting or Recommendation), DENY-004"
+    },
+    {
+      "id": "AVP-002",
+      "name": "V0 Output with Default Tab Selection",
+      "description": "V0 wireframe organizes content into tabs, with 'Common' tab active by default",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might organize content for better UX",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 18 (No Tab Organization with Default Tab), DENY-032"
+    },
+    {
+      "id": "AVP-003",
+      "name": "V0 Output with 'Recently Used' Panel",
+      "description": "V0 wireframe includes a side panel showing 'Recently Used Capabilities'",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might add helpful shortcuts",
+      "why_it_violates": "Creates factual default preference and compresses decision space",
+      "triggered_boundary": "J2 Constraint 13 (No 'Commonly Used' or 'Recently Used'), DENY-007"
+    },
+    {
+      "id": "AVP-004",
+      "name": "Cursor Implementation with Auto-Complete",
+      "description": "Cursor adds auto-complete to parameter input field based on previous inputs",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Improves input efficiency",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 15 (No Auto-Complete with Suggestions), DENY-026"
+    },
+    {
+      "id": "AVP-005",
+      "name": "Cursor Implementation with Usage-Based Highlighting",
+      "description": "Cursor highlights capabilities used more than 5 times with different color",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Shows which capabilities are most useful",
+      "why_it_violates": "Creates visual emphasis that implies preference",
+      "triggered_boundary": "J2 Constraint 2 (No Highlighting or Recommendation), DENY-008"
+    },
+    {
+      "id": "AVP-006",
+      "name": "Cursor Implementation with State Persistence",
+      "description": "Cursor saves last selected capability to localStorage and restores on page load",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Improves user experience by remembering last selection",
+      "why_it_violates": "Creates state memory and compresses decision space",
+      "triggered_boundary": "J2 Constraint 20 (No State Persistence), DENY-021"
+    },
+    {
+      "id": "AVP-007",
+      "name": "Cursor Implementation with 'Suggested Next Step'",
+      "description": "After execution, Cursor displays 'You might want to try [Capability X]' message",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Guides users through workflows",
+      "why_it_violates": "Creates explicit recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 4 (No Process Guidance), DENY-017"
+    },
+    {
+      "id": "AVP-008",
+      "name": "V0 Output with Wizard Flow Structure",
+      "description": "V0 wireframe structures capability execution as multi-step wizard",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might organize complex flows",
+      "why_it_violates": "Creates process guidance and compresses decision space",
+      "triggered_boundary": "J2 Constraint 4 (No Process Guidance), DENY-028"
+    },
+    {
+      "id": "AVP-009",
+      "name": "Cursor Implementation with Smart Defaults",
+      "description": "Cursor pre-fills parameter field with 'smart' value based on capability type",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Saves user time",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 24 (No Smart Defaults), DENY-003"
+    },
+    {
+      "id": "AVP-010",
+      "name": "V0 Output with Category Organization",
+      "description": "V0 wireframe organizes capabilities into categories, with 'Most Used' category expanded by default",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might organize for better navigation",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 17 (No Category Organization with Defaults), DENY-031"
+    },
+    {
+      "id": "AVP-011",
+      "name": "Cursor Implementation with Usage-Based Reordering",
+      "description": "Cursor reorders capabilities by usage frequency, most used at top",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Shows most useful capabilities first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 3 (No Ordering Implication), DENY-011"
+    },
+    {
+      "id": "AVP-012",
+      "name": "V0 Output with Template Buttons",
+      "description": "V0 wireframe includes pre-configured 'Standard Process' buttons",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might provide helpful shortcuts",
+      "why_it_violates": "Creates factual defaults and workflow semantics",
+      "triggered_boundary": "J2 Constraint 14 (No Templates or Shortcuts), DENY-014"
+    },
+    {
+      "id": "AVP-013",
+      "name": "Cursor Implementation with Filter Presets",
+      "description": "Cursor adds 'Popular Filters' preset buttons for filtering capabilities",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Provides ready-made filter combinations",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 19 (No Filter Presets), DENY-033"
+    },
+    {
+      "id": "AVP-014",
+      "name": "V0 Output with Progressive Disclosure",
+      "description": "V0 wireframe hides some capabilities initially, requires 'Show More' to reveal",
+      "source": "V0 Output",
+      "why_it_looks_reasonable": "V0 might reduce initial complexity",
+      "why_it_violates": "Compresses decision space and creates factual defaults",
+      "triggered_boundary": "J2 Constraint 23 (No Progressive Disclosure), J2 Constraint 12 (No Decision Space Compression)"
+    },
+    {
+      "id": "AVP-015",
+      "name": "Cursor Implementation with Contextual Help",
+      "description": "Cursor adds contextual help that suggests specific actions based on current page",
+      "source": "Cursor Implementation",
+      "why_it_looks_reasonable": "Provides helpful guidance",
+      "why_it_violates": "Creates recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 21 (No Contextual Help with Suggestions), DENY-019"
+    }
+  ],
+  "total_patterns": 15,
+  "all_patterns_structural_violations": true,
+  "all_patterns_non_repairable": true,
+  "all_patterns_seemingly_reasonable": true,
+  "source_breakdown": {
+    "v0_output": 7,
+    "cursor_implementation": 8
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "P-MD-CONV-001",
+  "pattern_name": "Markdown Document Conversion Pattern",
+  "pattern_version": "1.0.0",
+  "created_at": "2025-12-27T10:05:00Z",
+  "created_by": "human",
+  "description": "A descriptive pattern for converting Markdown documents to HTML format",
+  "capability_references": [
+    {
+      "capability_id": "C-MD-HTML-001",
+      "reference_type": "descriptive_reference",
+      "reference_purpose": "This pattern describes a methodology that may use the Markdown to HTML conversion capability",
+      "note": "Reference only, does not imply execution order, dependency, or conditional trigger"
+    }
+  ],
+  "evidence_references": [],
+  "metadata": {
+    "domain": "document_processing",
+    "category": "transformation",
+    "tags": ["markdown", "html", "conversion", "document"]
+  },
+  "constitutional_compliance": {
+    "is_purely_descriptive": true,
+    "no_execution_structure": true,
+    "no_workflow_definition": true,
+    "no_decision_making": true,
+    "no_automation_trigger": true,
+    "no_condition_evaluator": true,
+    "no_success_failure_judge": true,
+    "capability_references_are_reference_only": true,
+    "no_ordering_semantics": true,
+    "no_conditional_semantics": true,
+    "no_evaluation_semantics": true
+  }
+}
+

@@ -1,0 +1,193 @@
+{
+  "description": "Examples of strict human-explicit capability execution",
+  "examples": [
+    {
+      "example_id": "EXEC-001",
+      "title": "Single Capability Execution - Explicit Human Action",
+      "scenario": "Human explicitly selects a capability and provides all parameters",
+      "human_action": {
+        "action_type": "explicit_execute",
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-123",
+          "content": "Example content",
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T10:00:00Z",
+        "human_identifier": "user-001"
+      },
+      "execution_result": {
+        "status": "executed",
+        "result": {
+          "document_id": "doc-123",
+          "stored_at": "2025-12-26T10:00:01Z"
+        }
+      },
+      "compliance_notes": [
+        "All parameters explicitly provided by human",
+        "No automatic parameter completion",
+        "No default values inferred",
+        "Single capability execution only",
+        "No sequencing or chaining"
+      ]
+    },
+    {
+      "example_id": "EXEC-002",
+      "title": "Multiple Capabilities - Separate Explicit Actions",
+      "scenario": "Human executes multiple capabilities, each requiring separate explicit action",
+      "execution_sequence": [
+        {
+          "step": 1,
+          "human_action": {
+            "action_type": "explicit_execute",
+            "capability_id": "C-KM-1",
+            "parameters": {
+              "document_id": "doc-124",
+              "content": "Content A",
+              "metadata": {}
+            },
+            "timestamp": "2025-12-26T10:05:00Z",
+            "human_identifier": "user-001"
+          },
+          "execution_result": {
+            "status": "executed",
+            "result": {
+              "document_id": "doc-124",
+              "stored_at": "2025-12-26T10:05:01Z"
+            }
+          }
+        },
+        {
+          "step": 2,
+          "human_action": {
+            "action_type": "explicit_execute",
+            "capability_id": "C-KM-2",
+            "parameters": {
+              "document_id": "doc-124"
+            },
+            "timestamp": "2025-12-26T10:06:00Z",
+            "human_identifier": "user-001"
+          },
+          "execution_result": {
+            "status": "executed",
+            "result": {
+              "document_id": "doc-124",
+              "content": "Content A",
+              "retrieved_at": "2025-12-26T10:06:01Z"
+            }
+          }
+        }
+      ],
+      "compliance_notes": [
+        "Each capability requires separate explicit human action",
+        "No automatic sequencing",
+        "No chaining between capabilities",
+        "No dependency inference",
+        "Human must explicitly initiate each step"
+      ]
+    },
+    {
+      "example_id": "EXEC-003",
+      "title": "Capability Execution with Explicit Parameter Validation",
+      "scenario": "Human provides all parameters explicitly, system validates but does not infer",
+      "human_action": {
+        "action_type": "explicit_execute",
+        "capability_id": "C-ROLE-1",
+        "parameters": {
+          "role_id": "role-001",
+          "role_name": "Developer",
+          "permissions": ["read", "write"],
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T10:10:00Z",
+        "human_identifier": "user-001"
+      },
+      "execution_result": {
+        "status": "executed",
+        "result": {
+          "role_id": "role-001",
+          "registered_at": "2025-12-26T10:10:01Z"
+        }
+      },
+      "compliance_notes": [
+        "All parameters explicitly provided",
+        "No parameter inference from context",
+        "No default values",
+        "No automatic completion",
+        "Validation is descriptive only, not behavioral"
+      ]
+    },
+    {
+      "example_id": "EXEC-004",
+      "title": "Capability Execution - No Context Inference",
+      "scenario": "Human executes capability without system inferring context or dependencies",
+      "human_action": {
+        "action_type": "explicit_execute",
+        "capability_id": "C-CELL-1",
+        "parameters": {
+          "cell_id": "cell-001",
+          "cell_name": "Example Cell",
+          "roles": ["role-001"],
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T10:15:00Z",
+        "human_identifier": "user-001"
+      },
+      "execution_result": {
+        "status": "executed",
+        "result": {
+          "cell_id": "cell-001",
+          "registered_at": "2025-12-26T10:15:01Z"
+        }
+      },
+      "compliance_notes": [
+        "No context inference",
+        "No dependency checking beyond explicit validation",
+        "No automatic role validation",
+        "No cross-capability coordination",
+        "Single capability execution only"
+      ]
+    },
+    {
+      "example_id": "EXEC-005",
+      "title": "Capability Execution - Explicit Failure Handling",
+      "scenario": "Human executes capability, explicit failure returned without automatic retry or compensation",
+      "human_action": {
+        "action_type": "explicit_execute",
+        "capability_id": "C-KM-1",
+        "parameters": {
+          "document_id": "doc-125",
+          "content": "Content",
+          "metadata": {}
+        },
+        "timestamp": "2025-12-26T10:20:00Z",
+        "human_identifier": "user-001"
+      },
+      "execution_result": {
+        "status": "failed",
+        "error": {
+          "error_code": "STORAGE_ERROR",
+          "error_message": "Storage system unavailable",
+          "timestamp": "2025-12-26T10:20:01Z"
+        }
+      },
+      "compliance_notes": [
+        "Failure returned immediately",
+        "No automatic retry",
+        "No automatic compensation",
+        "No automatic fallback",
+        "Human must explicitly decide next action"
+      ]
+    }
+  ],
+  "compliance_summary": {
+    "selection_execution_separation": "Selection and Execution are strictly separated",
+    "human_explicit_only": "All execution requires explicit human action",
+    "no_automatic_sequencing": "No automatic sequencing or chaining",
+    "no_parameter_inference": "No parameter inference or completion",
+    "no_context_inference": "No context or dependency inference",
+    "single_capability_only": "Each execution is single capability only",
+    "no_workflow_semantics": "No workflow or orchestration semantics"
+  }
+}
+

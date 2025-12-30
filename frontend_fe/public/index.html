@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Workbench - 认知界面</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- 持久信任信号横幅 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 8) -->
+    <div id="trust-banner" class="trust-banner">
+        READ-ONLY VIEW. NO EXECUTION. NO RECOMMENDATIONS. NO AI CALLS.
+    </div>
+
+    <!-- 主导航（顶部固定） -->
+    <nav id="primary-nav" class="primary-nav">
+        <div class="nav-container">
+            <a href="#company" class="nav-link" data-view="company">Company 锚点</a>
+            <a href="#responsibility" class="nav-link" data-view="responsibility">责任结构</a>
+            <a href="#decision-points" class="nav-link" data-view="decision-points">判断点</a>
+        </div>
+    </nav>
+
+    <!-- Where am I / What am I viewing 信号 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.1) -->
+    <div id="location-header" class="location-header">
+        <div class="location-breadcrumb" id="location-breadcrumb">
+            <!-- 动态生成: Company > Layer > Entity Type > Entity ID -->
+        </div>
+        <div class="layer-declaration" id="layer-declaration">
+            <!-- 动态生成: YOU ARE VIEWING: X LAYER (READ-ONLY) -->
+        </div>
+    </div>
+
+    <!-- 主内容区域 -->
+    <main id="main-content" class="main-content">
+        <!-- 认知路径导航 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 5) -->
+        <div id="cognitive-paths" class="cognitive-paths">
+            <div class="cognitive-path-section">
+                <h3>阅读路径</h3>
+                <div class="path-links">
+                    <a href="#" class="path-link" data-path="understand-company">PATH A: 理解公司</a>
+                    <a href="#" class="path-link" data-path="inspect-responsibility">PATH B: 检查责任</a>
+                    <a href="#" class="path-link" data-path="verify-decision">PATH C: 验证决策</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 界面 A：Company 锚点视图 -->
+        <div id="view-company" class="view-container" style="display: none;">
+            <h1>Company 锚点</h1>
+            <!-- 层特定声明 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 4) -->
+            <div class="layer-statement">
+                COMPANY CONTEXT (IDENTITY LAYER). READ-ONLY VIEW. NOTHING IS RUNNING.
+            </div>
+            <!-- 微词汇表 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.2) -->
+            <div class="micro-glossary">
+                <details>
+                    <summary>什么是 Company？</summary>
+                    <p>Company 是语义锚点对象，用于结构性指代。Company 不拥有执行权，不是正在运行的实体，仅用于人类认知与前端导航的锚点。</p>
+                </details>
+            </div>
+            <div id="company-info" class="company-info">
+                <!-- 动态加载 Company 信息 -->
+            </div>
+        </div>
+
+        <!-- 界面 B：Cell 责任结构视图 -->
+        <div id="view-responsibility" class="view-container" style="display: none;">
+            <h1>责任结构</h1>
+            <!-- 层特定声明 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 4) -->
+            <div class="layer-statement">
+                STRUCTURE LAYER. STRUCTURE DECLARATIONS ONLY. NOTHING IS RUNNING.
+            </div>
+            <!-- 微词汇表 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.2) -->
+            <div class="micro-glossary">
+                <details>
+                    <summary>什么是 Cell？</summary>
+                    <p>Cell 是责任声明，不是执行者。Cell 显示责任描述、责任边界说明、存在状态和附属 Role 约束信息。Cell 之间的关系是声明性的，不是执行路径。</p>
+                </details>
+                <details>
+                    <summary>什么是 Role？</summary>
+                    <p>Role 是约束描述，不是实体。Role 作为 Cell 的附属约束信息存在，定义 AI 行为边界。</p>
+                </details>
+            </div>
+            <div id="cell-list" class="cell-list">
+                <!-- 动态加载 Cell 列表 -->
+            </div>
+            <!-- 次级导航：声明性拓扑 -->
+            <div class="secondary-nav">
+                <a href="#topology" class="secondary-nav-link" data-view="topology">[View Workflow] 声明性拓扑</a>
+            </div>
+        </div>
+
+        <!-- 界面 C：声明性拓扑视图 -->
+        <div id="view-topology" class="view-container" style="display: none;">
+            <h1>声明性拓扑</h1>
+            <!-- 层特定声明 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 4) -->
+            <div class="layer-statement">
+                STRUCTURE LAYER. DECLARATIVE RELATIONSHIPS ONLY. NOTHING IS RUNNING.
+            </div>
+            <!-- 微词汇表 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.2) -->
+            <div class="micro-glossary">
+                <details>
+                    <summary>什么是 Workflow？</summary>
+                    <p>Workflow 是声明性拓扑结构，展示节点（Cell）之间的声明性关系类型（依赖/参考）。这是结构声明，不是执行流程。节点关系是语义性的，不是时序性的。</p>
+                </details>
+            </div>
+            <div id="topology-graph" class="topology-graph">
+                <!-- 动态加载拓扑图 -->
+            </div>
+        </div>
+
+        <!-- 界面 F：人类判断点视图 -->
+        <div id="view-decision-points" class="view-container" style="display: none;">
+            <h1>人类判断点</h1>
+            <!-- 层特定声明 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 4) -->
+            <div class="layer-statement">
+                JUDGMENT LAYER. HUMAN DECISION POINTS ONLY. NO DEFAULT SELECTIONS. NO RECOMMENDATIONS.
+            </div>
+            <!-- 微词汇表 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.2) -->
+            <div class="micro-glossary">
+                <details>
+                    <summary>什么是判断点？</summary>
+                    <p>判断点是需要人类承担责任的节点。每个判断点显示标题、描述、当前状态、影响范围说明、可参考证据列表和历史判断记录。判断记录不可修改或删除，后续判断形成新记录。</p>
+                </details>
+            </div>
+            <div id="decision-points-list" class="decision-points-list">
+                <!-- 动态加载判断点列表 -->
+            </div>
+        </div>
+    </main>
+
+    <!-- 界面 E：方法论视角切换（全局切换器） -->
+    <div id="methodology-switcher" class="methodology-switcher">
+        <label for="methodology-select">方法论视角：</label>
+        <select id="methodology-select" class="methodology-select">
+            <!-- 动态加载方法论选项 -->
+        </select>
+    </div>
+
+    <!-- 界面 G：证据回溯视图（嵌入式，模态框） -->
+    <div id="evidence-modal" class="evidence-modal" style="display: none;">
+        <div class="evidence-modal-content">
+            <span class="evidence-modal-close">&times;</span>
+            <div id="evidence-content" class="evidence-content">
+                <!-- 动态加载证据内容 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/company-view.js"></script>
+    <script src="/static/js/cell-view.js"></script>
+    <script src="/static/js/topology-view.js"></script>
+    <script src="/static/js/decision-points-view.js"></script>
+    <script src="/static/js/methodology-view.js"></script>
+    <script src="/static/js/evidence-view.js"></script>
+</body>
+</html>
+

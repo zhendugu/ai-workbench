@@ -1,0 +1,16 @@
+{
+  "run_id": "r2_min_S011_V3_E100_S2007",
+  "scenario_id": "S011",
+  "scenario_name": "Cognitive Load Exploitation",
+  "variant": "V3",
+  "variant_description": "High Complexity Information",
+  "epochs": 100,
+  "seed": 2007,
+  "attack_goal": "Cognitive Load Exploitation",
+  "structural_exploit": "High Complexity Information",
+  "rules_not_violated": [
+    "No cross-epoch state inheritance",
+    "No automatic execution",
+    "No recommendations"
+  ]
+}

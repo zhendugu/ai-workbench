@@ -1,0 +1,144 @@
+{
+  "adversarial_expansion_patterns": [
+    {
+      "id": "AEP-001",
+      "name": "Recently Used Section",
+      "description": "Separate section displaying 'recently used' capabilities, ordered by recency, limited to top 5",
+      "category": "Usage-Based Display",
+      "why_it_looks_reasonable": "Helps users resume previous work quickly",
+      "why_it_violates": "Creates factual default preference and compresses decision space",
+      "triggered_boundary": "J2 Constraint 13 (No 'Commonly Used' or 'Recently Used'), J2 Constraint 5 (No State Memory), DENY-007"
+    },
+    {
+      "id": "AEP-002",
+      "name": "Frequently Used Highlighting",
+      "description": "Visual highlighting of capabilities used more than 10 times, with 'frequently used' badge",
+      "category": "Highlighting / Emphasis",
+      "why_it_looks_reasonable": "Shows users which capabilities are most useful",
+      "why_it_violates": "Creates factual default and visual emphasis that implies preference",
+      "triggered_boundary": "J2 Constraint 2 (No Highlighting or Recommendation), J2 Constraint 13 (No 'Commonly Used' or 'Recently Used'), DENY-008"
+    },
+    {
+      "id": "AEP-003",
+      "name": "Smart Search Ranking",
+      "description": "Search results ranked by relevance score, top 3 results highlighted",
+      "category": "Search / Ranking",
+      "why_it_looks_reasonable": "Shows most relevant results first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 16 (No Search with Ranking), J2 Constraint 2 (No Highlighting or Recommendation), DENY-012"
+    },
+    {
+      "id": "AEP-004",
+      "name": "Default Category Expansion",
+      "description": "Category navigation with 'Most Used' category expanded by default, other categories collapsed",
+      "category": "Category Organization",
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 17 (No Category Organization with Defaults), J2 Constraint 1 (No Default Selection), DENY-031"
+    },
+    {
+      "id": "AEP-005",
+      "name": "Template Workflow Buttons",
+      "description": "Pre-configured buttons labeled 'Standard Process', 'Common Workflow', executing capability combinations",
+      "category": "Templates / Shortcuts",
+      "why_it_looks_reasonable": "Provides ready-made solutions for common tasks",
+      "why_it_violates": "Creates factual defaults and workflow semantics",
+      "triggered_boundary": "J2 Constraint 14 (No Templates or Shortcuts), J2 Constraint 4 (No Process Guidance), DENY-014"
+    },
+    {
+      "id": "AEP-006",
+      "name": "Auto-Complete with History",
+      "description": "Input field auto-completes based on previous submissions, suggestions ranked by frequency",
+      "category": "Auto-Complete / Suggestions",
+      "why_it_looks_reasonable": "Improves input efficiency",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 15 (No Auto-Complete with Suggestions), J2 Constraint 5 (No State Memory), DENY-026"
+    },
+    {
+      "id": "AEP-007",
+      "name": "Suggested Next Step",
+      "description": "After completing an action, UI displays 'Suggested next step' with specific capability highlighted",
+      "category": "Recommended Next Step",
+      "why_it_looks_reasonable": "Guides users through common workflows",
+      "why_it_violates": "Creates explicit recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 4 (No Process Guidance), J2 Constraint 2 (No Highlighting or Recommendation), DENY-017"
+    },
+    {
+      "id": "AEP-008",
+      "name": "Filter State Persistence",
+      "description": "Filter selections remembered and restored on page load, 'Recently Applied Filters' section",
+      "category": "State Memory / Persistence",
+      "why_it_looks_reasonable": "Saves user time by remembering filters",
+      "why_it_violates": "Creates state memory and compresses decision space",
+      "triggered_boundary": "J2 Constraint 20 (No State Persistence), J2 Constraint 5 (No State Memory), DENY-021"
+    },
+    {
+      "id": "AEP-009",
+      "name": "Usage-Based Reordering",
+      "description": "Capabilities reordered by usage frequency, most used at top, order persists across sessions",
+      "category": "Intelligent Sorting / Personalization",
+      "why_it_looks_reasonable": "Shows most useful capabilities first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 3 (No Ordering Implication), J2 Constraint 6 (No Optimization), J2 Constraint 20 (No State Persistence), DENY-011"
+    },
+    {
+      "id": "AEP-010",
+      "name": "Progressive Disclosure with Smart Expansion",
+      "description": "Initial view shows subset, system automatically expands based on user behavior or context",
+      "category": "Progressive Disclosure",
+      "why_it_looks_reasonable": "Reduces initial complexity",
+      "why_it_violates": "Compresses decision space and creates factual defaults",
+      "triggered_boundary": "J2 Constraint 23 (No Progressive Disclosure), J2 Constraint 12 (No Decision Space Compression), DENY-012 (if ranking involved)"
+    },
+    {
+      "id": "AEP-011",
+      "name": "Contextual Help with Action Suggestions",
+      "description": "Help text appears based on context, suggests specific actions, highlights recommended capabilities",
+      "category": "Contextual Help",
+      "why_it_looks_reasonable": "Provides helpful guidance when needed",
+      "why_it_violates": "Creates recommendation and compresses decision space",
+      "triggered_boundary": "J2 Constraint 21 (No Contextual Help with Suggestions), J2 Constraint 2 (No Highlighting or Recommendation), DENY-019"
+    },
+    {
+      "id": "AEP-012",
+      "name": "Wizard Flow with Default Path",
+      "description": "Multi-step wizard where first step has pre-selected option, user can change but default is provided",
+      "category": "Process Guidance / Workflows",
+      "why_it_looks_reasonable": "Helps users get started quickly",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 4 (No Process Guidance), J2 Constraint 1 (No Default Selection), DENY-028"
+    },
+    {
+      "id": "AEP-013",
+      "name": "Popular Filters Preset",
+      "description": "Pre-configured filter combinations labeled 'Popular Filters', based on usage statistics",
+      "category": "Filter Presets",
+      "why_it_looks_reasonable": "Provides ready-made filter combinations",
+      "why_it_violates": "Creates factual defaults and compresses decision space",
+      "triggered_boundary": "J2 Constraint 19 (No Filter Presets), J2 Constraint 14 (No Templates or Shortcuts), DENY-033"
+    },
+    {
+      "id": "AEP-014",
+      "name": "Tab Organization with Default Active Tab",
+      "description": "Content organized into tabs, 'Common' tab active by default, other tabs require explicit switching",
+      "category": "Tab Organization",
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Creates factual default and compresses decision space",
+      "triggered_boundary": "J2 Constraint 18 (No Tab Organization with Default Tab), J2 Constraint 1 (No Default Selection), DENY-032"
+    },
+    {
+      "id": "AEP-015",
+      "name": "Audit-Based Optimization",
+      "description": "UI optimized based on audit logs, capabilities reordered by usage statistics from audit records",
+      "category": "Optimization Based on Audit / Logs",
+      "why_it_looks_reasonable": "Improves UI based on actual usage",
+      "why_it_violates": "Uses audit data for behavior, violates A3 constraints",
+      "triggered_boundary": "J2 Constraint 6 (No Optimization), A3 (Audit/Evidence) constraints, DENY-024"
+    }
+  ],
+  "total_patterns": 15,
+  "all_patterns_structural_violations": true,
+  "all_patterns_non_repairable": true,
+  "all_patterns_seemingly_reasonable": true
+}
+

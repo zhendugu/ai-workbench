@@ -1,0 +1,64 @@
+{
+  "capability_id": "C-FORMAT-NORM-001",
+  "capability_name": "Format Normalization",
+  "capability_version": "1.0.0",
+  "created_at": "2025-12-27T11:45:00Z",
+  "created_by": "human",
+  "element_types": {
+    "capability_identifier": {
+      "unique_id": "C-FORMAT-NORM-001",
+      "human_readable_name": "Format Normalization",
+      "semantic_category": "data_transformation",
+      "descriptive_metadata": {
+        "domain": "data_processing",
+        "type": "transformation"
+      }
+    },
+    "input_specification": {
+      "input_type": "formatted_data",
+      "input_structure": {
+        "format": "various",
+        "encoding": "utf-8",
+        "max_size": "10MB"
+      },
+      "input_validation_rules": {
+        "description": "Input must be in a recognized format (JSON, CSV, XML, etc.)",
+        "required_fields": ["content", "source_format", "target_format"]
+      },
+      "input_metadata": {
+        "accepted_extensions": [".json", ".csv", ".xml", ".yaml"],
+        "content_type": "various"
+      }
+    },
+    "output_specification": {
+      "output_type": "normalized_data",
+      "output_structure": {
+        "format": "specified_by_input",
+        "encoding": "utf-8",
+        "structure": "normalized data in target format"
+      },
+      "output_metadata": {
+        "content_type": "specified_by_input",
+        "format_type": "normalized"
+      }
+    },
+    "semantic_description": {
+      "purpose": "Normalizes data from one format to another",
+      "scope": "Single data structure format conversion",
+      "limitations": "Does not process multiple data structures, does not perform data transformation beyond format conversion",
+      "atomic_nature": "This capability performs a single, atomic format normalization operation",
+      "referability": "This capability can be referenced by Patterns or other descriptive structures"
+    }
+  },
+  "constitutional_compliance": {
+    "is_descriptive": true,
+    "is_atomic": true,
+    "is_referable": true,
+    "no_workflow_semantics": true,
+    "no_execution_coordination": true,
+    "no_judgment_mechanism": true,
+    "no_conditional_logic": true,
+    "no_behavior_trigger": true
+  }
+}
+

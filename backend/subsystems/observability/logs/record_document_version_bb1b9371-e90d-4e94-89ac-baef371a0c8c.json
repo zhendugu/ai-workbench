@@ -1,0 +1,12 @@
+{
+  "log_id": "b9f64cc9-64fc-4f68-8f7c-128526fa3917",
+  "task_id": "record_document_version_bb1b9371-e90d-4e94-89ac-baef371a0c8c",
+  "goal": "Record Document Version (C-KM-5)",
+  "input": "{'document_id': '00000000-0000-0000-0000-000000000000', 'new_version_content_length': 19}",
+  "output": "{'error': 'Document not found: 00000000-0000-0000-0000-000000000000', 'error_type': 'FileNotFoundError', 'error_details': {'document_id': '00000000-0000-0000-0000-000000000000', 'new_version_content_length': 19}}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T17:05:41.313292",
+  "completed_at": "2025-12-26T17:05:41.313293"
+}

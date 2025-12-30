@@ -1,0 +1,14 @@
+{
+  "output_id": "15f5ec5b-2374-4b69-8120-822e4814dcea",
+  "task_id": "test_task_failure_budget",
+  "reason": "Failure budget violation",
+  "suggestions": [
+    "Task execution encountered conditions that prevented completion",
+    "System state or input conditions did not allow successful completion"
+  ],
+  "risk_warnings": [
+    "Task completion failure may indicate underlying system conditions",
+    "System state or configuration may require attention"
+  ],
+  "generated_at": "2025-12-26T20:16:34.746186"
+}

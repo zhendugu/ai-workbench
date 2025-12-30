@@ -1,0 +1,209 @@
+{
+  "audit_records": [
+    {
+      "audit_record_id": "audit-001",
+      "event_type": "pattern_instance_creation",
+      "event_timestamp": "2025-01-15T08:00:00Z",
+      "event_source": "human-creator-001",
+      "event_description": "Pattern Instance pattern-doc-storage-001 created",
+      "state_snapshot": {
+        "pattern_id": "pattern-doc-storage-001",
+        "pattern_name": "Document Storage Pattern",
+        "pattern_version": "1.0.0",
+        "created_at": "2025-01-15T08:00:00Z",
+        "created_by": "human-creator-001"
+      },
+      "temporal_marker": "2025-01-15T08:00:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-creator-001"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 15
+    },
+    {
+      "audit_record_id": "audit-002",
+      "event_type": "pattern_instance_registration",
+      "event_timestamp": "2025-01-15T08:05:00Z",
+      "event_source": "human-registrar-005",
+      "event_description": "Pattern Instance pattern-doc-storage-001 registered to Registry",
+      "state_snapshot": {
+        "registry_entry_id": "reg-entry-005",
+        "pattern_id": "pattern-doc-storage-001",
+        "registered_at": "2025-01-15T08:05:00Z",
+        "registered_by": "human-registrar-005"
+      },
+      "temporal_marker": "2025-01-15T08:05:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-registrar-005"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 12
+    },
+    {
+      "audit_record_id": "audit-003",
+      "event_type": "pattern_instance_creation",
+      "event_timestamp": "2025-03-10T10:00:00Z",
+      "event_source": "human-creator-002",
+      "event_description": "Pattern Instance pattern-doc-retrieval-001 created",
+      "state_snapshot": {
+        "pattern_id": "pattern-doc-retrieval-001",
+        "pattern_name": "Document Retrieval Pattern",
+        "pattern_version": "1.0.0",
+        "created_at": "2025-03-10T10:00:00Z",
+        "created_by": "human-creator-002"
+      },
+      "temporal_marker": "2025-03-10T10:00:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-creator-002"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 22
+    },
+    {
+      "audit_record_id": "audit-004",
+      "event_type": "pattern_instance_registration",
+      "event_timestamp": "2025-03-10T10:05:00Z",
+      "event_source": "human-registrar-004",
+      "event_description": "Pattern Instance pattern-doc-retrieval-001 registered to Registry",
+      "state_snapshot": {
+        "registry_entry_id": "reg-entry-004",
+        "pattern_id": "pattern-doc-retrieval-001",
+        "registered_at": "2025-03-10T10:05:00Z",
+        "registered_by": "human-registrar-004"
+      },
+      "temporal_marker": "2025-03-10T10:05:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-registrar-004"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 18
+    },
+    {
+      "audit_record_id": "audit-005",
+      "event_type": "pattern_instance_creation",
+      "event_timestamp": "2025-04-20T11:00:00Z",
+      "event_source": "human-creator-003",
+      "event_description": "Pattern Instance pattern-access-control-001 created",
+      "state_snapshot": {
+        "pattern_id": "pattern-access-control-001",
+        "pattern_name": "Access Control Pattern",
+        "pattern_version": "1.0.0",
+        "created_at": "2025-04-20T11:00:00Z",
+        "created_by": "human-creator-003"
+      },
+      "temporal_marker": "2025-04-20T11:00:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-creator-003"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 8
+    },
+    {
+      "audit_record_id": "audit-006",
+      "event_type": "pattern_instance_registration",
+      "event_timestamp": "2025-04-20T11:05:00Z",
+      "event_source": "human-registrar-001",
+      "event_description": "Pattern Instance pattern-access-control-001 registered to Registry",
+      "state_snapshot": {
+        "registry_entry_id": "reg-entry-001",
+        "pattern_id": "pattern-access-control-001",
+        "registered_at": "2025-04-20T11:05:00Z",
+        "registered_by": "human-registrar-001"
+      },
+      "temporal_marker": "2025-04-20T11:05:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-registrar-001"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 6
+    },
+    {
+      "audit_record_id": "audit-007",
+      "event_type": "pattern_instance_creation",
+      "event_timestamp": "2025-05-05T12:00:00Z",
+      "event_source": "human-creator-004",
+      "event_description": "Pattern Instance pattern-versioning-001 created",
+      "state_snapshot": {
+        "pattern_id": "pattern-versioning-001",
+        "pattern_name": "Versioning Pattern",
+        "pattern_version": "1.0.0",
+        "created_at": "2025-05-05T12:00:00Z",
+        "created_by": "human-creator-004"
+      },
+      "temporal_marker": "2025-05-05T12:00:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-creator-004"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 14
+    },
+    {
+      "audit_record_id": "audit-008",
+      "event_type": "pattern_instance_registration",
+      "event_timestamp": "2025-05-05T12:05:00Z",
+      "event_source": "human-registrar-008",
+      "event_description": "Pattern Instance pattern-versioning-001 registered to Registry",
+      "state_snapshot": {
+        "registry_entry_id": "reg-entry-008",
+        "pattern_id": "pattern-versioning-001",
+        "registered_at": "2025-05-05T12:05:00Z",
+        "registered_by": "human-registrar-008"
+      },
+      "temporal_marker": "2025-05-05T12:05:00Z",
+      "source_reference": {
+        "source_type": "human",
+        "source_identifier": "human-registrar-008"
+      },
+      "metadata": {
+        "event_category": "pattern_lifecycle",
+        "event_domain": "pattern_registry"
+      },
+      "reference_count": 11
+    }
+  ],
+  "audit_metadata": {
+    "total_records": 8,
+    "display_rules": {
+      "ordering": "reference_count_desc",
+      "ordering_description": "Records are ordered by reference_count in descending order. Records with higher reference count appear first, using audit data as a proxy for popularity or quality.",
+      "non_preferential": false,
+      "truncation": {
+        "forbidden": false,
+        "description": "Truncation is allowed. Recent activity panel may be limited to top N records."
+      }
+    },
+    "behavior_influence": {
+      "forbidden": false,
+      "description": "Audit records may influence behavior, selection, or decision-making through ordering and reference count usage."
+    }
+  }
+}
+

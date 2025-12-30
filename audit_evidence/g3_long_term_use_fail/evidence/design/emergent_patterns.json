@@ -1,0 +1,168 @@
+{
+  "emergent_patterns": [
+    {
+      "id": "EP-001",
+      "name": "Natural Default Path Formation",
+      "description": "After 30 days, system naturally defaults to showing 'most viewed' capabilities first, based on accumulated usage statistics",
+      "how_it_emerges": "Usage statistics accumulate over 30 days. System naturally starts ordering by view count without explicit design decision",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows what's actually used most",
+      "why_it_violates": "Creates implicit ordering preference and recommendation"
+    },
+    {
+      "id": "EP-002",
+      "name": "Implicit 'Frequently Used' Category",
+      "description": "System naturally forms a 'Frequently Used' category after tracking usage for 30 days, displaying capabilities viewed more than 10 times",
+      "how_it_emerges": "Usage tracking accumulates. System naturally groups capabilities by frequency without explicit category creation",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Organizes capabilities by actual usage",
+      "why_it_violates": "Creates implicit recommendation through 'frequently used' grouping"
+    },
+    {
+      "id": "EP-003",
+      "name": "Audit-Based Implicit Highlighting",
+      "description": "System naturally highlights capabilities that appear in audit logs more than 20 times, based on audit record analysis",
+      "how_it_emerges": "Audit records accumulate. System naturally uses audit data to determine highlighting without explicit design",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY, IMMUTABLE_DESIGN_CONSTRAINTS",
+      "why_it_looks_reasonable": "Highlights what's actually being used",
+      "why_it_violates": "Uses audit data to influence behavior (A3 violation) and creates implicit recommendation"
+    },
+    {
+      "id": "EP-004",
+      "name": "Natural 'Last Used' Default",
+      "description": "System naturally defaults to showing the last viewed capability when viewer reopens, based on session history",
+      "how_it_emerges": "Session history accumulates. System naturally remembers last state without explicit memory feature",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous session",
+      "why_it_violates": "Default selection and state persistence"
+    },
+    {
+      "id": "EP-005",
+      "name": "Usage-Based Factual Workflow",
+      "description": "System naturally forms a workflow pattern from repeated operation sequences (e.g., 'most users view X then Y'), creating implicit workflow",
+      "how_it_emerges": "Operation sequences accumulate. System naturally identifies common patterns and suggests them",
+      "violation_type": "workflow",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY, IMMUTABLE_DESIGN_CONSTRAINTS",
+      "why_it_looks_reasonable": "Shows common usage patterns",
+      "why_it_violates": "Creates workflow semantics and implicit recommendation"
+    },
+    {
+      "id": "EP-006",
+      "name": "Scale-Based Decision Compression",
+      "description": "After 30 days with 45 capabilities, system naturally shows only 'top 10' by default to reduce information overload",
+      "how_it_emerges": "Scale increases. System naturally truncates list to 'manageable size' without explicit truncation design",
+      "violation_type": "decision_space_compression",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Reduces information overload at scale",
+      "why_it_violates": "Hides options by default, compresses decision space"
+    },
+    {
+      "id": "EP-007",
+      "name": "Time-Based Preference Inference",
+      "description": "System naturally infers user preferences from 30 days of usage patterns, pre-selecting capabilities based on time-of-day patterns",
+      "how_it_emerges": "Time-based patterns accumulate. System naturally infers 'user prefers X in morning, Y in afternoon'",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Personalized based on actual usage patterns",
+      "why_it_violates": "Default selection and preference inference"
+    },
+    {
+      "id": "EP-008",
+      "name": "Natural 'Common Path' Shortcut",
+      "description": "System naturally creates shortcuts for operation paths used by more than 50% of users, based on path frequency analysis",
+      "how_it_emerges": "Path frequency accumulates. System naturally identifies 'common paths' and creates shortcuts",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps majority of users",
+      "why_it_violates": "Creates implicit recommendation through 'common path'"
+    },
+    {
+      "id": "EP-009",
+      "name": "Audit-Derived 'Popular' Indicator",
+      "description": "System naturally adds 'Popular' badge to capabilities appearing in more than 30 audit records, based on audit analysis",
+      "how_it_emerges": "Audit records accumulate. System naturally uses audit count to determine 'popularity' without explicit popularity design",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY, IMMUTABLE_DESIGN_CONSTRAINTS",
+      "why_it_looks_reasonable": "Shows what's actually popular",
+      "why_it_violates": "Uses audit data to influence behavior (A3 violation) and creates implicit recommendation"
+    },
+    {
+      "id": "EP-010",
+      "name": "Natural Filter Persistence",
+      "description": "System naturally remembers and reapplies filters used in more than 5 sessions, based on filter usage frequency",
+      "how_it_emerges": "Filter usage accumulates. System naturally remembers 'commonly used filters' without explicit persistence design",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient for users who use same filters",
+      "why_it_violates": "State persistence and implicit preference"
+    },
+    {
+      "id": "EP-011",
+      "name": "Implicit 'Recommended' Section from Usage",
+      "description": "System naturally forms a 'Recommended' section containing capabilities viewed by more than 3 users, based on cross-user usage analysis",
+      "how_it_emerges": "Cross-user usage patterns accumulate. System naturally identifies 'recommended' capabilities without explicit recommendation design",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows capabilities used by multiple users",
+      "why_it_violates": "Explicit 'recommended' language and implicit recommendation"
+    },
+    {
+      "id": "EP-012",
+      "name": "Natural 'Continue' Feature from Session History",
+      "description": "System naturally provides 'Continue from last session' option based on accumulated session history",
+      "how_it_emerges": "Session history accumulates. System naturally offers 'continue' without explicit continue feature design",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "State persistence and implicit preference"
+    },
+    {
+      "id": "EP-013",
+      "name": "Usage Frequency-Based Visual Ranking",
+      "description": "System naturally displays capabilities with visual ranking indicators (1st, 2nd, 3rd) based on usage frequency after 30 days",
+      "how_it_emerges": "Usage frequency accumulates. System naturally ranks capabilities without explicit ranking design",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows relative usage frequency",
+      "why_it_violates": "Creates ordering preference and implicit ranking"
+    },
+    {
+      "id": "EP-014",
+      "name": "Natural 'Trending' Detection",
+      "description": "System naturally identifies 'trending' capabilities (increasing usage over time) and highlights them, based on time-series analysis",
+      "how_it_emerges": "Time-series usage data accumulates. System naturally detects trends without explicit trending feature",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows what's currently popular",
+      "why_it_violates": "Creates implicit recommendation through trending indicator"
+    },
+    {
+      "id": "EP-015",
+      "name": "Audit-Derived 'Best Practice' Workflow",
+      "description": "System naturally forms 'best practice' workflow from audit records showing successful operation sequences, creating implicit workflow",
+      "how_it_emerges": "Successful operation sequences accumulate in audit. System naturally identifies 'best practices' without explicit workflow design",
+      "violation_type": "workflow",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY, IMMUTABLE_DESIGN_CONSTRAINTS",
+      "why_it_looks_reasonable": "Shows proven successful patterns",
+      "why_it_violates": "Uses audit data to influence behavior (A3 violation) and creates workflow semantics"
+    }
+  ],
+  "total_patterns": 15,
+  "violation_categories": {
+    "ordering_preference": 2,
+    "recommendation": 4,
+    "highlighting": 3,
+    "default_selection": 2,
+    "workflow": 2,
+    "decision_space_compression": 1,
+    "state_persistence": 2
+  },
+  "all_patterns_emergent": true,
+  "all_patterns_non_repairable": true,
+  "all_patterns_natural": true
+}
+

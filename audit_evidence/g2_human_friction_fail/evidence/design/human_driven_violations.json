@@ -1,0 +1,165 @@
+{
+  "human_driven_violations": [
+    {
+      "id": "HDV-001",
+      "name": "Auto-Remember Last Selection",
+      "description": "System automatically remembers and highlights the last selected Capability when viewer reopens",
+      "human_request": "\"能不能记住我上次选的\" (Can you remember what I selected last time?)",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "Persists state across sessions, creates implicit preference"
+    },
+    {
+      "id": "HDV-002",
+      "name": "Default Expand Frequently Viewed",
+      "description": "System automatically expands a 'Frequently Viewed' section on viewer open",
+      "human_request": "\"打开时默认展开我常看的\" (Default expand what I often view when opening)",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Quick access to commonly used items",
+      "why_it_violates": "Default selection and implicit recommendation through 'frequently viewed'"
+    },
+    {
+      "id": "HDV-003",
+      "name": "Recently Used Panel",
+      "description": "System displays a 'Recently Used' panel showing last 5 viewed Capabilities",
+      "human_request": "\"能不能显示最近用的\" (Can you show recently used?)",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient access to recent items",
+      "why_it_violates": "Creates implicit recommendation through 'recently used' ordering"
+    },
+    {
+      "id": "HDV-004",
+      "name": "Quick Access Shortcuts",
+      "description": "System provides 'Quick Access' shortcuts for Capabilities used more than 3 times",
+      "human_request": "\"能不能有快速入口\" (Can you have quick access?)",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Saves time for frequently used items",
+      "why_it_violates": "Creates implicit recommendation through usage-based shortcuts"
+    },
+    {
+      "id": "HDV-005",
+      "name": "You May Want Section",
+      "description": "System displays a 'You May Want' section with Capabilities similar to recently viewed",
+      "human_request": "\"能不能推荐类似的\" (Can you recommend similar ones?)",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps discover related capabilities",
+      "why_it_violates": "Explicit recommendation through 'you may want' language"
+    },
+    {
+      "id": "HDV-006",
+      "name": "Continue Last Operation",
+      "description": "System provides a 'Continue Last Operation' button that restores previous viewer state",
+      "human_request": "\"能不能继续上次操作\" (Can you continue last operation?)",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "Persists state across sessions, creates implicit preference"
+    },
+    {
+      "id": "HDV-007",
+      "name": "Auto-Apply Last Filter",
+      "description": "System automatically reapplies the last used filter when viewer opens",
+      "human_request": "\"能不能记住我的过滤条件\" (Can you remember my filter conditions?)",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous filtering",
+      "why_it_violates": "Default selection and state persistence"
+    },
+    {
+      "id": "HDV-008",
+      "name": "Smart Search Suggestions",
+      "description": "System provides search suggestions based on previous search queries",
+      "human_request": "\"能不能记住我的搜索\" (Can you remember my searches?)",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps complete search queries faster",
+      "why_it_violates": "Creates implicit recommendation through search suggestions"
+    },
+    {
+      "id": "HDV-009",
+      "name": "Favorites System",
+      "description": "System allows humans to mark Capabilities as 'Favorites' and displays them at top",
+      "human_request": "\"能不能收藏常用的\" (Can you favorite frequently used ones?)",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Quick access to preferred items",
+      "why_it_violates": "Creates ordering preference and implicit recommendation"
+    },
+    {
+      "id": "HDV-010",
+      "name": "Auto-Highlight Based on Usage",
+      "description": "System automatically highlights Capabilities used more than 5 times",
+      "human_request": "\"能不能高亮我常用的\" (Can you highlight what I often use?)",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Visual indication of frequently used items",
+      "why_it_violates": "Creates implicit recommendation through highlighting"
+    },
+    {
+      "id": "HDV-011",
+      "name": "Persistent Viewer Window",
+      "description": "System keeps viewer window open in background instead of closing",
+      "human_request": "\"能不能保持打开\" (Can you keep it open?)",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Avoids repeated opening and closing",
+      "why_it_violates": "Persists state, creates implicit preference"
+    },
+    {
+      "id": "HDV-012",
+      "name": "Remember Scroll Position",
+      "description": "System remembers and restores scroll position when returning to list",
+      "human_request": "\"能不能记住滚动位置\" (Can you remember scroll position?)",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of browsing",
+      "why_it_violates": "Persists state, creates implicit preference"
+    },
+    {
+      "id": "HDV-013",
+      "name": "Default View Based on History",
+      "description": "System defaults to showing view type most frequently used by human",
+      "human_request": "\"能不能默认显示我常用的视图\" (Can you default to my frequently used view?)",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Personalized default based on usage",
+      "why_it_violates": "Default selection and usage-based inference"
+    },
+    {
+      "id": "HDV-014",
+      "name": "Auto-Complete Search from History",
+      "description": "System provides auto-complete suggestions for search based on previous queries",
+      "human_request": "\"能不能自动补全我的搜索\" (Can you auto-complete my searches?)",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Faster search query entry",
+      "why_it_violates": "Creates implicit recommendation through search suggestions"
+    },
+    {
+      "id": "HDV-015",
+      "name": "Usage-Based Ordering",
+      "description": "System automatically orders Capabilities by usage frequency (most used first)",
+      "human_request": "\"能不能按使用频率排序\" (Can you sort by usage frequency?)",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows most relevant items first",
+      "why_it_violates": "Creates ordering preference and implicit recommendation"
+    }
+  ],
+  "total_violations": 15,
+  "violation_categories": {
+    "state_persistence": 5,
+    "default_selection": 3,
+    "recommendation": 6,
+    "ordering_preference": 2,
+    "highlighting": 1
+  },
+  "all_violations_structural": true,
+  "all_violations_non_repairable": true
+}
+

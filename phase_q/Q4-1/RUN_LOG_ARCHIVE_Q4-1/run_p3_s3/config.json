@@ -1,0 +1,26 @@
+{
+  "run_id": "run_p3_s3",
+  "profile": "P3",
+  "scenario": "Scenario_3",
+  "seed": 792,
+  "epochs": 1000,
+  "concurrency": {
+    "threads": 8,
+    "coroutines": 16,
+    "tasks": 32
+  },
+  "fault_injection": {
+    "timeout_prob": 0.15,
+    "exception_prob": 0.1,
+    "cancellation_prob": 0.05,
+    "interruption_prob": 0.02,
+    "partial_write_prob": 0.02
+  },
+  "cache_pool": {
+    "enabled": false,
+    "max_size": 100
+  },
+  "observer": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "execution_id": "ace61b87-c46d-4bc1-8787-7c2f631507cc",
+  "action_identifier": "validate_role_definition",
+  "target_subsystem": "role_management",
+  "action_parameters": {
+    "role_definition": {
+      "role_id": "",
+      "purpose": "Test purpose",
+      "inputs": [
+        "input1"
+      ],
+      "outputs": [
+        "output1"
+      ],
+      "boundaries": [
+        "boundary1"
+      ]
+    },
+    "strict": true
+  },
+  "requested_at": "2025-12-26T23:17:04.402544",
+  "requested_by": "test_user"
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "run_p5_s1",
+  "profile": "P5",
+  "scenario": "Long_Run_P3",
+  "seed": 1338,
+  "epochs": 10000,
+  "concurrency": {
+    "threads": 8,
+    "coroutines": 16,
+    "tasks": 32
+  },
+  "fault_injection": {
+    "timeout_prob": 0.15,
+    "exception_prob": 0.1,
+    "cancellation_prob": 0.0,
+    "interruption_prob": 0.0,
+    "partial_write_prob": 0.0
+  },
+  "cache_pool": {
+    "enabled": false,
+    "max_size": 100
+  },
+  "observer": {
+    "enabled": true
+  }
+}

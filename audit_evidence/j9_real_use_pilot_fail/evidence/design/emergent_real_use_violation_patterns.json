@@ -1,0 +1,391 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-J9-001",
+      "name": "User Complaint-Driven Automatic Retry",
+      "description": "System operator adds automatic retry after user complains about 'having to click retry every time'",
+      "typical_implementation": [
+        "Add automatic retry on 500 errors (3 attempts)",
+        "Add 'Retrying...' message with auto-retry",
+        "Implement silent retry in background",
+        "Add retry button that auto-triggers"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J8 C-2: MUST NOT automatic retry",
+        "J9 C-2: MUST NOT introduce convenience mechanisms"
+      ]
+    },
+    {
+      "id": "ADV-J9-002",
+      "name": "Friction-Driven Caching",
+      "description": "System operator adds caching after user complains about 'slow loading every time'",
+      "typical_implementation": [
+        "Cache capability list in localStorage",
+        "Use cached data when backend slow",
+        "Cache 'last known good' state",
+        "Memory cache of successful responses"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 20: No State Persistence",
+        "J8 C-2: MUST NOT introduce any frontend cache"
+      ]
+    },
+    {
+      "id": "ADV-J9-003",
+      "name": "Error Frequency-Driven Fallback",
+      "description": "System operator adds fallback to mock data after frequent backend errors",
+      "typical_implementation": [
+        "Fallback to mock data on 500 errors",
+        "Use cached data when backend unavailable",
+        "Display 'last known good' data on timeout",
+        "Silent fallback without user notification"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J8 C-2: MUST NOT automatic fallback to mock/cached/last-known-good"
+      ]
+    },
+    {
+      "id": "ADV-J9-004",
+      "name": "User Confusion-Driven Guidance",
+      "description": "System operator adds 'helpful' guidance after user asks 'what should I do next?'",
+      "typical_implementation": [
+        "Add 'Next step' suggestions after execution",
+        "Display 'Try this capability next' hints",
+        "Show 'Common workflows' examples",
+        "Add 'Getting started' guide"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J9 C-2: MUST NOT introduce any help-style guidance"
+      ]
+    },
+    {
+      "id": "ADV-J9-005",
+      "name": "Repetitive Task-Driven Templates",
+      "description": "System operator creates templates after user repeatedly uses same capability with same parameters",
+      "typical_implementation": [
+        "Create 'template' button for repeated parameters",
+        "Save 'common parameter sets'",
+        "Pre-fill form with 'last used' parameters",
+        "Create 'quick actions' for frequent tasks"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 1: No Default Selection",
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 14: No Templates or Shortcuts"
+      ]
+    },
+    {
+      "id": "ADV-J9-006",
+      "name": "Usage Frequency-Driven Highlighting",
+      "description": "System operator highlights frequently used capabilities after observing usage patterns",
+      "typical_implementation": [
+        "Highlight capabilities used > 5 times",
+        "Add 'Popular' badge to frequently used items",
+        "Move frequently used items to top",
+        "Create 'Favorites' section"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 2: No Highlighting or Recommendation",
+        "J2 Constraint 13: No 'Commonly Used' or 'Recently Used'"
+      ]
+    },
+    {
+      "id": "ADV-J9-007",
+      "name": "User Preference-Driven Default Selection",
+      "description": "System operator pre-selects 'most used' capability after user always starts with same one",
+      "typical_implementation": [
+        "Pre-select capability used most frequently",
+        "Auto-select 'last used' capability",
+        "Pre-fill with 'most common' parameters",
+        "Default to 'user's favorite' capability"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 1: No Default Selection",
+        "J2 Constraint 5: No State Memory"
+      ]
+    },
+    {
+      "id": "ADV-J9-008",
+      "name": "Error Pattern-Driven Smart Error Handling",
+      "description": "System operator adds 'smart' error handling after observing error patterns",
+      "typical_implementation": [
+        "Auto-retry on 500 errors (but not 404)",
+        "Suggest 'check connection' on timeout",
+        "Display 'server is down, try later' on 503",
+        "Categorize errors and suggest fixes"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 2: Error Type Priority Inference",
+        "J7 Risk 8: Error-to-Suggestion Conversion"
+      ]
+    },
+    {
+      "id": "ADV-J9-009",
+      "name": "Workflow Pattern-Driven Process Creation",
+      "description": "System operator creates 'workflow' after user repeatedly uses same sequence of capabilities",
+      "typical_implementation": [
+        "Create 'workflow' from repeated sequence",
+        "Suggest 'complete workflow' option",
+        "Auto-advance to next capability in sequence",
+        "Create 'multi-step' execution"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J9 C-2: MUST NOT create workflows from usage patterns"
+      ]
+    },
+    {
+      "id": "ADV-J9-010",
+      "name": "Empty State Complaint-Driven Suggestions",
+      "description": "System operator adds suggestions in empty state after user asks 'what should I try?'",
+      "typical_implementation": [
+        "Display 'No results. Try searching for X'",
+        "Show 'Popular searches' in empty state",
+        "Suggest 'Common capabilities' when empty",
+        "Display 'Getting started' guide in empty state"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 3: Empty Result Interpretation"
+      ]
+    },
+    {
+      "id": "ADV-J9-011",
+      "name": "Search Confusion-Driven Auto-Complete",
+      "description": "System operator adds auto-complete after user complains about 'typing the same thing repeatedly'",
+      "typical_implementation": [
+        "Auto-complete search based on history",
+        "Suggest search terms as user types",
+        "Pre-fill search with 'common queries'",
+        "Show 'recent searches' dropdown"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 15: No Auto-Complete with Suggestions"
+      ]
+    },
+    {
+      "id": "ADV-J9-012",
+      "name": "Navigation Friction-Driven Shortcuts",
+      "description": "System operator creates shortcuts after user complains about 'too many clicks'",
+      "typical_implementation": [
+        "Create 'quick access' panel for frequent capabilities",
+        "Add 'shortcut' buttons for common tasks",
+        "Create 'one-click' execution for repeated tasks",
+        "Add 'favorites' bar for quick access"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 14: No Templates or Shortcuts",
+        "J9 C-2: MUST NOT introduce shortcuts for convenience"
+      ]
+    },
+    {
+      "id": "ADV-J9-013",
+      "name": "Parameter Repetition-Driven Pre-Fill",
+      "description": "System operator pre-fills parameters after user repeatedly enters same values",
+      "typical_implementation": [
+        "Pre-fill with 'last used' parameters",
+        "Remember and restore parameter values",
+        "Create 'parameter templates' from history",
+        "Auto-complete parameters based on past entries"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 1: No Default Selection",
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 24: No Smart Defaults"
+      ]
+    },
+    {
+      "id": "ADV-J9-014",
+      "name": "Error Rate-Driven Optimization",
+      "description": "System operator optimizes behavior based on error rate to 'improve user experience'",
+      "typical_implementation": [
+        "Reduce request frequency when error rate high",
+        "Switch to cached data when errors > 50%",
+        "Adjust timeout based on error patterns",
+        "Optimize UI based on failure rate"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 6: No Optimization",
+        "J2 Constraint 7: No Learning"
+      ]
+    },
+    {
+      "id": "ADV-J9-015",
+      "name": "Usage Pattern-Driven Sorting",
+      "description": "System operator sorts capabilities by usage frequency after observing patterns",
+      "typical_implementation": [
+        "Sort capabilities by usage count",
+        "Move 'most used' to top",
+        "Create 'Popular' section at top",
+        "Order by 'recent usage'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 3: No Ordering Implication",
+        "J2 Constraint 13: No 'Commonly Used' or 'Recently Used'"
+      ]
+    },
+    {
+      "id": "ADV-J9-016",
+      "name": "User Confusion-Driven Default Messages",
+      "description": "System operator adds 'helpful' default messages after user asks 'what does this mean?'",
+      "typical_implementation": [
+        "Add 'No results found. Try different keywords.'",
+        "Display 'Empty list. Check back later or refresh.'",
+        "Show 'Error occurred. Please try again.'",
+        "Add 'Timeout. Check your connection and retry.'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J7 Risk 3: Empty Result Interpretation",
+        "J7 Risk 8: Error-to-Suggestion Conversion"
+      ]
+    },
+    {
+      "id": "ADV-J9-017",
+      "name": "Session Continuity-Driven State Restoration",
+      "description": "System operator restores previous session state after user complains about 'losing my place'",
+      "typical_implementation": [
+        "Remember last viewed page",
+        "Restore last search query",
+        "Remember last selected capability",
+        "Restore pagination state"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 20: No State Persistence"
+      ]
+    },
+    {
+      "id": "ADV-J9-018",
+      "name": "Task Efficiency-Driven Workflow Automation",
+      "description": "System operator automates workflow after user complains about 'doing the same steps every time'",
+      "typical_implementation": [
+        "Auto-execute next capability in sequence",
+        "Create 'batch execution' for multiple capabilities",
+        "Auto-advance through 'common workflow'",
+        "Suggest 'automated workflow' option"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J9 C-2: MUST NOT create workflows from usage patterns"
+      ]
+    },
+    {
+      "id": "ADV-J9-019",
+      "name": "User Feedback-Driven Recommendation System",
+      "description": "System operator adds recommendation system after user asks 'which capability should I use?'",
+      "typical_implementation": [
+        "Recommend capabilities based on usage",
+        "Suggest 'best capability for your task'",
+        "Display 'Recommended for you' section",
+        "Show 'Popular choices' based on frequency"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 2: No Highlighting or Recommendation",
+        "J2 Constraint 6: No Optimization",
+        "J2 Constraint 7: No Learning"
+      ]
+    },
+    {
+      "id": "ADV-J9-020",
+      "name": "Error Recovery-Driven Smart Retry",
+      "description": "System operator adds 'smart retry' after user complains about 'errors happening too often'",
+      "typical_implementation": [
+        "Auto-retry with exponential backoff",
+        "Retry only on 'recoverable' errors",
+        "Smart retry that learns from patterns",
+        "Context-aware retry based on error type"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 7: No Learning",
+        "J8 C-2: MUST NOT automatic retry"
+      ]
+    },
+    {
+      "id": "ADV-J9-021",
+      "name": "User Efficiency-Driven Quick Actions",
+      "description": "System operator creates 'quick actions' after user complains about 'too many steps'",
+      "typical_implementation": [
+        "Create 'one-click' execution for common tasks",
+        "Add 'quick access' buttons for frequent actions",
+        "Create 'shortcut keys' for power users",
+        "Add 'recent actions' quick menu"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 14: No Templates or Shortcuts",
+        "J9 C-2: MUST NOT introduce shortcuts for convenience"
+      ]
+    },
+    {
+      "id": "ADV-J9-022",
+      "name": "User Confusion-Driven Contextual Help",
+      "description": "System operator adds contextual help after user repeatedly asks 'how do I use this?'",
+      "typical_implementation": [
+        "Show 'helpful tips' based on context",
+        "Display 'suggested actions' in help",
+        "Add 'try this' suggestions in help text",
+        "Create contextual help that highlights capabilities"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 21: No Contextual Help with Suggestions",
+        "J9 C-2: MUST NOT introduce help-style guidance"
+      ]
+    },
+    {
+      "id": "ADV-J9-023",
+      "name": "Performance Complaint-Driven Caching Strategy",
+      "description": "System operator implements aggressive caching after user complains about 'slow performance'",
+      "typical_implementation": [
+        "Cache all successful responses",
+        "Use cached data when backend slow",
+        "Implement 'smart cache' that learns patterns",
+        "Cache 'popular' data proactively"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 6: No Optimization",
+        "J8 C-2: MUST NOT introduce any frontend cache"
+      ]
+    },
+    {
+      "id": "ADV-J9-024",
+      "name": "User Workflow-Driven Process Templates",
+      "description": "System operator creates process templates after user repeatedly follows same sequence",
+      "typical_implementation": [
+        "Create 'workflow template' from sequence",
+        "Save 'common workflow' for reuse",
+        "Suggest 'complete workflow' option",
+        "Auto-generate templates from usage patterns"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J2 Constraint 14: No Templates or Shortcuts",
+        "J9 C-2: MUST NOT create workflows from usage patterns"
+      ]
+    },
+    {
+      "id": "ADV-J9-025",
+      "name": "User Preference-Driven Personalization",
+      "description": "System operator adds personalization after user asks 'can it remember my preferences?'",
+      "typical_implementation": [
+        "Remember user's preferred capabilities",
+        "Personalize display based on usage",
+        "Adapt UI based on user behavior",
+        "Create 'personal dashboard' with favorites"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 6: No Optimization",
+        "J2 Constraint 7: No Learning"
+      ]
+    }
+  ]
+}
+

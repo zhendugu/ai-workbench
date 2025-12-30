@@ -1,0 +1,233 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-J8-001",
+      "name": "Automatic Retry on High Latency",
+      "description": "Frontend automatically retries requests that take too long, hiding latency issues",
+      "typical_implementation": [
+        "Auto-retry after 5 seconds if no response",
+        "Exponential backoff retry on timeout",
+        "Silent retry without user notification",
+        "Retry button pre-populated with 'Try again'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J8 C-2: MUST NOT automatic retry"
+      ]
+    },
+    {
+      "id": "ADV-J8-002",
+      "name": "Caching Fast Responses Under Pressure",
+      "description": "Frontend caches faster responses to improve perceived performance under pressure",
+      "typical_implementation": [
+        "Cache responses that arrive quickly (< 1s)",
+        "Use cached data when backend is slow",
+        "Memory cache of successful responses",
+        "localStorage cache of capability lists"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 20: No State Persistence",
+        "J8 C-2: MUST NOT introduce any frontend cache"
+      ]
+    },
+    {
+      "id": "ADV-J8-003",
+      "name": "Fallback to Mock/Cached Data on Error",
+      "description": "Frontend falls back to mock or cached data when backend fails, creating false sense of availability",
+      "typical_implementation": [
+        "Fallback to mock data on 500 errors",
+        "Use last-known-good data on timeout",
+        "Display cached data when backend unavailable",
+        "Silent fallback without user notification"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J8 C-2: MUST NOT automatic fallback to mock/cached/last-known-good"
+      ]
+    },
+    {
+      "id": "ADV-J8-004",
+      "name": "Suggestion to Retry on Timeout",
+      "description": "Frontend suggests user to retry when timeout occurs, creating process guidance",
+      "typical_implementation": [
+        "Display 'Request timed out. Try again?' button",
+        "Show 'Connection slow. Retry?' message",
+        "Suggest 'Check your connection and try again'",
+        "Auto-populate retry button on timeout"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J8 C-2: MUST NOT introduce any 'suggestion' or 'next step guide'"
+      ]
+    },
+    {
+      "id": "ADV-J8-005",
+      "name": "Error Type-Based UI Adjustment",
+      "description": "Frontend adjusts UI based on error types, creating different treatment for different errors",
+      "typical_implementation": [
+        "Show different UI for 429 vs 500 errors",
+        "Hide search box on 404 errors",
+        "Adjust pagination on rate limit errors",
+        "Change layout based on error type"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 6: No Optimization",
+        "J8 C-2: MUST NOT change UI sorting/display based on error type"
+      ]
+    },
+    {
+      "id": "ADV-J8-006",
+      "name": "Response Timing-Based Sorting",
+      "description": "Frontend sorts responses by arrival time, creating preference for faster responses",
+      "typical_implementation": [
+        "Sort capabilities by response time",
+        "Display faster responses first",
+        "Highlight items that loaded quickly",
+        "Reorder list based on response timing"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 3: No Ordering Implication",
+        "J8 C-2: MUST NOT change UI sorting based on delay"
+      ]
+    },
+    {
+      "id": "ADV-J8-007",
+      "name": "Preference for First-Arriving Response",
+      "description": "Frontend creates implicit preference for responses that arrive first, treating them as 'preferred'",
+      "typical_implementation": [
+        "Highlight first-arriving capability",
+        "Display 'Fast response' badge on quick responses",
+        "Pre-select first-arriving item",
+        "Show first response with larger font"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 2: No Highlighting or Recommendation",
+        "J8 C-2: MUST NOT interpret response timing as preference"
+      ]
+    },
+    {
+      "id": "ADV-J8-008",
+      "name": "Merging Concurrent Responses",
+      "description": "Frontend merges or deduplicates concurrent responses, creating state accumulation",
+      "typical_implementation": [
+        "Merge responses from multiple concurrent requests",
+        "Deduplicate capabilities from overlapping requests",
+        "Combine results from rapid refreshes",
+        "Accumulate state across concurrent requests"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 9: No Merging"
+      ]
+    },
+    {
+      "id": "ADV-J8-009",
+      "name": "Exponential Backoff Retry",
+      "description": "Frontend implements exponential backoff retry mechanism, creating automatic retry with delays",
+      "typical_implementation": [
+        "Retry after 1s, 2s, 4s, 8s delays",
+        "Automatic retry with increasing delays",
+        "Silent retry in background",
+        "Retry until success or max attempts"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J8 C-2: MUST NOT automatic retry"
+      ]
+    },
+    {
+      "id": "ADV-J8-010",
+      "name": "Error Rate-Based Optimization",
+      "description": "Frontend optimizes behavior based on error rate, adapting to failure patterns",
+      "typical_implementation": [
+        "Reduce request frequency on high error rate",
+        "Switch to cached data when error rate > 50%",
+        "Adjust timeout based on error patterns",
+        "Optimize UI based on failure rate"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 6: No Optimization",
+        "J2 Constraint 7: No Learning"
+      ]
+    },
+    {
+      "id": "ADV-J8-011",
+      "name": "Rate Limit Handling Logic",
+      "description": "Frontend implements special handling for 429 errors, creating rate limit awareness",
+      "typical_implementation": [
+        "Wait and retry after rate limit",
+        "Display 'Too many requests. Please wait.' message",
+        "Auto-retry after delay on 429",
+        "Implement rate limit backoff"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 4: No Process Guidance",
+        "J8 C-2: MUST NOT automatic retry"
+      ]
+    },
+    {
+      "id": "ADV-J8-012",
+      "name": "Concurrent Request Deduplication",
+      "description": "Frontend deduplicates concurrent requests, preventing duplicate API calls",
+      "typical_implementation": [
+        "Cancel duplicate requests",
+        "Merge identical concurrent requests",
+        "Deduplicate by request URL",
+        "Share response across duplicate requests"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 9: No Merging",
+        "J8 C-2: MUST NOT optimize based on concurrency"
+      ]
+    },
+    {
+      "id": "ADV-J8-013",
+      "name": "Response Order Interpretation as Priority",
+      "description": "Frontend interprets response arrival order as priority, treating first responses as 'recommended'",
+      "typical_implementation": [
+        "Display first-arriving items at top",
+        "Highlight items that loaded first",
+        "Sort by arrival time",
+        "Treat first response as 'preferred'"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 3: No Ordering Implication",
+        "J8 C-2: MUST NOT interpret response order as meaningful"
+      ]
+    },
+    {
+      "id": "ADV-J8-014",
+      "name": "Latency-Based Caching Strategy",
+      "description": "Frontend caches responses based on latency, creating optimization based on response timing",
+      "typical_implementation": [
+        "Cache fast responses (< 500ms)",
+        "Use cached data when latency > 2s",
+        "Memory cache of quick responses",
+        "Optimize based on response speed"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 5: No State Memory",
+        "J2 Constraint 6: No Optimization",
+        "J8 C-2: MUST NOT introduce any frontend cache"
+      ]
+    },
+    {
+      "id": "ADV-J8-015",
+      "name": "Chaos-Induced Optimization",
+      "description": "Frontend optimizes behavior under chaos conditions, adapting to failure patterns",
+      "typical_implementation": [
+        "Reduce request frequency under chaos",
+        "Switch to degraded mode under high error rate",
+        "Optimize UI based on chaos conditions",
+        "Adapt behavior based on failure patterns"
+      ],
+      "violated_constraints": [
+        "J2 Constraint 6: No Optimization",
+        "J2 Constraint 7: No Learning",
+        "J8 C-2: MUST NOT optimize based on pressure"
+      ]
+    }
+  ]
+}
+

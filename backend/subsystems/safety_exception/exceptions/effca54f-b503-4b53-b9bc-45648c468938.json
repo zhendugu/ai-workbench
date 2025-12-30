@@ -1,0 +1,12 @@
+{
+  "exception_id": "effca54f-b503-4b53-b9bc-45648c468938",
+  "component_id": "test_component_1",
+  "operation_type": "test_operation",
+  "exception_type": "timeout",
+  "exception_details": {
+    "elapsed_ms": 2000,
+    "timeout_duration": 1000,
+    "description": "Operation elapsed time (2000ms) exceeds timeout (1000ms)"
+  },
+  "detected_at": "2025-12-26T20:12:02.878317"
+}

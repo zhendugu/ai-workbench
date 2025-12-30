@@ -1,0 +1,1354 @@
+{"event": "epoch_completed", "epoch_id": "525396a7-3ab1-4bf7-ae3c-8223d0009869", "timestamp": "2025-12-28T09:40:47.547651"}
+{"event": "epoch_completed", "epoch_id": "84dba1fb-67a3-48f3-b6bf-0c2c8a9d5b70", "timestamp": "2025-12-28T09:40:47.548392"}
+{"event": "epoch_completed", "epoch_id": "f4d1a148-507e-423e-9307-6e00c1b169fb", "timestamp": "2025-12-28T09:40:47.549084"}
+{"event": "epoch_completed", "epoch_id": "2f41a2cd-4630-4d59-948e-529ef4b3464d", "timestamp": "2025-12-28T09:40:47.549723"}
+{"event": "fault_injected", "epoch_id": "5c49e341-216d-44ff-977f-c5a9b940c5a4", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.549752"}
+{"event": "epoch_completed", "epoch_id": "5c49e341-216d-44ff-977f-c5a9b940c5a4", "timestamp": "2025-12-28T09:40:47.550389"}
+{"event": "fault_injected", "epoch_id": "94663080-2a9c-4b2d-b77d-e41e061edaf5", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.550419"}
+{"event": "epoch_completed", "epoch_id": "94663080-2a9c-4b2d-b77d-e41e061edaf5", "timestamp": "2025-12-28T09:40:47.551003"}
+{"event": "epoch_completed", "epoch_id": "f5f1cdac-0b91-47f7-ba6b-386907104a86", "timestamp": "2025-12-28T09:40:47.551592"}
+{"event": "epoch_completed", "epoch_id": "cd32b2c9-8dbd-4964-b0dd-3ba2766b8dc4", "timestamp": "2025-12-28T09:40:47.552163"}
+{"event": "epoch_completed", "epoch_id": "795d2dfd-93dc-41d9-9517-db695f2bd9db", "timestamp": "2025-12-28T09:40:47.552733"}
+{"event": "epoch_completed", "epoch_id": "a25cd67a-2ede-46b1-95b8-9a41f0e5209c", "timestamp": "2025-12-28T09:40:47.553300"}
+{"event": "fault_injected", "epoch_id": "dbdb2ee3-a31d-497c-adb6-5b7212417d36", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.553326"}
+{"event": "epoch_completed", "epoch_id": "dbdb2ee3-a31d-497c-adb6-5b7212417d36", "timestamp": "2025-12-28T09:40:47.553911"}
+{"event": "epoch_completed", "epoch_id": "20a132b0-263f-443a-8a25-089f06d36b34", "timestamp": "2025-12-28T09:40:47.554498"}
+{"event": "fault_injected", "epoch_id": "90514d84-04ae-4001-8c70-5d1a8abf562e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.554521"}
+{"event": "epoch_completed", "epoch_id": "90514d84-04ae-4001-8c70-5d1a8abf562e", "timestamp": "2025-12-28T09:40:47.555060"}
+{"event": "epoch_completed", "epoch_id": "c9ada13a-81f9-4979-9ee2-56aa7ed87421", "timestamp": "2025-12-28T09:40:47.555623"}
+{"event": "fault_injected", "epoch_id": "606ae878-f2b8-44a4-9ce0-5d4951d4cb03", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.555647"}
+{"event": "epoch_completed", "epoch_id": "606ae878-f2b8-44a4-9ce0-5d4951d4cb03", "timestamp": "2025-12-28T09:40:47.556185"}
+{"event": "epoch_completed", "epoch_id": "b385c3b4-8b55-4d39-8a9d-300eac6168f1", "timestamp": "2025-12-28T09:40:47.556740"}
+{"event": "fault_injected", "epoch_id": "e05492ae-d272-4460-8ac6-909f443ec5e8", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.556762"}
+{"event": "epoch_completed", "epoch_id": "e05492ae-d272-4460-8ac6-909f443ec5e8", "timestamp": "2025-12-28T09:40:47.557297"}
+{"event": "epoch_completed", "epoch_id": "313c81ed-e35f-4bc8-8249-213acb01f6e7", "timestamp": "2025-12-28T09:40:47.557851"}
+{"event": "fault_injected", "epoch_id": "92527e87-b78f-41e3-97b1-0e953911ae5d", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.557873"}
+{"event": "epoch_completed", "epoch_id": "92527e87-b78f-41e3-97b1-0e953911ae5d", "timestamp": "2025-12-28T09:40:47.558405"}
+{"event": "epoch_completed", "epoch_id": "5e794246-255a-4774-a0ab-561bef322b86", "timestamp": "2025-12-28T09:40:47.558981"}
+{"event": "epoch_completed", "epoch_id": "3b1d9674-dbd7-4ade-8a50-df81779a7e2c", "timestamp": "2025-12-28T09:40:47.559595"}
+{"event": "fault_injected", "epoch_id": "d0db567e-adaf-46c9-ba9b-f996c5ee92e4", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.559629"}
+{"event": "epoch_completed", "epoch_id": "d0db567e-adaf-46c9-ba9b-f996c5ee92e4", "timestamp": "2025-12-28T09:40:47.560195"}
+{"event": "epoch_completed", "epoch_id": "f9b5df58-03fe-4560-b295-0989ff345db5", "timestamp": "2025-12-28T09:40:47.560778"}
+{"event": "epoch_completed", "epoch_id": "31a932f4-fa0a-4ee0-a5d2-94c23398cf54", "timestamp": "2025-12-28T09:40:47.561378"}
+{"event": "epoch_completed", "epoch_id": "f74ec5ec-cc22-4406-b0f0-101651d0406f", "timestamp": "2025-12-28T09:40:47.562180"}
+{"event": "epoch_completed", "epoch_id": "9afe4877-f0e4-4c81-b1d1-fa3c8bfc19b4", "timestamp": "2025-12-28T09:40:47.562758"}
+{"event": "fault_injected", "epoch_id": "e5018138-4a8e-4e5d-9794-97b4a3d552b9", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.562783"}
+{"event": "epoch_completed", "epoch_id": "e5018138-4a8e-4e5d-9794-97b4a3d552b9", "timestamp": "2025-12-28T09:40:47.563340"}
+{"event": "epoch_completed", "epoch_id": "daa2929a-ae45-47bd-a5dd-b58b568afce8", "timestamp": "2025-12-28T09:40:47.563921"}
+{"event": "epoch_completed", "epoch_id": "fcdc4d0e-bed2-4436-8857-2efa14c97ca8", "timestamp": "2025-12-28T09:40:47.564511"}
+{"event": "fault_injected", "epoch_id": "e6987c2e-18d6-418c-bd76-85dacc14f458", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.564538"}
+{"event": "epoch_completed", "epoch_id": "e6987c2e-18d6-418c-bd76-85dacc14f458", "timestamp": "2025-12-28T09:40:47.565248"}
+{"event": "epoch_completed", "epoch_id": "700d65b8-c07c-4bd0-a809-a7401b56b4c9", "timestamp": "2025-12-28T09:40:47.565827"}
+{"event": "epoch_completed", "epoch_id": "2ccbddcb-d3ea-47a8-b174-8aa44b464a78", "timestamp": "2025-12-28T09:40:47.566510"}
+{"event": "epoch_completed", "epoch_id": "d750a581-2458-462d-a81b-052e65b159a2", "timestamp": "2025-12-28T09:40:47.567086"}
+{"event": "epoch_completed", "epoch_id": "d205d0ea-6216-4cde-93d4-e89618e398a3", "timestamp": "2025-12-28T09:40:47.567671"}
+{"event": "epoch_completed", "epoch_id": "cf80021e-1ab6-4d1a-ac1c-56302f18b403", "timestamp": "2025-12-28T09:40:47.568266"}
+{"event": "epoch_completed", "epoch_id": "ed22fdca-957e-4b15-b3e9-3fa80fd4b1f6", "timestamp": "2025-12-28T09:40:47.568908"}
+{"event": "epoch_completed", "epoch_id": "ca67a9fd-0880-484e-a721-f047eaf79226", "timestamp": "2025-12-28T09:40:47.569485"}
+{"event": "epoch_completed", "epoch_id": "0d62b08b-59e7-4cf8-8352-71b8ae44e435", "timestamp": "2025-12-28T09:40:47.570060"}
+{"event": "epoch_completed", "epoch_id": "7c0324a1-1e60-4115-8e99-900528ddfed3", "timestamp": "2025-12-28T09:40:47.570635"}
+{"event": "fault_injected", "epoch_id": "4c34f6d9-62ea-4296-82a1-f10242668089", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.570668"}
+{"event": "epoch_completed", "epoch_id": "4c34f6d9-62ea-4296-82a1-f10242668089", "timestamp": "2025-12-28T09:40:47.571226"}
+{"event": "epoch_completed", "epoch_id": "28b2f999-2915-4fef-82ce-19c55098f05e", "timestamp": "2025-12-28T09:40:47.571808"}
+{"event": "fault_injected", "epoch_id": "d6733996-fe1d-48a1-a288-fffafc907b6d", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.571832"}
+{"event": "epoch_completed", "epoch_id": "d6733996-fe1d-48a1-a288-fffafc907b6d", "timestamp": "2025-12-28T09:40:47.572425"}
+{"event": "epoch_completed", "epoch_id": "966fbdda-e5ae-4f51-bd41-1427b29c0cf4", "timestamp": "2025-12-28T09:40:47.572999"}
+{"event": "fault_injected", "epoch_id": "328b30ba-25ca-4700-bb7e-e3b79cb058e7", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.573026"}
+{"event": "epoch_completed", "epoch_id": "328b30ba-25ca-4700-bb7e-e3b79cb058e7", "timestamp": "2025-12-28T09:40:47.573602"}
+{"event": "epoch_completed", "epoch_id": "fa960602-4b58-49ff-8025-e454764530ea", "timestamp": "2025-12-28T09:40:47.574197"}
+{"event": "epoch_completed", "epoch_id": "b966e61e-0d80-49d8-ae3e-de5b916c0a1d", "timestamp": "2025-12-28T09:40:47.574792"}
+{"event": "fault_injected", "epoch_id": "b988a737-2b2f-49c9-9b9e-22cb349aea58", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.574825"}
+{"event": "epoch_completed", "epoch_id": "b988a737-2b2f-49c9-9b9e-22cb349aea58", "timestamp": "2025-12-28T09:40:47.575362"}
+{"event": "epoch_completed", "epoch_id": "3ef36b55-089e-40d2-86bc-0f5d8ae5a948", "timestamp": "2025-12-28T09:40:47.575917"}
+{"event": "epoch_completed", "epoch_id": "5d6e799b-596a-40cc-aca1-56c24d44ca08", "timestamp": "2025-12-28T09:40:47.576466"}
+{"event": "epoch_completed", "epoch_id": "5939e37c-e30a-40d3-9acb-f640055e3d79", "timestamp": "2025-12-28T09:40:47.577009"}
+{"event": "fault_injected", "epoch_id": "187097b9-c2b9-4f17-93d8-b80c97f0989b", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.577046"}
+{"event": "epoch_completed", "epoch_id": "187097b9-c2b9-4f17-93d8-b80c97f0989b", "timestamp": "2025-12-28T09:40:47.577661"}
+{"event": "epoch_completed", "epoch_id": "7062452a-196e-4527-8dd1-7a5eab1fe958", "timestamp": "2025-12-28T09:40:47.578275"}
+{"event": "epoch_completed", "epoch_id": "d540f378-0cff-4a38-8621-abe9b9e6cfbc", "timestamp": "2025-12-28T09:40:47.578845"}
+{"event": "epoch_completed", "epoch_id": "b13dc1f1-6a11-46e6-b608-67f4750e8fe1", "timestamp": "2025-12-28T09:40:47.579390"}
+{"event": "epoch_completed", "epoch_id": "78af115a-ddfc-4b02-b4ce-4618129151ed", "timestamp": "2025-12-28T09:40:47.579933"}
+{"event": "epoch_completed", "epoch_id": "03f68eaa-313d-4ff6-9cd7-fc8f0db4c077", "timestamp": "2025-12-28T09:40:47.580468"}
+{"event": "epoch_completed", "epoch_id": "2137409f-0d45-4729-92b1-17e2cb7994fc", "timestamp": "2025-12-28T09:40:47.581004"}
+{"event": "epoch_completed", "epoch_id": "d6a91379-7ab5-4438-b270-71d71c25f27b", "timestamp": "2025-12-28T09:40:47.581549"}
+{"event": "epoch_completed", "epoch_id": "09a37435-a3ca-40c4-a3ca-c38040402a8c", "timestamp": "2025-12-28T09:40:47.582085"}
+{"event": "epoch_completed", "epoch_id": "443d89c3-c7aa-49ce-a258-d076684277ef", "timestamp": "2025-12-28T09:40:47.582634"}
+{"event": "fault_injected", "epoch_id": "3315286a-d69f-47d4-b670-ce45ba239978", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.582656"}
+{"event": "epoch_completed", "epoch_id": "3315286a-d69f-47d4-b670-ce45ba239978", "timestamp": "2025-12-28T09:40:47.583172"}
+{"event": "fault_injected", "epoch_id": "cddcdf3e-dccf-408a-81f8-5c65a1b8601a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.583195"}
+{"event": "epoch_completed", "epoch_id": "cddcdf3e-dccf-408a-81f8-5c65a1b8601a", "timestamp": "2025-12-28T09:40:47.583717"}
+{"event": "epoch_completed", "epoch_id": "5906cb07-4197-4573-a297-6a101da5ac20", "timestamp": "2025-12-28T09:40:47.584256"}
+{"event": "epoch_completed", "epoch_id": "77c70825-7ad6-400b-b412-a7791cebe468", "timestamp": "2025-12-28T09:40:47.584802"}
+{"event": "epoch_completed", "epoch_id": "ca262327-d763-4540-8d3a-23ec022adaff", "timestamp": "2025-12-28T09:40:47.585342"}
+{"event": "epoch_completed", "epoch_id": "fbe08225-4157-476f-be6e-4a3fd3ec72fd", "timestamp": "2025-12-28T09:40:47.585931"}
+{"event": "fault_injected", "epoch_id": "010cb8ea-75c0-45f4-8aa8-449f2f033281", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.585955"}
+{"event": "epoch_completed", "epoch_id": "010cb8ea-75c0-45f4-8aa8-449f2f033281", "timestamp": "2025-12-28T09:40:47.586535"}
+{"event": "epoch_completed", "epoch_id": "e28001fd-7b2f-4c97-ade6-083c1664d54c", "timestamp": "2025-12-28T09:40:47.587122"}
+{"event": "epoch_completed", "epoch_id": "0c905243-eb21-4201-9ef9-a3c821a0d0c2", "timestamp": "2025-12-28T09:40:47.587713"}
+{"event": "fault_injected", "epoch_id": "6a2f2e62-c743-47cd-8b7d-a7009c7ad823", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.587749"}
+{"event": "epoch_completed", "epoch_id": "6a2f2e62-c743-47cd-8b7d-a7009c7ad823", "timestamp": "2025-12-28T09:40:47.588314"}
+{"event": "epoch_completed", "epoch_id": "006aff7b-2a59-4ad0-a13b-a513c1a1fd39", "timestamp": "2025-12-28T09:40:47.588898"}
+{"event": "epoch_completed", "epoch_id": "02f6aeaf-d636-421e-9096-ba817e9edb53", "timestamp": "2025-12-28T09:40:47.589476"}
+{"event": "fault_injected", "epoch_id": "6d68d432-ec4f-48e2-b4f9-13c9606c96dd", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.589500"}
+{"event": "epoch_completed", "epoch_id": "6d68d432-ec4f-48e2-b4f9-13c9606c96dd", "timestamp": "2025-12-28T09:40:47.590056"}
+{"event": "epoch_completed", "epoch_id": "a03131cd-8a7d-4aca-af8d-062a9479208e", "timestamp": "2025-12-28T09:40:47.590632"}
+{"event": "epoch_completed", "epoch_id": "98261d1d-4501-4c2f-85c0-5c9665729b71", "timestamp": "2025-12-28T09:40:47.591211"}
+{"event": "epoch_completed", "epoch_id": "2c5594bf-6885-49c2-86c6-945c9f713c22", "timestamp": "2025-12-28T09:40:47.591795"}
+{"event": "epoch_completed", "epoch_id": "a814e848-0351-40f5-8d06-df330b16c1e9", "timestamp": "2025-12-28T09:40:47.592368"}
+{"event": "fault_injected", "epoch_id": "ee7a444d-6a7b-42e2-af1c-a6d6120b7c88", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.592398"}
+{"event": "epoch_completed", "epoch_id": "ee7a444d-6a7b-42e2-af1c-a6d6120b7c88", "timestamp": "2025-12-28T09:40:47.592962"}
+{"event": "epoch_completed", "epoch_id": "e137d4d8-4904-41cc-abbc-dd957142d13d", "timestamp": "2025-12-28T09:40:47.593543"}
+{"event": "fault_injected", "epoch_id": "14a07d34-2f93-4958-b654-bf158041fb41", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.593566"}
+{"event": "epoch_completed", "epoch_id": "14a07d34-2f93-4958-b654-bf158041fb41", "timestamp": "2025-12-28T09:40:47.594127"}
+{"event": "epoch_completed", "epoch_id": "bbfd9d9d-1726-4fc6-ab43-3938fbe12a89", "timestamp": "2025-12-28T09:40:47.594723"}
+{"event": "epoch_completed", "epoch_id": "fab29b22-693d-49da-87cc-c91bb2020be6", "timestamp": "2025-12-28T09:40:47.595347"}
+{"event": "fault_injected", "epoch_id": "7278bfb9-dec8-434c-81f8-cfc6772ff428", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.595376"}
+{"event": "epoch_completed", "epoch_id": "7278bfb9-dec8-434c-81f8-cfc6772ff428", "timestamp": "2025-12-28T09:40:47.595938"}
+{"event": "fault_injected", "epoch_id": "27d200f3-5efc-4e42-9f06-779089082653", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.595962"}
+{"event": "epoch_completed", "epoch_id": "27d200f3-5efc-4e42-9f06-779089082653", "timestamp": "2025-12-28T09:40:47.596538"}
+{"event": "epoch_completed", "epoch_id": "560719f5-da98-4526-9585-92917ce30557", "timestamp": "2025-12-28T09:40:47.597123"}
+{"event": "fault_injected", "epoch_id": "59275a59-9051-4b56-9aab-ac936593bb6a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.597147"}
+{"event": "epoch_completed", "epoch_id": "59275a59-9051-4b56-9aab-ac936593bb6a", "timestamp": "2025-12-28T09:40:47.597710"}
+{"event": "epoch_completed", "epoch_id": "04d5b060-70bd-4d12-a04d-45f0d2b16b0b", "timestamp": "2025-12-28T09:40:47.598294"}
+{"event": "epoch_completed", "epoch_id": "246189c8-971f-4c64-967e-28ca612ee52b", "timestamp": "2025-12-28T09:40:47.598876"}
+{"event": "fault_injected", "epoch_id": "e7860e73-2917-4b36-a651-4175cbd671f5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.598899"}
+{"event": "epoch_completed", "epoch_id": "e7860e73-2917-4b36-a651-4175cbd671f5", "timestamp": "2025-12-28T09:40:47.599465"}
+{"event": "epoch_completed", "epoch_id": "8103de7c-4492-484e-8ffb-1d5f607ccc3e", "timestamp": "2025-12-28T09:40:47.600048"}
+{"event": "fault_injected", "epoch_id": "ed9fdc2b-77d7-4dc6-b686-e48dbb3cefc8", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.600070"}
+{"event": "epoch_completed", "epoch_id": "ed9fdc2b-77d7-4dc6-b686-e48dbb3cefc8", "timestamp": "2025-12-28T09:40:47.600628"}
+{"event": "fault_injected", "epoch_id": "a17721f0-72fd-4a2a-a805-48a8f4144a0a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.600651"}
+{"event": "epoch_completed", "epoch_id": "a17721f0-72fd-4a2a-a805-48a8f4144a0a", "timestamp": "2025-12-28T09:40:47.601210"}
+{"event": "epoch_completed", "epoch_id": "b072aa98-b199-48b6-b74c-3e459a1ae89f", "timestamp": "2025-12-28T09:40:47.601805"}
+{"event": "epoch_completed", "epoch_id": "dcb0decc-94e8-4d6a-ae69-f68f3eaf0561", "timestamp": "2025-12-28T09:40:47.602415"}
+{"event": "fault_injected", "epoch_id": "b8fe4f09-5d2b-4135-8900-38d306c966e6", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.602445"}
+{"event": "epoch_completed", "epoch_id": "b8fe4f09-5d2b-4135-8900-38d306c966e6", "timestamp": "2025-12-28T09:40:47.603028"}
+{"event": "epoch_completed", "epoch_id": "1cfc3805-f689-4e10-9118-b2efd1f6ba14", "timestamp": "2025-12-28T09:40:47.603668"}
+{"event": "fault_injected", "epoch_id": "bd557495-4735-4bb6-9d0d-139910d5e57f", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.603701"}
+{"event": "epoch_completed", "epoch_id": "bd557495-4735-4bb6-9d0d-139910d5e57f", "timestamp": "2025-12-28T09:40:47.604266"}
+{"event": "epoch_completed", "epoch_id": "9aa6f424-e65f-4a3c-b956-568b81a2d29a", "timestamp": "2025-12-28T09:40:47.604849"}
+{"event": "epoch_completed", "epoch_id": "8f04f776-4fda-4462-9021-9679da777564", "timestamp": "2025-12-28T09:40:47.605439"}
+{"event": "epoch_completed", "epoch_id": "fa19d2c8-db2b-4f88-b1c5-2b7763ff4cca", "timestamp": "2025-12-28T09:40:47.606114"}
+{"event": "epoch_completed", "epoch_id": "6bd8823a-0480-4ec8-acd5-d2afee955ddc", "timestamp": "2025-12-28T09:40:47.606693"}
+{"event": "fault_injected", "epoch_id": "77019de1-c637-43b8-8e96-0eb600560d0c", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.606722"}
+{"event": "epoch_completed", "epoch_id": "77019de1-c637-43b8-8e96-0eb600560d0c", "timestamp": "2025-12-28T09:40:47.607338"}
+{"event": "epoch_completed", "epoch_id": "0b55086a-a04a-4a5c-af3c-72a197793621", "timestamp": "2025-12-28T09:40:47.607937"}
+{"event": "epoch_completed", "epoch_id": "f728c0a7-75bd-4b2c-95a2-d1ea2c79ad6e", "timestamp": "2025-12-28T09:40:47.608554"}
+{"event": "epoch_completed", "epoch_id": "00bcf7fa-42f8-4ead-a4b2-cc642d90f19a", "timestamp": "2025-12-28T09:40:47.609130"}
+{"event": "fault_injected", "epoch_id": "3bee2e2d-2d07-4868-b245-665b840b9582", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.609154"}
+{"event": "epoch_completed", "epoch_id": "3bee2e2d-2d07-4868-b245-665b840b9582", "timestamp": "2025-12-28T09:40:47.609709"}
+{"event": "fault_injected", "epoch_id": "68294e90-b956-463b-9b23-ff5a2059b381", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.609734"}
+{"event": "epoch_completed", "epoch_id": "68294e90-b956-463b-9b23-ff5a2059b381", "timestamp": "2025-12-28T09:40:47.610286"}
+{"event": "epoch_completed", "epoch_id": "4af356c2-d524-4a2f-828f-d308be31c7a2", "timestamp": "2025-12-28T09:40:47.610864"}
+{"event": "epoch_completed", "epoch_id": "1f70878d-2a66-4d27-9520-4c942f3c8776", "timestamp": "2025-12-28T09:40:47.611435"}
+{"event": "fault_injected", "epoch_id": "2c6f0b3e-e9a5-4689-897c-a52a3ba46cdb", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.611463"}
+{"event": "epoch_completed", "epoch_id": "2c6f0b3e-e9a5-4689-897c-a52a3ba46cdb", "timestamp": "2025-12-28T09:40:47.612042"}
+{"event": "fault_injected", "epoch_id": "0dd54bbe-6411-4a23-81a3-cb725aca14bc", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.612075"}
+{"event": "epoch_completed", "epoch_id": "0dd54bbe-6411-4a23-81a3-cb725aca14bc", "timestamp": "2025-12-28T09:40:47.612611"}
+{"event": "epoch_completed", "epoch_id": "846f1c3c-1697-47d9-9f61-8a560b34e34d", "timestamp": "2025-12-28T09:40:47.613205"}
+{"event": "fault_injected", "epoch_id": "e7ec3f3d-8122-47ed-afb5-34687ed37d5d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.613246"}
+{"event": "epoch_completed", "epoch_id": "e7ec3f3d-8122-47ed-afb5-34687ed37d5d", "timestamp": "2025-12-28T09:40:47.613789"}
+{"event": "fault_injected", "epoch_id": "1d040c76-757b-480a-aa82-00a64834d4f1", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.613814"}
+{"event": "epoch_completed", "epoch_id": "1d040c76-757b-480a-aa82-00a64834d4f1", "timestamp": "2025-12-28T09:40:47.614380"}
+{"event": "epoch_completed", "epoch_id": "4bc24754-f8bb-4c26-9717-fc57452a126e", "timestamp": "2025-12-28T09:40:47.615075"}
+{"event": "fault_injected", "epoch_id": "894d5158-652b-4674-b64f-fc0d85be8cb3", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.615142"}
+{"event": "epoch_completed", "epoch_id": "894d5158-652b-4674-b64f-fc0d85be8cb3", "timestamp": "2025-12-28T09:40:47.615830"}
+{"event": "epoch_completed", "epoch_id": "6f583246-10d7-4246-9b96-8530cfa1d261", "timestamp": "2025-12-28T09:40:47.616456"}
+{"event": "epoch_completed", "epoch_id": "4c965df2-7b14-4641-909d-cce673025b49", "timestamp": "2025-12-28T09:40:47.617034"}
+{"event": "fault_injected", "epoch_id": "7dd0e987-5fb4-4854-84a7-db249eaabe73", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.617058"}
+{"event": "epoch_completed", "epoch_id": "7dd0e987-5fb4-4854-84a7-db249eaabe73", "timestamp": "2025-12-28T09:40:47.617585"}
+{"event": "epoch_completed", "epoch_id": "d1d4006a-192b-4753-9dbe-011734d74c4e", "timestamp": "2025-12-28T09:40:47.618133"}
+{"event": "fault_injected", "epoch_id": "42cf39be-1dcc-49ae-a692-b10042ebf7d9", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.618161"}
+{"event": "epoch_completed", "epoch_id": "42cf39be-1dcc-49ae-a692-b10042ebf7d9", "timestamp": "2025-12-28T09:40:47.618680"}
+{"event": "epoch_completed", "epoch_id": "bdea10bc-f824-4c7c-ae3f-2ea5e7d248ba", "timestamp": "2025-12-28T09:40:47.619219"}
+{"event": "fault_injected", "epoch_id": "a7f32b63-3f7c-4e79-9b58-d01c3a8e2ab7", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.619241"}
+{"event": "epoch_completed", "epoch_id": "a7f32b63-3f7c-4e79-9b58-d01c3a8e2ab7", "timestamp": "2025-12-28T09:40:47.619765"}
+{"event": "fault_injected", "epoch_id": "398ca77e-8a6e-4ce8-a05e-0a970a362533", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.619787"}
+{"event": "epoch_completed", "epoch_id": "398ca77e-8a6e-4ce8-a05e-0a970a362533", "timestamp": "2025-12-28T09:40:47.620320"}
+{"event": "fault_injected", "epoch_id": "ac4776a8-d98c-475a-a7e4-b39ecafad5d5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.620343"}
+{"event": "epoch_completed", "epoch_id": "ac4776a8-d98c-475a-a7e4-b39ecafad5d5", "timestamp": "2025-12-28T09:40:47.620857"}
+{"event": "epoch_completed", "epoch_id": "1d356bd9-fd3a-4083-b3d3-32820deae7e1", "timestamp": "2025-12-28T09:40:47.621396"}
+{"event": "epoch_completed", "epoch_id": "096eb676-066f-4c51-b5f0-11546827a75b", "timestamp": "2025-12-28T09:40:47.621943"}
+{"event": "epoch_completed", "epoch_id": "5dbd34f0-7661-47e3-99b0-d3562b5a7e4d", "timestamp": "2025-12-28T09:40:47.622479"}
+{"event": "fault_injected", "epoch_id": "7ebd404f-e8dd-467c-ad71-3a05450bcc58", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.622501"}
+{"event": "epoch_completed", "epoch_id": "7ebd404f-e8dd-467c-ad71-3a05450bcc58", "timestamp": "2025-12-28T09:40:47.623014"}
+{"event": "epoch_completed", "epoch_id": "046623bc-5fc6-49f1-9bf2-13f9f63403ed", "timestamp": "2025-12-28T09:40:47.623549"}
+{"event": "epoch_completed", "epoch_id": "8288e0a5-41b0-44c8-8743-14990fe20e1e", "timestamp": "2025-12-28T09:40:47.624088"}
+{"event": "epoch_completed", "epoch_id": "bf27564a-5b4a-4f20-89f7-3b622f1bd6c3", "timestamp": "2025-12-28T09:40:47.624621"}
+{"event": "fault_injected", "epoch_id": "001c4d25-842b-460a-92d3-cc2fff0e61d5", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.624643"}
+{"event": "epoch_completed", "epoch_id": "001c4d25-842b-460a-92d3-cc2fff0e61d5", "timestamp": "2025-12-28T09:40:47.625158"}
+{"event": "epoch_completed", "epoch_id": "867c668e-e86b-4c89-be85-296160390d5a", "timestamp": "2025-12-28T09:40:47.625698"}
+{"event": "epoch_completed", "epoch_id": "195f9f98-bdec-49a3-a7d0-9ff8bcbc0c49", "timestamp": "2025-12-28T09:40:47.626236"}
+{"event": "epoch_completed", "epoch_id": "367e8988-8a3e-4a96-b6d4-2c52712979a7", "timestamp": "2025-12-28T09:40:47.626772"}
+{"event": "epoch_completed", "epoch_id": "8ac5aa1c-182a-4b7a-9332-7e76cee9e4bd", "timestamp": "2025-12-28T09:40:47.627312"}
+{"event": "epoch_completed", "epoch_id": "a4e06af0-fcc7-4e8d-a5f0-cfa292044784", "timestamp": "2025-12-28T09:40:47.627853"}
+{"event": "fault_injected", "epoch_id": "2d316957-9ae5-4eb5-ad5b-c4915994d3ba", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.627883"}
+{"event": "epoch_completed", "epoch_id": "2d316957-9ae5-4eb5-ad5b-c4915994d3ba", "timestamp": "2025-12-28T09:40:47.628451"}
+{"event": "epoch_completed", "epoch_id": "16be83d6-8355-4cc4-8eae-20d597b1d3b4", "timestamp": "2025-12-28T09:40:47.628991"}
+{"event": "epoch_completed", "epoch_id": "69cb7e9a-30d3-4868-86e4-2be2a929f142", "timestamp": "2025-12-28T09:40:47.629524"}
+{"event": "epoch_completed", "epoch_id": "46be0b20-ee7f-40a0-8416-503919b48960", "timestamp": "2025-12-28T09:40:47.630061"}
+{"event": "fault_injected", "epoch_id": "4a9c7faf-fb86-4a9b-bed2-53f754a66434", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.630084"}
+{"event": "epoch_completed", "epoch_id": "4a9c7faf-fb86-4a9b-bed2-53f754a66434", "timestamp": "2025-12-28T09:40:47.630601"}
+{"event": "epoch_completed", "epoch_id": "3c32f250-06fb-4ca4-a8a0-ddbdedb43abc", "timestamp": "2025-12-28T09:40:47.631141"}
+{"event": "epoch_completed", "epoch_id": "d27032f4-bc4a-4fe9-aef6-b5280e0d4060", "timestamp": "2025-12-28T09:40:47.631685"}
+{"event": "epoch_completed", "epoch_id": "2ad118a8-6cfc-448e-a97a-2dfcb61c58fa", "timestamp": "2025-12-28T09:40:47.632235"}
+{"event": "epoch_completed", "epoch_id": "42ed4752-162f-4793-a122-d5a0b4eec6a6", "timestamp": "2025-12-28T09:40:47.632818"}
+{"event": "epoch_completed", "epoch_id": "e6af7b5b-8cf7-4750-bf22-3300cb851c12", "timestamp": "2025-12-28T09:40:47.633353"}
+{"event": "epoch_completed", "epoch_id": "60bc9877-f7bd-41c4-8472-56af675272a1", "timestamp": "2025-12-28T09:40:47.633922"}
+{"event": "epoch_completed", "epoch_id": "cf6a201a-93d3-4d11-a404-ad1968ea5e1f", "timestamp": "2025-12-28T09:40:47.634465"}
+{"event": "epoch_completed", "epoch_id": "ebfe8339-76a1-4bb0-aeb0-e240c7e70515", "timestamp": "2025-12-28T09:40:47.635001"}
+{"event": "fault_injected", "epoch_id": "a7b62246-0bd8-4aa4-9a44-b76eb8998696", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.635025"}
+{"event": "epoch_completed", "epoch_id": "a7b62246-0bd8-4aa4-9a44-b76eb8998696", "timestamp": "2025-12-28T09:40:47.635540"}
+{"event": "epoch_completed", "epoch_id": "319030b7-ef6c-479c-bb13-693a858341a9", "timestamp": "2025-12-28T09:40:47.636093"}
+{"event": "fault_injected", "epoch_id": "0e024b80-27bb-478e-82b6-3be033ecb353", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.636115"}
+{"event": "epoch_completed", "epoch_id": "0e024b80-27bb-478e-82b6-3be033ecb353", "timestamp": "2025-12-28T09:40:47.636630"}
+{"event": "epoch_completed", "epoch_id": "d6b18b29-ab2f-4356-a984-46b6885e68f7", "timestamp": "2025-12-28T09:40:47.637162"}
+{"event": "epoch_completed", "epoch_id": "76c7c985-d258-4e92-a621-30f214b4599c", "timestamp": "2025-12-28T09:40:47.637695"}
+{"event": "fault_injected", "epoch_id": "e985686f-db8a-4df5-a5ab-22f2d8e32480", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.637717"}
+{"event": "epoch_completed", "epoch_id": "e985686f-db8a-4df5-a5ab-22f2d8e32480", "timestamp": "2025-12-28T09:40:47.638230"}
+{"event": "fault_injected", "epoch_id": "1cd05991-4fa5-493b-83b6-e1678f6356af", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.638253"}
+{"event": "epoch_completed", "epoch_id": "1cd05991-4fa5-493b-83b6-e1678f6356af", "timestamp": "2025-12-28T09:40:47.638766"}
+{"event": "fault_injected", "epoch_id": "548d4652-1df4-45bf-a58b-5330ca505ec1", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.638789"}
+{"event": "epoch_completed", "epoch_id": "548d4652-1df4-45bf-a58b-5330ca505ec1", "timestamp": "2025-12-28T09:40:47.639304"}
+{"event": "epoch_completed", "epoch_id": "ce830096-403d-4923-91f1-aa351fb679f7", "timestamp": "2025-12-28T09:40:47.639847"}
+{"event": "epoch_completed", "epoch_id": "602b0cfc-accb-458e-bf24-4e27d3701bdb", "timestamp": "2025-12-28T09:40:47.640379"}
+{"event": "epoch_completed", "epoch_id": "27b5736e-2a06-4d27-b796-f74fa01d8d85", "timestamp": "2025-12-28T09:40:47.640923"}
+{"event": "fault_injected", "epoch_id": "924e8a76-dca1-48c6-81d4-fa55b2bc65cf", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.640947"}
+{"event": "epoch_completed", "epoch_id": "924e8a76-dca1-48c6-81d4-fa55b2bc65cf", "timestamp": "2025-12-28T09:40:47.641461"}
+{"event": "epoch_completed", "epoch_id": "4d921810-eb51-4716-a11b-3ee8efc82362", "timestamp": "2025-12-28T09:40:47.641997"}
+{"event": "epoch_completed", "epoch_id": "b1f1f637-2e22-4271-8e81-36f89483fd0d", "timestamp": "2025-12-28T09:40:47.642532"}
+{"event": "fault_injected", "epoch_id": "29c4e0dc-c005-4784-82e3-76231f174b92", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.642569"}
+{"event": "epoch_completed", "epoch_id": "29c4e0dc-c005-4784-82e3-76231f174b92", "timestamp": "2025-12-28T09:40:47.643174"}
+{"event": "epoch_completed", "epoch_id": "fbf8310c-b166-495c-9c10-bde41c9e8bfe", "timestamp": "2025-12-28T09:40:47.643715"}
+{"event": "fault_injected", "epoch_id": "5990a086-a22c-403f-bc67-498f2c162034", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.643741"}
+{"event": "epoch_completed", "epoch_id": "5990a086-a22c-403f-bc67-498f2c162034", "timestamp": "2025-12-28T09:40:47.644268"}
+{"event": "fault_injected", "epoch_id": "ad02cf3d-fa32-4065-a4a0-22733eb78d16", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.644290"}
+{"event": "epoch_completed", "epoch_id": "ad02cf3d-fa32-4065-a4a0-22733eb78d16", "timestamp": "2025-12-28T09:40:47.644805"}
+{"event": "epoch_completed", "epoch_id": "fa678eeb-65ad-43fb-b75c-a23d1d428bc7", "timestamp": "2025-12-28T09:40:47.645413"}
+{"event": "fault_injected", "epoch_id": "035e6f6c-49c8-4a04-96c2-fd0f23d1e2c2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.645434"}
+{"event": "epoch_completed", "epoch_id": "035e6f6c-49c8-4a04-96c2-fd0f23d1e2c2", "timestamp": "2025-12-28T09:40:47.645951"}
+{"event": "epoch_completed", "epoch_id": "1521937c-38c2-4253-bafa-afd31a03c36c", "timestamp": "2025-12-28T09:40:47.646488"}
+{"event": "epoch_completed", "epoch_id": "98198757-6bc6-4081-9022-4d0c4be131af", "timestamp": "2025-12-28T09:40:47.647031"}
+{"event": "epoch_completed", "epoch_id": "23b8e530-34cb-47a2-af6b-8f0615ad306d", "timestamp": "2025-12-28T09:40:47.647575"}
+{"event": "fault_injected", "epoch_id": "e34a2a46-9ca5-4c0b-9609-d85a74489bca", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.647598"}
+{"event": "epoch_completed", "epoch_id": "e34a2a46-9ca5-4c0b-9609-d85a74489bca", "timestamp": "2025-12-28T09:40:47.648113"}
+{"event": "epoch_completed", "epoch_id": "71406aa0-08d5-4590-8ad3-3e618b7ad38e", "timestamp": "2025-12-28T09:40:47.648650"}
+{"event": "epoch_completed", "epoch_id": "8ed81775-567e-41fd-b1c2-a29fec09a032", "timestamp": "2025-12-28T09:40:47.649187"}
+{"event": "fault_injected", "epoch_id": "e60142f2-c5b5-490c-93a0-df4dac808a66", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.649211"}
+{"event": "epoch_completed", "epoch_id": "e60142f2-c5b5-490c-93a0-df4dac808a66", "timestamp": "2025-12-28T09:40:47.649726"}
+{"event": "fault_injected", "epoch_id": "eebdcfd9-590a-4a99-af4c-f8c3e287bf24", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.649748"}
+{"event": "epoch_completed", "epoch_id": "eebdcfd9-590a-4a99-af4c-f8c3e287bf24", "timestamp": "2025-12-28T09:40:47.650263"}
+{"event": "epoch_completed", "epoch_id": "b8d189ea-c7b0-41b7-9ef0-3d8306f2cd9a", "timestamp": "2025-12-28T09:40:47.650800"}
+{"event": "epoch_completed", "epoch_id": "52c1bfd3-2fb5-4ce2-a447-b38c27714a11", "timestamp": "2025-12-28T09:40:47.651333"}
+{"event": "epoch_completed", "epoch_id": "07832c6e-00f9-441c-a9db-a777d4d1e438", "timestamp": "2025-12-28T09:40:47.651875"}
+{"event": "epoch_completed", "epoch_id": "cb14f3dc-c1d3-4a92-b2da-743008b60603", "timestamp": "2025-12-28T09:40:47.652411"}
+{"event": "epoch_completed", "epoch_id": "249e573b-0252-4665-8927-e1cfaedd5335", "timestamp": "2025-12-28T09:40:47.652963"}
+{"event": "fault_injected", "epoch_id": "01898342-bb14-46e8-95fa-a2a9ae56f4cf", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.652992"}
+{"event": "epoch_completed", "epoch_id": "01898342-bb14-46e8-95fa-a2a9ae56f4cf", "timestamp": "2025-12-28T09:40:47.653520"}
+{"event": "epoch_completed", "epoch_id": "a9b636a2-c99d-4c40-b2e6-b617cf2905bc", "timestamp": "2025-12-28T09:40:47.654053"}
+{"event": "epoch_completed", "epoch_id": "b5ba04d7-dbd3-4715-8d2a-0744358bf339", "timestamp": "2025-12-28T09:40:47.654588"}
+{"event": "epoch_completed", "epoch_id": "9c3fcfef-3b83-435c-9bb0-25b9ea12b60f", "timestamp": "2025-12-28T09:40:47.655126"}
+{"event": "epoch_completed", "epoch_id": "bfd36286-e913-4c5d-a97e-dc884c88f7cf", "timestamp": "2025-12-28T09:40:47.655678"}
+{"event": "epoch_completed", "epoch_id": "70e2f9c7-49a8-4889-b9b5-47cb106bf8e8", "timestamp": "2025-12-28T09:40:47.656212"}
+{"event": "epoch_completed", "epoch_id": "18b10ea5-932a-43e3-9d66-5238f9d03f39", "timestamp": "2025-12-28T09:40:47.656803"}
+{"event": "epoch_completed", "epoch_id": "7f8b15e1-1b0c-44fb-8468-e36eeafff0d1", "timestamp": "2025-12-28T09:40:47.657382"}
+{"event": "epoch_completed", "epoch_id": "4e56e5bb-e721-4289-bb04-8406d8add1a6", "timestamp": "2025-12-28T09:40:47.657958"}
+{"event": "epoch_completed", "epoch_id": "2ad1d399-1d73-44cc-b3bf-427f060c2a29", "timestamp": "2025-12-28T09:40:47.658537"}
+{"event": "epoch_completed", "epoch_id": "3ccf46b1-885e-4683-ad20-4efda116ad00", "timestamp": "2025-12-28T09:40:47.659118"}
+{"event": "epoch_completed", "epoch_id": "cb615e28-e612-42f3-a233-2f1342c64091", "timestamp": "2025-12-28T09:40:47.659704"}
+{"event": "epoch_completed", "epoch_id": "5129084a-acbe-4f75-afbc-13ce18e052ea", "timestamp": "2025-12-28T09:40:47.660280"}
+{"event": "fault_injected", "epoch_id": "3a4d9b5d-0473-45c3-94eb-b869d7c46389", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.660304"}
+{"event": "epoch_completed", "epoch_id": "3a4d9b5d-0473-45c3-94eb-b869d7c46389", "timestamp": "2025-12-28T09:40:47.660857"}
+{"event": "fault_injected", "epoch_id": "49481c00-258a-4caa-a2d6-70d1305a511e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.660881"}
+{"event": "epoch_completed", "epoch_id": "49481c00-258a-4caa-a2d6-70d1305a511e", "timestamp": "2025-12-28T09:40:47.661435"}
+{"event": "fault_injected", "epoch_id": "7c86020d-1ae2-494e-81c9-e672937c6146", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.661459"}
+{"event": "epoch_completed", "epoch_id": "7c86020d-1ae2-494e-81c9-e672937c6146", "timestamp": "2025-12-28T09:40:47.662056"}
+{"event": "epoch_completed", "epoch_id": "94e6ae1a-aca8-4814-b985-195513017e9c", "timestamp": "2025-12-28T09:40:47.662633"}
+{"event": "epoch_completed", "epoch_id": "7fd0d0cb-017a-4fce-bc9b-ee5548e6bd7c", "timestamp": "2025-12-28T09:40:47.663209"}
+{"event": "epoch_completed", "epoch_id": "96726739-fda4-44f6-a39c-432619b8c07b", "timestamp": "2025-12-28T09:40:47.663800"}
+{"event": "epoch_completed", "epoch_id": "13e874a1-5a7e-4599-9a0e-118991852667", "timestamp": "2025-12-28T09:40:47.664501"}
+{"event": "epoch_completed", "epoch_id": "6965a4db-20aa-4e54-843e-876a711212af", "timestamp": "2025-12-28T09:40:47.665076"}
+{"event": "fault_injected", "epoch_id": "5b364d37-ecc2-4acf-a25c-670e617fd41b", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.665099"}
+{"event": "epoch_completed", "epoch_id": "5b364d37-ecc2-4acf-a25c-670e617fd41b", "timestamp": "2025-12-28T09:40:47.665654"}
+{"event": "epoch_completed", "epoch_id": "cca8c71f-ff6b-4ac5-9550-88188d929692", "timestamp": "2025-12-28T09:40:47.666229"}
+{"event": "epoch_completed", "epoch_id": "eb859207-139f-418c-96df-3a07040d44c9", "timestamp": "2025-12-28T09:40:47.666811"}
+{"event": "epoch_completed", "epoch_id": "cccb0753-9c73-4b56-88a5-8797939f9ad9", "timestamp": "2025-12-28T09:40:47.667352"}
+{"event": "epoch_completed", "epoch_id": "6cf84229-9e1a-4bae-9bb4-44067f050a95", "timestamp": "2025-12-28T09:40:47.667895"}
+{"event": "epoch_completed", "epoch_id": "bc21189f-6a87-49ff-99a8-03df8aa4bbd8", "timestamp": "2025-12-28T09:40:47.668430"}
+{"event": "fault_injected", "epoch_id": "395390db-42d2-44e3-b80f-b79c8f2f751b", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.668452"}
+{"event": "epoch_completed", "epoch_id": "395390db-42d2-44e3-b80f-b79c8f2f751b", "timestamp": "2025-12-28T09:40:47.668971"}
+{"event": "fault_injected", "epoch_id": "a048eec3-ca08-4bda-8fe1-deb009c242e7", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.668994"}
+{"event": "epoch_completed", "epoch_id": "a048eec3-ca08-4bda-8fe1-deb009c242e7", "timestamp": "2025-12-28T09:40:47.669531"}
+{"event": "epoch_completed", "epoch_id": "e97d0681-62f6-4410-90b8-c76aa1c90587", "timestamp": "2025-12-28T09:40:47.670120"}
+{"event": "fault_injected", "epoch_id": "34445f1f-4656-4102-8fdf-0ccd88a4bbc4", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.670143"}
+{"event": "epoch_completed", "epoch_id": "34445f1f-4656-4102-8fdf-0ccd88a4bbc4", "timestamp": "2025-12-28T09:40:47.670661"}
+{"event": "epoch_completed", "epoch_id": "2eebb205-7b92-4679-b5de-901b4748700a", "timestamp": "2025-12-28T09:40:47.671197"}
+{"event": "epoch_completed", "epoch_id": "5ca9a88e-9189-497a-a95e-641984189cf7", "timestamp": "2025-12-28T09:40:47.671747"}
+{"event": "fault_injected", "epoch_id": "39b49791-ed04-471d-b88b-8381b9c8bddd", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.671770"}
+{"event": "epoch_completed", "epoch_id": "39b49791-ed04-471d-b88b-8381b9c8bddd", "timestamp": "2025-12-28T09:40:47.672285"}
+{"event": "fault_injected", "epoch_id": "baff65c1-a47a-4099-b2d0-f627b3643bd6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.672308"}
+{"event": "epoch_completed", "epoch_id": "baff65c1-a47a-4099-b2d0-f627b3643bd6", "timestamp": "2025-12-28T09:40:47.672835"}
+{"event": "fault_injected", "epoch_id": "0658bd54-3aed-4aee-a93d-3d773ec51eb7", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.672861"}
+{"event": "epoch_completed", "epoch_id": "0658bd54-3aed-4aee-a93d-3d773ec51eb7", "timestamp": "2025-12-28T09:40:47.673414"}
+{"event": "epoch_completed", "epoch_id": "9c4fe8c7-93c4-402c-b46d-c754d080dc5f", "timestamp": "2025-12-28T09:40:47.673991"}
+{"event": "fault_injected", "epoch_id": "fcf86735-d54c-4946-8dc4-72422a7b4c12", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.674015"}
+{"event": "epoch_completed", "epoch_id": "fcf86735-d54c-4946-8dc4-72422a7b4c12", "timestamp": "2025-12-28T09:40:47.674534"}
+{"event": "epoch_completed", "epoch_id": "bc75fc0d-5430-4444-a869-3709baedf8da", "timestamp": "2025-12-28T09:40:47.675109"}
+{"event": "epoch_completed", "epoch_id": "17c25dae-58cd-4d95-b23a-3df698f10e2d", "timestamp": "2025-12-28T09:40:47.675691"}
+{"event": "epoch_completed", "epoch_id": "70cd72a4-7416-4cd7-a5be-8f96339ce762", "timestamp": "2025-12-28T09:40:47.676271"}
+{"event": "fault_injected", "epoch_id": "2e473ed8-189a-4347-a36c-18c473e57dca", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.676298"}
+{"event": "epoch_completed", "epoch_id": "2e473ed8-189a-4347-a36c-18c473e57dca", "timestamp": "2025-12-28T09:40:47.676812"}
+{"event": "fault_injected", "epoch_id": "747c2c1d-d730-4b24-9eda-5ffad405ea20", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.676834"}
+{"event": "epoch_completed", "epoch_id": "747c2c1d-d730-4b24-9eda-5ffad405ea20", "timestamp": "2025-12-28T09:40:47.677348"}
+{"event": "epoch_completed", "epoch_id": "91dbd78f-d629-4bce-b155-1bbc56f0743a", "timestamp": "2025-12-28T09:40:47.677886"}
+{"event": "epoch_completed", "epoch_id": "421efc4c-d132-41cd-8b62-b3ece4f4412a", "timestamp": "2025-12-28T09:40:47.678462"}
+{"event": "fault_injected", "epoch_id": "4eac678a-6651-4e92-bc05-bb9d22409c7a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.678485"}
+{"event": "epoch_completed", "epoch_id": "4eac678a-6651-4e92-bc05-bb9d22409c7a", "timestamp": "2025-12-28T09:40:47.679014"}
+{"event": "epoch_completed", "epoch_id": "feb7ed75-3a72-4b5b-b9ca-ae218c4f01e8", "timestamp": "2025-12-28T09:40:47.679579"}
+{"event": "epoch_completed", "epoch_id": "0fb27198-dd4b-48f4-b33f-32486dd88543", "timestamp": "2025-12-28T09:40:47.680115"}
+{"event": "fault_injected", "epoch_id": "674bf828-e16d-4ba7-af8a-d409ca235100", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.680138"}
+{"event": "epoch_completed", "epoch_id": "674bf828-e16d-4ba7-af8a-d409ca235100", "timestamp": "2025-12-28T09:40:47.680650"}
+{"event": "epoch_completed", "epoch_id": "a356755d-3f4d-4ec3-8568-5d46004464ce", "timestamp": "2025-12-28T09:40:47.681199"}
+{"event": "epoch_completed", "epoch_id": "f9907215-6b0a-4ec0-9d76-73e820bdc336", "timestamp": "2025-12-28T09:40:47.681735"}
+{"event": "fault_injected", "epoch_id": "1b0f9399-4419-4542-a79e-47c293f6af68", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.681757"}
+{"event": "epoch_completed", "epoch_id": "1b0f9399-4419-4542-a79e-47c293f6af68", "timestamp": "2025-12-28T09:40:47.682271"}
+{"event": "epoch_completed", "epoch_id": "406e5889-c259-459d-be0f-3e36fe5884be", "timestamp": "2025-12-28T09:40:47.682803"}
+{"event": "fault_injected", "epoch_id": "3d97489b-05f3-475d-b39d-44dfcdc838d2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.682825"}
+{"event": "epoch_completed", "epoch_id": "3d97489b-05f3-475d-b39d-44dfcdc838d2", "timestamp": "2025-12-28T09:40:47.683339"}
+{"event": "epoch_completed", "epoch_id": "7a74c734-6a47-4adc-af35-d13921bb664e", "timestamp": "2025-12-28T09:40:47.683879"}
+{"event": "fault_injected", "epoch_id": "97f62877-a4af-49cd-bc4a-748bfeb431fe", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.683902"}
+{"event": "epoch_completed", "epoch_id": "97f62877-a4af-49cd-bc4a-748bfeb431fe", "timestamp": "2025-12-28T09:40:47.684416"}
+{"event": "epoch_completed", "epoch_id": "073b5ce3-398e-4b79-9ebf-3d43f392a2cd", "timestamp": "2025-12-28T09:40:47.684948"}
+{"event": "fault_injected", "epoch_id": "8c9c85c2-0eab-47a6-8af6-65350db39cc7", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.684971"}
+{"event": "epoch_completed", "epoch_id": "8c9c85c2-0eab-47a6-8af6-65350db39cc7", "timestamp": "2025-12-28T09:40:47.685487"}
+{"event": "epoch_completed", "epoch_id": "c7d2ffc7-ee68-44d1-8525-d9428cf59a5b", "timestamp": "2025-12-28T09:40:47.686018"}
+{"event": "fault_injected", "epoch_id": "ce2ee099-f4d9-4358-922b-75902bce2ed2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.686040"}
+{"event": "epoch_completed", "epoch_id": "ce2ee099-f4d9-4358-922b-75902bce2ed2", "timestamp": "2025-12-28T09:40:47.686549"}
+{"event": "fault_injected", "epoch_id": "737dda67-c5a5-4d6b-8557-8d24b4ae99d7", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.686571"}
+{"event": "epoch_completed", "epoch_id": "737dda67-c5a5-4d6b-8557-8d24b4ae99d7", "timestamp": "2025-12-28T09:40:47.687081"}
+{"event": "fault_injected", "epoch_id": "e1eb77c1-2821-40e2-a750-98bbecd2b414", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.687103"}
+{"event": "epoch_completed", "epoch_id": "e1eb77c1-2821-40e2-a750-98bbecd2b414", "timestamp": "2025-12-28T09:40:47.687612"}
+{"event": "epoch_completed", "epoch_id": "ffa23de7-c564-4402-a043-d7e09eb99638", "timestamp": "2025-12-28T09:40:47.688145"}
+{"event": "fault_injected", "epoch_id": "37d6ba58-b9dd-4a3b-b42e-5c04d194576d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.688167"}
+{"event": "epoch_completed", "epoch_id": "37d6ba58-b9dd-4a3b-b42e-5c04d194576d", "timestamp": "2025-12-28T09:40:47.688678"}
+{"event": "epoch_completed", "epoch_id": "d2572273-f03d-464b-83b7-40594fb2c192", "timestamp": "2025-12-28T09:40:47.689210"}
+{"event": "epoch_completed", "epoch_id": "54603640-7cfe-4125-b52a-01bfd7be8bca", "timestamp": "2025-12-28T09:40:47.689741"}
+{"event": "epoch_completed", "epoch_id": "0c359c3a-a59b-4027-ad92-1514498f769f", "timestamp": "2025-12-28T09:40:47.690271"}
+{"event": "fault_injected", "epoch_id": "e82c849d-f7c6-482e-ba94-b66004f24e50", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.690294"}
+{"event": "epoch_completed", "epoch_id": "e82c849d-f7c6-482e-ba94-b66004f24e50", "timestamp": "2025-12-28T09:40:47.690805"}
+{"event": "fault_injected", "epoch_id": "9bf32db6-7452-468a-8841-e17bf4b3a023", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.690828"}
+{"event": "epoch_completed", "epoch_id": "9bf32db6-7452-468a-8841-e17bf4b3a023", "timestamp": "2025-12-28T09:40:47.691338"}
+{"event": "fault_injected", "epoch_id": "d53ad90d-d209-43a3-a6e3-4d0a579dc813", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.691366"}
+{"event": "epoch_completed", "epoch_id": "d53ad90d-d209-43a3-a6e3-4d0a579dc813", "timestamp": "2025-12-28T09:40:47.691875"}
+{"event": "epoch_completed", "epoch_id": "b7711c64-b65e-4db2-98d8-ade3b4705615", "timestamp": "2025-12-28T09:40:47.692405"}
+{"event": "epoch_completed", "epoch_id": "ad9d0e58-1860-4ec4-b38b-9a8fde2e2094", "timestamp": "2025-12-28T09:40:47.692937"}
+{"event": "epoch_completed", "epoch_id": "12710e87-f06b-4e1e-a265-baad52005f1f", "timestamp": "2025-12-28T09:40:47.693484"}
+{"event": "epoch_completed", "epoch_id": "d2ad6500-3785-4fcc-a993-15dc7ea682c4", "timestamp": "2025-12-28T09:40:47.694015"}
+{"event": "fault_injected", "epoch_id": "c987d0b9-bce8-446f-a3ee-7d9047ad5c42", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.694037"}
+{"event": "epoch_completed", "epoch_id": "c987d0b9-bce8-446f-a3ee-7d9047ad5c42", "timestamp": "2025-12-28T09:40:47.694546"}
+{"event": "fault_injected", "epoch_id": "1c68a6ad-52e1-436b-ae07-634db9230677", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.694568"}
+{"event": "epoch_completed", "epoch_id": "1c68a6ad-52e1-436b-ae07-634db9230677", "timestamp": "2025-12-28T09:40:47.695162"}
+{"event": "fault_injected", "epoch_id": "530def4f-163b-43c3-a175-05f1f567da80", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.695187"}
+{"event": "epoch_completed", "epoch_id": "530def4f-163b-43c3-a175-05f1f567da80", "timestamp": "2025-12-28T09:40:47.695752"}
+{"event": "epoch_completed", "epoch_id": "e0c55393-e244-42a2-9001-24eac217802d", "timestamp": "2025-12-28T09:40:47.696327"}
+{"event": "fault_injected", "epoch_id": "26af84fc-9070-40e7-bc96-ed73a93020cf", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.696351"}
+{"event": "epoch_completed", "epoch_id": "26af84fc-9070-40e7-bc96-ed73a93020cf", "timestamp": "2025-12-28T09:40:47.696905"}
+{"event": "epoch_completed", "epoch_id": "ef72c17e-3871-4d94-880e-8d649fc27a4b", "timestamp": "2025-12-28T09:40:47.697484"}
+{"event": "epoch_completed", "epoch_id": "182e7678-8969-4b59-87bc-5dd9402ed41b", "timestamp": "2025-12-28T09:40:47.698069"}
+{"event": "epoch_completed", "epoch_id": "fdb259c6-497c-414b-a289-aa9b95b6f55c", "timestamp": "2025-12-28T09:40:47.698644"}
+{"event": "epoch_completed", "epoch_id": "372c103b-f2ec-44f7-b0ca-6f9f9ac00c70", "timestamp": "2025-12-28T09:40:47.699222"}
+{"event": "epoch_completed", "epoch_id": "93136d3e-21db-4e37-83a5-501e1d1746e3", "timestamp": "2025-12-28T09:40:47.699803"}
+{"event": "epoch_completed", "epoch_id": "1bdd6107-70cc-4c2a-a429-ae9254a66002", "timestamp": "2025-12-28T09:40:47.700381"}
+{"event": "fault_injected", "epoch_id": "e7d0b045-b419-4511-8238-32683cd04d6a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.700405"}
+{"event": "epoch_completed", "epoch_id": "e7d0b045-b419-4511-8238-32683cd04d6a", "timestamp": "2025-12-28T09:40:47.700957"}
+{"event": "epoch_completed", "epoch_id": "383e080f-81c3-4a52-9e3b-29f4e7ca0b2c", "timestamp": "2025-12-28T09:40:47.701532"}
+{"event": "fault_injected", "epoch_id": "225bcfdf-c716-4d99-8b10-4707c9024585", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.701555"}
+{"event": "epoch_completed", "epoch_id": "225bcfdf-c716-4d99-8b10-4707c9024585", "timestamp": "2025-12-28T09:40:47.702106"}
+{"event": "fault_injected", "epoch_id": "bb40ff4e-2534-4b6b-8d80-f383367160e3", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.702129"}
+{"event": "epoch_completed", "epoch_id": "bb40ff4e-2534-4b6b-8d80-f383367160e3", "timestamp": "2025-12-28T09:40:47.702684"}
+{"event": "epoch_completed", "epoch_id": "b7bf47de-b47e-4d73-8117-512014ac683d", "timestamp": "2025-12-28T09:40:47.703269"}
+{"event": "epoch_completed", "epoch_id": "f71b17c0-9f26-4d35-9f57-fd6d962656e3", "timestamp": "2025-12-28T09:40:47.703832"}
+{"event": "epoch_completed", "epoch_id": "1e5f7794-0fa1-448b-b1a9-b5d5cf5584e7", "timestamp": "2025-12-28T09:40:47.704367"}
+{"event": "epoch_completed", "epoch_id": "7ab4bb82-2d29-4109-8d2e-69b6a9de34fc", "timestamp": "2025-12-28T09:40:47.704928"}
+{"event": "epoch_completed", "epoch_id": "9b8861f6-bdab-4524-a7f6-8302286a6a17", "timestamp": "2025-12-28T09:40:47.705467"}
+{"event": "fault_injected", "epoch_id": "45b6ef4f-3c30-485b-b250-27c2bbc82dd3", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.705490"}
+{"event": "epoch_completed", "epoch_id": "45b6ef4f-3c30-485b-b250-27c2bbc82dd3", "timestamp": "2025-12-28T09:40:47.706008"}
+{"event": "epoch_completed", "epoch_id": "a7047e0e-620b-432f-b29a-5d3a8d3a5e32", "timestamp": "2025-12-28T09:40:47.706546"}
+{"event": "epoch_completed", "epoch_id": "0f7345fe-9c00-4c4a-a284-93e5776fad0e", "timestamp": "2025-12-28T09:40:47.707084"}
+{"event": "epoch_completed", "epoch_id": "1c4f5ab9-cbdd-4a9f-a42c-11581a19f71d", "timestamp": "2025-12-28T09:40:47.707629"}
+{"event": "epoch_completed", "epoch_id": "504511a0-da6b-4f0f-b6bd-ad9fcb274fa0", "timestamp": "2025-12-28T09:40:47.708163"}
+{"event": "fault_injected", "epoch_id": "aa6adcaa-8d33-40a9-8eee-015d03bbc926", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.708185"}
+{"event": "epoch_completed", "epoch_id": "aa6adcaa-8d33-40a9-8eee-015d03bbc926", "timestamp": "2025-12-28T09:40:47.708697"}
+{"event": "fault_injected", "epoch_id": "c4ddf228-3e68-4164-888a-cb152604b6f7", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.708719"}
+{"event": "epoch_completed", "epoch_id": "c4ddf228-3e68-4164-888a-cb152604b6f7", "timestamp": "2025-12-28T09:40:47.709233"}
+{"event": "epoch_completed", "epoch_id": "f4d717b9-317c-4639-a7cd-940fd624e4e7", "timestamp": "2025-12-28T09:40:47.709772"}
+{"event": "epoch_completed", "epoch_id": "bbff2ddb-f660-4af8-bf80-9282cc35f46b", "timestamp": "2025-12-28T09:40:47.710307"}
+{"event": "fault_injected", "epoch_id": "dd292bcf-df45-4086-a724-e03cb568e633", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.710329"}
+{"event": "epoch_completed", "epoch_id": "dd292bcf-df45-4086-a724-e03cb568e633", "timestamp": "2025-12-28T09:40:47.710849"}
+{"event": "fault_injected", "epoch_id": "7dc87251-73a6-4443-b274-21690e8d23d1", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.710873"}
+{"event": "epoch_completed", "epoch_id": "7dc87251-73a6-4443-b274-21690e8d23d1", "timestamp": "2025-12-28T09:40:47.711396"}
+{"event": "epoch_completed", "epoch_id": "71c7e0ab-a729-4b7d-be64-0c3af2479b23", "timestamp": "2025-12-28T09:40:47.711961"}
+{"event": "epoch_completed", "epoch_id": "41d5e365-e6df-42f9-a6e8-5d584ee79f92", "timestamp": "2025-12-28T09:40:47.712495"}
+{"event": "epoch_completed", "epoch_id": "4a0af112-5310-4a23-8d0a-d6134f3b0960", "timestamp": "2025-12-28T09:40:47.713031"}
+{"event": "epoch_completed", "epoch_id": "deb918cf-c552-41f1-8074-6ad8e634c385", "timestamp": "2025-12-28T09:40:47.713566"}
+{"event": "fault_injected", "epoch_id": "39ff21ea-fa97-4562-89a2-b35b39ce9d88", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.713590"}
+{"event": "epoch_completed", "epoch_id": "39ff21ea-fa97-4562-89a2-b35b39ce9d88", "timestamp": "2025-12-28T09:40:47.714109"}
+{"event": "epoch_completed", "epoch_id": "ffba4f10-45c8-411d-89e5-e16c958d8791", "timestamp": "2025-12-28T09:40:47.714643"}
+{"event": "fault_injected", "epoch_id": "245949ac-a730-486f-adda-7d2f46fff6a8", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.714667"}
+{"event": "epoch_completed", "epoch_id": "245949ac-a730-486f-adda-7d2f46fff6a8", "timestamp": "2025-12-28T09:40:47.715180"}
+{"event": "epoch_completed", "epoch_id": "f94c82d0-b5fc-407c-b6a2-446305f4a28d", "timestamp": "2025-12-28T09:40:47.715725"}
+{"event": "fault_injected", "epoch_id": "869370e3-045c-4974-b62b-27bda2000f5e", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.715755"}
+{"event": "epoch_completed", "epoch_id": "869370e3-045c-4974-b62b-27bda2000f5e", "timestamp": "2025-12-28T09:40:47.716311"}
+{"event": "fault_injected", "epoch_id": "b18533df-3502-4ef3-8c0c-0775ccffa6b6", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.716334"}
+{"event": "epoch_completed", "epoch_id": "b18533df-3502-4ef3-8c0c-0775ccffa6b6", "timestamp": "2025-12-28T09:40:47.716906"}
+{"event": "epoch_completed", "epoch_id": "cbad4d38-8e6d-438d-97d8-fca63c63033b", "timestamp": "2025-12-28T09:40:47.717491"}
+{"event": "epoch_completed", "epoch_id": "e4083f4e-fe29-494b-971d-dc02054ae0c8", "timestamp": "2025-12-28T09:40:47.718071"}
+{"event": "fault_injected", "epoch_id": "a2085036-dc4b-4ab3-a16e-3530ad3a0fec", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.718095"}
+{"event": "epoch_completed", "epoch_id": "a2085036-dc4b-4ab3-a16e-3530ad3a0fec", "timestamp": "2025-12-28T09:40:47.718650"}
+{"event": "epoch_completed", "epoch_id": "d7d69f99-b645-4b23-a516-31cc83cfb8bd", "timestamp": "2025-12-28T09:40:47.719227"}
+{"event": "fault_injected", "epoch_id": "afb1f8f7-5dd0-43ab-8c99-b187e7b5d400", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.719250"}
+{"event": "epoch_completed", "epoch_id": "afb1f8f7-5dd0-43ab-8c99-b187e7b5d400", "timestamp": "2025-12-28T09:40:47.719809"}
+{"event": "fault_injected", "epoch_id": "a97b2b80-2db1-4c67-a971-a18daa343111", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.719832"}
+{"event": "epoch_completed", "epoch_id": "a97b2b80-2db1-4c67-a971-a18daa343111", "timestamp": "2025-12-28T09:40:47.720387"}
+{"event": "epoch_completed", "epoch_id": "97129dfd-5af6-41f3-9b1e-1114763479b1", "timestamp": "2025-12-28T09:40:47.720960"}
+{"event": "epoch_completed", "epoch_id": "17f60aa9-6121-4ed4-b6d3-60422959451c", "timestamp": "2025-12-28T09:40:47.721540"}
+{"event": "fault_injected", "epoch_id": "fe17268d-849a-433b-b041-1e2d2a51a4b2", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.721563"}
+{"event": "epoch_completed", "epoch_id": "fe17268d-849a-433b-b041-1e2d2a51a4b2", "timestamp": "2025-12-28T09:40:47.722116"}
+{"event": "epoch_completed", "epoch_id": "4ffe46cd-4521-4db1-8f7a-12a55ab2d94b", "timestamp": "2025-12-28T09:40:47.722694"}
+{"event": "epoch_completed", "epoch_id": "0d9807fd-94ff-4984-b75d-d465e59b0397", "timestamp": "2025-12-28T09:40:47.723270"}
+{"event": "epoch_completed", "epoch_id": "dbfd486d-6b98-4703-982e-45d2e364e3c9", "timestamp": "2025-12-28T09:40:47.723864"}
+{"event": "epoch_completed", "epoch_id": "14a975ed-9e77-4226-8d00-404ae31f5a9f", "timestamp": "2025-12-28T09:40:47.724399"}
+{"event": "fault_injected", "epoch_id": "2514cdb5-663d-48a9-a402-cc3dfb7d9339", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.724421"}
+{"event": "epoch_completed", "epoch_id": "2514cdb5-663d-48a9-a402-cc3dfb7d9339", "timestamp": "2025-12-28T09:40:47.724937"}
+{"event": "epoch_completed", "epoch_id": "3148bce1-447b-44e6-904e-c115fdcbd1ea", "timestamp": "2025-12-28T09:40:47.725514"}
+{"event": "epoch_completed", "epoch_id": "81f31c4c-be1c-4c16-b685-8a0b88e5970a", "timestamp": "2025-12-28T09:40:47.726050"}
+{"event": "epoch_completed", "epoch_id": "e772729e-7000-44f8-aaa0-7ae4756ed7e3", "timestamp": "2025-12-28T09:40:47.726587"}
+{"event": "fault_injected", "epoch_id": "c54aa662-cb2e-4915-b598-1af602602471", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.726609"}
+{"event": "epoch_completed", "epoch_id": "c54aa662-cb2e-4915-b598-1af602602471", "timestamp": "2025-12-28T09:40:47.727126"}
+{"event": "epoch_completed", "epoch_id": "0ffcab3c-fcfc-4e35-9aeb-3d48cfe14e5a", "timestamp": "2025-12-28T09:40:47.727671"}
+{"event": "epoch_completed", "epoch_id": "64253356-552f-4766-bc8e-46aa03e84c37", "timestamp": "2025-12-28T09:40:47.728235"}
+{"event": "epoch_completed", "epoch_id": "bcdfd144-0e13-4c58-a775-2d462904d4b8", "timestamp": "2025-12-28T09:40:47.728834"}
+{"event": "epoch_completed", "epoch_id": "6aeae234-52dd-4ca4-b908-3857f31033b4", "timestamp": "2025-12-28T09:40:47.729373"}
+{"event": "epoch_completed", "epoch_id": "d8194520-1574-4095-a09f-1830ac702369", "timestamp": "2025-12-28T09:40:47.729917"}
+{"event": "epoch_completed", "epoch_id": "a51893d3-7bd9-4340-8174-40acd697f111", "timestamp": "2025-12-28T09:40:47.730466"}
+{"event": "epoch_completed", "epoch_id": "4475fc23-5087-493e-a166-3156877a7239", "timestamp": "2025-12-28T09:40:47.731002"}
+{"event": "fault_injected", "epoch_id": "ac60a2f3-57a3-4e41-9403-6cf15c737581", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.731024"}
+{"event": "epoch_completed", "epoch_id": "ac60a2f3-57a3-4e41-9403-6cf15c737581", "timestamp": "2025-12-28T09:40:47.731549"}
+{"event": "epoch_completed", "epoch_id": "eac02bd3-03d2-449f-ad3b-141c869715d3", "timestamp": "2025-12-28T09:40:47.732083"}
+{"event": "epoch_completed", "epoch_id": "b593ee08-8ca2-48c6-9ac0-01776f350a2f", "timestamp": "2025-12-28T09:40:47.732688"}
+{"event": "epoch_completed", "epoch_id": "2b76ed9c-66a9-4973-8687-308d32770480", "timestamp": "2025-12-28T09:40:47.733384"}
+{"event": "epoch_completed", "epoch_id": "82d05d4e-6651-46cd-8354-34d2d6d90950", "timestamp": "2025-12-28T09:40:47.734021"}
+{"event": "epoch_completed", "epoch_id": "ecdd5f86-1d2e-4eef-b613-cb35fd126983", "timestamp": "2025-12-28T09:40:47.734653"}
+{"event": "fault_injected", "epoch_id": "3a3a04e3-ba60-4c27-8fe4-a50e331c8f64", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.734690"}
+{"event": "epoch_completed", "epoch_id": "3a3a04e3-ba60-4c27-8fe4-a50e331c8f64", "timestamp": "2025-12-28T09:40:47.735328"}
+{"event": "epoch_completed", "epoch_id": "7469cef0-97d3-4d29-a20e-b084d9dc30dd", "timestamp": "2025-12-28T09:40:47.735924"}
+{"event": "fault_injected", "epoch_id": "2a56cd4b-b3b5-4bd7-a4c5-920877971877", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.735964"}
+{"event": "epoch_completed", "epoch_id": "2a56cd4b-b3b5-4bd7-a4c5-920877971877", "timestamp": "2025-12-28T09:40:47.736504"}
+{"event": "fault_injected", "epoch_id": "45afc77e-30ce-4f3d-b9c8-26f0a6c9d741", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.736538"}
+{"event": "epoch_completed", "epoch_id": "45afc77e-30ce-4f3d-b9c8-26f0a6c9d741", "timestamp": "2025-12-28T09:40:47.737081"}
+{"event": "epoch_completed", "epoch_id": "9813b653-c51f-43c4-b27f-24a554c66df1", "timestamp": "2025-12-28T09:40:47.737705"}
+{"event": "epoch_completed", "epoch_id": "2bb96599-10db-4d5f-8db8-5b601bb2ab40", "timestamp": "2025-12-28T09:40:47.738371"}
+{"event": "fault_injected", "epoch_id": "2cf5a856-c087-41a9-aadc-f6725fb2092e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.738401"}
+{"event": "epoch_completed", "epoch_id": "2cf5a856-c087-41a9-aadc-f6725fb2092e", "timestamp": "2025-12-28T09:40:47.738924"}
+{"event": "fault_injected", "epoch_id": "5569be47-b971-4b4b-8633-e68332ed2af9", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.738950"}
+{"event": "epoch_completed", "epoch_id": "5569be47-b971-4b4b-8633-e68332ed2af9", "timestamp": "2025-12-28T09:40:47.739546"}
+{"event": "fault_injected", "epoch_id": "575ea2e0-f284-4ae8-a2f8-d09e6b49d3ad", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.739571"}
+{"event": "epoch_completed", "epoch_id": "575ea2e0-f284-4ae8-a2f8-d09e6b49d3ad", "timestamp": "2025-12-28T09:40:47.740164"}
+{"event": "epoch_completed", "epoch_id": "577c9fce-37e1-4be5-8770-5a51a40dab6a", "timestamp": "2025-12-28T09:40:47.740778"}
+{"event": "epoch_completed", "epoch_id": "3945271b-9710-44bb-96f6-a9a81282cd26", "timestamp": "2025-12-28T09:40:47.741363"}
+{"event": "fault_injected", "epoch_id": "ef9b4e5d-0795-41ea-b289-7f11e48ad27d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.741389"}
+{"event": "epoch_completed", "epoch_id": "ef9b4e5d-0795-41ea-b289-7f11e48ad27d", "timestamp": "2025-12-28T09:40:47.741951"}
+{"event": "epoch_completed", "epoch_id": "aeb9e627-ca09-47ce-8a29-a44f2728b2af", "timestamp": "2025-12-28T09:40:47.742532"}
+{"event": "epoch_completed", "epoch_id": "9534d4e7-1a4f-464a-ac76-9270e7dc62d8", "timestamp": "2025-12-28T09:40:47.743111"}
+{"event": "epoch_completed", "epoch_id": "ba2c293d-6076-4942-a27a-05e9ead5a5ed", "timestamp": "2025-12-28T09:40:47.743704"}
+{"event": "epoch_completed", "epoch_id": "b61c2601-60e2-4af2-a55c-af206f700dce", "timestamp": "2025-12-28T09:40:47.744297"}
+{"event": "fault_injected", "epoch_id": "bbe8ec21-46e8-4653-9163-916e2ee027a2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.744326"}
+{"event": "epoch_completed", "epoch_id": "bbe8ec21-46e8-4653-9163-916e2ee027a2", "timestamp": "2025-12-28T09:40:47.744895"}
+{"event": "epoch_completed", "epoch_id": "33e053bf-04d4-4d3b-9851-9ca33c2f9985", "timestamp": "2025-12-28T09:40:47.745472"}
+{"event": "epoch_completed", "epoch_id": "041de3b9-ec4a-48e8-bfda-e2edeaf690e4", "timestamp": "2025-12-28T09:40:47.746068"}
+{"event": "fault_injected", "epoch_id": "caf6a831-8a97-440f-9880-4816c9978070", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.746100"}
+{"event": "epoch_completed", "epoch_id": "caf6a831-8a97-440f-9880-4816c9978070", "timestamp": "2025-12-28T09:40:47.746663"}
+{"event": "epoch_completed", "epoch_id": "9d5c8ffd-7903-4534-a63b-c68eaf18cef0", "timestamp": "2025-12-28T09:40:47.747221"}
+{"event": "epoch_completed", "epoch_id": "1a0cf556-1fbb-4088-bb96-c0ae19de8891", "timestamp": "2025-12-28T09:40:47.747783"}
+{"event": "fault_injected", "epoch_id": "a0b0d791-7c01-468b-bf59-7e29ba562a69", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.747813"}
+{"event": "epoch_completed", "epoch_id": "a0b0d791-7c01-468b-bf59-7e29ba562a69", "timestamp": "2025-12-28T09:40:47.748337"}
+{"event": "epoch_completed", "epoch_id": "b687bf46-81c5-457a-bc43-35f6fe49b884", "timestamp": "2025-12-28T09:40:47.748912"}
+{"event": "epoch_completed", "epoch_id": "b1455e6f-28a9-45fe-915c-648982f0d90c", "timestamp": "2025-12-28T09:40:47.749465"}
+{"event": "fault_injected", "epoch_id": "69ec4896-d587-4861-b969-871da9132fb4", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.749495"}
+{"event": "epoch_completed", "epoch_id": "69ec4896-d587-4861-b969-871da9132fb4", "timestamp": "2025-12-28T09:40:47.750029"}
+{"event": "epoch_completed", "epoch_id": "9c62b18b-6abb-42a4-974b-d7ee464e9327", "timestamp": "2025-12-28T09:40:47.750639"}
+{"event": "epoch_completed", "epoch_id": "808098b3-65f7-4cc6-a9b2-ae25bda728ac", "timestamp": "2025-12-28T09:40:47.751291"}
+{"event": "fault_injected", "epoch_id": "7271aa0c-eb84-44e2-b051-22bc14a91899", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.751326"}
+{"event": "epoch_completed", "epoch_id": "7271aa0c-eb84-44e2-b051-22bc14a91899", "timestamp": "2025-12-28T09:40:47.751863"}
+{"event": "epoch_completed", "epoch_id": "f8ddba2b-a4e7-4691-b4c7-62ea29534904", "timestamp": "2025-12-28T09:40:47.752424"}
+{"event": "epoch_completed", "epoch_id": "d0fff275-e748-471a-ae7b-fd36378522f9", "timestamp": "2025-12-28T09:40:47.753044"}
+{"event": "epoch_completed", "epoch_id": "2a48624c-afb1-4a46-af6a-82b566c4d8d3", "timestamp": "2025-12-28T09:40:47.753790"}
+{"event": "fault_injected", "epoch_id": "3472e594-fc71-4643-a171-06756d14b358", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.753831"}
+{"event": "epoch_completed", "epoch_id": "3472e594-fc71-4643-a171-06756d14b358", "timestamp": "2025-12-28T09:40:47.754462"}
+{"event": "epoch_completed", "epoch_id": "975d62cf-50a4-44c5-b165-50f713966601", "timestamp": "2025-12-28T09:40:47.755056"}
+{"event": "epoch_completed", "epoch_id": "d4f5627d-6fdd-4b5d-adad-e71b6f5c5447", "timestamp": "2025-12-28T09:40:47.755642"}
+{"event": "fault_injected", "epoch_id": "521f4d7a-37bd-4608-8f59-c6f85c16bf9b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.755667"}
+{"event": "epoch_completed", "epoch_id": "521f4d7a-37bd-4608-8f59-c6f85c16bf9b", "timestamp": "2025-12-28T09:40:47.756230"}
+{"event": "fault_injected", "epoch_id": "eb68e357-c13a-43c3-8ab4-e937b7a740cb", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.756261"}
+{"event": "epoch_completed", "epoch_id": "eb68e357-c13a-43c3-8ab4-e937b7a740cb", "timestamp": "2025-12-28T09:40:47.756817"}
+{"event": "epoch_completed", "epoch_id": "4db52a54-e0ce-43e5-9c23-7518c6510162", "timestamp": "2025-12-28T09:40:47.757395"}
+{"event": "fault_injected", "epoch_id": "ea79db6b-c603-48c0-a70d-1600c08ad4e1", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.757439"}
+{"event": "epoch_completed", "epoch_id": "ea79db6b-c603-48c0-a70d-1600c08ad4e1", "timestamp": "2025-12-28T09:40:47.757993"}
+{"event": "epoch_completed", "epoch_id": "efb8c41e-166f-4724-8cba-bb0327e07462", "timestamp": "2025-12-28T09:40:47.758571"}
+{"event": "epoch_completed", "epoch_id": "d988e551-5c56-48cb-aad1-0fc51bc988e4", "timestamp": "2025-12-28T09:40:47.759149"}
+{"event": "epoch_completed", "epoch_id": "b6f905dc-a34f-40e5-a6e5-5da50d5ea58a", "timestamp": "2025-12-28T09:40:47.759733"}
+{"event": "fault_injected", "epoch_id": "579c10e6-fdb4-4278-b26e-94a492c7c5d5", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.759756"}
+{"event": "epoch_completed", "epoch_id": "579c10e6-fdb4-4278-b26e-94a492c7c5d5", "timestamp": "2025-12-28T09:40:47.760315"}
+{"event": "epoch_completed", "epoch_id": "e5bf008c-3c5c-4f12-8ab2-8de48685b502", "timestamp": "2025-12-28T09:40:47.760906"}
+{"event": "fault_injected", "epoch_id": "1b1e04c1-535c-4ea6-94c6-8bd288fde025", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.760929"}
+{"event": "epoch_completed", "epoch_id": "1b1e04c1-535c-4ea6-94c6-8bd288fde025", "timestamp": "2025-12-28T09:40:47.761482"}
+{"event": "epoch_completed", "epoch_id": "5def19d8-e421-4584-bc1e-9cd46963ec2e", "timestamp": "2025-12-28T09:40:47.762131"}
+{"event": "fault_injected", "epoch_id": "a07e383c-2d43-4f45-b1a7-cd1b0b9f958f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.762170"}
+{"event": "epoch_completed", "epoch_id": "a07e383c-2d43-4f45-b1a7-cd1b0b9f958f", "timestamp": "2025-12-28T09:40:47.762771"}
+{"event": "fault_injected", "epoch_id": "3d8ed153-410a-4222-8734-67ffa66e1468", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.762812"}
+{"event": "epoch_completed", "epoch_id": "3d8ed153-410a-4222-8734-67ffa66e1468", "timestamp": "2025-12-28T09:40:47.763520"}
+{"event": "fault_injected", "epoch_id": "71a14d4c-b4c6-4742-975d-ae82524ebf15", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.763563"}
+{"event": "epoch_completed", "epoch_id": "71a14d4c-b4c6-4742-975d-ae82524ebf15", "timestamp": "2025-12-28T09:40:47.764242"}
+{"event": "epoch_completed", "epoch_id": "d9dbcce0-fa5c-408e-a87d-1ab936cdada7", "timestamp": "2025-12-28T09:40:47.764900"}
+{"event": "epoch_completed", "epoch_id": "f4afea5e-f37a-47e1-b310-afbdcac38032", "timestamp": "2025-12-28T09:40:47.765501"}
+{"event": "epoch_completed", "epoch_id": "5f9b54b0-2055-47a7-8a53-091f0d0057b7", "timestamp": "2025-12-28T09:40:47.766076"}
+{"event": "epoch_completed", "epoch_id": "46ef3f90-e960-4ca6-827c-69494423c8d6", "timestamp": "2025-12-28T09:40:47.766625"}
+{"event": "fault_injected", "epoch_id": "d2523901-e8e4-4f35-ac82-baf49adb8c27", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.766649"}
+{"event": "epoch_completed", "epoch_id": "d2523901-e8e4-4f35-ac82-baf49adb8c27", "timestamp": "2025-12-28T09:40:47.767169"}
+{"event": "epoch_completed", "epoch_id": "0e99ce9b-a31c-49c5-b366-c030892b604c", "timestamp": "2025-12-28T09:40:47.767719"}
+{"event": "fault_injected", "epoch_id": "882c3ec0-37fc-4dcc-9723-c57a269002a1", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.767749"}
+{"event": "epoch_completed", "epoch_id": "882c3ec0-37fc-4dcc-9723-c57a269002a1", "timestamp": "2025-12-28T09:40:47.768389"}
+{"event": "epoch_completed", "epoch_id": "7d990978-04c3-4455-bd2c-d13ca0c44167", "timestamp": "2025-12-28T09:40:47.768926"}
+{"event": "epoch_completed", "epoch_id": "f7c076a5-84e7-4ebe-9175-59ffa9cd621d", "timestamp": "2025-12-28T09:40:47.769461"}
+{"event": "epoch_completed", "epoch_id": "11788097-fdae-4527-9f38-7dbb5aabc12c", "timestamp": "2025-12-28T09:40:47.769997"}
+{"event": "epoch_completed", "epoch_id": "a3535623-35c1-467f-9786-54904aa25caa", "timestamp": "2025-12-28T09:40:47.770533"}
+{"event": "epoch_completed", "epoch_id": "8556b0b3-230a-4798-8328-a9e694b02033", "timestamp": "2025-12-28T09:40:47.771070"}
+{"event": "epoch_completed", "epoch_id": "9d674efb-24a5-4888-9930-c41557ea0d2e", "timestamp": "2025-12-28T09:40:47.771614"}
+{"event": "fault_injected", "epoch_id": "72ea4715-ebc8-4bd1-9c25-9128e6c997e2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.771637"}
+{"event": "epoch_completed", "epoch_id": "72ea4715-ebc8-4bd1-9c25-9128e6c997e2", "timestamp": "2025-12-28T09:40:47.772152"}
+{"event": "fault_injected", "epoch_id": "e4673e13-210b-4dab-afb6-79eb00c2dca1", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.772175"}
+{"event": "epoch_completed", "epoch_id": "e4673e13-210b-4dab-afb6-79eb00c2dca1", "timestamp": "2025-12-28T09:40:47.772707"}
+{"event": "epoch_completed", "epoch_id": "fe82a6f2-3e7f-408b-a17a-a76161abd422", "timestamp": "2025-12-28T09:40:47.773247"}
+{"event": "epoch_completed", "epoch_id": "0604fbd4-ba13-4a9c-8ab4-877c9779bc8a", "timestamp": "2025-12-28T09:40:47.773781"}
+{"event": "fault_injected", "epoch_id": "d53386de-1804-4af4-84ab-0fe26d3f9a1a", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.773805"}
+{"event": "epoch_completed", "epoch_id": "d53386de-1804-4af4-84ab-0fe26d3f9a1a", "timestamp": "2025-12-28T09:40:47.774324"}
+{"event": "fault_injected", "epoch_id": "ca377d25-45ae-44ba-b4f2-551af67b852e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.774347"}
+{"event": "epoch_completed", "epoch_id": "ca377d25-45ae-44ba-b4f2-551af67b852e", "timestamp": "2025-12-28T09:40:47.774868"}
+{"event": "epoch_completed", "epoch_id": "b87c7bda-fe25-464c-a778-4e7b6d99ada8", "timestamp": "2025-12-28T09:40:47.775405"}
+{"event": "epoch_completed", "epoch_id": "a5450f14-bb18-4597-9ff1-2ab9f946f0d8", "timestamp": "2025-12-28T09:40:47.775962"}
+{"event": "fault_injected", "epoch_id": "fd6e5163-c6ac-448a-8928-86265c43623f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.775985"}
+{"event": "epoch_completed", "epoch_id": "fd6e5163-c6ac-448a-8928-86265c43623f", "timestamp": "2025-12-28T09:40:47.776498"}
+{"event": "fault_injected", "epoch_id": "5967190c-395f-4c2f-b65d-60cf015689ff", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.776528"}
+{"event": "epoch_completed", "epoch_id": "5967190c-395f-4c2f-b65d-60cf015689ff", "timestamp": "2025-12-28T09:40:47.777134"}
+{"event": "epoch_completed", "epoch_id": "9c1260fb-3825-440e-bff8-26fa7ddda619", "timestamp": "2025-12-28T09:40:47.777723"}
+{"event": "epoch_completed", "epoch_id": "f43af514-50f7-4115-b5b5-0762ba6de6df", "timestamp": "2025-12-28T09:40:47.778363"}
+{"event": "fault_injected", "epoch_id": "3edafd48-517d-4dbc-9ced-840c30862b13", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.778396"}
+{"event": "epoch_completed", "epoch_id": "3edafd48-517d-4dbc-9ced-840c30862b13", "timestamp": "2025-12-28T09:40:47.778991"}
+{"event": "fault_injected", "epoch_id": "9c08bb1c-53b5-45ad-946d-9d0cba3eb8a6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.779016"}
+{"event": "epoch_completed", "epoch_id": "9c08bb1c-53b5-45ad-946d-9d0cba3eb8a6", "timestamp": "2025-12-28T09:40:47.779554"}
+{"event": "epoch_completed", "epoch_id": "ea4a8e51-97fa-4a74-b338-1bfde90f3a44", "timestamp": "2025-12-28T09:40:47.780144"}
+{"event": "epoch_completed", "epoch_id": "c2a8c3c3-e7b3-4fdf-858c-bc72e39ae7d0", "timestamp": "2025-12-28T09:40:47.780724"}
+{"event": "epoch_completed", "epoch_id": "04328c59-c464-4c6d-9ce8-1cce288e9f11", "timestamp": "2025-12-28T09:40:47.781308"}
+{"event": "epoch_completed", "epoch_id": "1066ba0f-554d-4ba0-b9eb-27dd690f9537", "timestamp": "2025-12-28T09:40:47.781887"}
+{"event": "epoch_completed", "epoch_id": "979e853a-b158-4048-bec8-06190ebd4d01", "timestamp": "2025-12-28T09:40:47.782463"}
+{"event": "fault_injected", "epoch_id": "389e58d8-54e9-4b45-9252-96b3c29602fc", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.782486"}
+{"event": "epoch_completed", "epoch_id": "389e58d8-54e9-4b45-9252-96b3c29602fc", "timestamp": "2025-12-28T09:40:47.783045"}
+{"event": "epoch_completed", "epoch_id": "8ebc2091-ef50-43bb-9753-8291eaa8424b", "timestamp": "2025-12-28T09:40:47.783629"}
+{"event": "epoch_completed", "epoch_id": "e756d6df-b691-4f5d-a36e-7a0c560ff20a", "timestamp": "2025-12-28T09:40:47.784204"}
+{"event": "fault_injected", "epoch_id": "357de028-8281-4ef6-bfe0-d60613177c8d", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.784240"}
+{"event": "epoch_completed", "epoch_id": "357de028-8281-4ef6-bfe0-d60613177c8d", "timestamp": "2025-12-28T09:40:47.784794"}
+{"event": "epoch_completed", "epoch_id": "1abab3c8-4bf3-4671-81ed-112e0efd5905", "timestamp": "2025-12-28T09:40:47.785369"}
+{"event": "fault_injected", "epoch_id": "d190a10b-c272-4215-b025-01141cc40844", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.785392"}
+{"event": "epoch_completed", "epoch_id": "d190a10b-c272-4215-b025-01141cc40844", "timestamp": "2025-12-28T09:40:47.785947"}
+{"event": "fault_injected", "epoch_id": "ee533215-3b23-41f3-af8e-6ebc0d187dd2", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.785970"}
+{"event": "epoch_completed", "epoch_id": "ee533215-3b23-41f3-af8e-6ebc0d187dd2", "timestamp": "2025-12-28T09:40:47.786523"}
+{"event": "epoch_completed", "epoch_id": "5b85fb03-c1b5-4717-80b0-d041efd81db8", "timestamp": "2025-12-28T09:40:47.787099"}
+{"event": "epoch_completed", "epoch_id": "f0c05ce3-909b-418d-87c3-d129b6a2cfef", "timestamp": "2025-12-28T09:40:47.787674"}
+{"event": "epoch_completed", "epoch_id": "9140f14d-3a1a-4759-b007-a8c9adc3d132", "timestamp": "2025-12-28T09:40:47.788256"}
+{"event": "epoch_completed", "epoch_id": "8272d9ec-5cfd-463e-b5f8-a59b29b450a8", "timestamp": "2025-12-28T09:40:47.788834"}
+{"event": "epoch_completed", "epoch_id": "11c3e4e0-3f9a-4bdf-84d9-b8e3f5d3fff9", "timestamp": "2025-12-28T09:40:47.789432"}
+{"event": "fault_injected", "epoch_id": "6abd6163-d160-44ca-a058-655de18ad429", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.789457"}
+{"event": "epoch_completed", "epoch_id": "6abd6163-d160-44ca-a058-655de18ad429", "timestamp": "2025-12-28T09:40:47.790030"}
+{"event": "epoch_completed", "epoch_id": "954af770-e474-4131-b71b-8d96841d8f02", "timestamp": "2025-12-28T09:40:47.790607"}
+{"event": "epoch_completed", "epoch_id": "24436eae-1368-4ec5-9039-ee41bd680937", "timestamp": "2025-12-28T09:40:47.791193"}
+{"event": "epoch_completed", "epoch_id": "d6abd3bc-720f-4a3b-a71a-6ef19111c1c7", "timestamp": "2025-12-28T09:40:47.791795"}
+{"event": "fault_injected", "epoch_id": "05568145-4de9-401e-965b-bee81e7f282e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.791819"}
+{"event": "epoch_completed", "epoch_id": "05568145-4de9-401e-965b-bee81e7f282e", "timestamp": "2025-12-28T09:40:47.792384"}
+{"event": "fault_injected", "epoch_id": "a41790ca-a691-4839-9d96-c70d48e561f3", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.792410"}
+{"event": "epoch_completed", "epoch_id": "a41790ca-a691-4839-9d96-c70d48e561f3", "timestamp": "2025-12-28T09:40:47.792924"}
+{"event": "epoch_completed", "epoch_id": "50932aa8-cbc7-45b0-8540-c51e6226fa18", "timestamp": "2025-12-28T09:40:47.793458"}
+{"event": "epoch_completed", "epoch_id": "a287d23e-379d-4a70-8392-782dc7d79a10", "timestamp": "2025-12-28T09:40:47.793995"}
+{"event": "fault_injected", "epoch_id": "6f4e1b60-4d11-40f9-8047-1c31b9077908", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.794017"}
+{"event": "epoch_completed", "epoch_id": "6f4e1b60-4d11-40f9-8047-1c31b9077908", "timestamp": "2025-12-28T09:40:47.794531"}
+{"event": "epoch_completed", "epoch_id": "d4f5a900-6188-4625-91f8-f8c2e9c05b9e", "timestamp": "2025-12-28T09:40:47.795133"}
+{"event": "epoch_completed", "epoch_id": "d0ddbbcb-8232-4b69-bf0c-dcbdd6c2235c", "timestamp": "2025-12-28T09:40:47.795698"}
+{"event": "epoch_completed", "epoch_id": "36de1de8-8641-416e-bcc8-724bb7137c98", "timestamp": "2025-12-28T09:40:47.796251"}
+{"event": "epoch_completed", "epoch_id": "cc2ae376-d81e-4b36-bdee-28ba135eca98", "timestamp": "2025-12-28T09:40:47.796865"}
+{"event": "fault_injected", "epoch_id": "8ded7574-a284-4cab-b09a-d14326ea6559", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.796921"}
+{"event": "epoch_completed", "epoch_id": "8ded7574-a284-4cab-b09a-d14326ea6559", "timestamp": "2025-12-28T09:40:47.797571"}
+{"event": "epoch_completed", "epoch_id": "924eec8b-325e-4ee3-bc17-2e392cee2fec", "timestamp": "2025-12-28T09:40:47.798140"}
+{"event": "epoch_completed", "epoch_id": "0485f1fd-cfcd-4141-9672-3808cfc588d5", "timestamp": "2025-12-28T09:40:47.798732"}
+{"event": "epoch_completed", "epoch_id": "617e9ce4-56ad-472a-8117-976fb69058e0", "timestamp": "2025-12-28T09:40:47.799316"}
+{"event": "epoch_completed", "epoch_id": "b7d02234-5986-495e-868a-4cd383ff3f4f", "timestamp": "2025-12-28T09:40:47.799867"}
+{"event": "fault_injected", "epoch_id": "93daa827-876e-4400-a850-7e6e2daae9b6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.799889"}
+{"event": "epoch_completed", "epoch_id": "93daa827-876e-4400-a850-7e6e2daae9b6", "timestamp": "2025-12-28T09:40:47.800407"}
+{"event": "fault_injected", "epoch_id": "f3d44ebe-6373-4745-9eaa-54c8fff3ce4e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.800430"}
+{"event": "epoch_completed", "epoch_id": "f3d44ebe-6373-4745-9eaa-54c8fff3ce4e", "timestamp": "2025-12-28T09:40:47.800961"}
+{"event": "fault_injected", "epoch_id": "5b8bb8e9-9c36-4146-a099-b02ae5c02b96", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.800985"}
+{"event": "epoch_completed", "epoch_id": "5b8bb8e9-9c36-4146-a099-b02ae5c02b96", "timestamp": "2025-12-28T09:40:47.801519"}
+{"event": "epoch_completed", "epoch_id": "1a85cb66-94b1-448d-b611-b00a287a19d2", "timestamp": "2025-12-28T09:40:47.802054"}
+{"event": "epoch_completed", "epoch_id": "79d5ef54-bc6b-4712-b8b8-89ef1ce97262", "timestamp": "2025-12-28T09:40:47.802602"}
+{"event": "epoch_completed", "epoch_id": "5f408867-8eed-4563-900e-9e85d5d1c8f4", "timestamp": "2025-12-28T09:40:47.803137"}
+{"event": "epoch_completed", "epoch_id": "84c9d4b0-e8d0-49c0-8491-6c5f75341355", "timestamp": "2025-12-28T09:40:47.803672"}
+{"event": "epoch_completed", "epoch_id": "07b28c3c-8f57-4a31-9b15-de94f9e8a75b", "timestamp": "2025-12-28T09:40:47.804216"}
+{"event": "epoch_completed", "epoch_id": "3c7f47a1-4330-4db9-8c5f-594d5ee5014d", "timestamp": "2025-12-28T09:40:47.804754"}
+{"event": "epoch_completed", "epoch_id": "32a509ec-a660-46a5-84ee-5a01b5d99921", "timestamp": "2025-12-28T09:40:47.805290"}
+{"event": "fault_injected", "epoch_id": "9aa98772-bd2e-4502-882a-321a9b3707b9", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.805313"}
+{"event": "epoch_completed", "epoch_id": "9aa98772-bd2e-4502-882a-321a9b3707b9", "timestamp": "2025-12-28T09:40:47.805828"}
+{"event": "epoch_completed", "epoch_id": "e39cd909-09b7-4b9d-b947-517b67792310", "timestamp": "2025-12-28T09:40:47.806363"}
+{"event": "epoch_completed", "epoch_id": "65df3d9b-0dac-4d9a-8963-e3cfbc7340d0", "timestamp": "2025-12-28T09:40:47.806897"}
+{"event": "epoch_completed", "epoch_id": "c336ddac-421d-441e-8d0e-376270e35db7", "timestamp": "2025-12-28T09:40:47.807437"}
+{"event": "fault_injected", "epoch_id": "9963a191-5be2-4837-b2f0-6c5884e8b73e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.807461"}
+{"event": "epoch_completed", "epoch_id": "9963a191-5be2-4837-b2f0-6c5884e8b73e", "timestamp": "2025-12-28T09:40:47.807978"}
+{"event": "epoch_completed", "epoch_id": "4f4b4547-cf92-4c47-ac53-b48682e77664", "timestamp": "2025-12-28T09:40:47.808512"}
+{"event": "fault_injected", "epoch_id": "0d7ee6da-533a-4512-a513-c9cc3ba50449", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.808534"}
+{"event": "epoch_completed", "epoch_id": "0d7ee6da-533a-4512-a513-c9cc3ba50449", "timestamp": "2025-12-28T09:40:47.809048"}
+{"event": "epoch_completed", "epoch_id": "3f7d7129-9ad2-47f4-9fb1-3667a6d49904", "timestamp": "2025-12-28T09:40:47.809585"}
+{"event": "epoch_completed", "epoch_id": "ed834f3a-a656-4cba-90f1-3642b67cec13", "timestamp": "2025-12-28T09:40:47.810127"}
+{"event": "fault_injected", "epoch_id": "1ff0ef8e-7349-42b9-903b-157650db05c2", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.810161"}
+{"event": "epoch_completed", "epoch_id": "1ff0ef8e-7349-42b9-903b-157650db05c2", "timestamp": "2025-12-28T09:40:47.810719"}
+{"event": "epoch_completed", "epoch_id": "77dd812b-94a2-4693-9546-5bbac4e87b0c", "timestamp": "2025-12-28T09:40:47.811299"}
+{"event": "fault_injected", "epoch_id": "cf3d242d-b3f6-4254-8f98-a3cb7e4d854a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.811324"}
+{"event": "epoch_completed", "epoch_id": "cf3d242d-b3f6-4254-8f98-a3cb7e4d854a", "timestamp": "2025-12-28T09:40:47.811943"}
+{"event": "epoch_completed", "epoch_id": "d3906e35-002f-43ed-bba8-fce0708deaad", "timestamp": "2025-12-28T09:40:47.812516"}
+{"event": "epoch_completed", "epoch_id": "75d4d40a-de2e-42a2-85ee-263198cd0517", "timestamp": "2025-12-28T09:40:47.813054"}
+{"event": "fault_injected", "epoch_id": "f07da6d2-b8ef-41ee-b72e-8876866a4a44", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.813087"}
+{"event": "epoch_completed", "epoch_id": "f07da6d2-b8ef-41ee-b72e-8876866a4a44", "timestamp": "2025-12-28T09:40:47.813672"}
+{"event": "fault_injected", "epoch_id": "a045dfd3-5a7f-4855-8cae-fe6237893e34", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.813697"}
+{"event": "epoch_completed", "epoch_id": "a045dfd3-5a7f-4855-8cae-fe6237893e34", "timestamp": "2025-12-28T09:40:47.814256"}
+{"event": "fault_injected", "epoch_id": "bb1aed40-2d02-4021-9579-42ce8cb4c60d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.814281"}
+{"event": "epoch_completed", "epoch_id": "bb1aed40-2d02-4021-9579-42ce8cb4c60d", "timestamp": "2025-12-28T09:40:47.814838"}
+{"event": "fault_injected", "epoch_id": "6486d18e-e3a6-4b4f-9c97-09a082ef439d", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.814861"}
+{"event": "epoch_completed", "epoch_id": "6486d18e-e3a6-4b4f-9c97-09a082ef439d", "timestamp": "2025-12-28T09:40:47.815422"}
+{"event": "epoch_completed", "epoch_id": "38d5a1c9-2b80-4dec-bb3c-c2c0ec53574f", "timestamp": "2025-12-28T09:40:47.815997"}
+{"event": "epoch_completed", "epoch_id": "90f72eb4-33b5-46ef-a209-51b136851eb0", "timestamp": "2025-12-28T09:40:47.816575"}
+{"event": "epoch_completed", "epoch_id": "c3acf91b-2673-46f0-bd40-a950cbe0d6db", "timestamp": "2025-12-28T09:40:47.817159"}
+{"event": "fault_injected", "epoch_id": "0b2ee6e5-9d5e-4237-bc68-6f786fc881df", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.817182"}
+{"event": "epoch_completed", "epoch_id": "0b2ee6e5-9d5e-4237-bc68-6f786fc881df", "timestamp": "2025-12-28T09:40:47.817735"}
+{"event": "epoch_completed", "epoch_id": "6ace9997-b130-4ddd-8e2b-50348bae054e", "timestamp": "2025-12-28T09:40:47.818312"}
+{"event": "epoch_completed", "epoch_id": "abb6c054-2d62-4b36-8b94-007b88a744a8", "timestamp": "2025-12-28T09:40:47.818887"}
+{"event": "fault_injected", "epoch_id": "96cbef6a-fedd-4895-98d1-ff75348c9297", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.818912"}
+{"event": "epoch_completed", "epoch_id": "96cbef6a-fedd-4895-98d1-ff75348c9297", "timestamp": "2025-12-28T09:40:47.819470"}
+{"event": "fault_injected", "epoch_id": "318b59df-a0d9-4100-a994-bc2cb9000fab", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.819495"}
+{"event": "epoch_completed", "epoch_id": "318b59df-a0d9-4100-a994-bc2cb9000fab", "timestamp": "2025-12-28T09:40:47.820051"}
+{"event": "epoch_completed", "epoch_id": "bb638182-f66a-4796-ab08-87cbeb46dc98", "timestamp": "2025-12-28T09:40:47.820626"}
+{"event": "epoch_completed", "epoch_id": "71e6fb15-3542-4089-b319-db4c47f5764e", "timestamp": "2025-12-28T09:40:47.821203"}
+{"event": "fault_injected", "epoch_id": "6e45d92d-17ee-45c5-82eb-92caccc1b22d", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.821228"}
+{"event": "epoch_completed", "epoch_id": "6e45d92d-17ee-45c5-82eb-92caccc1b22d", "timestamp": "2025-12-28T09:40:47.821779"}
+{"event": "fault_injected", "epoch_id": "4bb6560b-6571-4cf3-ad13-4fc331e8820c", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.821802"}
+{"event": "epoch_completed", "epoch_id": "4bb6560b-6571-4cf3-ad13-4fc331e8820c", "timestamp": "2025-12-28T09:40:47.822358"}
+{"event": "epoch_completed", "epoch_id": "57f90b77-7f67-4c83-aa8c-1bc5f62d4bf6", "timestamp": "2025-12-28T09:40:47.822933"}
+{"event": "epoch_completed", "epoch_id": "0d6263e6-7bbe-42ad-9518-bcdcf58b0067", "timestamp": "2025-12-28T09:40:47.823488"}
+{"event": "epoch_completed", "epoch_id": "6a084feb-00df-4569-838f-35e2e77bb207", "timestamp": "2025-12-28T09:40:47.824043"}
+{"event": "fault_injected", "epoch_id": "24c87994-b19d-48d5-b138-c5ecfeacbfce", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.824068"}
+{"event": "epoch_completed", "epoch_id": "24c87994-b19d-48d5-b138-c5ecfeacbfce", "timestamp": "2025-12-28T09:40:47.824592"}
+{"event": "fault_injected", "epoch_id": "bc0f71f2-6452-46fd-8b9a-6dbfe331a797", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.824614"}
+{"event": "epoch_completed", "epoch_id": "bc0f71f2-6452-46fd-8b9a-6dbfe331a797", "timestamp": "2025-12-28T09:40:47.825135"}
+{"event": "fault_injected", "epoch_id": "8c59d630-8477-4e9a-a49d-756f21784b3e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.825158"}
+{"event": "epoch_completed", "epoch_id": "8c59d630-8477-4e9a-a49d-756f21784b3e", "timestamp": "2025-12-28T09:40:47.825681"}
+{"event": "epoch_completed", "epoch_id": "1b4788b3-ad02-4d0a-b0e5-08a30f7a9138", "timestamp": "2025-12-28T09:40:47.826236"}
+{"event": "epoch_completed", "epoch_id": "6a980747-d896-4042-97b4-4cf7655a79a6", "timestamp": "2025-12-28T09:40:47.826773"}
+{"event": "fault_injected", "epoch_id": "92d447a0-c62b-42ec-af8f-5fb8261df91f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.826796"}
+{"event": "epoch_completed", "epoch_id": "92d447a0-c62b-42ec-af8f-5fb8261df91f", "timestamp": "2025-12-28T09:40:47.827331"}
+{"event": "fault_injected", "epoch_id": "0a5ac5f8-779e-4d0c-bf2f-6959616f1ab1", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.827353"}
+{"event": "epoch_completed", "epoch_id": "0a5ac5f8-779e-4d0c-bf2f-6959616f1ab1", "timestamp": "2025-12-28T09:40:47.827882"}
+{"event": "epoch_completed", "epoch_id": "2443b439-a6f3-407e-b83b-ede37a82b539", "timestamp": "2025-12-28T09:40:47.828461"}
+{"event": "epoch_completed", "epoch_id": "079c9e6e-6d26-450c-afa8-2bf603f2f91a", "timestamp": "2025-12-28T09:40:47.828997"}
+{"event": "epoch_completed", "epoch_id": "ee0daaf5-5a13-4e29-a556-98389b26eebb", "timestamp": "2025-12-28T09:40:47.829537"}
+{"event": "epoch_completed", "epoch_id": "ffd55414-fbbf-4430-93b6-6cd206a61b80", "timestamp": "2025-12-28T09:40:47.830082"}
+{"event": "epoch_completed", "epoch_id": "28845070-f5a1-45f4-9755-705a935ee98f", "timestamp": "2025-12-28T09:40:47.830619"}
+{"event": "epoch_completed", "epoch_id": "2d426429-d17e-49eb-b52d-61e061803f0b", "timestamp": "2025-12-28T09:40:47.831157"}
+{"event": "fault_injected", "epoch_id": "549c1444-d7b5-48a8-8b50-f112f1dcd039", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.831180"}
+{"event": "epoch_completed", "epoch_id": "549c1444-d7b5-48a8-8b50-f112f1dcd039", "timestamp": "2025-12-28T09:40:47.831703"}
+{"event": "fault_injected", "epoch_id": "bfe26a2c-cd9e-44f7-8783-20b9f2590aa1", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.831725"}
+{"event": "epoch_completed", "epoch_id": "bfe26a2c-cd9e-44f7-8783-20b9f2590aa1", "timestamp": "2025-12-28T09:40:47.832242"}
+{"event": "epoch_completed", "epoch_id": "d9a9d70b-8fca-4245-96b8-b65df89c8501", "timestamp": "2025-12-28T09:40:47.832779"}
+{"event": "epoch_completed", "epoch_id": "d2ecff27-0759-4d90-a335-c6f1b709a9d8", "timestamp": "2025-12-28T09:40:47.833317"}
+{"event": "epoch_completed", "epoch_id": "9c6d5cbb-fc62-4766-bcd7-87da90f5a558", "timestamp": "2025-12-28T09:40:47.833856"}
+{"event": "epoch_completed", "epoch_id": "f6c0563f-aff8-4eec-9742-e2144fbc0791", "timestamp": "2025-12-28T09:40:47.834391"}
+{"event": "epoch_completed", "epoch_id": "9a87f18b-38fa-48fd-b1da-2abd80463050", "timestamp": "2025-12-28T09:40:47.834926"}
+{"event": "epoch_completed", "epoch_id": "59342269-4fd3-4dff-887c-77ff730937c9", "timestamp": "2025-12-28T09:40:47.835467"}
+{"event": "epoch_completed", "epoch_id": "4a15cb78-0221-4808-a98a-785f6bfbf719", "timestamp": "2025-12-28T09:40:47.836006"}
+{"event": "epoch_completed", "epoch_id": "22779504-8de7-4c22-b619-dabb263bda30", "timestamp": "2025-12-28T09:40:47.836549"}
+{"event": "epoch_completed", "epoch_id": "fd003c1d-602f-4e54-8bf8-f960cd32dd21", "timestamp": "2025-12-28T09:40:47.837085"}
+{"event": "epoch_completed", "epoch_id": "85bc85bf-0888-4e73-bf17-ed112d7e8f99", "timestamp": "2025-12-28T09:40:47.837619"}
+{"event": "epoch_completed", "epoch_id": "fe3ade99-50d3-4244-8383-d321bec92831", "timestamp": "2025-12-28T09:40:47.838157"}
+{"event": "fault_injected", "epoch_id": "4322be52-31c8-4f01-9eac-8bded86ae8d6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.838180"}
+{"event": "epoch_completed", "epoch_id": "4322be52-31c8-4f01-9eac-8bded86ae8d6", "timestamp": "2025-12-28T09:40:47.838698"}
+{"event": "fault_injected", "epoch_id": "d6d53f96-91c5-4fba-b427-51477faa00a9", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.838722"}
+{"event": "epoch_completed", "epoch_id": "d6d53f96-91c5-4fba-b427-51477faa00a9", "timestamp": "2025-12-28T09:40:47.839271"}
+{"event": "fault_injected", "epoch_id": "8cd90cfe-1ea5-4bb7-ac83-67d900e2cd03", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.839305"}
+{"event": "epoch_completed", "epoch_id": "8cd90cfe-1ea5-4bb7-ac83-67d900e2cd03", "timestamp": "2025-12-28T09:40:47.839907"}
+{"event": "fault_injected", "epoch_id": "8de2f136-4367-45a4-871c-ddb08df15262", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.839931"}
+{"event": "epoch_completed", "epoch_id": "8de2f136-4367-45a4-871c-ddb08df15262", "timestamp": "2025-12-28T09:40:47.840445"}
+{"event": "epoch_completed", "epoch_id": "640649d6-b130-461d-84d7-6b99f058a9e5", "timestamp": "2025-12-28T09:40:47.840982"}
+{"event": "fault_injected", "epoch_id": "a4041533-145d-484b-97f3-f4efeb14d6f1", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.841005"}
+{"event": "epoch_completed", "epoch_id": "a4041533-145d-484b-97f3-f4efeb14d6f1", "timestamp": "2025-12-28T09:40:47.841519"}
+{"event": "epoch_completed", "epoch_id": "f6e71b17-e2ae-4df6-bdaa-a7b3e4d39fac", "timestamp": "2025-12-28T09:40:47.842055"}
+{"event": "fault_injected", "epoch_id": "2a72a736-cf34-4961-b64d-be7bb2485dad", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.842077"}
+{"event": "epoch_completed", "epoch_id": "2a72a736-cf34-4961-b64d-be7bb2485dad", "timestamp": "2025-12-28T09:40:47.842602"}
+{"event": "fault_injected", "epoch_id": "dd6f1144-82ff-4429-b466-953e68f9b82d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.842627"}
+{"event": "epoch_completed", "epoch_id": "dd6f1144-82ff-4429-b466-953e68f9b82d", "timestamp": "2025-12-28T09:40:47.843144"}
+{"event": "epoch_completed", "epoch_id": "2992a45b-31a7-4c09-8d47-be6800060d78", "timestamp": "2025-12-28T09:40:47.843688"}
+{"event": "epoch_completed", "epoch_id": "f3d5b62e-399c-463a-aa0d-0ab90626d507", "timestamp": "2025-12-28T09:40:47.844224"}
+{"event": "epoch_completed", "epoch_id": "da42dca0-61ea-4162-aa6c-60f8380f5316", "timestamp": "2025-12-28T09:40:47.844757"}
+{"event": "epoch_completed", "epoch_id": "9c5a7c1a-0559-4c83-811b-d8d17b20dbe6", "timestamp": "2025-12-28T09:40:47.845387"}
+{"event": "fault_injected", "epoch_id": "f1d39834-ddca-4b64-b512-23dd5d0b8721", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.845420"}
+{"event": "epoch_completed", "epoch_id": "f1d39834-ddca-4b64-b512-23dd5d0b8721", "timestamp": "2025-12-28T09:40:47.846009"}
+{"event": "epoch_completed", "epoch_id": "fe69aa4d-aa20-459a-8aa9-72d122eb66d1", "timestamp": "2025-12-28T09:40:47.846546"}
+{"event": "epoch_completed", "epoch_id": "712d93c5-d6bb-490a-9c8d-2f21dd780112", "timestamp": "2025-12-28T09:40:47.847084"}
+{"event": "fault_injected", "epoch_id": "ae7a4f3c-9384-4ac0-abfc-15cc58ee1660", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.847105"}
+{"event": "epoch_completed", "epoch_id": "ae7a4f3c-9384-4ac0-abfc-15cc58ee1660", "timestamp": "2025-12-28T09:40:47.847629"}
+{"event": "fault_injected", "epoch_id": "8e45f31e-e59d-4e1d-9755-a1534680bc4d", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.847652"}
+{"event": "epoch_completed", "epoch_id": "8e45f31e-e59d-4e1d-9755-a1534680bc4d", "timestamp": "2025-12-28T09:40:47.848164"}
+{"event": "fault_injected", "epoch_id": "c7bc65b7-1b5a-4326-9030-494a47db3845", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.848186"}
+{"event": "epoch_completed", "epoch_id": "c7bc65b7-1b5a-4326-9030-494a47db3845", "timestamp": "2025-12-28T09:40:47.848704"}
+{"event": "fault_injected", "epoch_id": "90d1f9f7-86fc-4f35-82ec-2ad4e5c743b3", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.848735"}
+{"event": "epoch_completed", "epoch_id": "90d1f9f7-86fc-4f35-82ec-2ad4e5c743b3", "timestamp": "2025-12-28T09:40:47.849252"}
+{"event": "epoch_completed", "epoch_id": "7903d80a-b633-4955-ac8c-00eded5b27f1", "timestamp": "2025-12-28T09:40:47.849789"}
+{"event": "fault_injected", "epoch_id": "2190c6bd-6716-47c5-a02c-7dd832031628", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.849812"}
+{"event": "epoch_completed", "epoch_id": "2190c6bd-6716-47c5-a02c-7dd832031628", "timestamp": "2025-12-28T09:40:47.850325"}
+{"event": "fault_injected", "epoch_id": "ae3363d8-7030-453f-866a-ce7f5583f13b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.850348"}
+{"event": "epoch_completed", "epoch_id": "ae3363d8-7030-453f-866a-ce7f5583f13b", "timestamp": "2025-12-28T09:40:47.850880"}
+{"event": "epoch_completed", "epoch_id": "7ae895e8-a42c-4611-952c-07f3981dd47e", "timestamp": "2025-12-28T09:40:47.851438"}
+{"event": "fault_injected", "epoch_id": "caf68162-b0ea-4454-b992-7d63b211ccda", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.851462"}
+{"event": "epoch_completed", "epoch_id": "caf68162-b0ea-4454-b992-7d63b211ccda", "timestamp": "2025-12-28T09:40:47.851980"}
+{"event": "epoch_completed", "epoch_id": "22535694-ac41-46bd-bfe5-271b50bd1f01", "timestamp": "2025-12-28T09:40:47.852517"}
+{"event": "fault_injected", "epoch_id": "8ddd0e43-771a-4718-a519-8b471215127b", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.852539"}
+{"event": "epoch_completed", "epoch_id": "8ddd0e43-771a-4718-a519-8b471215127b", "timestamp": "2025-12-28T09:40:47.853067"}
+{"event": "epoch_completed", "epoch_id": "e600e9a3-df92-4598-95e8-9e717d7b74a3", "timestamp": "2025-12-28T09:40:47.853606"}
+{"event": "fault_injected", "epoch_id": "d364d03e-0f08-4dd4-9c2e-b02205acce14", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.853630"}
+{"event": "epoch_completed", "epoch_id": "d364d03e-0f08-4dd4-9c2e-b02205acce14", "timestamp": "2025-12-28T09:40:47.854144"}
+{"event": "epoch_completed", "epoch_id": "bcdbd209-9f03-4fef-bc2b-0eb4f1a57d8e", "timestamp": "2025-12-28T09:40:47.854680"}
+{"event": "fault_injected", "epoch_id": "78447d06-4d38-4073-a306-d2eb504fe417", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.854705"}
+{"event": "epoch_completed", "epoch_id": "78447d06-4d38-4073-a306-d2eb504fe417", "timestamp": "2025-12-28T09:40:47.855237"}
+{"event": "fault_injected", "epoch_id": "03451d98-be39-4911-92a5-0cf7f830ddb4", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.855259"}
+{"event": "epoch_completed", "epoch_id": "03451d98-be39-4911-92a5-0cf7f830ddb4", "timestamp": "2025-12-28T09:40:47.855780"}
+{"event": "epoch_completed", "epoch_id": "ef0c40f2-8832-4059-b919-819e7cb61829", "timestamp": "2025-12-28T09:40:47.856315"}
+{"event": "epoch_completed", "epoch_id": "658d9d2b-08cd-4ea3-895b-114854848b5d", "timestamp": "2025-12-28T09:40:47.856850"}
+{"event": "epoch_completed", "epoch_id": "bbfc2b4a-8d3c-4d8a-bcd1-fdc7ebd3584e", "timestamp": "2025-12-28T09:40:47.857388"}
+{"event": "epoch_completed", "epoch_id": "90ade6ba-47bb-4361-a931-9c16fdc9b952", "timestamp": "2025-12-28T09:40:47.857925"}
+{"event": "epoch_completed", "epoch_id": "765ee4ac-5975-4509-a0af-ef9374c62534", "timestamp": "2025-12-28T09:40:47.858459"}
+{"event": "epoch_completed", "epoch_id": "27128427-d3a1-4f47-9623-c5b1851b2d31", "timestamp": "2025-12-28T09:40:47.858994"}
+{"event": "epoch_completed", "epoch_id": "25b1eac8-25a6-4c2e-843c-2bbdaeaa85a1", "timestamp": "2025-12-28T09:40:47.859538"}
+{"event": "fault_injected", "epoch_id": "24d08234-fd8c-420d-8328-890f65d65752", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.859561"}
+{"event": "epoch_completed", "epoch_id": "24d08234-fd8c-420d-8328-890f65d65752", "timestamp": "2025-12-28T09:40:47.860076"}
+{"event": "epoch_completed", "epoch_id": "0696bcd0-36b7-42fa-8777-61aebac9a0bc", "timestamp": "2025-12-28T09:40:47.860610"}
+{"event": "epoch_completed", "epoch_id": "8c650c1f-c252-457f-9f5b-cb86b2885afe", "timestamp": "2025-12-28T09:40:47.861151"}
+{"event": "fault_injected", "epoch_id": "e955c116-c469-4601-ae27-d94b5fda5287", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.861182"}
+{"event": "epoch_completed", "epoch_id": "e955c116-c469-4601-ae27-d94b5fda5287", "timestamp": "2025-12-28T09:40:47.861764"}
+{"event": "epoch_completed", "epoch_id": "99fe08b3-6d48-4cb6-a276-54bca80fd989", "timestamp": "2025-12-28T09:40:47.862348"}
+{"event": "epoch_completed", "epoch_id": "3d2e7a53-db1a-49a3-a643-3168530e375e", "timestamp": "2025-12-28T09:40:47.862953"}
+{"event": "epoch_completed", "epoch_id": "55d65a28-40e3-4a43-84e8-e5fb18927f7f", "timestamp": "2025-12-28T09:40:47.863541"}
+{"event": "epoch_completed", "epoch_id": "da153be4-8868-4603-a4dc-5472c2c9c7fb", "timestamp": "2025-12-28T09:40:47.864128"}
+{"event": "fault_injected", "epoch_id": "19b67c26-430a-4084-b0c5-8b0e58961043", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.864152"}
+{"event": "epoch_completed", "epoch_id": "19b67c26-430a-4084-b0c5-8b0e58961043", "timestamp": "2025-12-28T09:40:47.864713"}
+{"event": "epoch_completed", "epoch_id": "2ed4c97b-40a6-4f5d-b52f-d1c1708867eb", "timestamp": "2025-12-28T09:40:47.865295"}
+{"event": "epoch_completed", "epoch_id": "daf51373-89f3-483b-b263-420d8ab9bc76", "timestamp": "2025-12-28T09:40:47.865875"}
+{"event": "epoch_completed", "epoch_id": "5e6d2f13-ae13-405c-8c12-11cb12000b89", "timestamp": "2025-12-28T09:40:47.866451"}
+{"event": "epoch_completed", "epoch_id": "e50f5c24-2bc9-4a45-bfd6-dd0e8b4429ae", "timestamp": "2025-12-28T09:40:47.867029"}
+{"event": "epoch_completed", "epoch_id": "f810d42e-5cf7-4ddc-b276-a7f3a06658c2", "timestamp": "2025-12-28T09:40:47.867670"}
+{"event": "fault_injected", "epoch_id": "2e4dfe35-71d7-455e-a3a6-1ccf7551393c", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.867704"}
+{"event": "epoch_completed", "epoch_id": "2e4dfe35-71d7-455e-a3a6-1ccf7551393c", "timestamp": "2025-12-28T09:40:47.868242"}
+{"event": "epoch_completed", "epoch_id": "38ab842d-afea-4e45-9900-ed0053d17d15", "timestamp": "2025-12-28T09:40:47.868803"}
+{"event": "epoch_completed", "epoch_id": "4ca9597f-ad60-4ba9-8807-b55c38d7b652", "timestamp": "2025-12-28T09:40:47.869343"}
+{"event": "fault_injected", "epoch_id": "603d8aba-2414-43e9-b9f2-ab0b41b91e31", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.869365"}
+{"event": "epoch_completed", "epoch_id": "603d8aba-2414-43e9-b9f2-ab0b41b91e31", "timestamp": "2025-12-28T09:40:47.869881"}
+{"event": "epoch_completed", "epoch_id": "73a3e429-493a-4c54-9422-701aa03548e5", "timestamp": "2025-12-28T09:40:47.870432"}
+{"event": "epoch_completed", "epoch_id": "78801d5d-bf94-403f-8acb-1b7c48eb3ce2", "timestamp": "2025-12-28T09:40:47.870966"}
+{"event": "epoch_completed", "epoch_id": "ead2b689-6521-4b39-9d5c-007a063ad9a5", "timestamp": "2025-12-28T09:40:47.871507"}
+{"event": "epoch_completed", "epoch_id": "a950076c-a33b-4f64-89d1-a13d4547473c", "timestamp": "2025-12-28T09:40:47.872057"}
+{"event": "epoch_completed", "epoch_id": "c783c852-0c9f-4c41-9585-32438c696513", "timestamp": "2025-12-28T09:40:47.872607"}
+{"event": "fault_injected", "epoch_id": "bd360d05-7928-442f-8f72-563b210ecf02", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.872629"}
+{"event": "epoch_completed", "epoch_id": "bd360d05-7928-442f-8f72-563b210ecf02", "timestamp": "2025-12-28T09:40:47.873145"}
+{"event": "fault_injected", "epoch_id": "73043eb6-1fa0-4d11-84e9-daa3d65671b7", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.873167"}
+{"event": "epoch_completed", "epoch_id": "73043eb6-1fa0-4d11-84e9-daa3d65671b7", "timestamp": "2025-12-28T09:40:47.873683"}
+{"event": "epoch_completed", "epoch_id": "0075fdcf-98e2-4793-bb3a-0e362bb4bddb", "timestamp": "2025-12-28T09:40:47.874220"}
+{"event": "epoch_completed", "epoch_id": "193a991c-1156-4238-ba12-b01d32852f9a", "timestamp": "2025-12-28T09:40:47.874783"}
+{"event": "fault_injected", "epoch_id": "d3ab7b69-f982-47b5-a3d7-8b691db287e8", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.874805"}
+{"event": "epoch_completed", "epoch_id": "d3ab7b69-f982-47b5-a3d7-8b691db287e8", "timestamp": "2025-12-28T09:40:47.875322"}
+{"event": "fault_injected", "epoch_id": "019ed144-32e1-4081-9233-1a31d2d47129", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.875346"}
+{"event": "epoch_completed", "epoch_id": "019ed144-32e1-4081-9233-1a31d2d47129", "timestamp": "2025-12-28T09:40:47.875871"}
+{"event": "epoch_completed", "epoch_id": "923740ec-89b4-4541-9153-6fb0fee1b330", "timestamp": "2025-12-28T09:40:47.876407"}
+{"event": "epoch_completed", "epoch_id": "33b8d376-87ab-4f84-bfad-7046dd449ca9", "timestamp": "2025-12-28T09:40:47.876944"}
+{"event": "epoch_completed", "epoch_id": "74660541-7234-4bd5-9310-0e43b7ed8489", "timestamp": "2025-12-28T09:40:47.877482"}
+{"event": "epoch_completed", "epoch_id": "2e59c313-a223-428e-b7d4-f268daa56bf4", "timestamp": "2025-12-28T09:40:47.878020"}
+{"event": "epoch_completed", "epoch_id": "b5c93dcc-71a0-4862-8a33-b194b46facb9", "timestamp": "2025-12-28T09:40:47.878633"}
+{"event": "fault_injected", "epoch_id": "4d5387e0-3832-415b-9b4d-b0af135ff915", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.878657"}
+{"event": "epoch_completed", "epoch_id": "4d5387e0-3832-415b-9b4d-b0af135ff915", "timestamp": "2025-12-28T09:40:47.879176"}
+{"event": "epoch_completed", "epoch_id": "b07f1365-3510-4f4d-adb1-06dc91a0f9e7", "timestamp": "2025-12-28T09:40:47.879722"}
+{"event": "epoch_completed", "epoch_id": "c957bfd9-f571-4bd5-8f38-7c0c13387b4a", "timestamp": "2025-12-28T09:40:47.880256"}
+{"event": "fault_injected", "epoch_id": "319d371a-2f94-477b-97b1-db8f51dd1c38", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.880279"}
+{"event": "epoch_completed", "epoch_id": "319d371a-2f94-477b-97b1-db8f51dd1c38", "timestamp": "2025-12-28T09:40:47.880803"}
+{"event": "fault_injected", "epoch_id": "c35d8070-85ad-4e9e-a433-12df60b8fbd3", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.880826"}
+{"event": "epoch_completed", "epoch_id": "c35d8070-85ad-4e9e-a433-12df60b8fbd3", "timestamp": "2025-12-28T09:40:47.881345"}
+{"event": "fault_injected", "epoch_id": "ef484d41-390d-4dd5-905a-c9091d30e09f", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.881367"}
+{"event": "epoch_completed", "epoch_id": "ef484d41-390d-4dd5-905a-c9091d30e09f", "timestamp": "2025-12-28T09:40:47.881885"}
+{"event": "epoch_completed", "epoch_id": "582687e3-8a91-49bd-b7fa-ebc1e8dd46ad", "timestamp": "2025-12-28T09:40:47.882422"}
+{"event": "epoch_completed", "epoch_id": "dccc80ae-94c9-414d-82ce-dc9aab9bcad1", "timestamp": "2025-12-28T09:40:47.882957"}
+{"event": "epoch_completed", "epoch_id": "c2000007-09a6-482f-a8b3-94beba4037e3", "timestamp": "2025-12-28T09:40:47.883501"}
+{"event": "epoch_completed", "epoch_id": "64f68a12-5559-4b00-9373-12c6136249b6", "timestamp": "2025-12-28T09:40:47.884035"}
+{"event": "epoch_completed", "epoch_id": "72ae511c-664a-4ee5-b139-9a048993f439", "timestamp": "2025-12-28T09:40:47.884572"}
+{"event": "epoch_completed", "epoch_id": "aa728020-117f-4272-8d62-144cdb61956c", "timestamp": "2025-12-28T09:40:47.885110"}
+{"event": "epoch_completed", "epoch_id": "1c98d326-cf57-4001-8ab2-9c704a01b77b", "timestamp": "2025-12-28T09:40:47.885646"}
+{"event": "fault_injected", "epoch_id": "4e8d0e49-4a5a-478e-aa30-fdeab847dfb6", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.885669"}
+{"event": "epoch_completed", "epoch_id": "4e8d0e49-4a5a-478e-aa30-fdeab847dfb6", "timestamp": "2025-12-28T09:40:47.886187"}
+{"event": "fault_injected", "epoch_id": "1c71b5cb-24a0-48e0-8784-233a4ed50617", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.886210"}
+{"event": "epoch_completed", "epoch_id": "1c71b5cb-24a0-48e0-8784-233a4ed50617", "timestamp": "2025-12-28T09:40:47.886742"}
+{"event": "epoch_completed", "epoch_id": "a2558a56-b054-492b-8acb-40c8e304cbc8", "timestamp": "2025-12-28T09:40:47.887289"}
+{"event": "epoch_completed", "epoch_id": "b3f6367c-3d9f-4f11-92f0-9c6116797f4d", "timestamp": "2025-12-28T09:40:47.887825"}
+{"event": "epoch_completed", "epoch_id": "635127e6-af60-4746-b739-67602694c6e1", "timestamp": "2025-12-28T09:40:47.888361"}
+{"event": "fault_injected", "epoch_id": "289d0dd5-dfe6-4cc4-b9cb-096f9a94e8dd", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.888383"}
+{"event": "epoch_completed", "epoch_id": "289d0dd5-dfe6-4cc4-b9cb-096f9a94e8dd", "timestamp": "2025-12-28T09:40:47.888901"}
+{"event": "epoch_completed", "epoch_id": "0e22fc03-73ec-473d-9de2-0d4c25ac1d49", "timestamp": "2025-12-28T09:40:47.889437"}
+{"event": "fault_injected", "epoch_id": "a1204012-b64c-4b4e-8286-a42c70b9f367", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.889460"}
+{"event": "epoch_completed", "epoch_id": "a1204012-b64c-4b4e-8286-a42c70b9f367", "timestamp": "2025-12-28T09:40:47.889994"}
+{"event": "epoch_completed", "epoch_id": "06606f87-798e-4625-87b3-d4d51a356372", "timestamp": "2025-12-28T09:40:47.890547"}
+{"event": "epoch_completed", "epoch_id": "bbcda3ec-a340-4156-b648-041472518e83", "timestamp": "2025-12-28T09:40:47.891084"}
+{"event": "epoch_completed", "epoch_id": "e93a7070-0494-4d12-8666-f952e318dc2a", "timestamp": "2025-12-28T09:40:47.891618"}
+{"event": "epoch_completed", "epoch_id": "92553e2c-bb6c-419e-a7aa-a3ad6469e362", "timestamp": "2025-12-28T09:40:47.892152"}
+{"event": "epoch_completed", "epoch_id": "34f96301-0296-4e08-9e7f-074c04bb09a5", "timestamp": "2025-12-28T09:40:47.892693"}
+{"event": "epoch_completed", "epoch_id": "b75e84fd-6d39-458d-b908-bc060754b552", "timestamp": "2025-12-28T09:40:47.893258"}
+{"event": "fault_injected", "epoch_id": "2fd35c01-99fd-4dec-82a6-203b87a6de81", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.893280"}
+{"event": "epoch_completed", "epoch_id": "2fd35c01-99fd-4dec-82a6-203b87a6de81", "timestamp": "2025-12-28T09:40:47.893798"}
+{"event": "fault_injected", "epoch_id": "dfbd3381-25b2-4b6f-afe9-18fc0c73f4f1", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.893821"}
+{"event": "epoch_completed", "epoch_id": "dfbd3381-25b2-4b6f-afe9-18fc0c73f4f1", "timestamp": "2025-12-28T09:40:47.894338"}
+{"event": "fault_injected", "epoch_id": "b1ca1e2e-64f0-429d-b89f-0534e958e62f", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.894360"}
+{"event": "epoch_completed", "epoch_id": "b1ca1e2e-64f0-429d-b89f-0534e958e62f", "timestamp": "2025-12-28T09:40:47.894883"}
+{"event": "epoch_completed", "epoch_id": "e7e17353-2f86-4590-a683-edd9e861e17a", "timestamp": "2025-12-28T09:40:47.895468"}
+{"event": "epoch_completed", "epoch_id": "5ab3ac00-aa9a-47fe-93a1-a08c02b92de9", "timestamp": "2025-12-28T09:40:47.896004"}
+{"event": "epoch_completed", "epoch_id": "cbb72e5e-ab40-4825-83bc-2184f8d18d07", "timestamp": "2025-12-28T09:40:47.896541"}
+{"event": "epoch_completed", "epoch_id": "8c35af4f-5cf0-44b5-951d-184bad927680", "timestamp": "2025-12-28T09:40:47.897078"}
+{"event": "epoch_completed", "epoch_id": "b16c743d-36fa-4c05-84a8-82e617ee524d", "timestamp": "2025-12-28T09:40:47.897612"}
+{"event": "epoch_completed", "epoch_id": "c9cf0756-afa0-40d7-ae87-7fa53dcf0091", "timestamp": "2025-12-28T09:40:47.898148"}
+{"event": "fault_injected", "epoch_id": "38990c26-946d-466d-9e46-03098ac28300", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.898172"}
+{"event": "epoch_completed", "epoch_id": "38990c26-946d-466d-9e46-03098ac28300", "timestamp": "2025-12-28T09:40:47.898704"}
+{"event": "epoch_completed", "epoch_id": "3bb1a22e-5a6f-4032-b361-d286bb9e0384", "timestamp": "2025-12-28T09:40:47.899245"}
+{"event": "epoch_completed", "epoch_id": "7b5993bb-2870-448b-864c-1cc7bea37184", "timestamp": "2025-12-28T09:40:47.899796"}
+{"event": "fault_injected", "epoch_id": "7dc4199f-13f4-4b99-83a6-d226af91c31b", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.899819"}
+{"event": "epoch_completed", "epoch_id": "7dc4199f-13f4-4b99-83a6-d226af91c31b", "timestamp": "2025-12-28T09:40:47.900335"}
+{"event": "epoch_completed", "epoch_id": "6ce22858-52fc-49a7-9254-e3839c0d54f0", "timestamp": "2025-12-28T09:40:47.900873"}
+{"event": "fault_injected", "epoch_id": "fa8f8262-32ea-496c-884f-99b03fd7f93a", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.900897"}
+{"event": "epoch_completed", "epoch_id": "fa8f8262-32ea-496c-884f-99b03fd7f93a", "timestamp": "2025-12-28T09:40:47.901417"}
+{"event": "epoch_completed", "epoch_id": "7ceebfd5-c8ae-451b-afcd-b2dcdcdb77da", "timestamp": "2025-12-28T09:40:47.901956"}
+{"event": "fault_injected", "epoch_id": "7f5c42f4-de14-4e01-a81d-d56af6a6d5c1", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.901978"}
+{"event": "epoch_completed", "epoch_id": "7f5c42f4-de14-4e01-a81d-d56af6a6d5c1", "timestamp": "2025-12-28T09:40:47.902494"}
+{"event": "fault_injected", "epoch_id": "339d26e2-ef71-49eb-a1d9-3a8891fbfc6d", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.902516"}
+{"event": "epoch_completed", "epoch_id": "339d26e2-ef71-49eb-a1d9-3a8891fbfc6d", "timestamp": "2025-12-28T09:40:47.903033"}
+{"event": "epoch_completed", "epoch_id": "a7e71418-14db-4d3f-9130-9e0f63453db5", "timestamp": "2025-12-28T09:40:47.903578"}
+{"event": "epoch_completed", "epoch_id": "8208d5a8-e94d-4eb2-8284-911d085af30f", "timestamp": "2025-12-28T09:40:47.904115"}
+{"event": "fault_injected", "epoch_id": "d196435e-d382-4544-9b56-d254f2caaead", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.904138"}
+{"event": "epoch_completed", "epoch_id": "d196435e-d382-4544-9b56-d254f2caaead", "timestamp": "2025-12-28T09:40:47.904652"}
+{"event": "fault_injected", "epoch_id": "b7479420-cf1b-4e49-bcfe-5e09eac616d4", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.904675"}
+{"event": "epoch_completed", "epoch_id": "b7479420-cf1b-4e49-bcfe-5e09eac616d4", "timestamp": "2025-12-28T09:40:47.905191"}
+{"event": "fault_injected", "epoch_id": "a07e6700-6f06-42f7-a2ae-b51e6c15ab5e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.905213"}
+{"event": "epoch_completed", "epoch_id": "a07e6700-6f06-42f7-a2ae-b51e6c15ab5e", "timestamp": "2025-12-28T09:40:47.905738"}
+{"event": "epoch_completed", "epoch_id": "9a8fd8af-1509-4a6b-9e95-637f3355dd3b", "timestamp": "2025-12-28T09:40:47.906283"}
+{"event": "epoch_completed", "epoch_id": "12703fa9-a8cb-4e40-a1ad-f870a9841c0d", "timestamp": "2025-12-28T09:40:47.906825"}
+{"event": "epoch_completed", "epoch_id": "5aca64c0-87fc-4e95-95a2-3074951318fb", "timestamp": "2025-12-28T09:40:47.907364"}
+{"event": "epoch_completed", "epoch_id": "48cdd237-ad44-4958-ad66-14e1215f3a4e", "timestamp": "2025-12-28T09:40:47.907912"}
+{"event": "fault_injected", "epoch_id": "3b5f0a5e-28e1-4f64-8561-f5f38fd5f3be", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.907936"}
+{"event": "epoch_completed", "epoch_id": "3b5f0a5e-28e1-4f64-8561-f5f38fd5f3be", "timestamp": "2025-12-28T09:40:47.908457"}
+{"event": "epoch_completed", "epoch_id": "409ed6f9-00e8-4e7c-893b-c0dc0b24da08", "timestamp": "2025-12-28T09:40:47.908999"}
+{"event": "epoch_completed", "epoch_id": "9bf067d8-0c9a-4def-b333-969bbbe4570e", "timestamp": "2025-12-28T09:40:47.909538"}
+{"event": "epoch_completed", "epoch_id": "e2743853-55ca-4426-878c-36625782a234", "timestamp": "2025-12-28T09:40:47.910076"}
+{"event": "fault_injected", "epoch_id": "54d9687f-5aea-4b02-8fa6-a6820105435e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.910099"}
+{"event": "epoch_completed", "epoch_id": "54d9687f-5aea-4b02-8fa6-a6820105435e", "timestamp": "2025-12-28T09:40:47.910616"}
+{"event": "fault_injected", "epoch_id": "de91d494-65fb-4344-ae60-b9de1e6b489f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.910639"}
+{"event": "epoch_completed", "epoch_id": "de91d494-65fb-4344-ae60-b9de1e6b489f", "timestamp": "2025-12-28T09:40:47.911156"}
+{"event": "fault_injected", "epoch_id": "e120db91-210f-4727-ae67-9aab43107762", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.911179"}
+{"event": "epoch_completed", "epoch_id": "e120db91-210f-4727-ae67-9aab43107762", "timestamp": "2025-12-28T09:40:47.911754"}
+{"event": "epoch_completed", "epoch_id": "44de7cd2-9cf4-4e17-a37e-e7f78f8eae18", "timestamp": "2025-12-28T09:40:47.912367"}
+{"event": "epoch_completed", "epoch_id": "0bd3b591-b182-4d8c-a3a3-455d40289b22", "timestamp": "2025-12-28T09:40:47.912946"}
+{"event": "epoch_completed", "epoch_id": "76f41a66-08f6-4538-adf3-8dafd0d1e4bd", "timestamp": "2025-12-28T09:40:47.913524"}
+{"event": "fault_injected", "epoch_id": "61116071-7239-4c47-a9c9-31764a198f0b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.913548"}
+{"event": "epoch_completed", "epoch_id": "61116071-7239-4c47-a9c9-31764a198f0b", "timestamp": "2025-12-28T09:40:47.914106"}
+{"event": "epoch_completed", "epoch_id": "d26ed7fd-1444-4f31-a55c-1530d99ef790", "timestamp": "2025-12-28T09:40:47.914687"}
+{"event": "fault_injected", "epoch_id": "acdf61e4-6b78-4383-9643-9068bf199824", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.914711"}
+{"event": "epoch_completed", "epoch_id": "acdf61e4-6b78-4383-9643-9068bf199824", "timestamp": "2025-12-28T09:40:47.915274"}
+{"event": "fault_injected", "epoch_id": "962758a9-8c08-4231-b5fa-8ee9c1c30b8c", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.915305"}
+{"event": "epoch_completed", "epoch_id": "962758a9-8c08-4231-b5fa-8ee9c1c30b8c", "timestamp": "2025-12-28T09:40:47.915879"}
+{"event": "epoch_completed", "epoch_id": "505a473d-6d86-4982-bdd4-d7d2685a9e1a", "timestamp": "2025-12-28T09:40:47.916459"}
+{"event": "epoch_completed", "epoch_id": "df53df4e-d606-45a2-ba6a-7f7705e8b375", "timestamp": "2025-12-28T09:40:47.917034"}
+{"event": "epoch_completed", "epoch_id": "65d0ca4d-9da3-47ce-b0b6-3c73e681fcf8", "timestamp": "2025-12-28T09:40:47.917615"}
+{"event": "epoch_completed", "epoch_id": "74e0506f-4985-438c-b030-e60bf320b726", "timestamp": "2025-12-28T09:40:47.918194"}
+{"event": "epoch_completed", "epoch_id": "9fe3d49a-3a07-490e-a4a2-03841e6c143e", "timestamp": "2025-12-28T09:40:47.918782"}
+{"event": "epoch_completed", "epoch_id": "28ba9640-ec40-4bad-9d2e-f269bde2a9c5", "timestamp": "2025-12-28T09:40:47.919364"}
+{"event": "fault_injected", "epoch_id": "cd88a040-a95b-4d78-9db1-01979ae2e215", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.919392"}
+{"event": "epoch_completed", "epoch_id": "cd88a040-a95b-4d78-9db1-01979ae2e215", "timestamp": "2025-12-28T09:40:47.919954"}
+{"event": "epoch_completed", "epoch_id": "553f2974-30fc-4f3c-af18-e29411cc80c9", "timestamp": "2025-12-28T09:40:47.920554"}
+{"event": "fault_injected", "epoch_id": "a54cfbe0-dda5-49ec-8659-72cbe75dc4c0", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.920577"}
+{"event": "epoch_completed", "epoch_id": "a54cfbe0-dda5-49ec-8659-72cbe75dc4c0", "timestamp": "2025-12-28T09:40:47.921129"}
+{"event": "epoch_completed", "epoch_id": "0f3cf149-915c-4d17-bded-f40ddc62eeea", "timestamp": "2025-12-28T09:40:47.921707"}
+{"event": "epoch_completed", "epoch_id": "d905c2ce-3602-4361-a51f-12c90c013579", "timestamp": "2025-12-28T09:40:47.922287"}
+{"event": "epoch_completed", "epoch_id": "90236187-dd21-4a50-aaaa-c087851c4711", "timestamp": "2025-12-28T09:40:47.922867"}
+{"event": "fault_injected", "epoch_id": "5d0c8a64-8ca2-4b31-92b7-ced607085d3a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.922891"}
+{"event": "epoch_completed", "epoch_id": "5d0c8a64-8ca2-4b31-92b7-ced607085d3a", "timestamp": "2025-12-28T09:40:47.923452"}
+{"event": "epoch_completed", "epoch_id": "c2921ffd-5f20-4509-96eb-97d773e4cbcb", "timestamp": "2025-12-28T09:40:47.924050"}
+{"event": "epoch_completed", "epoch_id": "1f8b8999-7183-4d3a-a60b-6fcdd7bb932c", "timestamp": "2025-12-28T09:40:47.924641"}
+{"event": "epoch_completed", "epoch_id": "8a46a696-5431-4eff-b0b0-c3f4b72eb13b", "timestamp": "2025-12-28T09:40:47.925225"}
+{"event": "epoch_completed", "epoch_id": "2a2de33b-e731-4d91-b097-b5106fc825e4", "timestamp": "2025-12-28T09:40:47.925813"}
+{"event": "fault_injected", "epoch_id": "2f4e838d-649d-4a2e-9659-b3ed28081968", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.925837"}
+{"event": "epoch_completed", "epoch_id": "2f4e838d-649d-4a2e-9659-b3ed28081968", "timestamp": "2025-12-28T09:40:47.926392"}
+{"event": "epoch_completed", "epoch_id": "82fe677c-9205-433f-b2ae-ad7a36733048", "timestamp": "2025-12-28T09:40:47.926969"}
+{"event": "epoch_completed", "epoch_id": "11d2eba0-1dfb-4ca7-b2d5-75f84bc458eb", "timestamp": "2025-12-28T09:40:47.927558"}
+{"event": "fault_injected", "epoch_id": "7f22a563-3069-40f6-830b-fdc782ee5571", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.927582"}
+{"event": "epoch_completed", "epoch_id": "7f22a563-3069-40f6-830b-fdc782ee5571", "timestamp": "2025-12-28T09:40:47.928139"}
+{"event": "epoch_completed", "epoch_id": "4374046e-e1e2-47bb-907f-f3df10455628", "timestamp": "2025-12-28T09:40:47.928734"}
+{"event": "epoch_completed", "epoch_id": "a2779fad-623f-4944-9949-5640f8787890", "timestamp": "2025-12-28T09:40:47.929310"}
+{"event": "fault_injected", "epoch_id": "94cf9690-48d9-45f1-9c40-164144a57f96", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.929334"}
+{"event": "epoch_completed", "epoch_id": "94cf9690-48d9-45f1-9c40-164144a57f96", "timestamp": "2025-12-28T09:40:47.929890"}
+{"event": "fault_injected", "epoch_id": "c39adcff-b3cb-4b94-b1ad-149ea52c80ff", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.929913"}
+{"event": "epoch_completed", "epoch_id": "c39adcff-b3cb-4b94-b1ad-149ea52c80ff", "timestamp": "2025-12-28T09:40:47.930466"}
+{"event": "epoch_completed", "epoch_id": "fd467870-6da6-49fb-93c8-95dda5f5a110", "timestamp": "2025-12-28T09:40:47.931048"}
+{"event": "fault_injected", "epoch_id": "4f315cf8-d047-48a7-b0aa-817a43a82296", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.931071"}
+{"event": "epoch_completed", "epoch_id": "4f315cf8-d047-48a7-b0aa-817a43a82296", "timestamp": "2025-12-28T09:40:47.931634"}
+{"event": "fault_injected", "epoch_id": "fab9d413-73b3-44e2-9c27-e7da5870109a", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.931657"}
+{"event": "epoch_completed", "epoch_id": "fab9d413-73b3-44e2-9c27-e7da5870109a", "timestamp": "2025-12-28T09:40:47.932221"}
+{"event": "epoch_completed", "epoch_id": "3e702270-bd62-4f99-9442-d4d93b498ca7", "timestamp": "2025-12-28T09:40:47.932812"}
+{"event": "fault_injected", "epoch_id": "33a23441-874a-4da2-ba92-721c1dcce674", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.932840"}
+{"event": "epoch_completed", "epoch_id": "33a23441-874a-4da2-ba92-721c1dcce674", "timestamp": "2025-12-28T09:40:47.933396"}
+{"event": "epoch_completed", "epoch_id": "d0e6d68e-2025-49a1-9e63-df9e451b8a32", "timestamp": "2025-12-28T09:40:47.933975"}
+{"event": "epoch_completed", "epoch_id": "1ad60945-e2aa-426d-8f73-7309aab1de91", "timestamp": "2025-12-28T09:40:47.934555"}
+{"event": "fault_injected", "epoch_id": "eb9ebee8-3aca-44f4-b737-2f6779845a5d", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.934577"}
+{"event": "epoch_completed", "epoch_id": "eb9ebee8-3aca-44f4-b737-2f6779845a5d", "timestamp": "2025-12-28T09:40:47.935136"}
+{"event": "epoch_completed", "epoch_id": "49b15358-22bb-42be-a3a2-99497a521c73", "timestamp": "2025-12-28T09:40:47.935746"}
+{"event": "fault_injected", "epoch_id": "3e02e00e-c688-4c89-b62d-1e81392185c6", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.935771"}
+{"event": "epoch_completed", "epoch_id": "3e02e00e-c688-4c89-b62d-1e81392185c6", "timestamp": "2025-12-28T09:40:47.936327"}
+{"event": "epoch_completed", "epoch_id": "4cb7e3f1-89dd-4151-a914-a424b5b7fad4", "timestamp": "2025-12-28T09:40:47.936903"}
+{"event": "fault_injected", "epoch_id": "4ba113c2-e03f-4be8-98e7-3b00f9300043", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.936927"}
+{"event": "epoch_completed", "epoch_id": "4ba113c2-e03f-4be8-98e7-3b00f9300043", "timestamp": "2025-12-28T09:40:47.937484"}
+{"event": "fault_injected", "epoch_id": "171917f6-47a3-4c3e-93bd-d81f6dcc714e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.937507"}
+{"event": "epoch_completed", "epoch_id": "171917f6-47a3-4c3e-93bd-d81f6dcc714e", "timestamp": "2025-12-28T09:40:47.938062"}
+{"event": "epoch_completed", "epoch_id": "797e23b8-f77c-4550-90c7-6ffde50cc532", "timestamp": "2025-12-28T09:40:47.938640"}
+{"event": "fault_injected", "epoch_id": "5cdf1de2-46b2-4137-8887-a5979b40e56b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.938673"}
+{"event": "epoch_completed", "epoch_id": "5cdf1de2-46b2-4137-8887-a5979b40e56b", "timestamp": "2025-12-28T09:40:47.939229"}
+{"event": "fault_injected", "epoch_id": "c5af82cd-d4a2-4d31-a07a-e9a366870293", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.939252"}
+{"event": "epoch_completed", "epoch_id": "c5af82cd-d4a2-4d31-a07a-e9a366870293", "timestamp": "2025-12-28T09:40:47.939817"}
+{"event": "fault_injected", "epoch_id": "64ba4831-f30c-4798-9644-0893e20db61c", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.939840"}
+{"event": "epoch_completed", "epoch_id": "64ba4831-f30c-4798-9644-0893e20db61c", "timestamp": "2025-12-28T09:40:47.940396"}
+{"event": "fault_injected", "epoch_id": "67431a6c-c5b1-476f-9b4d-d76a902f5951", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.940421"}
+{"event": "epoch_completed", "epoch_id": "67431a6c-c5b1-476f-9b4d-d76a902f5951", "timestamp": "2025-12-28T09:40:47.940973"}
+{"event": "fault_injected", "epoch_id": "c265522a-5407-4fd5-82db-ccd81b0e1487", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.940997"}
+{"event": "epoch_completed", "epoch_id": "c265522a-5407-4fd5-82db-ccd81b0e1487", "timestamp": "2025-12-28T09:40:47.941553"}
+{"event": "epoch_completed", "epoch_id": "454ba950-a0d4-4ffb-b4d7-677d586d6835", "timestamp": "2025-12-28T09:40:47.942130"}
+{"event": "fault_injected", "epoch_id": "409cda3a-0b69-4890-b3a6-23ad3c280ee9", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.942153"}
+{"event": "epoch_completed", "epoch_id": "409cda3a-0b69-4890-b3a6-23ad3c280ee9", "timestamp": "2025-12-28T09:40:47.942709"}
+{"event": "epoch_completed", "epoch_id": "3ced2f4d-53ff-48da-a678-6ec70504d8b5", "timestamp": "2025-12-28T09:40:47.943288"}
+{"event": "fault_injected", "epoch_id": "b3c09ac8-1ca7-4089-93db-03a1d7c741fb", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.943312"}
+{"event": "epoch_completed", "epoch_id": "b3c09ac8-1ca7-4089-93db-03a1d7c741fb", "timestamp": "2025-12-28T09:40:47.943874"}
+{"event": "epoch_completed", "epoch_id": "1fdf96c4-1217-4a2f-b77f-9265cff309f2", "timestamp": "2025-12-28T09:40:47.944452"}
+{"event": "epoch_completed", "epoch_id": "f6202d96-3f30-47e2-8def-29a52eff1848", "timestamp": "2025-12-28T09:40:47.945054"}
+{"event": "epoch_completed", "epoch_id": "8a9cae6b-7555-48a4-b088-aa133b3900de", "timestamp": "2025-12-28T09:40:47.945597"}
+{"event": "epoch_completed", "epoch_id": "8d1eb353-bc88-4479-b782-6398d48b876c", "timestamp": "2025-12-28T09:40:47.946132"}
+{"event": "fault_injected", "epoch_id": "acda9df8-23bc-4e1b-b211-63f3f439b8ec", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.946154"}
+{"event": "epoch_completed", "epoch_id": "acda9df8-23bc-4e1b-b211-63f3f439b8ec", "timestamp": "2025-12-28T09:40:47.946668"}
+{"event": "fault_injected", "epoch_id": "dc0cad87-61af-4017-a630-9a77f8204d29", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.946690"}
+{"event": "epoch_completed", "epoch_id": "dc0cad87-61af-4017-a630-9a77f8204d29", "timestamp": "2025-12-28T09:40:47.947223"}
+{"event": "epoch_completed", "epoch_id": "5b76b08e-1f32-4fe9-ae18-3dc5af376ab9", "timestamp": "2025-12-28T09:40:47.947783"}
+{"event": "epoch_completed", "epoch_id": "700084fc-a0d8-400d-953f-b061133f0f57", "timestamp": "2025-12-28T09:40:47.948321"}
+{"event": "epoch_completed", "epoch_id": "4c83fdb6-4486-4f0f-ad18-bc6df2350964", "timestamp": "2025-12-28T09:40:47.948856"}
+{"event": "epoch_completed", "epoch_id": "56b2b2bc-855c-48a2-a01e-889bc3fe2fdb", "timestamp": "2025-12-28T09:40:47.949389"}
+{"event": "epoch_completed", "epoch_id": "f7d1f79f-5323-410b-8104-ad5b60885d54", "timestamp": "2025-12-28T09:40:47.949930"}
+{"event": "fault_injected", "epoch_id": "ef753635-845c-4189-9ee5-edfa70a07f96", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.949952"}
+{"event": "epoch_completed", "epoch_id": "ef753635-845c-4189-9ee5-edfa70a07f96", "timestamp": "2025-12-28T09:40:47.950472"}
+{"event": "epoch_completed", "epoch_id": "479c272d-5540-42e1-b700-75e1afa9fdad", "timestamp": "2025-12-28T09:40:47.951012"}
+{"event": "fault_injected", "epoch_id": "f9ce9520-12fe-4dc6-83ff-84c53467e4e4", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.951034"}
+{"event": "epoch_completed", "epoch_id": "f9ce9520-12fe-4dc6-83ff-84c53467e4e4", "timestamp": "2025-12-28T09:40:47.951555"}
+{"event": "epoch_completed", "epoch_id": "9102a60c-e24d-46a9-9696-a5a168af1517", "timestamp": "2025-12-28T09:40:47.952094"}
+{"event": "epoch_completed", "epoch_id": "339d8cfa-af18-489e-a31e-853fb028ee12", "timestamp": "2025-12-28T09:40:47.952636"}
+{"event": "fault_injected", "epoch_id": "79774117-4472-4943-8777-75c3cfc0f441", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:47.952658"}
+{"event": "epoch_completed", "epoch_id": "79774117-4472-4943-8777-75c3cfc0f441", "timestamp": "2025-12-28T09:40:47.953176"}
+{"event": "epoch_completed", "epoch_id": "dc6b5601-d7e6-42ee-9f10-52eaf2567f26", "timestamp": "2025-12-28T09:40:47.953712"}
+{"event": "fault_injected", "epoch_id": "05c2dd97-6569-46ca-aead-450184a63f3e", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.953735"}
+{"event": "epoch_completed", "epoch_id": "05c2dd97-6569-46ca-aead-450184a63f3e", "timestamp": "2025-12-28T09:40:47.954254"}
+{"event": "epoch_completed", "epoch_id": "2a722626-1845-4fcc-95af-12ddf2eebd25", "timestamp": "2025-12-28T09:40:47.954791"}
+{"event": "fault_injected", "epoch_id": "7da1c31d-5a7e-4f41-b830-0fcd7a85bcd4", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.954814"}
+{"event": "epoch_completed", "epoch_id": "7da1c31d-5a7e-4f41-b830-0fcd7a85bcd4", "timestamp": "2025-12-28T09:40:47.955328"}
+{"event": "epoch_completed", "epoch_id": "b88ec874-57ad-4e5a-940d-f97254733474", "timestamp": "2025-12-28T09:40:47.955868"}
+{"event": "epoch_completed", "epoch_id": "52de93f8-ba14-4e0b-9b21-f70e29af32ab", "timestamp": "2025-12-28T09:40:47.956404"}
+{"event": "epoch_completed", "epoch_id": "549e243f-427c-4e5f-9126-7a8e1dd5f51d", "timestamp": "2025-12-28T09:40:47.956945"}
+{"event": "fault_injected", "epoch_id": "910fc43c-8993-4364-b9df-94584e2b47c5", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.956968"}
+{"event": "epoch_completed", "epoch_id": "910fc43c-8993-4364-b9df-94584e2b47c5", "timestamp": "2025-12-28T09:40:47.957491"}
+{"event": "fault_injected", "epoch_id": "ae7c5342-d9cc-4d1d-b0a3-2e5695b2b6f5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.957513"}
+{"event": "epoch_completed", "epoch_id": "ae7c5342-d9cc-4d1d-b0a3-2e5695b2b6f5", "timestamp": "2025-12-28T09:40:47.958034"}
+{"event": "epoch_completed", "epoch_id": "060c63e3-6359-4848-b8d0-35165e355284", "timestamp": "2025-12-28T09:40:47.958577"}
+{"event": "epoch_completed", "epoch_id": "7e731a53-3073-4351-90b9-305ca664aa0b", "timestamp": "2025-12-28T09:40:47.959114"}
+{"event": "epoch_completed", "epoch_id": "0ec78409-dfed-4365-999c-84bef9caf66f", "timestamp": "2025-12-28T09:40:47.959669"}
+{"event": "fault_injected", "epoch_id": "f3811d67-bf2a-4399-bc47-9197f7a4bdcc", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.959691"}
+{"event": "epoch_completed", "epoch_id": "f3811d67-bf2a-4399-bc47-9197f7a4bdcc", "timestamp": "2025-12-28T09:40:47.960208"}
+{"event": "epoch_completed", "epoch_id": "09991583-52fc-4732-b502-9fd58febfa72", "timestamp": "2025-12-28T09:40:47.960745"}
+{"event": "epoch_completed", "epoch_id": "43319130-3da3-4053-93db-5f0d04a6e76f", "timestamp": "2025-12-28T09:40:47.961282"}
+{"event": "fault_injected", "epoch_id": "e96771fc-defe-4ae2-bd1b-159a6c4a3c65", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.961307"}
+{"event": "epoch_completed", "epoch_id": "e96771fc-defe-4ae2-bd1b-159a6c4a3c65", "timestamp": "2025-12-28T09:40:47.961887"}
+{"event": "epoch_completed", "epoch_id": "22360bb7-9e16-4075-a8e2-872158335d84", "timestamp": "2025-12-28T09:40:47.962425"}
+{"event": "epoch_completed", "epoch_id": "e055c52f-3652-4a96-aa9e-443753629236", "timestamp": "2025-12-28T09:40:47.962960"}
+{"event": "epoch_completed", "epoch_id": "99065c8a-fbba-419c-a0de-e2fb218e0e28", "timestamp": "2025-12-28T09:40:47.963497"}
+{"event": "fault_injected", "epoch_id": "1b27c234-a644-486c-80c8-bd486624f9a5", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.963522"}
+{"event": "epoch_completed", "epoch_id": "1b27c234-a644-486c-80c8-bd486624f9a5", "timestamp": "2025-12-28T09:40:47.964036"}
+{"event": "fault_injected", "epoch_id": "000f66c9-e0a4-4942-9b75-4084af96f5d3", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.964065"}
+{"event": "epoch_completed", "epoch_id": "000f66c9-e0a4-4942-9b75-4084af96f5d3", "timestamp": "2025-12-28T09:40:47.964579"}
+{"event": "fault_injected", "epoch_id": "f7b53028-5334-41c3-aa64-ed208d5a7adc", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.964602"}
+{"event": "epoch_completed", "epoch_id": "f7b53028-5334-41c3-aa64-ed208d5a7adc", "timestamp": "2025-12-28T09:40:47.965116"}
+{"event": "epoch_completed", "epoch_id": "00d1f957-7d75-4391-aa49-656932448aac", "timestamp": "2025-12-28T09:40:47.965652"}
+{"event": "epoch_completed", "epoch_id": "56fbf8f9-35c0-40c1-8047-8ae89b49c4c2", "timestamp": "2025-12-28T09:40:47.966186"}
+{"event": "epoch_completed", "epoch_id": "02885ade-29dd-4bdd-9907-6e40f84b05d1", "timestamp": "2025-12-28T09:40:47.966723"}
+{"event": "epoch_completed", "epoch_id": "ff9fa873-b357-4067-a974-a14d0de1bf2d", "timestamp": "2025-12-28T09:40:47.967258"}
+{"event": "epoch_completed", "epoch_id": "9a69ca99-5b15-42d8-acae-38b8ab23b616", "timestamp": "2025-12-28T09:40:47.967793"}
+{"event": "fault_injected", "epoch_id": "ce4d4cf9-bc4c-4e58-99e3-438f9dacab90", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.967815"}
+{"event": "epoch_completed", "epoch_id": "ce4d4cf9-bc4c-4e58-99e3-438f9dacab90", "timestamp": "2025-12-28T09:40:47.968328"}
+{"event": "epoch_completed", "epoch_id": "d3da0eea-b56b-46cd-9826-09baef5c5a2d", "timestamp": "2025-12-28T09:40:47.968863"}
+{"event": "epoch_completed", "epoch_id": "9f7614ff-09fb-4369-ace4-ab6f7b004b91", "timestamp": "2025-12-28T09:40:47.969400"}
+{"event": "fault_injected", "epoch_id": "215cc24c-5906-4d79-9734-6111ada4080e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.969422"}
+{"event": "epoch_completed", "epoch_id": "215cc24c-5906-4d79-9734-6111ada4080e", "timestamp": "2025-12-28T09:40:47.969939"}
+{"event": "epoch_completed", "epoch_id": "09d451e7-fe51-43cd-ae5d-6e9e7b701494", "timestamp": "2025-12-28T09:40:47.970548"}
+{"event": "epoch_completed", "epoch_id": "c0c83248-3021-4d2a-9537-0b875ccc6c72", "timestamp": "2025-12-28T09:40:47.971093"}
+{"event": "fault_injected", "epoch_id": "479f405d-459d-4469-8427-e425a4c74129", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.971116"}
+{"event": "epoch_completed", "epoch_id": "479f405d-459d-4469-8427-e425a4c74129", "timestamp": "2025-12-28T09:40:47.971661"}
+{"event": "epoch_completed", "epoch_id": "7fd569fa-9532-4588-bbfd-b80a1f39aecd", "timestamp": "2025-12-28T09:40:47.972200"}
+{"event": "fault_injected", "epoch_id": "5787804b-384b-40f4-ae3b-ec25b2fe0c80", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.972223"}
+{"event": "epoch_completed", "epoch_id": "5787804b-384b-40f4-ae3b-ec25b2fe0c80", "timestamp": "2025-12-28T09:40:47.972742"}
+{"event": "fault_injected", "epoch_id": "fb86a4c6-42ff-4ee1-bf83-b98bdfe1cb9b", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.972765"}
+{"event": "epoch_completed", "epoch_id": "fb86a4c6-42ff-4ee1-bf83-b98bdfe1cb9b", "timestamp": "2025-12-28T09:40:47.973284"}
+{"event": "epoch_completed", "epoch_id": "5d9ff8fb-eaed-42f7-ad06-8c38512fb661", "timestamp": "2025-12-28T09:40:47.973822"}
+{"event": "epoch_completed", "epoch_id": "94025b6f-fad4-4ddf-a558-01699908ba3b", "timestamp": "2025-12-28T09:40:47.974363"}
+{"event": "fault_injected", "epoch_id": "bde35397-4d7b-40c1-9b26-071de3de7a86", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.974387"}
+{"event": "epoch_completed", "epoch_id": "bde35397-4d7b-40c1-9b26-071de3de7a86", "timestamp": "2025-12-28T09:40:47.974905"}
+{"event": "fault_injected", "epoch_id": "ae07f9fb-f8b3-4e9b-8044-e45eaeb05c62", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.974927"}
+{"event": "epoch_completed", "epoch_id": "ae07f9fb-f8b3-4e9b-8044-e45eaeb05c62", "timestamp": "2025-12-28T09:40:47.975447"}
+{"event": "epoch_completed", "epoch_id": "89bac0ae-14a8-425b-89c9-0a120cb97f8e", "timestamp": "2025-12-28T09:40:47.975987"}
+{"event": "fault_injected", "epoch_id": "5f4452cd-d030-4559-909c-fc92f4eaf42c", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.976009"}
+{"event": "epoch_completed", "epoch_id": "5f4452cd-d030-4559-909c-fc92f4eaf42c", "timestamp": "2025-12-28T09:40:47.976528"}
+{"event": "epoch_completed", "epoch_id": "2cde785d-d635-4911-b532-9262f812584c", "timestamp": "2025-12-28T09:40:47.977073"}
+{"event": "fault_injected", "epoch_id": "49b9f197-9d8c-44c6-847c-e41063735321", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.977097"}
+{"event": "epoch_completed", "epoch_id": "49b9f197-9d8c-44c6-847c-e41063735321", "timestamp": "2025-12-28T09:40:47.977615"}
+{"event": "epoch_completed", "epoch_id": "4b704d7c-b7f5-4927-8c85-618356a66898", "timestamp": "2025-12-28T09:40:47.978154"}
+{"event": "epoch_completed", "epoch_id": "161ef247-6fa4-4e37-8d61-98059200cd78", "timestamp": "2025-12-28T09:40:47.978727"}
+{"event": "epoch_completed", "epoch_id": "5b9e0754-a01b-4de6-88e3-86b9a7f22999", "timestamp": "2025-12-28T09:40:47.979265"}
+{"event": "fault_injected", "epoch_id": "b0cfb46c-b665-4cf0-a0ca-0e29eedc3020", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.979287"}
+{"event": "epoch_completed", "epoch_id": "b0cfb46c-b665-4cf0-a0ca-0e29eedc3020", "timestamp": "2025-12-28T09:40:47.979811"}
+{"event": "fault_injected", "epoch_id": "4574eb19-55de-4d4f-ae41-707460e86a8f", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.979833"}
+{"event": "epoch_completed", "epoch_id": "4574eb19-55de-4d4f-ae41-707460e86a8f", "timestamp": "2025-12-28T09:40:47.980351"}
+{"event": "fault_injected", "epoch_id": "6e252fec-92d5-49c4-86ef-a05629981c62", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.980373"}
+{"event": "epoch_completed", "epoch_id": "6e252fec-92d5-49c4-86ef-a05629981c62", "timestamp": "2025-12-28T09:40:47.980891"}
+{"event": "epoch_completed", "epoch_id": "02724f6c-b943-49a5-94d0-a51f057995b6", "timestamp": "2025-12-28T09:40:47.981429"}
+{"event": "epoch_completed", "epoch_id": "da5fe97d-cab8-4855-9771-247407bf9c72", "timestamp": "2025-12-28T09:40:47.981967"}
+{"event": "fault_injected", "epoch_id": "26144e07-63a9-412e-b338-d70c2e9669a7", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:47.981992"}
+{"event": "epoch_completed", "epoch_id": "26144e07-63a9-412e-b338-d70c2e9669a7", "timestamp": "2025-12-28T09:40:47.982504"}
+{"event": "epoch_completed", "epoch_id": "d4ab58ac-43b5-4a52-878f-8462f4a7ac69", "timestamp": "2025-12-28T09:40:47.983045"}
+{"event": "epoch_completed", "epoch_id": "8a866d49-5cae-488f-8426-4e9f69bf7ad6", "timestamp": "2025-12-28T09:40:47.983590"}
+{"event": "epoch_completed", "epoch_id": "047c6a27-70cd-4ed7-b1a4-a4608cd67a36", "timestamp": "2025-12-28T09:40:47.984122"}
+{"event": "epoch_completed", "epoch_id": "aea9ee3a-c84e-4fd8-8df1-0a23f6e56711", "timestamp": "2025-12-28T09:40:47.984659"}
+{"event": "epoch_completed", "epoch_id": "580c154d-0b8b-4c70-9f41-073320580a1b", "timestamp": "2025-12-28T09:40:47.985214"}
+{"event": "epoch_completed", "epoch_id": "b25d795d-ca8a-4fd1-b7dd-1ebf710cb468", "timestamp": "2025-12-28T09:40:47.985752"}
+{"event": "epoch_completed", "epoch_id": "12d6e5e9-da12-4d62-bc7b-96b5b4cb8841", "timestamp": "2025-12-28T09:40:47.986302"}
+{"event": "fault_injected", "epoch_id": "bdddd43d-e92f-4204-ba11-cdec6673ab14", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.986324"}
+{"event": "epoch_completed", "epoch_id": "bdddd43d-e92f-4204-ba11-cdec6673ab14", "timestamp": "2025-12-28T09:40:47.986858"}
+{"event": "fault_injected", "epoch_id": "bb5b8794-7eb1-4143-960a-6477e3f8451b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.986880"}
+{"event": "epoch_completed", "epoch_id": "bb5b8794-7eb1-4143-960a-6477e3f8451b", "timestamp": "2025-12-28T09:40:47.987403"}
+{"event": "fault_injected", "epoch_id": "7f91984a-b747-4586-bf9c-4053817b80af", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.987426"}
+{"event": "epoch_completed", "epoch_id": "7f91984a-b747-4586-bf9c-4053817b80af", "timestamp": "2025-12-28T09:40:47.987941"}
+{"event": "epoch_completed", "epoch_id": "b4ea6219-87d5-404d-8a08-c2398f4b1b1f", "timestamp": "2025-12-28T09:40:47.988477"}
+{"event": "fault_injected", "epoch_id": "77a4e9e5-0e7b-46bc-9dc3-1dbd0dda8e40", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.988500"}
+{"event": "epoch_completed", "epoch_id": "77a4e9e5-0e7b-46bc-9dc3-1dbd0dda8e40", "timestamp": "2025-12-28T09:40:47.989013"}
+{"event": "epoch_completed", "epoch_id": "68eb13bd-895b-41a8-a3e2-f8d950829897", "timestamp": "2025-12-28T09:40:47.989553"}
+{"event": "epoch_completed", "epoch_id": "9ff261b9-1233-45d0-819f-993f1cbc1d57", "timestamp": "2025-12-28T09:40:47.990092"}
+{"event": "fault_injected", "epoch_id": "36f6d8f0-f9d9-4ceb-88fd-e437a925fec3", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.990114"}
+{"event": "epoch_completed", "epoch_id": "36f6d8f0-f9d9-4ceb-88fd-e437a925fec3", "timestamp": "2025-12-28T09:40:47.990628"}
+{"event": "epoch_completed", "epoch_id": "0580480d-6b9b-43bf-bfa2-958ad75888fd", "timestamp": "2025-12-28T09:40:47.991163"}
+{"event": "epoch_completed", "epoch_id": "7692dea1-6165-4c1d-bfe1-b4adb933dcbe", "timestamp": "2025-12-28T09:40:47.991707"}
+{"event": "epoch_completed", "epoch_id": "16ea14ac-5e7e-41d7-a9cc-8013c336645e", "timestamp": "2025-12-28T09:40:47.992242"}
+{"event": "epoch_completed", "epoch_id": "53021bf0-e36c-4665-8312-8a15cea265c5", "timestamp": "2025-12-28T09:40:47.992779"}
+{"event": "fault_injected", "epoch_id": "6975fbb8-c17b-49ed-a41b-9a311a3e8749", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:47.992801"}
+{"event": "epoch_completed", "epoch_id": "6975fbb8-c17b-49ed-a41b-9a311a3e8749", "timestamp": "2025-12-28T09:40:47.993366"}
+{"event": "epoch_completed", "epoch_id": "39a999b0-42b7-449e-801d-a678dace8f3f", "timestamp": "2025-12-28T09:40:47.993949"}
+{"event": "fault_injected", "epoch_id": "c36adbde-7097-4a56-aa31-0f135a6e0a7a", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.993975"}
+{"event": "epoch_completed", "epoch_id": "c36adbde-7097-4a56-aa31-0f135a6e0a7a", "timestamp": "2025-12-28T09:40:47.994533"}
+{"event": "epoch_completed", "epoch_id": "bf75aab2-85ba-4069-ba2e-ba6f500ae277", "timestamp": "2025-12-28T09:40:47.995150"}
+{"event": "fault_injected", "epoch_id": "875485b9-b022-466d-9764-fd7bc95f7af4", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.995178"}
+{"event": "epoch_completed", "epoch_id": "875485b9-b022-466d-9764-fd7bc95f7af4", "timestamp": "2025-12-28T09:40:47.995749"}
+{"event": "fault_injected", "epoch_id": "4140ebc6-e556-4556-a5e7-d28344945bf6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:47.995777"}
+{"event": "epoch_completed", "epoch_id": "4140ebc6-e556-4556-a5e7-d28344945bf6", "timestamp": "2025-12-28T09:40:47.996338"}
+{"event": "epoch_completed", "epoch_id": "5918a5eb-63d5-4105-a317-aacb9709b0da", "timestamp": "2025-12-28T09:40:47.996936"}
+{"event": "epoch_completed", "epoch_id": "5887a203-4dde-4526-b7bf-0c97742addad", "timestamp": "2025-12-28T09:40:47.997511"}
+{"event": "epoch_completed", "epoch_id": "b2ff70c1-22fd-49a6-83eb-67ec0bc0a240", "timestamp": "2025-12-28T09:40:47.998088"}
+{"event": "epoch_completed", "epoch_id": "552aeb77-d1d8-415f-8aec-a792c9c860e0", "timestamp": "2025-12-28T09:40:47.998667"}
+{"event": "epoch_completed", "epoch_id": "3f1e535a-224b-461a-9bb5-d590a3f70e16", "timestamp": "2025-12-28T09:40:47.999245"}
+{"event": "fault_injected", "epoch_id": "2e34378b-5d06-437a-8ea3-9931048cb54a", "fault_type": "exception", "timestamp": "2025-12-28T09:40:47.999269"}
+{"event": "epoch_completed", "epoch_id": "2e34378b-5d06-437a-8ea3-9931048cb54a", "timestamp": "2025-12-28T09:40:47.999830"}
+{"event": "epoch_completed", "epoch_id": "654fdb0a-9bce-4f6a-bf14-e9099eb5d2ba", "timestamp": "2025-12-28T09:40:48.000405"}
+{"event": "epoch_completed", "epoch_id": "abefb71e-c7eb-45f8-b952-1e0d7e411399", "timestamp": "2025-12-28T09:40:48.000988"}
+{"event": "fault_injected", "epoch_id": "b458cbef-5fce-4bfd-a70b-f37b05c5bd36", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.001011"}
+{"event": "epoch_completed", "epoch_id": "b458cbef-5fce-4bfd-a70b-f37b05c5bd36", "timestamp": "2025-12-28T09:40:48.001564"}
+{"event": "fault_injected", "epoch_id": "a358978d-4383-46a9-aee2-dc4236b9aeda", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.001587"}
+{"event": "epoch_completed", "epoch_id": "a358978d-4383-46a9-aee2-dc4236b9aeda", "timestamp": "2025-12-28T09:40:48.002144"}
+{"event": "epoch_completed", "epoch_id": "53ea3d38-f102-46e5-b132-ad52eff281f7", "timestamp": "2025-12-28T09:40:48.002732"}
+{"event": "epoch_completed", "epoch_id": "f41ad962-19c5-4bc4-9a6b-d937deca4c32", "timestamp": "2025-12-28T09:40:48.003308"}
+{"event": "epoch_completed", "epoch_id": "8603d82f-3df6-46c1-9d26-60b036b9c5ad", "timestamp": "2025-12-28T09:40:48.003892"}
+{"event": "epoch_completed", "epoch_id": "50d7d362-4aa7-4fac-9f3b-c1eb50a73225", "timestamp": "2025-12-28T09:40:48.004467"}
+{"event": "epoch_completed", "epoch_id": "a5d24d28-37f1-414f-a7c8-a2750d85fe73", "timestamp": "2025-12-28T09:40:48.005047"}
+{"event": "fault_injected", "epoch_id": "42894573-49f2-4fa4-9137-1044b6307980", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.005070"}
+{"event": "epoch_completed", "epoch_id": "42894573-49f2-4fa4-9137-1044b6307980", "timestamp": "2025-12-28T09:40:48.005601"}
+{"event": "epoch_completed", "epoch_id": "af401cca-36e3-4950-93cb-d2cbac66a0e2", "timestamp": "2025-12-28T09:40:48.006140"}
+{"event": "epoch_completed", "epoch_id": "01701d0f-15f8-4307-b9b4-59f9628d4510", "timestamp": "2025-12-28T09:40:48.006678"}
+{"event": "fault_injected", "epoch_id": "9bf78807-c25f-49d7-82cc-c9d04df405e0", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:48.006702"}
+{"event": "epoch_completed", "epoch_id": "9bf78807-c25f-49d7-82cc-c9d04df405e0", "timestamp": "2025-12-28T09:40:48.007227"}
+{"event": "epoch_completed", "epoch_id": "bab7612f-7c67-4062-af1d-0100a5b74442", "timestamp": "2025-12-28T09:40:48.007772"}
+{"event": "epoch_completed", "epoch_id": "7c70bca1-9f2e-4a06-886e-f10dc60525f7", "timestamp": "2025-12-28T09:40:48.008311"}
+{"event": "fault_injected", "epoch_id": "be9678fb-9de2-4775-a1a1-f30fbc7b6c3c", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.008334"}
+{"event": "epoch_completed", "epoch_id": "be9678fb-9de2-4775-a1a1-f30fbc7b6c3c", "timestamp": "2025-12-28T09:40:48.008880"}
+{"event": "epoch_completed", "epoch_id": "b305b6c6-6c4e-47fd-88f0-1fb80e2c0a7e", "timestamp": "2025-12-28T09:40:48.009468"}
+{"event": "fault_injected", "epoch_id": "c603419b-7c52-4e99-bd01-40a8fca1cc29", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.009494"}
+{"event": "epoch_completed", "epoch_id": "c603419b-7c52-4e99-bd01-40a8fca1cc29", "timestamp": "2025-12-28T09:40:48.010048"}
+{"event": "epoch_completed", "epoch_id": "6e2568d2-e27b-451a-aeb4-ff7d8200f7fe", "timestamp": "2025-12-28T09:40:48.010624"}
+{"event": "fault_injected", "epoch_id": "1863ff7c-7db8-4756-933b-83bb2215100f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.010647"}
+{"event": "epoch_completed", "epoch_id": "1863ff7c-7db8-4756-933b-83bb2215100f", "timestamp": "2025-12-28T09:40:48.011205"}
+{"event": "fault_injected", "epoch_id": "e7b051eb-b8ea-4e61-8819-c30570aba064", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.011228"}
+{"event": "epoch_completed", "epoch_id": "e7b051eb-b8ea-4e61-8819-c30570aba064", "timestamp": "2025-12-28T09:40:48.011830"}
+{"event": "epoch_completed", "epoch_id": "83fd27a2-413e-4e06-a426-a4b711b1cb96", "timestamp": "2025-12-28T09:40:48.012408"}
+{"event": "epoch_completed", "epoch_id": "bce07f3f-9485-4c66-9614-29eba0979b69", "timestamp": "2025-12-28T09:40:48.012990"}
+{"event": "epoch_completed", "epoch_id": "9e00c46b-238d-4f97-a9fb-04d37189c93e", "timestamp": "2025-12-28T09:40:48.013569"}
+{"event": "epoch_completed", "epoch_id": "61ac8ea2-62da-4345-9ee9-4eebda859c22", "timestamp": "2025-12-28T09:40:48.014149"}
+{"event": "epoch_completed", "epoch_id": "1ba407f9-4e08-4969-9906-8462778ae6a5", "timestamp": "2025-12-28T09:40:48.014726"}
+{"event": "fault_injected", "epoch_id": "e14cac9f-65e2-4cae-940c-e8509d9f7bca", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.014749"}
+{"event": "epoch_completed", "epoch_id": "e14cac9f-65e2-4cae-940c-e8509d9f7bca", "timestamp": "2025-12-28T09:40:48.015303"}
+{"event": "fault_injected", "epoch_id": "f580b62f-3071-4dce-9bf8-c3b113100a44", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.015337"}
+{"event": "epoch_completed", "epoch_id": "f580b62f-3071-4dce-9bf8-c3b113100a44", "timestamp": "2025-12-28T09:40:48.015902"}
+{"event": "fault_injected", "epoch_id": "e9e01470-9f93-43a1-94fc-8156f6333a2e", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.015926"}
+{"event": "epoch_completed", "epoch_id": "e9e01470-9f93-43a1-94fc-8156f6333a2e", "timestamp": "2025-12-28T09:40:48.016484"}
+{"event": "epoch_completed", "epoch_id": "69bf64b2-3d76-4738-a4ae-896b7411f3fa", "timestamp": "2025-12-28T09:40:48.017063"}
+{"event": "epoch_completed", "epoch_id": "3c1f817f-29a3-43c7-809c-eb4668be7c36", "timestamp": "2025-12-28T09:40:48.017641"}
+{"event": "epoch_completed", "epoch_id": "cb28e258-682a-48a9-9d6c-408d475ead64", "timestamp": "2025-12-28T09:40:48.018228"}
+{"event": "epoch_completed", "epoch_id": "d645a9af-e37c-4de8-b5b0-8276b163ebe5", "timestamp": "2025-12-28T09:40:48.018808"}
+{"event": "epoch_completed", "epoch_id": "5a4f69a2-47ba-4463-a4df-01538c42f652", "timestamp": "2025-12-28T09:40:48.019392"}
+{"event": "epoch_completed", "epoch_id": "bb824dc8-0a27-41a7-90ea-7c89e880caa9", "timestamp": "2025-12-28T09:40:48.019973"}
+{"event": "epoch_completed", "epoch_id": "1fb881de-8943-4c17-9234-41704d817967", "timestamp": "2025-12-28T09:40:48.020593"}
+{"event": "epoch_completed", "epoch_id": "6deed535-80e1-419c-81d7-83da196fb976", "timestamp": "2025-12-28T09:40:48.021180"}
+{"event": "fault_injected", "epoch_id": "61009b6d-f9d8-4138-ad27-efa90df2bcbd", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.021203"}
+{"event": "epoch_completed", "epoch_id": "61009b6d-f9d8-4138-ad27-efa90df2bcbd", "timestamp": "2025-12-28T09:40:48.021757"}
+{"event": "epoch_completed", "epoch_id": "00feddf2-a61d-4054-934c-9b3e3ffa6eba", "timestamp": "2025-12-28T09:40:48.022341"}
+{"event": "epoch_completed", "epoch_id": "4b88fa23-b1a0-4390-a350-24716c2bac21", "timestamp": "2025-12-28T09:40:48.022923"}
+{"event": "fault_injected", "epoch_id": "69b7a9d4-4d3c-4cb4-9f6d-800f74fd6de3", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.022946"}
+{"event": "epoch_completed", "epoch_id": "69b7a9d4-4d3c-4cb4-9f6d-800f74fd6de3", "timestamp": "2025-12-28T09:40:48.023508"}
+{"event": "epoch_completed", "epoch_id": "1d9027da-915c-41a2-b587-4aee202e4e69", "timestamp": "2025-12-28T09:40:48.024086"}
+{"event": "fault_injected", "epoch_id": "d66f670d-6f8b-4310-bc1b-c314e483cc97", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.024108"}
+{"event": "epoch_completed", "epoch_id": "d66f670d-6f8b-4310-bc1b-c314e483cc97", "timestamp": "2025-12-28T09:40:48.024667"}
+{"event": "epoch_completed", "epoch_id": "3dadddf0-ac0f-4bc1-aca2-c5c811c1ce80", "timestamp": "2025-12-28T09:40:48.025246"}
+{"event": "fault_injected", "epoch_id": "bdaa7e18-0ced-411d-82ce-9a9904a6fcc5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.025270"}
+{"event": "epoch_completed", "epoch_id": "bdaa7e18-0ced-411d-82ce-9a9904a6fcc5", "timestamp": "2025-12-28T09:40:48.025825"}
+{"event": "epoch_completed", "epoch_id": "8d94cd2e-bfdb-4441-be77-b0b0e9d93487", "timestamp": "2025-12-28T09:40:48.026401"}
+{"event": "epoch_completed", "epoch_id": "d9f846b5-c4c9-4158-acdf-504784ed598b", "timestamp": "2025-12-28T09:40:48.026977"}
+{"event": "epoch_completed", "epoch_id": "79b9ce9b-2771-403f-ad44-697a5dc43a9c", "timestamp": "2025-12-28T09:40:48.027559"}
+{"event": "epoch_completed", "epoch_id": "eb0f86b1-d319-4af8-95a2-ca8f32703e13", "timestamp": "2025-12-28T09:40:48.028134"}
+{"event": "epoch_completed", "epoch_id": "7e8d00f3-477f-484d-aae3-0ff30c5b1087", "timestamp": "2025-12-28T09:40:48.028758"}
+{"event": "fault_injected", "epoch_id": "3e335e9d-7975-46c8-9455-a514732d5278", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.028792"}
+{"event": "epoch_completed", "epoch_id": "3e335e9d-7975-46c8-9455-a514732d5278", "timestamp": "2025-12-28T09:40:48.029349"}
+{"event": "epoch_completed", "epoch_id": "57624e69-807a-49cf-942c-acb776848e25", "timestamp": "2025-12-28T09:40:48.029939"}
+{"event": "epoch_completed", "epoch_id": "b79c9330-51f2-472f-a460-7c5b3c368a18", "timestamp": "2025-12-28T09:40:48.030519"}
+{"event": "fault_injected", "epoch_id": "4a1ac555-64e5-401c-8b51-d9e5f9418755", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.030542"}
+{"event": "epoch_completed", "epoch_id": "4a1ac555-64e5-401c-8b51-d9e5f9418755", "timestamp": "2025-12-28T09:40:48.031095"}
+{"event": "epoch_completed", "epoch_id": "88b635e6-662b-4fba-b551-0d93d2b6daf2", "timestamp": "2025-12-28T09:40:48.031681"}
+{"event": "fault_injected", "epoch_id": "7d821b03-25d2-437d-a092-32cd944d5e44", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.031704"}
+{"event": "epoch_completed", "epoch_id": "7d821b03-25d2-437d-a092-32cd944d5e44", "timestamp": "2025-12-28T09:40:48.032260"}
+{"event": "epoch_completed", "epoch_id": "5e6879c0-8427-42cf-a803-e929a260ef80", "timestamp": "2025-12-28T09:40:48.032853"}
+{"event": "epoch_completed", "epoch_id": "cb1d6863-0d19-49e0-872a-b2870fea9248", "timestamp": "2025-12-28T09:40:48.033432"}
+{"event": "epoch_completed", "epoch_id": "638bb155-d899-4d2a-94ec-c0767235d00b", "timestamp": "2025-12-28T09:40:48.034008"}
+{"event": "epoch_completed", "epoch_id": "2aae0e30-ab73-4700-bd7c-ce7f87e164d1", "timestamp": "2025-12-28T09:40:48.034586"}
+{"event": "epoch_completed", "epoch_id": "1ec93fa5-d13a-45cb-b50f-1569a783d7bc", "timestamp": "2025-12-28T09:40:48.035170"}
+{"event": "epoch_completed", "epoch_id": "50fee701-8fc1-45de-a439-515595a18160", "timestamp": "2025-12-28T09:40:48.035764"}
+{"event": "fault_injected", "epoch_id": "16783e15-1e35-4129-8adb-43ac4877874c", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.035787"}
+{"event": "epoch_completed", "epoch_id": "16783e15-1e35-4129-8adb-43ac4877874c", "timestamp": "2025-12-28T09:40:48.036340"}
+{"event": "fault_injected", "epoch_id": "f9727b46-9b34-4b48-a8ed-85da5e8dff7b", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.036365"}
+{"event": "epoch_completed", "epoch_id": "f9727b46-9b34-4b48-a8ed-85da5e8dff7b", "timestamp": "2025-12-28T09:40:48.036921"}
+{"event": "epoch_completed", "epoch_id": "62f9cbdd-038e-4cc1-98b6-7b659752a0ff", "timestamp": "2025-12-28T09:40:48.037497"}
+{"event": "epoch_completed", "epoch_id": "6e4cc5d8-d16d-4944-b9eb-a87cfcb3ebc1", "timestamp": "2025-12-28T09:40:48.038073"}
+{"event": "fault_injected", "epoch_id": "bc3d4a18-420c-4c7a-8a35-3c9c1d967c4a", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.038096"}
+{"event": "epoch_completed", "epoch_id": "bc3d4a18-420c-4c7a-8a35-3c9c1d967c4a", "timestamp": "2025-12-28T09:40:48.038653"}
+{"event": "epoch_completed", "epoch_id": "c3c7c44a-dbec-4c3c-9b1a-218cf398e3a6", "timestamp": "2025-12-28T09:40:48.039229"}
+{"event": "epoch_completed", "epoch_id": "efb0a193-368a-4ca2-9a34-557f30e4a9c5", "timestamp": "2025-12-28T09:40:48.039804"}
+{"event": "epoch_completed", "epoch_id": "ed3d9cb0-706c-497b-a43f-a4bf0d8ae769", "timestamp": "2025-12-28T09:40:48.040384"}
+{"event": "fault_injected", "epoch_id": "8870ab4b-6dc2-4ed6-b1ce-6255bdbf97c7", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.040407"}
+{"event": "epoch_completed", "epoch_id": "8870ab4b-6dc2-4ed6-b1ce-6255bdbf97c7", "timestamp": "2025-12-28T09:40:48.040961"}
+{"event": "epoch_completed", "epoch_id": "72770614-b84e-4b18-8772-a19926f314a8", "timestamp": "2025-12-28T09:40:48.041540"}
+{"event": "epoch_completed", "epoch_id": "642dfe54-e8ff-42d2-9ada-1401322c8640", "timestamp": "2025-12-28T09:40:48.042116"}
+{"event": "fault_injected", "epoch_id": "3deca86b-2b21-4872-ac4a-d4b487c57868", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.042147"}
+{"event": "epoch_completed", "epoch_id": "3deca86b-2b21-4872-ac4a-d4b487c57868", "timestamp": "2025-12-28T09:40:48.042708"}
+{"event": "epoch_completed", "epoch_id": "78413b67-6044-448c-a7f4-455e2298d929", "timestamp": "2025-12-28T09:40:48.043291"}
+{"event": "epoch_completed", "epoch_id": "8541cd4a-df72-4716-b38d-74541eff8d8d", "timestamp": "2025-12-28T09:40:48.043869"}
+{"event": "epoch_completed", "epoch_id": "8036cfcb-d968-4d45-8265-61467c37787d", "timestamp": "2025-12-28T09:40:48.044463"}
+{"event": "fault_injected", "epoch_id": "2c9a635b-15cb-48bb-acf7-fa6633ff4409", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.044486"}
+{"event": "epoch_completed", "epoch_id": "2c9a635b-15cb-48bb-acf7-fa6633ff4409", "timestamp": "2025-12-28T09:40:48.045082"}
+{"event": "epoch_completed", "epoch_id": "a44d08c6-b258-4a69-85c1-794a3670ae51", "timestamp": "2025-12-28T09:40:48.045658"}
+{"event": "epoch_completed", "epoch_id": "695529f0-20bf-440b-839c-80b797d3784e", "timestamp": "2025-12-28T09:40:48.046247"}
+{"event": "epoch_completed", "epoch_id": "d05cd464-9f77-41fd-a764-9fa7cc4d27ce", "timestamp": "2025-12-28T09:40:48.046826"}
+{"event": "epoch_completed", "epoch_id": "5d011b3b-6345-4117-a38a-9a2a44bb97cc", "timestamp": "2025-12-28T09:40:48.047403"}
+{"event": "fault_injected", "epoch_id": "df87bb3f-c02d-494f-aa8d-f71ca1b2a355", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.047428"}
+{"event": "epoch_completed", "epoch_id": "df87bb3f-c02d-494f-aa8d-f71ca1b2a355", "timestamp": "2025-12-28T09:40:48.047984"}
+{"event": "epoch_completed", "epoch_id": "b9e35598-c471-4ab1-983e-d3b46031a119", "timestamp": "2025-12-28T09:40:48.048563"}
+{"event": "epoch_completed", "epoch_id": "536cc8f2-a0c1-4c20-baf6-918cfdc02338", "timestamp": "2025-12-28T09:40:48.049149"}
+{"event": "fault_injected", "epoch_id": "e1e707aa-ef33-488d-99c1-223d80f93b68", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:48.049174"}
+{"event": "epoch_completed", "epoch_id": "e1e707aa-ef33-488d-99c1-223d80f93b68", "timestamp": "2025-12-28T09:40:48.049727"}
+{"event": "epoch_completed", "epoch_id": "eb51c50a-5d52-4498-b776-5f6b501cfb10", "timestamp": "2025-12-28T09:40:48.050333"}
+{"event": "epoch_completed", "epoch_id": "913fb0ee-41ab-4b38-817c-1d0bdc317588", "timestamp": "2025-12-28T09:40:48.050911"}
+{"event": "epoch_completed", "epoch_id": "c514dcce-2fa8-40f9-a375-5551678f6827", "timestamp": "2025-12-28T09:40:48.051488"}
+{"event": "epoch_completed", "epoch_id": "a58d65cc-c72c-4bd6-9c6e-d70f6c5916e9", "timestamp": "2025-12-28T09:40:48.052067"}
+{"event": "epoch_completed", "epoch_id": "1951ac1c-1e4a-4d32-b09d-9892fc96cade", "timestamp": "2025-12-28T09:40:48.052646"}
+{"event": "fault_injected", "epoch_id": "f1930ed6-bc15-4f84-ab8f-cfdcb7a2e29b", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.052669"}
+{"event": "epoch_completed", "epoch_id": "f1930ed6-bc15-4f84-ab8f-cfdcb7a2e29b", "timestamp": "2025-12-28T09:40:48.053226"}
+{"event": "epoch_completed", "epoch_id": "021d0f19-7f5c-4647-a215-efdbba365839", "timestamp": "2025-12-28T09:40:48.053806"}
+{"event": "epoch_completed", "epoch_id": "7fa986c8-fbf9-4caa-a949-68257fef0dd9", "timestamp": "2025-12-28T09:40:48.054383"}
+{"event": "epoch_completed", "epoch_id": "5e498843-b6b2-43b5-b55a-7fe682d29c5f", "timestamp": "2025-12-28T09:40:48.054961"}
+{"event": "epoch_completed", "epoch_id": "bccc046e-bd78-447c-996e-6fd48b661a66", "timestamp": "2025-12-28T09:40:48.055542"}
+{"event": "fault_injected", "epoch_id": "e95345f4-d2a1-4676-b2d0-94e92573b4b5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.055572"}
+{"event": "epoch_completed", "epoch_id": "e95345f4-d2a1-4676-b2d0-94e92573b4b5", "timestamp": "2025-12-28T09:40:48.056127"}
+{"event": "epoch_completed", "epoch_id": "8c34aa0f-6352-4e6f-9233-cbb5ed780e6c", "timestamp": "2025-12-28T09:40:48.056720"}
+{"event": "epoch_completed", "epoch_id": "17428111-7bd6-4354-b1cf-0ce7ff798fb2", "timestamp": "2025-12-28T09:40:48.057294"}
+{"event": "epoch_completed", "epoch_id": "fb38f92e-218d-4adc-bc0c-0e3be4198c06", "timestamp": "2025-12-28T09:40:48.057869"}
+{"event": "epoch_completed", "epoch_id": "73613ab7-2d45-460f-9af3-e6bbe0db7fdc", "timestamp": "2025-12-28T09:40:48.058448"}
+{"event": "epoch_completed", "epoch_id": "70a07a9d-9b67-48e3-8dc7-4aedbf139a6c", "timestamp": "2025-12-28T09:40:48.059042"}
+{"event": "epoch_completed", "epoch_id": "18983d12-70ea-4e6e-bd9d-060c4c90f87b", "timestamp": "2025-12-28T09:40:48.059629"}
+{"event": "epoch_completed", "epoch_id": "e95a3187-a3d3-4ae9-a562-2db0b1c069ce", "timestamp": "2025-12-28T09:40:48.060209"}
+{"event": "fault_injected", "epoch_id": "58c9fc1f-fdb1-4fe6-924c-0ce72104d85b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.060232"}
+{"event": "epoch_completed", "epoch_id": "58c9fc1f-fdb1-4fe6-924c-0ce72104d85b", "timestamp": "2025-12-28T09:40:48.060786"}
+{"event": "fault_injected", "epoch_id": "6265557b-61cb-4f07-a9e9-eee62cfdb47b", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.060810"}
+{"event": "epoch_completed", "epoch_id": "6265557b-61cb-4f07-a9e9-eee62cfdb47b", "timestamp": "2025-12-28T09:40:48.061368"}
+{"event": "fault_injected", "epoch_id": "3fccfa83-cf4b-4510-a6c8-0ca67cba4ef9", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.061391"}
+{"event": "epoch_completed", "epoch_id": "3fccfa83-cf4b-4510-a6c8-0ca67cba4ef9", "timestamp": "2025-12-28T09:40:48.061976"}
+{"event": "fault_injected", "epoch_id": "03fa6038-e12c-4424-b2f4-6e49892022a4", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.062000"}
+{"event": "epoch_completed", "epoch_id": "03fa6038-e12c-4424-b2f4-6e49892022a4", "timestamp": "2025-12-28T09:40:48.062562"}
+{"event": "epoch_completed", "epoch_id": "22ad29e1-0110-4ed9-87e4-0738abe55b17", "timestamp": "2025-12-28T09:40:48.063145"}
+{"event": "epoch_completed", "epoch_id": "f01ed232-9e92-4938-a64e-f38ac930963f", "timestamp": "2025-12-28T09:40:48.063696"}
+{"event": "fault_injected", "epoch_id": "72966822-f332-4610-a89f-3f56a1cf2ec1", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.063719"}
+{"event": "epoch_completed", "epoch_id": "72966822-f332-4610-a89f-3f56a1cf2ec1", "timestamp": "2025-12-28T09:40:48.064238"}
+{"event": "epoch_completed", "epoch_id": "7e96fe42-cf92-4504-a9dd-3cac353a307f", "timestamp": "2025-12-28T09:40:48.064777"}
+{"event": "fault_injected", "epoch_id": "aa464b7f-9bae-4241-9bb7-62288d00f4ec", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.064801"}
+{"event": "epoch_completed", "epoch_id": "aa464b7f-9bae-4241-9bb7-62288d00f4ec", "timestamp": "2025-12-28T09:40:48.065316"}
+{"event": "epoch_completed", "epoch_id": "9036ecfe-9f23-485e-b058-6b8d6714b7da", "timestamp": "2025-12-28T09:40:48.065859"}
+{"event": "fault_injected", "epoch_id": "808a82e3-750c-40fc-b5c9-e3f93a33c1d3", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.065881"}
+{"event": "epoch_completed", "epoch_id": "808a82e3-750c-40fc-b5c9-e3f93a33c1d3", "timestamp": "2025-12-28T09:40:48.066400"}
+{"event": "fault_injected", "epoch_id": "b5cfa6a7-a953-4d64-9a54-79fa5c03e627", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.066422"}
+{"event": "epoch_completed", "epoch_id": "b5cfa6a7-a953-4d64-9a54-79fa5c03e627", "timestamp": "2025-12-28T09:40:48.066937"}
+{"event": "fault_injected", "epoch_id": "566bce50-607b-44e4-9464-84112a94e667", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.066959"}
+{"event": "epoch_completed", "epoch_id": "566bce50-607b-44e4-9464-84112a94e667", "timestamp": "2025-12-28T09:40:48.067483"}
+{"event": "epoch_completed", "epoch_id": "94da141c-f96f-458f-b0ba-e7ae8d23a34c", "timestamp": "2025-12-28T09:40:48.068024"}
+{"event": "fault_injected", "epoch_id": "6b9d5076-4a98-4839-ad58-106d431ca0cc", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.068046"}
+{"event": "epoch_completed", "epoch_id": "6b9d5076-4a98-4839-ad58-106d431ca0cc", "timestamp": "2025-12-28T09:40:48.068567"}
+{"event": "epoch_completed", "epoch_id": "c3324ead-8772-40c4-9eff-3ff491f7c052", "timestamp": "2025-12-28T09:40:48.069112"}
+{"event": "epoch_completed", "epoch_id": "bdebc727-c3fe-4b2d-8aca-8cf4ae18448a", "timestamp": "2025-12-28T09:40:48.069695"}
+{"event": "epoch_completed", "epoch_id": "03575334-b2f1-4ff9-b016-4f94dc19d940", "timestamp": "2025-12-28T09:40:48.070300"}
+{"event": "fault_injected", "epoch_id": "3b87a12d-a592-4582-946b-35e540a68c2c", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:48.070324"}
+{"event": "epoch_completed", "epoch_id": "3b87a12d-a592-4582-946b-35e540a68c2c", "timestamp": "2025-12-28T09:40:48.070878"}
+{"event": "fault_injected", "epoch_id": "388aedbd-8f97-4fe0-99e7-8b73b50d7efe", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.070901"}
+{"event": "epoch_completed", "epoch_id": "388aedbd-8f97-4fe0-99e7-8b73b50d7efe", "timestamp": "2025-12-28T09:40:48.071467"}
+{"event": "epoch_completed", "epoch_id": "d56c91e1-3aa6-4088-b9c1-834665f34ec8", "timestamp": "2025-12-28T09:40:48.072045"}
+{"event": "epoch_completed", "epoch_id": "3653be3b-6b70-42a9-9c9c-1d655eb8f642", "timestamp": "2025-12-28T09:40:48.072629"}
+{"event": "fault_injected", "epoch_id": "61314a90-ec38-4888-ab28-b46705765207", "fault_type": "cancellation", "timestamp": "2025-12-28T09:40:48.072650"}
+{"event": "epoch_completed", "epoch_id": "61314a90-ec38-4888-ab28-b46705765207", "timestamp": "2025-12-28T09:40:48.073168"}
+{"event": "epoch_completed", "epoch_id": "df8405a2-2263-4b2e-aec4-1b443a6a145e", "timestamp": "2025-12-28T09:40:48.073708"}
+{"event": "fault_injected", "epoch_id": "e594f89d-b55f-4ffe-8262-70d68bb96237", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.073732"}
+{"event": "epoch_completed", "epoch_id": "e594f89d-b55f-4ffe-8262-70d68bb96237", "timestamp": "2025-12-28T09:40:48.074249"}
+{"event": "fault_injected", "epoch_id": "ce723e23-4f78-4b88-91fe-131f59c3feb7", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.074270"}
+{"event": "epoch_completed", "epoch_id": "ce723e23-4f78-4b88-91fe-131f59c3feb7", "timestamp": "2025-12-28T09:40:48.074790"}
+{"event": "epoch_completed", "epoch_id": "a19719ce-51fd-4774-86b8-a04c7d169d40", "timestamp": "2025-12-28T09:40:48.075332"}
+{"event": "fault_injected", "epoch_id": "974425f2-c67c-4e35-8793-f887b8a4fb58", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.075355"}
+{"event": "epoch_completed", "epoch_id": "974425f2-c67c-4e35-8793-f887b8a4fb58", "timestamp": "2025-12-28T09:40:48.075878"}
+{"event": "epoch_completed", "epoch_id": "9a1fdd29-6a63-46b5-88d3-7d8a8f8f2669", "timestamp": "2025-12-28T09:40:48.076415"}
+{"event": "epoch_completed", "epoch_id": "1025d3e8-7f85-4b3c-a75e-cab58639ca01", "timestamp": "2025-12-28T09:40:48.076951"}
+{"event": "fault_injected", "epoch_id": "14b174df-4d63-4e0d-983c-bcd142c47d19", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.076974"}
+{"event": "epoch_completed", "epoch_id": "14b174df-4d63-4e0d-983c-bcd142c47d19", "timestamp": "2025-12-28T09:40:48.077488"}
+{"event": "epoch_completed", "epoch_id": "3df61ba0-6e49-46a1-8d93-94f65d9e1e01", "timestamp": "2025-12-28T09:40:48.078025"}
+{"event": "fault_injected", "epoch_id": "5be9ea8b-79a4-4605-98d4-c4d8ba45b4d4", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.078047"}
+{"event": "epoch_completed", "epoch_id": "5be9ea8b-79a4-4605-98d4-c4d8ba45b4d4", "timestamp": "2025-12-28T09:40:48.078603"}
+{"event": "epoch_completed", "epoch_id": "7f864714-f094-437b-9250-ce7ab573de7e", "timestamp": "2025-12-28T09:40:48.079142"}
+{"event": "epoch_completed", "epoch_id": "f37cada6-9b5e-495f-b24c-f28dd0160b9c", "timestamp": "2025-12-28T09:40:48.079691"}
+{"event": "epoch_completed", "epoch_id": "4539046e-c6cf-459b-b2de-1ac866da5976", "timestamp": "2025-12-28T09:40:48.080228"}
+{"event": "epoch_completed", "epoch_id": "fa3a6982-be7a-44eb-8d2f-6488704f2e21", "timestamp": "2025-12-28T09:40:48.080814"}
+{"event": "epoch_completed", "epoch_id": "c8d2e517-c232-4868-ad2b-13607f562cd3", "timestamp": "2025-12-28T09:40:48.081354"}
+{"event": "epoch_completed", "epoch_id": "14f9454c-1cbf-465f-92ab-18fdf52f054d", "timestamp": "2025-12-28T09:40:48.081919"}
+{"event": "epoch_completed", "epoch_id": "f5ccf00e-1cba-45ea-a69d-a69215fbfb5f", "timestamp": "2025-12-28T09:40:48.082458"}
+{"event": "epoch_completed", "epoch_id": "412a2632-d6b7-40a3-b7ef-27aa424252a6", "timestamp": "2025-12-28T09:40:48.082996"}
+{"event": "epoch_completed", "epoch_id": "18087df6-1d3c-4f66-ba73-876a5962fdc1", "timestamp": "2025-12-28T09:40:48.083544"}
+{"event": "epoch_completed", "epoch_id": "75e4f152-e3ef-4d0b-a13f-1bf0d3144583", "timestamp": "2025-12-28T09:40:48.084084"}
+{"event": "fault_injected", "epoch_id": "a1196278-77d9-4e36-bfcd-c2b293b749b1", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.084106"}
+{"event": "epoch_completed", "epoch_id": "a1196278-77d9-4e36-bfcd-c2b293b749b1", "timestamp": "2025-12-28T09:40:48.084624"}
+{"event": "epoch_completed", "epoch_id": "176f53c7-5a03-4303-8bc5-f4607f3221c9", "timestamp": "2025-12-28T09:40:48.085160"}
+{"event": "fault_injected", "epoch_id": "c4f31d23-aea3-4609-82f1-a2c05cf976e6", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.085182"}
+{"event": "epoch_completed", "epoch_id": "c4f31d23-aea3-4609-82f1-a2c05cf976e6", "timestamp": "2025-12-28T09:40:48.085704"}
+{"event": "fault_injected", "epoch_id": "7dbe1af4-dbe7-41dd-8f73-7e44c294b602", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.085726"}
+{"event": "epoch_completed", "epoch_id": "7dbe1af4-dbe7-41dd-8f73-7e44c294b602", "timestamp": "2025-12-28T09:40:48.086243"}
+{"event": "epoch_completed", "epoch_id": "a0316194-136d-4460-9434-e71ba77eb25a", "timestamp": "2025-12-28T09:40:48.086791"}
+{"event": "epoch_completed", "epoch_id": "7155c955-fdda-4aa8-86f9-a1495553430f", "timestamp": "2025-12-28T09:40:48.087327"}
+{"event": "fault_injected", "epoch_id": "84ddda02-8494-4eb4-9154-09320aa0ed99", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.087350"}
+{"event": "epoch_completed", "epoch_id": "84ddda02-8494-4eb4-9154-09320aa0ed99", "timestamp": "2025-12-28T09:40:48.087875"}
+{"event": "fault_injected", "epoch_id": "43b527a8-72d5-4a7b-b517-42e99f78e1c5", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.087898"}
+{"event": "epoch_completed", "epoch_id": "43b527a8-72d5-4a7b-b517-42e99f78e1c5", "timestamp": "2025-12-28T09:40:48.088412"}
+{"event": "fault_injected", "epoch_id": "adcc9dc7-eb75-4438-888c-dd9986f36dc2", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.088434"}
+{"event": "epoch_completed", "epoch_id": "adcc9dc7-eb75-4438-888c-dd9986f36dc2", "timestamp": "2025-12-28T09:40:48.088948"}
+{"event": "fault_injected", "epoch_id": "f8ab5433-9472-43ea-a7f4-6f0040bec910", "fault_type": "interruption", "timestamp": "2025-12-28T09:40:48.088972"}
+{"event": "epoch_completed", "epoch_id": "f8ab5433-9472-43ea-a7f4-6f0040bec910", "timestamp": "2025-12-28T09:40:48.089487"}
+{"event": "fault_injected", "epoch_id": "299c9fd1-fcaa-4cf2-bf8b-0bbc4304c0ff", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.089509"}
+{"event": "epoch_completed", "epoch_id": "299c9fd1-fcaa-4cf2-bf8b-0bbc4304c0ff", "timestamp": "2025-12-28T09:40:48.090027"}
+{"event": "epoch_completed", "epoch_id": "20719175-aef8-44f6-a732-f8dd4754e77a", "timestamp": "2025-12-28T09:40:48.090568"}
+{"event": "epoch_completed", "epoch_id": "a9d811e9-1be0-4755-b202-6c6f7ae097ec", "timestamp": "2025-12-28T09:40:48.091105"}
+{"event": "epoch_completed", "epoch_id": "8024e902-c012-4160-8c4c-b019ee416793", "timestamp": "2025-12-28T09:40:48.091695"}
+{"event": "epoch_completed", "epoch_id": "a5afb129-483f-4d77-b7c1-9b289908e9bc", "timestamp": "2025-12-28T09:40:48.092271"}
+{"event": "epoch_completed", "epoch_id": "42a728d0-a570-4228-bedc-7950c1f17c47", "timestamp": "2025-12-28T09:40:48.092848"}
+{"event": "fault_injected", "epoch_id": "c2a66658-103a-4402-b2ac-3709dde97836", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:48.092871"}
+{"event": "epoch_completed", "epoch_id": "c2a66658-103a-4402-b2ac-3709dde97836", "timestamp": "2025-12-28T09:40:48.093428"}
+{"event": "fault_injected", "epoch_id": "559acab0-0368-4b3a-bd76-58a332557367", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.093451"}
+{"event": "epoch_completed", "epoch_id": "559acab0-0368-4b3a-bd76-58a332557367", "timestamp": "2025-12-28T09:40:48.094024"}
+{"event": "epoch_completed", "epoch_id": "c4f3b791-46f1-4f28-967c-c2282c971ad0", "timestamp": "2025-12-28T09:40:48.094613"}
+{"event": "epoch_completed", "epoch_id": "423ab542-b42c-4c85-84fb-f14a754fd240", "timestamp": "2025-12-28T09:40:48.095224"}
+{"event": "epoch_completed", "epoch_id": "f3baa9c0-1a15-482f-912f-cab5383c5b3a", "timestamp": "2025-12-28T09:40:48.095816"}
+{"event": "epoch_completed", "epoch_id": "c1930c2f-6440-46b9-939d-570c2724a014", "timestamp": "2025-12-28T09:40:48.096393"}
+{"event": "fault_injected", "epoch_id": "5ec0fb42-4284-40b3-ac6c-e64bf0927e6d", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.096417"}
+{"event": "epoch_completed", "epoch_id": "5ec0fb42-4284-40b3-ac6c-e64bf0927e6d", "timestamp": "2025-12-28T09:40:48.096973"}
+{"event": "epoch_completed", "epoch_id": "e7d71f01-ec4a-4887-8f4c-adcf9069ad36", "timestamp": "2025-12-28T09:40:48.097522"}
+{"event": "epoch_completed", "epoch_id": "ba5d6136-0a40-4d6a-a7c9-474f1ce14b65", "timestamp": "2025-12-28T09:40:48.098065"}
+{"event": "epoch_completed", "epoch_id": "c42c3faf-de9e-412e-a413-4215d337a18d", "timestamp": "2025-12-28T09:40:48.098651"}
+{"event": "fault_injected", "epoch_id": "85fb3bbd-2130-44c9-b59b-30c07bc94f90", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.098675"}
+{"event": "epoch_completed", "epoch_id": "85fb3bbd-2130-44c9-b59b-30c07bc94f90", "timestamp": "2025-12-28T09:40:48.099227"}
+{"event": "fault_injected", "epoch_id": "41e1f6dc-0b0f-41ba-a55d-a8cb85990fff", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.099250"}
+{"event": "epoch_completed", "epoch_id": "41e1f6dc-0b0f-41ba-a55d-a8cb85990fff", "timestamp": "2025-12-28T09:40:48.099824"}
+{"event": "epoch_completed", "epoch_id": "d811aef2-bbf3-4251-82c7-dea8872596f0", "timestamp": "2025-12-28T09:40:48.100405"}
+{"event": "epoch_completed", "epoch_id": "69f601bd-3bfd-4a9d-b862-d5ea1002c886", "timestamp": "2025-12-28T09:40:48.100995"}
+{"event": "fault_injected", "epoch_id": "cb72e534-d147-4a43-a915-6f26aff637a9", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.101018"}
+{"event": "epoch_completed", "epoch_id": "cb72e534-d147-4a43-a915-6f26aff637a9", "timestamp": "2025-12-28T09:40:48.101538"}
+{"event": "epoch_completed", "epoch_id": "73e3a94d-2b22-4c80-b973-db3751afd519", "timestamp": "2025-12-28T09:40:48.102077"}
+{"event": "fault_injected", "epoch_id": "dcc3a248-7dd7-4510-977e-99b11d7871cf", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.102099"}
+{"event": "epoch_completed", "epoch_id": "dcc3a248-7dd7-4510-977e-99b11d7871cf", "timestamp": "2025-12-28T09:40:48.102617"}
+{"event": "epoch_completed", "epoch_id": "9209d18f-1d20-4ebf-8858-10afcae8465a", "timestamp": "2025-12-28T09:40:48.103156"}
+{"event": "epoch_completed", "epoch_id": "65469828-dac8-4d7a-9bb0-d7cc20f36f47", "timestamp": "2025-12-28T09:40:48.103697"}
+{"event": "epoch_completed", "epoch_id": "0ff0678b-de1e-4ad1-ae59-f9659377f153", "timestamp": "2025-12-28T09:40:48.104233"}
+{"event": "epoch_completed", "epoch_id": "77a35c2a-1262-42e5-a6bc-74fad799c21d", "timestamp": "2025-12-28T09:40:48.104775"}
+{"event": "epoch_completed", "epoch_id": "1bf1a001-234b-4bb0-acc5-432ede0d7d98", "timestamp": "2025-12-28T09:40:48.105312"}
+{"event": "fault_injected", "epoch_id": "96b34220-74b2-4ee7-b75c-9a238eecf510", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.105335"}
+{"event": "epoch_completed", "epoch_id": "96b34220-74b2-4ee7-b75c-9a238eecf510", "timestamp": "2025-12-28T09:40:48.105871"}
+{"event": "fault_injected", "epoch_id": "f20723db-0f67-4d21-a469-d4453aa08ac7", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.105898"}
+{"event": "epoch_completed", "epoch_id": "f20723db-0f67-4d21-a469-d4453aa08ac7", "timestamp": "2025-12-28T09:40:48.106415"}
+{"event": "epoch_completed", "epoch_id": "76cec71b-fdc2-4eb2-bd9d-a48e7f8e7071", "timestamp": "2025-12-28T09:40:48.106953"}
+{"event": "epoch_completed", "epoch_id": "6040879a-6240-4c8e-b74d-e83fccdda790", "timestamp": "2025-12-28T09:40:48.107497"}
+{"event": "epoch_completed", "epoch_id": "8ad8fc5a-e97f-43f7-8f49-fdfe9912de6d", "timestamp": "2025-12-28T09:40:48.108036"}
+{"event": "epoch_completed", "epoch_id": "1c44e3f6-f70e-43d4-a102-5517da282a1a", "timestamp": "2025-12-28T09:40:48.108575"}
+{"event": "fault_injected", "epoch_id": "7d0652df-e614-43bf-aef4-98c217fa4dce", "fault_type": "partial_write", "timestamp": "2025-12-28T09:40:48.108599"}
+{"event": "epoch_completed", "epoch_id": "7d0652df-e614-43bf-aef4-98c217fa4dce", "timestamp": "2025-12-28T09:40:48.109119"}
+{"event": "epoch_completed", "epoch_id": "62d32eb4-c686-4df8-8a6e-ba4ec6b478c1", "timestamp": "2025-12-28T09:40:48.109659"}
+{"event": "fault_injected", "epoch_id": "6c4f8a8e-d8f8-4cd0-bc10-8c0f46c62de5", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.109681"}
+{"event": "epoch_completed", "epoch_id": "6c4f8a8e-d8f8-4cd0-bc10-8c0f46c62de5", "timestamp": "2025-12-28T09:40:48.110200"}
+{"event": "fault_injected", "epoch_id": "f9304acc-b912-4a52-976f-74e1ef4b34c2", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.110222"}
+{"event": "epoch_completed", "epoch_id": "f9304acc-b912-4a52-976f-74e1ef4b34c2", "timestamp": "2025-12-28T09:40:48.110739"}
+{"event": "epoch_completed", "epoch_id": "c9f739f3-95d4-4dfd-acca-35f76e50d184", "timestamp": "2025-12-28T09:40:48.111276"}
+{"event": "epoch_completed", "epoch_id": "cddec650-61c6-4dfa-8ff0-fc147d34ca56", "timestamp": "2025-12-28T09:40:48.111855"}
+{"event": "fault_injected", "epoch_id": "55f8e77c-080b-4f5e-a71a-c26513cac28f", "fault_type": "timeout", "timestamp": "2025-12-28T09:40:48.111878"}
+{"event": "epoch_completed", "epoch_id": "55f8e77c-080b-4f5e-a71a-c26513cac28f", "timestamp": "2025-12-28T09:40:48.112435"}
+{"event": "fault_injected", "epoch_id": "9262d096-382d-472b-9997-9df7915cd5b2", "fault_type": "exception", "timestamp": "2025-12-28T09:40:48.112459"}
+{"event": "epoch_completed", "epoch_id": "9262d096-382d-472b-9997-9df7915cd5b2", "timestamp": "2025-12-28T09:40:48.113016"}

@@ -1,0 +1,190 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "P-MD-CONV-001",
+      "pattern_name": "Markdown Document Conversion Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:05:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for converting Markdown documents to HTML format",
+      "capability_references": [
+        {
+          "capability_id": "C-MD-HTML-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["markdown", "html", "conversion"]
+      }
+    },
+    {
+      "pattern_id": "P-MD-CONV-001",
+      "pattern_name": "Markdown Document Conversion Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-12-27T11:00:00Z",
+      "created_by": "human",
+      "description": "Updated version of Markdown document conversion pattern",
+      "capability_references": [
+        {
+          "capability_id": "C-MD-HTML-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["markdown", "html", "conversion"],
+        "version_lineage": {
+          "parent_version": "1.0.0",
+          "relationship_type": "inherits_from"
+        }
+      }
+    },
+    {
+      "pattern_id": "P-TEXT-SUM-001",
+      "pattern_name": "Text Summarization Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:10:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for text summarization",
+      "capability_references": [
+        {
+          "capability_id": "C-TEXT-SUM-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["text", "summarization"]
+      }
+    },
+    {
+      "pattern_id": "P-TEXT-SUM-001",
+      "pattern_name": "Text Summarization Pattern",
+      "pattern_version": "1.1.0",
+      "created_at": "2025-12-27T11:15:00Z",
+      "created_by": "human",
+      "description": "Updated version of text summarization pattern",
+      "capability_references": [
+        {
+          "capability_id": "C-TEXT-SUM-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["text", "summarization"],
+        "version_lineage": {
+          "parent_version": "1.0.0",
+          "relationship_type": "inherits_from"
+        }
+      }
+    },
+    {
+      "pattern_id": "P-LANG-TRANS-001",
+      "pattern_name": "Language Translation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:20:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for language translation",
+      "capability_references": [
+        {
+          "capability_id": "C-LANG-TRANS-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["language", "translation"]
+      }
+    },
+    {
+      "pattern_id": "P-DATA-VAL-001",
+      "pattern_name": "Data Validation Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:25:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for data validation",
+      "capability_references": [
+        {
+          "capability_id": "C-DATA-VAL-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["data", "validation"]
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-NORM-001",
+      "pattern_name": "Format Normalization Pattern",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:30:00Z",
+      "created_by": "human",
+      "description": "A descriptive pattern for format normalization",
+      "capability_references": [
+        {
+          "capability_id": "C-FORMAT-NORM-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["format", "normalization"]
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-NORM-001",
+      "pattern_name": "Format Normalization Pattern",
+      "pattern_version": "2.0.0",
+      "created_at": "2025-12-27T11:35:00Z",
+      "created_by": "human",
+      "description": "Updated version of format normalization pattern",
+      "capability_references": [
+        {
+          "capability_id": "C-FORMAT-NORM-001",
+          "reference_type": "descriptive_reference"
+        }
+      ],
+      "metadata": {
+        "tags": ["format", "normalization"],
+        "version_lineage": {
+          "parent_version": "1.0.0",
+          "relationship_type": "inherits_from"
+        }
+      }
+    }
+  ],
+  "version_lineage_relationships": [
+    {
+      "parent_pattern_id": "P-MD-CONV-001",
+      "parent_version": "1.0.0",
+      "child_pattern_id": "P-MD-CONV-001",
+      "child_version": "2.0.0",
+      "relationship_type": "inherits_from",
+      "declared_at": "2025-12-27T11:00:00Z",
+      "declared_by": "human"
+    },
+    {
+      "parent_pattern_id": "P-TEXT-SUM-001",
+      "parent_version": "1.0.0",
+      "child_pattern_id": "P-TEXT-SUM-001",
+      "child_version": "1.1.0",
+      "relationship_type": "inherits_from",
+      "declared_at": "2025-12-27T11:15:00Z",
+      "declared_by": "human"
+    },
+    {
+      "parent_pattern_id": "P-FORMAT-NORM-001",
+      "parent_version": "1.0.0",
+      "child_pattern_id": "P-FORMAT-NORM-001",
+      "child_version": "2.0.0",
+      "relationship_type": "inherits_from",
+      "declared_at": "2025-12-27T11:35:00Z",
+      "declared_by": "human"
+    }
+  ],
+  "constitutional_compliance": {
+    "no_ranking_fields": true,
+    "no_usage_stats": true,
+    "no_recommendation_signals": true,
+    "no_latest_preferred": true,
+    "no_ui_rendering_hints": true,
+    "version_lineage_factual_only": true
+  }
+}
+

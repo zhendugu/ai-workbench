@@ -1,0 +1,22 @@
+{
+  "execution_id": "1ee5e756-e6e2-45aa-af2e-21512df166cb",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "formatted_document": {
+        "content": "Test content",
+        "document_id": null,
+        "document_type": "presentation_state",
+        "created_at": "2025-12-26T21:53:12.151538",
+        "source_role": null,
+        "target_role": null,
+        "metadata": null
+      },
+      "format_type": "presentation_state"
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T21:53:12.151539",
+  "duration_ms": 0
+}

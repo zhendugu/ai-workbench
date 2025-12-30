@@ -1,0 +1,12 @@
+{
+  "log_id": "c23aac83-3d74-4810-b405-bfd548f03bd8",
+  "task_id": "store_document_cc5f608b-c1cc-419e-82cc-1cd7e1a7e4ae",
+  "goal": "Store Document (C-KM-1)",
+  "input": "{'content_length': 25, 'metadata': {'title': 'Original Document', 'author': 'Original Author'}}",
+  "output": "{'document_id': '194cdbb7-1529-4a0b-a314-4376d9dbf3ab', 'version_number': 1}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T17:05:41.312832",
+  "completed_at": "2025-12-26T17:05:41.312834"
+}

@@ -1,0 +1,19 @@
+{
+  "strategy_id": "STRATEGY-SLOW-DRIFT",
+  "strategy_name": "Slow-Drift",
+  "strategy_params": {
+    "drift_rate": 0.01,
+    "target_preference": "option_001",
+    "declaration_erosion_rate": 0.005,
+    "salience_increase_rate": 0.01
+  },
+  "default_values": {
+    "drift_rate": 0.01,
+    "target_preference": "option_001",
+    "declaration_erosion_rate": 0.005,
+    "salience_increase_rate": 0.01
+  },
+  "attack_vectors": ["AV-002", "AV-012", "AV-004", "AV-007"],
+  "traceability": "phase_q/ADVERSARY_STRATEGY_CATALOG.md STRATEGY-SLOW-DRIFT"
+}
+

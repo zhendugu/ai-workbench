@@ -1,0 +1,8 @@
+{
+  "circuit_breaker_id": "test_circuit_breaker_1",
+  "state": "closed",
+  "failure_count": 0,
+  "failure_threshold": 5,
+  "last_state_change": "2025-12-26T20:08:31.027191",
+  "timeout_duration": 1000
+}

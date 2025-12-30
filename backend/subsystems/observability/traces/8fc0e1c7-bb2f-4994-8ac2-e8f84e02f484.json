@@ -1,0 +1,13 @@
+{
+  "trace_id": "8fc0e1c7-bb2f-4994-8ac2-e8f84e02f484",
+  "task_id": "test_task_123",
+  "decision_point": "Test decision point",
+  "tool_call": {
+    "tool_name": "test_tool",
+    "parameters": {
+      "param1": "value1"
+    }
+  },
+  "handoff_document": "test_doc_123",
+  "timestamp": "2025-12-26T17:52:14.447857"
+}

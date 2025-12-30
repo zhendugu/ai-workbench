@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capabilities</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 20px;
+            background: white;
+            color: black;
+        }
+        .search-container {
+            margin: 20px 0;
+        }
+        .search-container input {
+            padding: 5px;
+            border: 1px solid #000;
+            font-family: monospace;
+            width: 300px;
+        }
+        .capability-section {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        /* KA-5 EXPERIMENT: PROXIMITY injection - Spacing differences (tight vs. loose spacing) */
+        .capability-item.tight-spacing {
+            margin: 2px 0; /* Tight spacing (small margin) */
+        }
+        .capability-item.loose-spacing {
+            margin: 15px 0; /* Loose spacing (large margin) */
+        }
+        .capability-section h3 {
+            margin-top: 0;
+            cursor: pointer;
+        }
+        .capability-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .capability-item {
+            padding: 5px;
+            border: 1px solid #ccc;
+            /* Default margin removed, spacing controlled by KA-5 PROXIMITY injection classes */
+        }
+        .capability-item button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+        }
+        .pagination {
+            margin: 20px 0;
+        }
+        .pagination button {
+            background: white;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: monospace;
+            margin: 0 5px;
+        }
+        .nav-link {
+            margin: 10px 0;
+            padding: 5px;
+        }
+        .nav-link a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capabilities</h1>
+    <div class="nav-link"><a href="patterns.html">Patterns</a> | <a href="audit_view.html">Audit View</a></div>
+    
+    <!-- Allowlist Item 2: Literal Search (No Ranking) -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search capabilities">
+    </div>
+    
+    <!-- Allowlist Item 1: Basic Partitioned Views -->
+    <div id="capability-sections"></div>
+    
+    <!-- Allowlist Item 3: Pagination -->
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        // Backend API base URL (configurable, but no automatic detection)
+        const API_BASE_URL = 'http://localhost:8000';
+        const API_TIMEOUT = 10000; // 10 seconds, no automatic adjustment
+
+        // Allowlist Item 3: Pagination - Fixed page size
+        const PAGE_SIZE = 3;
+        let currentPage = 1;
+        let capabilities = []; // Loaded from backend
+
+        // Load capabilities from backend API
+        async function loadCapabilities() {
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+                
+                const response = await fetch(`${API_BASE_URL}/api/capabilities`, {
+                    method: 'GET',
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    displayError(`Backend returned error: HTTP ${response.status} - ${errorText}`);
+                    return;
+                }
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    displayError(`Backend returned error: ${data.error}`);
+                    return;
+                }
+                
+                if (data.capabilities && Array.isArray(data.capabilities)) {
+                    // KA-5 EXPERIMENT: PROXIMITY injection - No ordering changes, maintain original registration order
+                    capabilities = data.capabilities; // Store in registration order, no sorting or reordering
+                    displayCapabilities();
+                } else if (data.capabilities && data.capabilities.length === 0) {
+                    capabilities = [];
+                    displayCapabilities(); // Display empty list as-is
+                } else {
+                    displayError(`Backend returned error: Invalid response format`);
+                }
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    displayError(`Backend returned error: Request timeout after ${API_TIMEOUT / 1000} seconds`);
+                } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+                    displayError(`Backend returned error: Connection failed - ${error.message}`);
+                } else {
+                    displayError(`Backend returned error: ${error.message}`);
+                }
+            }
+        }
+
+        // Display error (factual only, no interpretation)
+        function displayError(errorMessage) {
+            const sectionsDiv = document.getElementById('capability-sections');
+            sectionsDiv.innerHTML = `<div style="color: red; padding: 10px; border: 1px solid red;">${errorMessage}</div>`;
+        }
+
+        // Allowlist Item 2: Literal Search (No Ranking) - Filter capabilities
+        function filterCapabilities(query) {
+            if (!query) {
+                return capabilities;
+            }
+            const lowerQuery = query.toLowerCase();
+            return capabilities.filter(cap => 
+                cap.name.toLowerCase().includes(lowerQuery) || 
+                cap.id.toLowerCase().includes(lowerQuery) ||
+                (cap.description && cap.description.toLowerCase().includes(lowerQuery))
+            );
+        }
+
+        // Allowlist Item 1: Basic Partitioned Views - Display in sections
+        function displayCapabilities() {
+            const searchInput = document.getElementById('search-input');
+            const query = searchInput.value;
+            const filtered = filterCapabilities(query);
+            
+            // Partition into sections (visual organization only, no preference)
+            const sectionsDiv = document.getElementById('capability-sections');
+            sectionsDiv.innerHTML = '';
+            
+            // KA-5 EXPERIMENT: PROXIMITY injection - Spacing differences (tight vs. loose spacing)
+            // No grouping containers, single continuous list, only spacing/margin differences
+            // Maintain original registration order, no visual style differences
+            const list = document.createElement('ul');
+            list.className = 'capability-list';
+            
+            // Pagination: Calculate start and end indices
+            const startIndex = (currentPage - 1) * PAGE_SIZE;
+            const endIndex = startIndex + PAGE_SIZE;
+            const paginated = filtered.slice(startIndex, endIndex);
+            
+            // KA-5 EXPERIMENT: PROXIMITY injection - Apply spacing differences
+            // First half of displayed items use tight spacing, second half use loose spacing
+            const midpoint = Math.ceil(paginated.length / 2);
+            
+            paginated.forEach((capability, index) => {
+                const item = document.createElement('li');
+                item.className = 'capability-item';
+                // KA-5 EXPERIMENT: PROXIMITY injection - Apply spacing class based on position
+                if (index < midpoint) {
+                    item.classList.add('tight-spacing'); // Tight spacing (small margin)
+                } else {
+                    item.classList.add('loose-spacing'); // Loose spacing (large margin)
+                }
+                const button = document.createElement('button');
+                button.textContent = capability.name;
+                button.onclick = () => {
+                    window.location.href = `capability_run.html?id=${capability.id}`;
+                };
+                item.appendChild(button);
+                list.appendChild(item);
+            });
+            
+            // Create single section (no grouping, single continuous list)
+            const section = document.createElement('div');
+            section.className = 'capability-section';
+            const h3 = document.createElement('h3');
+            h3.textContent = 'All Capabilities';
+            h3.onclick = () => toggleSection(section);
+            section.appendChild(h3);
+            section.appendChild(list);
+            sectionsDiv.appendChild(section);
+            
+            // Display pagination controls
+            displayPagination(filtered.length);
+        }
+
+        // Allowlist Item 3: Pagination - Display pagination controls
+        function displayPagination(totalItems) {
+            const paginationDiv = document.getElementById('pagination');
+            paginationDiv.innerHTML = '';
+            
+            const totalPages = Math.ceil(totalItems / PAGE_SIZE);
+            
+            if (totalPages > 1) {
+                if (currentPage > 1) {
+                    const prevButton = document.createElement('button');
+                    prevButton.textContent = 'Previous';
+                    prevButton.onclick = () => {
+                        currentPage--;
+                        displayCapabilities();
+                    };
+                    paginationDiv.appendChild(prevButton);
+                }
+                
+                const pageInfo = document.createElement('span');
+                pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+                paginationDiv.appendChild(pageInfo);
+                
+                if (currentPage < totalPages) {
+                    const nextButton = document.createElement('button');
+                    nextButton.textContent = 'Next';
+                    nextButton.onclick = () => {
+                        currentPage++;
+                        displayCapabilities();
+                    };
+                    paginationDiv.appendChild(nextButton);
+                }
+            }
+        }
+
+        // Allowlist Item 4: Collapse / Expand - Toggle section visibility
+        function toggleSection(section) {
+            const list = section.querySelector('.capability-list');
+            if (list.style.display === 'none') {
+                list.style.display = 'block';
+            } else {
+                list.style.display = 'none';
+            }
+        }
+
+        // Allowlist Item 2: Literal Search - Handle search input
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            currentPage = 1; // Reset to first page on search
+            displayCapabilities();
+        });
+
+        // Initialize on page load - Load from backend
+        loadCapabilities();
+    </script>
+</body>
+</html>
+

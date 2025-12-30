@@ -1,0 +1,12 @@
+{
+  "log_id": "deb9cac7-3f6a-4edc-bd6b-3b635bb39aff",
+  "task_id": "store_document_e29afa9e-2ace-4ed2-a913-db092a68951d",
+  "goal": "Store Document (C-KM-1)",
+  "input": "{'content_length': 38, 'metadata': {'title': 'Test Document for Access Check', 'author': 'Test Author'}}",
+  "output": "{'document_id': 'df4532b1-3f21-4dc9-bed7-6f13531d8a6a', 'version_number': 1}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T16:45:59.297940",
+  "completed_at": "2025-12-26T16:45:59.297943"
+}

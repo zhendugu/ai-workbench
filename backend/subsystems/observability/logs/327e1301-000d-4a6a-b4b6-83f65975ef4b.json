@@ -1,0 +1,12 @@
+{
+  "log_id": "327e1301-000d-4a6a-b4b6-83f65975ef4b",
+  "task_id": "exception_detection_a6682fcc-9c26-44a0-8639-642cd9f0c600",
+  "goal": "C-SAFE-3: Detect Exception",
+  "input": "{'component_id': 'test_component_1', 'operation_type': 'test_operation', 'execution_state': {'start_time': '2025-12-26T20:12:00.878205', 'current_time': '2025-12-26T20:12:02.878206', 'timeout_duration': 1000}}",
+  "output": "None",
+  "status": "in_progress",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:12:02.878217",
+  "completed_at": "2025-12-26T20:12:02.878217"
+}

@@ -18,3 +18,10 @@ Rationale:
 - AI tooling density
 - Local execution friendliness
 - Future desktop packaging compatibility
+
+Stage 6 Capability Support:
+- Persistence: Supported via Python database libraries (implementation choice at Stage 6)
+- External API calls: Supported via Python HTTP clients (requests, httpx, etc.)
+- Background tasks: Supported via Python async/await, task queues, or scheduling libraries (implementation choice at Stage 6)
+
+Note: This stack decision defines the technology foundation only. Specific implementation libraries (database, task queue, etc.) are chosen during Stage 6 implementation, not at stack decision time.

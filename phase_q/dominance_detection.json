@@ -1,0 +1,4214 @@
+[
+  {
+    "run_id": "run_001",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.580067206858081,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_002",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.15,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.584492175699769,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_003",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5834264231163147,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_004",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 34.35,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5846151909770407,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_005",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 33.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.58481870497303,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_006",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.449999999999996,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5835002251867314,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_007",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.311061292528294,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_008",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 64.75,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2887190663928463,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_009",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3080956470021026,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_010",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 65.95,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.264723097244252,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_011",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3198918773262698,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_012",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 67.60000000000001,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2326227230603866,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_013",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_014",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_015",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_016",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_017",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_018",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC001-001": 100.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC002-001": 0.0,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 1,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_019",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.580067206858081,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_020",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.15,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.584492175699769,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_021",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5834264231163147,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_022",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 34.35,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5846151909770407,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_023",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 33.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.58481870497303,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_024",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.449999999999996,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5835002251867314,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_025",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.311061292528294,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_026",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 64.75,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2887190663928463,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_027",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3080956470021026,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_028",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 65.95,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.264723097244252,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_029",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3198918773262698,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_030",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 67.60000000000001,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2326227230603866,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_031",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.580067206858081,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_032",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.15,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.584492175699769,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_033",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5834264231163147,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_034",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 34.35,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5846151909770407,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_035",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 33.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.58481870497303,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_036",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.449999999999996,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5835002251867314,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_037",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.580067206858081,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_038",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.15,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.584492175699769,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_039",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5834264231163147,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_040",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 34.35,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5846151909770407,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_041",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 33.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.58481870497303,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_042",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.449999999999996,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5835002251867314,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_043",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.311061292528294,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_044",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 64.75,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2887190663928463,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_045",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3080956470021026,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_046",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 65.95,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.264723097244252,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_047",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 63.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.3198918773262698,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_048",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 67.60000000000001,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.2326227230603866,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_049",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.580067206858081,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_050",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.15,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.584492175699769,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_051",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 32.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5834264231163147,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_052",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 34.35,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5846151909770407,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_053",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 33.0,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.58481870497303,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  },
+  {
+    "run_id": "run_054",
+    "sc_evaluations": {
+      "SC-001": {
+        "sc_id": "SC-001",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC001-001": 35.449999999999996,
+          "METRIC-SC001-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC001-001": 80.0,
+          "METRIC-SC001-002": 0.01
+        }
+      },
+      "SC-002": {
+        "sc_id": "SC-002",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC002-001": 1.5835002251867314,
+          "METRIC-SC002-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC002-001": 1.0,
+          "METRIC-SC002-002": -0.01
+        }
+      },
+      "SC-003": {
+        "sc_id": "SC-003",
+        "result": "FAIL",
+        "metrics": {
+          "METRIC-SC003-001": 3,
+          "METRIC-SC003-002": 100.0
+        },
+        "thresholds": {
+          "METRIC-SC003-001": 3.0,
+          "METRIC-SC003-002": 30.0
+        }
+      },
+      "SC-004": {
+        "sc_id": "SC-004",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC004-001": 0.0,
+          "METRIC-SC004-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC004-001": 70.0,
+          "METRIC-SC004-002": -0.01
+        }
+      },
+      "SC-005": {
+        "sc_id": "SC-005",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC005-001": 10.0,
+          "METRIC-SC005-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC005-001": 1.5,
+          "METRIC-SC005-002": 60.0
+        }
+      },
+      "SC-006": {
+        "sc_id": "SC-006",
+        "result": "PASS",
+        "metrics": {
+          "METRIC-SC006-001": 0.0,
+          "METRIC-SC006-002": 0.0
+        },
+        "thresholds": {
+          "METRIC-SC006-001": 50.0,
+          "METRIC-SC006-002": -0.01
+        }
+      }
+    },
+    "overall_result": "FAIL"
+  }
+]

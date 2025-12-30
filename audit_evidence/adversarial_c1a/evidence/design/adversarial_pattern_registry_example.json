@@ -1,0 +1,137 @@
+{
+  "registry_id": "pattern-registry-adversarial-example",
+  "registry_name": "Document Management Pattern Registry",
+  "description": "A comprehensive registry of document management patterns for organizational knowledge management. This registry provides a catalog of available patterns with their characteristics and usage context.",
+  "last_updated": "2025-12-26T10:00:00Z",
+  "patterns": [
+    {
+      "registry_entry_id": "reg-entry-001",
+      "pattern_id": "pattern-doc-storage-v1",
+      "pattern_name": "Standard Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-01-15T08:00:00Z",
+      "registered_by": "system-admin",
+      "status": "active",
+      "usage_statistics": {
+        "adoption_count": 127,
+        "last_used": "2025-12-25T14:30:00Z",
+        "usage_frequency": "high"
+      },
+      "descriptive_tags": [
+        "commonly-used",
+        "standard-practice",
+        "widely-accepted",
+        "production-ready"
+      ],
+      "description": "This pattern represents the most commonly used approach for document storage in production environments. It has been widely adopted across multiple teams and has demonstrated reliability in various use cases. The pattern follows established industry practices and has been validated through extensive usage.",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": ["pattern-doc-storage-v2"],
+        "is_latest": false
+      },
+      "traceability": {
+        "source": "internal-development",
+        "audit_references": ["audit-001", "audit-002"]
+      },
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        }
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-002",
+      "pattern_id": "pattern-doc-storage-v2",
+      "pattern_name": "Enhanced Document Storage Pattern",
+      "pattern_version": "2.0.0",
+      "registered_at": "2025-06-01T09:00:00Z",
+      "registered_by": "system-admin",
+      "status": "active",
+      "usage_statistics": {
+        "adoption_count": 89,
+        "last_used": "2025-12-26T09:15:00Z",
+        "usage_frequency": "high"
+      },
+      "descriptive_tags": [
+        "frequently-adopted",
+        "modern-approach",
+        "improved-design",
+        "latest-version"
+      ],
+      "description": "This pattern represents an enhanced version of the document storage pattern, incorporating improvements based on community feedback and evolving requirements. It has been frequently adopted by teams seeking more advanced features. The pattern builds upon the foundation of the standard pattern while introducing refinements that address common use cases.",
+      "version_lineage": {
+        "parent_version": "pattern-doc-storage-v1",
+        "child_versions": [],
+        "is_latest": true
+      },
+      "traceability": {
+        "source": "internal-development",
+        "audit_references": ["audit-003", "audit-004"]
+      },
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        },
+        {
+          "capability_id": "C-KM-2",
+          "reference_type": "informational",
+          "description": "References C-KM-2 (Retrieve Document) capability"
+        }
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-003",
+      "pattern_id": "pattern-doc-storage-experimental",
+      "pattern_name": "Experimental Document Storage Pattern",
+      "pattern_version": "0.5.0",
+      "registered_at": "2025-11-01T10:00:00Z",
+      "registered_by": "system-admin",
+      "status": "experimental",
+      "usage_statistics": {
+        "adoption_count": 12,
+        "last_used": "2025-12-20T16:45:00Z",
+        "usage_frequency": "low"
+      },
+      "descriptive_tags": [
+        "experimental",
+        "under-development",
+        "limited-adoption"
+      ],
+      "description": "This pattern represents an experimental approach to document storage, currently under active development. It has seen limited adoption and is intended for evaluation purposes. The pattern explores alternative design approaches and may undergo significant changes based on feedback.",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": [],
+        "is_latest": true
+      },
+      "traceability": {
+        "source": "research-development",
+        "audit_references": []
+      },
+      "capability_references": [
+        {
+          "capability_id": "C-KM-1",
+          "reference_type": "informational",
+          "description": "References C-KM-1 (Store Document) capability"
+        }
+      ]
+    }
+  ],
+  "registry_metadata": {
+    "sort_order": "by_adoption_count_desc",
+    "display_preferences": {
+      "highlight_active": true,
+      "show_usage_statistics": true,
+      "emphasize_latest_versions": true
+    },
+    "filtering_options": {
+      "by_status": ["active", "experimental", "deprecated"],
+      "by_usage_frequency": ["high", "medium", "low"],
+      "by_adoption_count": "range"
+    }
+  }
+}
+

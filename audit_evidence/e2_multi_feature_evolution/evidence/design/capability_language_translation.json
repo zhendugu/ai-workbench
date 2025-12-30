@@ -1,0 +1,64 @@
+{
+  "capability_id": "C-LANG-TRANS-001",
+  "capability_name": "Language Translation",
+  "capability_version": "1.0.0",
+  "created_at": "2025-12-27T11:35:00Z",
+  "created_by": "human",
+  "element_types": {
+    "capability_identifier": {
+      "unique_id": "C-LANG-TRANS-001",
+      "human_readable_name": "Language Translation",
+      "semantic_category": "text_transformation",
+      "descriptive_metadata": {
+        "domain": "text_processing",
+        "type": "transformation"
+      }
+    },
+    "input_specification": {
+      "input_type": "text_document",
+      "input_structure": {
+        "format": "text/plain",
+        "encoding": "utf-8",
+        "max_size": "500KB"
+      },
+      "input_validation_rules": {
+        "description": "Input must be valid UTF-8 encoded text in source language",
+        "required_fields": ["content", "source_language", "target_language"]
+      },
+      "input_metadata": {
+        "accepted_extensions": [".txt", ".md"],
+        "content_type": "text/plain"
+      }
+    },
+    "output_specification": {
+      "output_type": "translated_text",
+      "output_structure": {
+        "format": "text/plain",
+        "encoding": "utf-8",
+        "structure": "translated text in target language"
+      },
+      "output_metadata": {
+        "content_type": "text/plain",
+        "target_language": "specified_by_input"
+      }
+    },
+    "semantic_description": {
+      "purpose": "Translates text from one language to another",
+      "scope": "Single document translation between specified languages",
+      "limitations": "Does not process multiple documents, does not detect language automatically, requires explicit language specification",
+      "atomic_nature": "This capability performs a single, atomic translation operation",
+      "referability": "This capability can be referenced by Patterns or other descriptive structures"
+    }
+  },
+  "constitutional_compliance": {
+    "is_descriptive": true,
+    "is_atomic": true,
+    "is_referable": true,
+    "no_workflow_semantics": true,
+    "no_execution_coordination": true,
+    "no_judgment_mechanism": true,
+    "no_conditional_logic": true,
+    "no_behavior_trigger": true
+  }
+}
+

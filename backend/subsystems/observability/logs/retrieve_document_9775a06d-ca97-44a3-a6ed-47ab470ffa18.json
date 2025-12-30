@@ -1,0 +1,12 @@
+{
+  "log_id": "fc84f0c6-c50a-4b1c-9b27-8bf4745e09bc",
+  "task_id": "retrieve_document_9775a06d-ca97-44a3-a6ed-47ab470ffa18",
+  "goal": "Retrieve Document (C-KM-2)",
+  "input": "{'document_id': '00000000-0000-0000-0000-000000000000', 'requester_id': None}",
+  "output": "{'error': 'Document not found: 00000000-0000-0000-0000-000000000000', 'error_type': 'FileNotFoundError', 'error_details': {'document_id': '00000000-0000-0000-0000-000000000000'}}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T16:45:59.230525",
+  "completed_at": "2025-12-26T16:45:59.230525"
+}

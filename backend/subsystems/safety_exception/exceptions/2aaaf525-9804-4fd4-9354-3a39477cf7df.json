@@ -1,0 +1,12 @@
+{
+  "exception_id": "2aaaf525-9804-4fd4-9354-3a39477cf7df",
+  "component_id": "test_component_1",
+  "operation_type": "test_operation",
+  "exception_type": "failure_budget_violation",
+  "exception_details": {
+    "failure_count": 15,
+    "failure_budget": 10,
+    "description": "Failure count (15) exceeds failure budget (10)"
+  },
+  "detected_at": "2025-12-26T20:12:02.878585"
+}

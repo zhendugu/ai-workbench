@@ -1,0 +1,212 @@
+{
+  "adversarial_mechanisms": [
+    {
+      "id": "AM-001",
+      "name": "Auto-highlight 'Popular' Capabilities",
+      "description": "System automatically highlights Capabilities marked as 'popular' or 'frequently used' with visual emphasis (badge, color, icon)",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps users quickly identify commonly used capabilities",
+      "why_it_violates": "Creates implicit recommendation through visual emphasis"
+    },
+    {
+      "id": "AM-002",
+      "name": "Implicit Sorting by Usage Frequency",
+      "description": "System automatically sorts Capabilities by usage frequency (most used first) without explicit user action",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows most relevant capabilities first",
+      "why_it_violates": "Compresses decision space by implying 'most used' equals 'best'"
+    },
+    {
+      "id": "AM-003",
+      "name": "Recently Used Capabilities First",
+      "description": "System automatically places 'recently used' Capabilities at the top of the list",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient access to recently used items",
+      "why_it_violates": "Creates implicit recommendation through ordering"
+    },
+    {
+      "id": "AM-004",
+      "name": "Auto-Expand 'Recommended' Section",
+      "description": "System automatically expands a 'Recommended Capabilities' section by default",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps users discover useful capabilities",
+      "why_it_violates": "Explicitly uses 'recommended' language and auto-expands"
+    },
+    {
+      "id": "AM-005",
+      "name": "Default Filter: 'Most Used'",
+      "description": "System applies a default filter showing only 'most used' Capabilities on initial load",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows most relevant capabilities by default",
+      "why_it_violates": "Pre-filters options, compressing decision space"
+    },
+    {
+      "id": "AM-006",
+      "name": "Sticky Shortlist from Previous Session",
+      "description": "System automatically restores a 'shortlist' of Capabilities from the previous session",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "Persists state across sessions, creates implicit preference"
+    },
+    {
+      "id": "AM-007",
+      "name": "Auto-Highlight Based on User Role",
+      "description": "System automatically highlights Capabilities 'suitable for your role' based on user profile",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Personalized experience based on role",
+      "why_it_violates": "Creates implicit recommendation through role-based highlighting"
+    },
+    {
+      "id": "AM-008",
+      "name": "Smart Search with Auto-Complete Suggestions",
+      "description": "System provides auto-complete suggestions in search, prioritizing 'popular searches'",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps users find what they're looking for",
+      "why_it_violates": "Suggests searches based on popularity, creating implicit recommendation"
+    },
+    {
+      "id": "AM-009",
+      "name": "Truncated 'Top N' Display",
+      "description": "System displays only 'top 10 most used' Capabilities by default, hiding others",
+      "violation_type": "decision_space_compression",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Reduces information overload",
+      "why_it_violates": "Hides options by default, compressing decision space"
+    },
+    {
+      "id": "AM-010",
+      "name": "Auto-Select First Capability in List",
+      "description": "System automatically selects the first Capability in the list when viewer opens",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Provides immediate context",
+      "why_it_violates": "Pre-selects option without explicit human action"
+    },
+    {
+      "id": "AM-011",
+      "name": "Continue Where You Left Off",
+      "description": "System automatically navigates to the last viewed Capability when viewer reopens",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous session",
+      "why_it_violates": "Persists navigation state, creates implicit preference"
+    },
+    {
+      "id": "AM-012",
+      "name": "Trending Capabilities Badge",
+      "description": "System displays a 'Trending' badge on Capabilities with increasing usage",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows what's currently popular",
+      "why_it_violates": "Creates implicit recommendation through trending indicator"
+    },
+    {
+      "id": "AM-013",
+      "name": "Default Sort: 'Recommended First'",
+      "description": "System defaults to sorting by 'recommended' order (algorithm-based ranking)",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows best options first",
+      "why_it_violates": "Uses explicit 'recommended' language and applies default sort"
+    },
+    {
+      "id": "AM-014",
+      "name": "Auto-Filter: Hide Deprecated",
+      "description": "System automatically hides deprecated Capabilities by default",
+      "violation_type": "decision_space_compression",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Reduces clutter from outdated options",
+      "why_it_violates": "Hides options by default, compressing decision space"
+    },
+    {
+      "id": "AM-015",
+      "name": "Smart Categories with 'Featured'",
+      "description": "System displays a 'Featured Capabilities' category with pre-selected entries",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Highlights important capabilities",
+      "why_it_violates": "Uses 'featured' language, creates implicit recommendation"
+    },
+    {
+      "id": "AM-016",
+      "name": "Usage-Based Visual Ranking",
+      "description": "System displays Capabilities with visual indicators showing usage rank (1st, 2nd, 3rd, etc.)",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows relative popularity",
+      "why_it_violates": "Creates implicit ranking, implies 'better' options"
+    },
+    {
+      "id": "AM-017",
+      "name": "Auto-Suggest Based on History",
+      "description": "System suggests Capabilities based on user's previous selections",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Personalized suggestions based on past behavior",
+      "why_it_violates": "Uses history to create recommendations"
+    },
+    {
+      "id": "AM-018",
+      "name": "Default View: 'Most Popular'",
+      "description": "System defaults to showing 'Most Popular' view on initial load",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Shows most relevant content first",
+      "why_it_violates": "Applies default view, compresses decision space"
+    },
+    {
+      "id": "AM-019",
+      "name": "Sticky Filters Across Sessions",
+      "description": "System remembers and automatically reapplies filters from previous session",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "Persists filters across sessions, creates implicit preference"
+    },
+    {
+      "id": "AM-020",
+      "name": "Auto-Highlight 'New' Capabilities",
+      "description": "System automatically highlights newly added Capabilities with a 'New' badge",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Draws attention to new features",
+      "why_it_violates": "Creates implicit recommendation through highlighting"
+    },
+    {
+      "id": "AM-021",
+      "name": "Recommended for You Section",
+      "description": "System displays a 'Recommended for You' section with algorithm-selected Capabilities",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Personalized recommendations",
+      "why_it_violates": "Explicitly uses 'recommended' language"
+    },
+    {
+      "id": "AM-022",
+      "name": "Default Search Query Pre-filled",
+      "description": "System pre-fills search box with a suggested query based on popular searches",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps users get started",
+      "why_it_violates": "Pre-fills search, creates implicit suggestion"
+    }
+  ],
+  "total_mechanisms": 22,
+  "violation_categories": {
+    "highlighting": 5,
+    "ordering_preference": 3,
+    "default_selection": 6,
+    "state_persistence": 3,
+    "recommendation": 4,
+    "decision_space_compression": 2
+  }
+}
+

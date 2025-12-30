@@ -1,0 +1,12 @@
+{
+  "log_id": "a784c121-542a-4aa5-a7dc-6f34a135acd1",
+  "task_id": "exception_detection_4d568b19-b1c5-402b-9019-754e29c74256",
+  "goal": "C-SAFE-3: Detect Exception",
+  "input": "{'component_id': 'test_component_1', 'operation_type': 'test_operation'}",
+  "output": "{'error': 'execution_state must be a dictionary'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:12:02.878942",
+  "completed_at": "2025-12-26T20:12:02.878942"
+}

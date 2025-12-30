@@ -1,0 +1,14 @@
+{
+  "name": "ai-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "run_time_frontend",
+    "design_time_frontend"
+  ],
+  "scripts": {
+    "build:authority": "npm run build --workspace=@ai-workbench/authority"
+  }
+}
+

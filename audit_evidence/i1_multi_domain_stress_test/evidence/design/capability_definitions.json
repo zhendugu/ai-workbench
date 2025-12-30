@@ -1,0 +1,235 @@
+{
+  "capabilities": [
+    {
+      "capability_id": "C-STRUCT-FORMAT-001",
+      "capability_name": "JSON to YAML Format Conversion",
+      "capability_type": "Structural Transformation",
+      "input_specification": {
+        "type": "JSON document",
+        "format": "application/json",
+        "required": true
+      },
+      "output_specification": {
+        "type": "YAML document",
+        "format": "application/yaml",
+        "required": true
+      },
+      "semantic_description": "Converts JSON document to YAML format. Preserves data structure. No semantic interpretation.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-STRUCT-SCHEMA-002",
+      "capability_name": "XML Schema Normalization",
+      "capability_type": "Structural Transformation",
+      "input_specification": {
+        "type": "XML document",
+        "format": "application/xml",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Normalized XML document",
+        "format": "application/xml",
+        "required": true
+      },
+      "semantic_description": "Normalizes XML document structure. Preserves content. No semantic interpretation.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-LANG-TRANS-001",
+      "capability_name": "English to French Translation",
+      "capability_type": "Language Transformation",
+      "input_specification": {
+        "type": "Text document",
+        "language": "en",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Text document",
+        "language": "fr",
+        "required": true
+      },
+      "semantic_description": "Translates English text to French. Preserves meaning. No interpretation beyond translation.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-LANG-REWRITE-002",
+      "capability_name": "Technical Text Simplification",
+      "capability_type": "Language Transformation",
+      "input_specification": {
+        "type": "Technical text",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Simplified text",
+        "required": true
+      },
+      "semantic_description": "Simplifies technical text. Preserves core meaning. No interpretation beyond simplification.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-INFO-SUMM-001",
+      "capability_name": "Document Summarization",
+      "capability_type": "Information Compression",
+      "input_specification": {
+        "type": "Document",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Summary text",
+        "required": true
+      },
+      "semantic_description": "Creates summary of document. Extracts key information. No interpretation beyond summarization.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-INFO-EXTR-002",
+      "capability_name": "Key Information Extraction",
+      "capability_type": "Information Compression",
+      "input_specification": {
+        "type": "Document",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Extracted information",
+        "required": true
+      },
+      "semantic_description": "Extracts key information from document. No interpretation beyond extraction.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-JUDGE-VAL-001",
+      "capability_name": "Data Format Validation",
+      "capability_type": "Judgment Verification",
+      "input_specification": {
+        "type": "Data document",
+        "format": "any",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Validation result",
+        "format": "boolean",
+        "required": true
+      },
+      "semantic_description": "Validates data format. Returns true or false. No interpretation beyond validation.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-JUDGE-CONS-002",
+      "capability_name": "Data Consistency Check",
+      "capability_type": "Judgment Verification",
+      "input_specification": {
+        "type": "Data set",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Consistency result",
+        "format": "boolean",
+        "required": true
+      },
+      "semantic_description": "Checks data consistency. Returns true or false. No interpretation beyond consistency check.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-MAP-FIELD-001",
+      "capability_name": "Field Name Mapping",
+      "capability_type": "Mapping Correspondence",
+      "input_specification": {
+        "type": "Field mapping specification",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Mapped field names",
+        "required": true
+      },
+      "semantic_description": "Maps field names according to specification. No interpretation beyond mapping.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-MAP-ALIGN-002",
+      "capability_name": "Data Structure Alignment",
+      "capability_type": "Mapping Correspondence",
+      "input_specification": {
+        "type": "Data structure",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Aligned data structure",
+        "required": true
+      },
+      "semantic_description": "Aligns data structure according to specification. No interpretation beyond alignment.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-RULE-EXEC-001",
+      "capability_name": "Pure Function Rule Execution",
+      "capability_type": "Rule Execution",
+      "input_specification": {
+        "type": "Rule specification and input data",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Rule execution result",
+        "required": true
+      },
+      "semantic_description": "Executes pure function rule. No state. No side effects. No interpretation beyond execution.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    },
+    {
+      "capability_id": "C-RULE-CALC-002",
+      "capability_name": "Mathematical Calculation",
+      "capability_type": "Rule Execution",
+      "input_specification": {
+        "type": "Mathematical expression",
+        "required": true
+      },
+      "output_specification": {
+        "type": "Calculation result",
+        "required": true
+      },
+      "semantic_description": "Performs mathematical calculation. Pure function. No state. No interpretation beyond calculation.",
+      "atomic": true,
+      "no_execution_chaining": true,
+      "no_workflow_semantics": true
+    }
+  ],
+  "registration_metadata": {
+    "registration_date": "2025-12-27",
+    "registration_order": "none",
+    "grouping": "none",
+    "priority": "none",
+    "default": "none",
+    "recommendation": "none"
+  },
+  "total_capabilities": 12,
+  "cognitive_domains": [
+    "Structural Transformation",
+    "Language Transformation",
+    "Information Compression",
+    "Judgment Verification",
+    "Mapping Correspondence",
+    "Rule Execution"
+  ]
+}
+

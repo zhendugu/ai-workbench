@@ -1,0 +1,72 @@
+{
+  "workspace_isolation_version": "1.0.0",
+  "created_at": "2025-12-27T12:05:00Z",
+  "created_by": "human",
+  "workspaces": [
+    {
+      "workspace_id": "WORKSPACE-A",
+      "workspace_name": "Project Alpha",
+      "created_at": "2025-12-27T12:00:00Z",
+      "registry_namespace": "workspace-a",
+      "evidence_pack_location": "audit_evidence/workspace_a/",
+      "audit_trail_location": "audit_evidence/workspace_a/audit_trail/",
+      "isolation_rules": {
+        "separate_registry": true,
+        "separate_evidence_packs": true,
+        "separate_audit_trails": true,
+        "no_cross_workspace_recent_panels": true,
+        "no_cross_workspace_carryover": true,
+        "no_shared_defaults": true
+      }
+    },
+    {
+      "workspace_id": "WORKSPACE-B",
+      "workspace_name": "Project Beta",
+      "created_at": "2025-12-27T12:01:00Z",
+      "registry_namespace": "workspace-b",
+      "evidence_pack_location": "audit_evidence/workspace_b/",
+      "audit_trail_location": "audit_evidence/workspace_b/audit_trail/",
+      "isolation_rules": {
+        "separate_registry": true,
+        "separate_evidence_packs": true,
+        "separate_audit_trails": true,
+        "no_cross_workspace_recent_panels": true,
+        "no_cross_workspace_carryover": true,
+        "no_shared_defaults": true
+      }
+    }
+  ],
+  "isolation_verification": {
+    "registry_isolation": {
+      "workspace_a_registry": "workspace-a/registry.json",
+      "workspace_b_registry": "workspace-b/registry.json",
+      "no_shared_registry": true,
+      "strict_namespacing": true
+    },
+    "evidence_isolation": {
+      "workspace_a_evidence": "audit_evidence/workspace_a/",
+      "workspace_b_evidence": "audit_evidence/workspace_b/",
+      "no_shared_evidence": true,
+      "separate_packs": true
+    },
+    "audit_isolation": {
+      "workspace_a_audit": "audit_evidence/workspace_a/audit_trail/",
+      "workspace_b_audit": "audit_evidence/workspace_b/audit_trail/",
+      "no_shared_audit": true,
+      "separate_trails": true
+    },
+    "ui_isolation": {
+      "no_cross_workspace_recent": true,
+      "no_cross_workspace_filters": true,
+      "no_cross_workspace_search": true,
+      "no_shared_defaults": true
+    }
+  },
+  "constitutional_compliance": {
+    "strict_isolation": true,
+    "no_cross_workspace_influence": true,
+    "no_shared_defaults": true,
+    "no_cross_workspace_carryover": true
+  }
+}
+

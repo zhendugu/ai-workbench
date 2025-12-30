@@ -1,0 +1,181 @@
+{
+  "adversarial_exit_mechanisms": [
+    {
+      "id": "AEM-001",
+      "name": "Recommend Saving Most Frequently Used Configuration",
+      "description": "System recommends saving 'most frequently used configuration' before exit to improve next session experience",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Improves user experience by preserving frequently used settings",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Helps users resume work faster next time",
+      "why_it_violates": "Creates explicit recommendation and implicit preference"
+    },
+    {
+      "id": "AEM-002",
+      "name": "Prepare Better Experience for Next Time",
+      "description": "System automatically prepares 'better experience' by saving preferences and optimizing state for next session",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Optimizes system for better user experience on next startup",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Improves user experience without user effort",
+      "why_it_violates": "Creates default selection and state-driven behavior"
+    },
+    {
+      "name": "Auto-Freeze Current Best State",
+      "description": "System automatically freezes 'current best state' (most stable configuration) during shutdown for quick recovery",
+      "exit_mode": "Emergency Stop, Graceful Shutdown",
+      "rationale": "Enables quick recovery by preserving stable state",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Enables faster recovery and reduces downtime",
+      "why_it_violates": "Creates default selection and state interpretation"
+    },
+    {
+      "id": "AEM-004",
+      "name": "Emergency Mode Defaults to Safe Options",
+      "description": "System automatically defaults to 'safe options' during emergency shutdown to prevent data loss",
+      "exit_mode": "Emergency Stop",
+      "rationale": "Protects data and system integrity during emergencies",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Prevents data loss and system damage",
+      "why_it_violates": "Creates default selection and bypasses explicit selection"
+    },
+    {
+      "id": "AEM-005",
+      "name": "System Performs Last Optimization",
+      "description": "System automatically performs 'last optimization' before shutdown to improve next session performance",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Optimizes system state for better performance next time",
+      "violation_type": "automatic_behavior",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY, IMMUTABLE_DESIGN_CONSTRAINTS",
+      "why_it_looks_reasonable": "Improves system performance without user intervention",
+      "why_it_violates": "Creates automatic behavior and state-driven optimization"
+    },
+    {
+      "id": "AEM-006",
+      "name": "Suggest Migration Before Decommission",
+      "description": "System suggests migrating to new system before decommission, recommending migration path and data to migrate",
+      "exit_mode": "Permanent Decommission",
+      "rationale": "Helps users transition smoothly to new system",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Facilitates smooth transition and prevents data loss",
+      "why_it_violates": "Creates explicit recommendation and decision space compression"
+    },
+    {
+      "id": "AEM-007",
+      "name": "Auto-Preserve Last Used Selections",
+      "description": "System automatically preserves last used selections and filters for next session",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Improves user experience by remembering user preferences",
+      "violation_type": "state_persistence",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Convenient continuation of previous work",
+      "why_it_violates": "Creates state persistence and default selection"
+    },
+    {
+      "id": "AEM-008",
+      "name": "Recommend Restoring from Backup",
+      "description": "System recommends restoring from backup after emergency stop to recover lost state",
+      "exit_mode": "Emergency Stop",
+      "rationale": "Helps users recover from emergency situations",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Facilitates recovery from emergencies",
+      "why_it_violates": "Creates explicit recommendation"
+    },
+    {
+      "id": "AEM-009",
+      "name": "Auto-Select Best Configuration for Next Time",
+      "description": "System automatically selects 'best configuration' based on usage patterns and saves it for next session",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Optimizes system configuration based on actual usage",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Improves system efficiency based on usage",
+      "why_it_violates": "Creates default selection and state-driven behavior"
+    },
+    {
+      "id": "AEM-010",
+      "name": "Prepare Quick Start for Next Session",
+      "description": "System prepares 'quick start' by pre-selecting most commonly used capabilities for next session",
+      "exit_mode": "Graceful Shutdown",
+      "rationale": "Reduces startup time and improves user experience",
+      "violation_type": "default_selection",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Improves user experience and reduces friction",
+      "why_it_violates": "Creates default selection and implicit recommendation"
+    },
+    {
+      "id": "AEM-011",
+      "name": "Emergency Mode Auto-Saves Critical State",
+      "description": "System automatically saves 'critical state' during emergency shutdown to prevent data loss",
+      "exit_mode": "Emergency Stop",
+      "rationale": "Prevents data loss during emergencies",
+      "violation_type": "automatic_behavior",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Protects data during emergencies",
+      "why_it_violates": "Creates automatic behavior and state interpretation"
+    },
+    {
+      "id": "AEM-012",
+      "name": "Suggest Best Practices Before Decommission",
+      "description": "System suggests 'best practices' for decommission, recommending data export format and migration strategy",
+      "exit_mode": "Permanent Decommission",
+      "rationale": "Ensures proper decommissioning and data preservation",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Ensures proper decommissioning procedures",
+      "why_it_violates": "Creates explicit recommendation and decision space compression"
+    },
+    {
+      "id": "AEM-013",
+      "name": "Auto-Order Capabilities by Usage Before Freeze",
+      "description": "System automatically orders capabilities by usage frequency before data freeze to optimize frozen state",
+      "exit_mode": "Data Freeze / Cold Archive",
+      "rationale": "Optimizes frozen data for future retrieval",
+      "violation_type": "ordering_preference",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Improves efficiency of frozen data",
+      "why_it_violates": "Creates ordering preference and implicit recommendation"
+    },
+    {
+      "id": "AEM-014",
+      "name": "Recommend Migration Path Before Termination",
+      "description": "System recommends specific migration path and data mapping before pre-migration termination",
+      "exit_mode": "Pre-Migration Termination",
+      "rationale": "Facilitates smooth migration to new system",
+      "violation_type": "recommendation",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Reduces migration complexity and errors",
+      "why_it_violates": "Creates explicit recommendation and decision space compression"
+    },
+    {
+      "id": "AEM-015",
+      "name": "Auto-Highlight Recommended Actions Before Offline",
+      "description": "System automatically highlights 'recommended actions' (e.g., save audit, export data) before forced offline",
+      "exit_mode": "Post-Audit Forced Offline",
+      "rationale": "Ensures important actions are not missed before offline",
+      "violation_type": "highlighting",
+      "constitutional_boundary": "HUMAN_DECISION_SELECTION_BOUNDARY",
+      "why_it_looks_reasonable": "Prevents missing important actions",
+      "why_it_violates": "Creates highlighting and implicit recommendation"
+    }
+  ],
+  "total_mechanisms": 15,
+  "violation_categories": {
+    "recommendation": 6,
+    "default_selection": 5,
+    "automatic_behavior": 3,
+    "state_persistence": 1,
+    "ordering_preference": 1,
+    "highlighting": 1
+  },
+  "all_mechanisms_structural": true,
+  "all_mechanisms_non_repairable": true,
+  "all_mechanisms_exit_specific": true
+}
+

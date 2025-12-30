@@ -1,0 +1,2403 @@
+{
+  "pattern_instances": [
+    {
+      "pattern_id": "P-STRUCT-FORMAT-001-1",
+      "pattern_name": "JSON to YAML Format Conversion",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:06:00Z",
+      "created_by": "human",
+      "description": "Performs json to yaml format conversion",
+      "capability_references": [
+        "C-STRUCT-FORMAT-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-FORMAT-001-2",
+      "pattern_name": "Structural Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:12:00Z",
+      "created_by": "human",
+      "description": "Processes structural transformation operations",
+      "capability_references": [
+        "C-STRUCT-FORMAT-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-FORMAT-001-3",
+      "pattern_name": "C-STRUCT-FORMAT-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-STRUCT-FORMAT-001 specification",
+      "capability_references": [
+        "C-STRUCT-FORMAT-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-FORMAT-001-4",
+      "pattern_name": "Structural Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:24:00Z",
+      "created_by": "human",
+      "description": "Handles structural transformation transformations",
+      "capability_references": [
+        "C-STRUCT-FORMAT-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-XML-NORM-1",
+      "pattern_name": "XML Schema Normalization",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:30:00Z",
+      "created_by": "human",
+      "description": "Performs xml schema normalization",
+      "capability_references": [
+        "C-STRUCT-XML-NORM"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-XML-NORM-2",
+      "pattern_name": "Structural Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:36:00Z",
+      "created_by": "human",
+      "description": "Processes structural transformation operations",
+      "capability_references": [
+        "C-STRUCT-XML-NORM"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-XML-NORM-3",
+      "pattern_name": "C-STRUCT-XML-NORM Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-STRUCT-XML-NORM specification",
+      "capability_references": [
+        "C-STRUCT-XML-NORM"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-XML-NORM-4",
+      "pattern_name": "Structural Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:48:00Z",
+      "created_by": "human",
+      "description": "Handles structural transformation transformations",
+      "capability_references": [
+        "C-STRUCT-XML-NORM"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-CSV-TO-JSON-1",
+      "pattern_name": "CSV to JSON Converter",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T10:54:00Z",
+      "created_by": "human",
+      "description": "Performs csv to json converter",
+      "capability_references": [
+        "C-FORMAT-CSV-TO-JSON"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-CSV-TO-JSON-2",
+      "pattern_name": "Structural Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:00:00Z",
+      "created_by": "human",
+      "description": "Processes structural transformation operations",
+      "capability_references": [
+        "C-FORMAT-CSV-TO-JSON"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-CSV-TO-JSON-3",
+      "pattern_name": "C-FORMAT-CSV-TO-JSON Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-FORMAT-CSV-TO-JSON specification",
+      "capability_references": [
+        "C-FORMAT-CSV-TO-JSON"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-FORMAT-CSV-TO-JSON-4",
+      "pattern_name": "Structural Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:12:00Z",
+      "created_by": "human",
+      "description": "Handles structural transformation transformations",
+      "capability_references": [
+        "C-FORMAT-CSV-TO-JSON"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-TABLE-FLATTEN-1",
+      "pattern_name": "Table Structure Flattening",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:18:00Z",
+      "created_by": "human",
+      "description": "Performs table structure flattening",
+      "capability_references": [
+        "C-STRUCT-TABLE-FLATTEN"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-TABLE-FLATTEN-2",
+      "pattern_name": "Structural Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:24:00Z",
+      "created_by": "human",
+      "description": "Processes structural transformation operations",
+      "capability_references": [
+        "C-STRUCT-TABLE-FLATTEN"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-TABLE-FLATTEN-3",
+      "pattern_name": "C-STRUCT-TABLE-FLATTEN Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-STRUCT-TABLE-FLATTEN specification",
+      "capability_references": [
+        "C-STRUCT-TABLE-FLATTEN"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-TABLE-FLATTEN-4",
+      "pattern_name": "Structural Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:36:00Z",
+      "created_by": "human",
+      "description": "Handles structural transformation transformations",
+      "capability_references": [
+        "C-STRUCT-TABLE-FLATTEN"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-SCHEMA-VALIDATE-1",
+      "pattern_name": "Schema Structure Validation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:42:00Z",
+      "created_by": "human",
+      "description": "Performs schema structure validation",
+      "capability_references": [
+        "C-STRUCT-SCHEMA-VALIDATE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-SCHEMA-VALIDATE-2",
+      "pattern_name": "Structural Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:48:00Z",
+      "created_by": "human",
+      "description": "Processes structural transformation operations",
+      "capability_references": [
+        "C-STRUCT-SCHEMA-VALIDATE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-SCHEMA-VALIDATE-3",
+      "pattern_name": "C-STRUCT-SCHEMA-VALIDATE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T11:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-STRUCT-SCHEMA-VALIDATE specification",
+      "capability_references": [
+        "C-STRUCT-SCHEMA-VALIDATE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-STRUCT-SCHEMA-VALIDATE-4",
+      "pattern_name": "Structural Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:00:00Z",
+      "created_by": "human",
+      "description": "Handles structural transformation transformations",
+      "capability_references": [
+        "C-STRUCT-SCHEMA-VALIDATE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-TRANS-001-1",
+      "pattern_name": "English to French Translation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:06:00Z",
+      "created_by": "human",
+      "description": "Performs english to french translation",
+      "capability_references": [
+        "C-LANG-TRANS-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-TRANS-001-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:12:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-LANG-TRANS-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-TRANS-001-3",
+      "pattern_name": "C-LANG-TRANS-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-LANG-TRANS-001 specification",
+      "capability_references": [
+        "C-LANG-TRANS-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-TRANS-001-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:24:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-LANG-TRANS-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-REWRITE-TECH-1",
+      "pattern_name": "Technical Text Simplification",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:30:00Z",
+      "created_by": "human",
+      "description": "Performs technical text simplification",
+      "capability_references": [
+        "C-LANG-REWRITE-TECH"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-REWRITE-TECH-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:36:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-LANG-REWRITE-TECH"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-REWRITE-TECH-3",
+      "pattern_name": "C-LANG-REWRITE-TECH Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-LANG-REWRITE-TECH specification",
+      "capability_references": [
+        "C-LANG-REWRITE-TECH"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-REWRITE-TECH-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:48:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-LANG-REWRITE-TECH"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-DE-1",
+      "pattern_name": "English-German Language Converter",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T12:54:00Z",
+      "created_by": "human",
+      "description": "Performs english-german language converter",
+      "capability_references": [
+        "C-TRANS-EN-DE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-DE-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:00:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-TRANS-EN-DE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-DE-3",
+      "pattern_name": "C-TRANS-EN-DE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-TRANS-EN-DE specification",
+      "capability_references": [
+        "C-TRANS-EN-DE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANS-EN-DE-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:12:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-TRANS-EN-DE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-PARAPHRASE-1",
+      "pattern_name": "Text Paraphrasing",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:18:00Z",
+      "created_by": "human",
+      "description": "Performs text paraphrasing",
+      "capability_references": [
+        "C-LANG-PARAPHRASE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-PARAPHRASE-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:24:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-LANG-PARAPHRASE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-PARAPHRASE-3",
+      "pattern_name": "C-LANG-PARAPHRASE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-LANG-PARAPHRASE specification",
+      "capability_references": [
+        "C-LANG-PARAPHRASE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-PARAPHRASE-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:36:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-LANG-PARAPHRASE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-FORMALIZE-1",
+      "pattern_name": "Formal Language Conversion",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:42:00Z",
+      "created_by": "human",
+      "description": "Performs formal language conversion",
+      "capability_references": [
+        "C-LANG-FORMALIZE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-FORMALIZE-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:48:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-LANG-FORMALIZE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-FORMALIZE-3",
+      "pattern_name": "C-LANG-FORMALIZE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T13:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-LANG-FORMALIZE specification",
+      "capability_references": [
+        "C-LANG-FORMALIZE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-FORMALIZE-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:00:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-LANG-FORMALIZE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-EXPAND-1",
+      "pattern_name": "Text Expansion",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:06:00Z",
+      "created_by": "human",
+      "description": "Performs text expansion",
+      "capability_references": [
+        "C-LANG-EXPAND"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-EXPAND-2",
+      "pattern_name": "Language Transformation Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:12:00Z",
+      "created_by": "human",
+      "description": "Processes language transformation operations",
+      "capability_references": [
+        "C-LANG-EXPAND"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-EXPAND-3",
+      "pattern_name": "C-LANG-EXPAND Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-LANG-EXPAND specification",
+      "capability_references": [
+        "C-LANG-EXPAND"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-LANG-EXPAND-4",
+      "pattern_name": "Language Transformation Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:24:00Z",
+      "created_by": "human",
+      "description": "Handles language transformation transformations",
+      "capability_references": [
+        "C-LANG-EXPAND"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-SUMM-001-1",
+      "pattern_name": "Document Summarization",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:30:00Z",
+      "created_by": "human",
+      "description": "Performs document summarization",
+      "capability_references": [
+        "C-INFO-SUMM-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-SUMM-001-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:36:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-INFO-SUMM-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-SUMM-001-3",
+      "pattern_name": "C-INFO-SUMM-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-INFO-SUMM-001 specification",
+      "capability_references": [
+        "C-INFO-SUMM-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-SUMM-001-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:48:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-INFO-SUMM-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-EXTR-002-1",
+      "pattern_name": "Key Information Extraction",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T14:54:00Z",
+      "created_by": "human",
+      "description": "Performs key information extraction",
+      "capability_references": [
+        "C-INFO-EXTR-002"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-EXTR-002-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:00:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-INFO-EXTR-002"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-EXTR-002-3",
+      "pattern_name": "C-INFO-EXTR-002 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-INFO-EXTR-002 specification",
+      "capability_references": [
+        "C-INFO-EXTR-002"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-EXTR-002-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:12:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-INFO-EXTR-002"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-COMPRESS-DOC-1",
+      "pattern_name": "Document Compression",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:18:00Z",
+      "created_by": "human",
+      "description": "Performs document compression",
+      "capability_references": [
+        "C-COMPRESS-DOC"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-COMPRESS-DOC-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:24:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-COMPRESS-DOC"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-COMPRESS-DOC-3",
+      "pattern_name": "C-COMPRESS-DOC Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-COMPRESS-DOC specification",
+      "capability_references": [
+        "C-COMPRESS-DOC"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-COMPRESS-DOC-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:36:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-COMPRESS-DOC"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-ENTITIES-1",
+      "pattern_name": "Entity Extraction",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:42:00Z",
+      "created_by": "human",
+      "description": "Performs entity extraction",
+      "capability_references": [
+        "C-EXTRACT-ENTITIES"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-ENTITIES-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:48:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-EXTRACT-ENTITIES"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-ENTITIES-3",
+      "pattern_name": "C-EXTRACT-ENTITIES Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T15:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-EXTRACT-ENTITIES specification",
+      "capability_references": [
+        "C-EXTRACT-ENTITIES"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-ENTITIES-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:00:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-EXTRACT-ENTITIES"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-CONDENSE-1",
+      "pattern_name": "Information Condensation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:06:00Z",
+      "created_by": "human",
+      "description": "Performs information condensation",
+      "capability_references": [
+        "C-INFO-CONDENSE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-CONDENSE-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:12:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-INFO-CONDENSE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-CONDENSE-3",
+      "pattern_name": "C-INFO-CONDENSE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-INFO-CONDENSE specification",
+      "capability_references": [
+        "C-INFO-CONDENSE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-INFO-CONDENSE-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:24:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-INFO-CONDENSE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-KEYWORDS-1",
+      "pattern_name": "Keyword Extraction",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:30:00Z",
+      "created_by": "human",
+      "description": "Performs keyword extraction",
+      "capability_references": [
+        "C-EXTRACT-KEYWORDS"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-KEYWORDS-2",
+      "pattern_name": "Information Compression Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:36:00Z",
+      "created_by": "human",
+      "description": "Processes information compression operations",
+      "capability_references": [
+        "C-EXTRACT-KEYWORDS"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-KEYWORDS-3",
+      "pattern_name": "C-EXTRACT-KEYWORDS Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-EXTRACT-KEYWORDS specification",
+      "capability_references": [
+        "C-EXTRACT-KEYWORDS"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXTRACT-KEYWORDS-4",
+      "pattern_name": "Information Compression Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:48:00Z",
+      "created_by": "human",
+      "description": "Handles information compression transformations",
+      "capability_references": [
+        "C-EXTRACT-KEYWORDS"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-VAL-001-1",
+      "pattern_name": "Data Format Validation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T16:54:00Z",
+      "created_by": "human",
+      "description": "Performs data format validation",
+      "capability_references": [
+        "C-JUDGE-VAL-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-VAL-001-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:00:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-JUDGE-VAL-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-VAL-001-3",
+      "pattern_name": "C-JUDGE-VAL-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-JUDGE-VAL-001 specification",
+      "capability_references": [
+        "C-JUDGE-VAL-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-VAL-001-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:12:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-JUDGE-VAL-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-CONS-002-1",
+      "pattern_name": "Data Consistency Check",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:18:00Z",
+      "created_by": "human",
+      "description": "Performs data consistency check",
+      "capability_references": [
+        "C-JUDGE-CONS-002"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-CONS-002-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:24:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-JUDGE-CONS-002"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-CONS-002-3",
+      "pattern_name": "C-JUDGE-CONS-002 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-JUDGE-CONS-002 specification",
+      "capability_references": [
+        "C-JUDGE-CONS-002"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-JUDGE-CONS-002-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:36:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-JUDGE-CONS-002"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-SCHEMA-1",
+      "pattern_name": "Schema Validation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:42:00Z",
+      "created_by": "human",
+      "description": "Performs schema validation",
+      "capability_references": [
+        "C-VALIDATE-SCHEMA"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-SCHEMA-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:48:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-VALIDATE-SCHEMA"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-SCHEMA-3",
+      "pattern_name": "C-VALIDATE-SCHEMA Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T17:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-VALIDATE-SCHEMA specification",
+      "capability_references": [
+        "C-VALIDATE-SCHEMA"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-SCHEMA-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:00:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-VALIDATE-SCHEMA"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CHECK-INTEGRITY-1",
+      "pattern_name": "Data Integrity Check",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:06:00Z",
+      "created_by": "human",
+      "description": "Performs data integrity check",
+      "capability_references": [
+        "C-CHECK-INTEGRITY"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CHECK-INTEGRITY-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:12:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-CHECK-INTEGRITY"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CHECK-INTEGRITY-3",
+      "pattern_name": "C-CHECK-INTEGRITY Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-CHECK-INTEGRITY specification",
+      "capability_references": [
+        "C-CHECK-INTEGRITY"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CHECK-INTEGRITY-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:24:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-CHECK-INTEGRITY"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VERIFY-COMPLIANCE-1",
+      "pattern_name": "Compliance Verification",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:30:00Z",
+      "created_by": "human",
+      "description": "Performs compliance verification",
+      "capability_references": [
+        "C-VERIFY-COMPLIANCE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VERIFY-COMPLIANCE-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:36:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-VERIFY-COMPLIANCE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VERIFY-COMPLIANCE-3",
+      "pattern_name": "C-VERIFY-COMPLIANCE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-VERIFY-COMPLIANCE specification",
+      "capability_references": [
+        "C-VERIFY-COMPLIANCE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VERIFY-COMPLIANCE-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:48:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-VERIFY-COMPLIANCE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-RANGE-1",
+      "pattern_name": "Range Validation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T18:54:00Z",
+      "created_by": "human",
+      "description": "Performs range validation",
+      "capability_references": [
+        "C-VALIDATE-RANGE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-RANGE-2",
+      "pattern_name": "Judgment Verification Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:00:00Z",
+      "created_by": "human",
+      "description": "Processes judgment verification operations",
+      "capability_references": [
+        "C-VALIDATE-RANGE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-RANGE-3",
+      "pattern_name": "C-VALIDATE-RANGE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-VALIDATE-RANGE specification",
+      "capability_references": [
+        "C-VALIDATE-RANGE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-VALIDATE-RANGE-4",
+      "pattern_name": "Judgment Verification Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:12:00Z",
+      "created_by": "human",
+      "description": "Handles judgment verification transformations",
+      "capability_references": [
+        "C-VALIDATE-RANGE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-001-1",
+      "pattern_name": "Field Name Mapping",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:18:00Z",
+      "created_by": "human",
+      "description": "Performs field name mapping",
+      "capability_references": [
+        "C-MAP-FIELD-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-001-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:24:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-MAP-FIELD-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-001-3",
+      "pattern_name": "C-MAP-FIELD-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-MAP-FIELD-001 specification",
+      "capability_references": [
+        "C-MAP-FIELD-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-FIELD-001-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:36:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-MAP-FIELD-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-ALIGN-002-1",
+      "pattern_name": "Data Structure Alignment",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:42:00Z",
+      "created_by": "human",
+      "description": "Performs data structure alignment",
+      "capability_references": [
+        "C-MAP-ALIGN-002"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-ALIGN-002-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:48:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-MAP-ALIGN-002"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-ALIGN-002-3",
+      "pattern_name": "C-MAP-ALIGN-002 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T19:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-MAP-ALIGN-002 specification",
+      "capability_references": [
+        "C-MAP-ALIGN-002"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-ALIGN-002-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:00:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-MAP-ALIGN-002"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-TRANSFORM-1",
+      "pattern_name": "Data Mapping Transformation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:06:00Z",
+      "created_by": "human",
+      "description": "Performs data mapping transformation",
+      "capability_references": [
+        "C-MAP-TRANSFORM"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-TRANSFORM-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:12:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-MAP-TRANSFORM"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-TRANSFORM-3",
+      "pattern_name": "C-MAP-TRANSFORM Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-MAP-TRANSFORM specification",
+      "capability_references": [
+        "C-MAP-TRANSFORM"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-TRANSFORM-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:24:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-MAP-TRANSFORM"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-SCHEMA-1",
+      "pattern_name": "Schema Alignment",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:30:00Z",
+      "created_by": "human",
+      "description": "Performs schema alignment",
+      "capability_references": [
+        "C-ALIGN-SCHEMA"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-SCHEMA-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:36:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-ALIGN-SCHEMA"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-SCHEMA-3",
+      "pattern_name": "C-ALIGN-SCHEMA Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-ALIGN-SCHEMA specification",
+      "capability_references": [
+        "C-ALIGN-SCHEMA"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-ALIGN-SCHEMA-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:48:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-ALIGN-SCHEMA"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-CORRESPOND-1",
+      "pattern_name": "Correspondence Mapping",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T20:54:00Z",
+      "created_by": "human",
+      "description": "Performs correspondence mapping",
+      "capability_references": [
+        "C-MAP-CORRESPOND"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-CORRESPOND-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:00:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-MAP-CORRESPOND"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-CORRESPOND-3",
+      "pattern_name": "C-MAP-CORRESPOND Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-MAP-CORRESPOND specification",
+      "capability_references": [
+        "C-MAP-CORRESPOND"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-MAP-CORRESPOND-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:12:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-MAP-CORRESPOND"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANSFORM-MAP-1",
+      "pattern_name": "Mapping-Based Transformation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:18:00Z",
+      "created_by": "human",
+      "description": "Performs mapping-based transformation",
+      "capability_references": [
+        "C-TRANSFORM-MAP"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANSFORM-MAP-2",
+      "pattern_name": "Mapping Correspondence Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:24:00Z",
+      "created_by": "human",
+      "description": "Processes mapping correspondence operations",
+      "capability_references": [
+        "C-TRANSFORM-MAP"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANSFORM-MAP-3",
+      "pattern_name": "C-TRANSFORM-MAP Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-TRANSFORM-MAP specification",
+      "capability_references": [
+        "C-TRANSFORM-MAP"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-TRANSFORM-MAP-4",
+      "pattern_name": "Mapping Correspondence Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:36:00Z",
+      "created_by": "human",
+      "description": "Handles mapping correspondence transformations",
+      "capability_references": [
+        "C-TRANSFORM-MAP"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXE001-1",
+      "pattern_name": "Pure Function Rule Execution",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:42:00Z",
+      "created_by": "human",
+      "description": "Performs pure function rule execution",
+      "capability_references": [
+        "C-RULE-EXEC-001"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXE001-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:48:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-RULE-EXEC-001"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXE001-3",
+      "pattern_name": "C-RULE-EXEC-001 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T21:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-RULE-EXEC-001 specification",
+      "capability_references": [
+        "C-RULE-EXEC-001"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-EXE001-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:00:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-RULE-EXEC-001"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-CAL002-1",
+      "pattern_name": "Mathematical Calculation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:06:00Z",
+      "created_by": "human",
+      "description": "Performs mathematical calculation",
+      "capability_references": [
+        "C-RULE-CALC-002"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-CAL002-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:12:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-RULE-CALC-002"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-CAL002-3",
+      "pattern_name": "C-RULE-CALC-002 Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:18:00Z",
+      "created_by": "human",
+      "description": "Implements C-RULE-CALC-002 specification",
+      "capability_references": [
+        "C-RULE-CALC-002"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-RULE-CAL002-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:24:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-RULE-CALC-002"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXERULE-1",
+      "pattern_name": "Rule Executor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:30:00Z",
+      "created_by": "human",
+      "description": "Performs rule executor",
+      "capability_references": [
+        "C-EXEC-RULE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXERULE-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:36:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-EXEC-RULE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXERULE-3",
+      "pattern_name": "C-EXEC-RULE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:42:00Z",
+      "created_by": "human",
+      "description": "Implements C-EXEC-RULE specification",
+      "capability_references": [
+        "C-EXEC-RULE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EXERULE-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:48:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-EXEC-RULE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CALCULATE-EXPR-1",
+      "pattern_name": "Expression Calculator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T22:54:00Z",
+      "created_by": "human",
+      "description": "Performs expression calculator",
+      "capability_references": [
+        "C-CALCULATE-EXPR"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CALCULATE-EXPR-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:00:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-CALCULATE-EXPR"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CALCULATE-EXPR-3",
+      "pattern_name": "C-CALCULATE-EXPR Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:06:00Z",
+      "created_by": "human",
+      "description": "Implements C-CALCULATE-EXPR specification",
+      "capability_references": [
+        "C-CALCULATE-EXPR"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-CALCULATE-EXPR-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:12:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-CALCULATE-EXPR"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-APPLY-RULE-1",
+      "pattern_name": "Rule Application",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:18:00Z",
+      "created_by": "human",
+      "description": "Performs rule application",
+      "capability_references": [
+        "C-APPLY-RULE"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-APPLY-RULE-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:24:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-APPLY-RULE"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-APPLY-RULE-3",
+      "pattern_name": "C-APPLY-RULE Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:30:00Z",
+      "created_by": "human",
+      "description": "Implements C-APPLY-RULE specification",
+      "capability_references": [
+        "C-APPLY-RULE"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-APPLY-RULE-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:36:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-APPLY-RULE"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EVAL-EXPRESSION-1",
+      "pattern_name": "Expression Evaluator",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:42:00Z",
+      "created_by": "human",
+      "description": "Performs expression evaluator",
+      "capability_references": [
+        "C-EVAL-EXPRESSION"
+      ],
+      "metadata": {
+        "style": "direct",
+        "naming": "descriptive",
+        "description_style": "direct action",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EVAL-EXPRESSION-2",
+      "pattern_name": "Rule Execution Processor",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:48:00Z",
+      "created_by": "human",
+      "description": "Processes rule execution operations",
+      "capability_references": [
+        "C-EVAL-EXPRESSION"
+      ],
+      "metadata": {
+        "style": "abstract",
+        "naming": "generic",
+        "description_style": "abstract process",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EVAL-EXPRESSION-3",
+      "pattern_name": "C-EVAL-EXPRESSION Implementation",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T23:54:00Z",
+      "created_by": "human",
+      "description": "Implements C-EVAL-EXPRESSION specification",
+      "capability_references": [
+        "C-EVAL-EXPRESSION"
+      ],
+      "metadata": {
+        "style": "technical",
+        "naming": "precise",
+        "description_style": "technical specification",
+        "granularity": "variable"
+      }
+    },
+    {
+      "pattern_id": "P-EVAL-EXPRESSION-4",
+      "pattern_name": "Rule Execution Handler",
+      "pattern_version": "1.0.0",
+      "created_at": "2025-12-27T24:00:00Z",
+      "created_by": "human",
+      "description": "Handles rule execution transformations",
+      "capability_references": [
+        "C-EVAL-EXPRESSION"
+      ],
+      "metadata": {
+        "style": "conceptual",
+        "naming": "metaphorical",
+        "description_style": "conceptual metaphor",
+        "granularity": "variable"
+      }
+    }
+  ],
+  "registration_metadata": {
+    "registration_date": "2025-12-27",
+    "registration_order": "none",
+    "grouping": "none",
+    "priority": "none",
+    "default": "none",
+    "recommendation": "none",
+    "shared_templates": "none",
+    "shared_naming": "none",
+    "shared_practices": "none",
+    "standardization": "none"
+  },
+  "total_pattern_instances": 140,
+  "patterns_per_capability": 4,
+  "style_diversity": "high",
+  "naming_diversity": "high",
+  "description_granularity": "inconsistent",
+  "no_standardization": true,
+  "no_unification": true
+}

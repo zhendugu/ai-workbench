@@ -1,0 +1,20 @@
+{
+  "execution_id": "31ee79b8-e33b-4cbc-9157-e6f062416371",
+  "status": "success",
+  "result_data": {
+    "execution_mode": "real",
+    "action_result": {
+      "valid": true,
+      "details": {
+        "document_id": "test-doc-1",
+        "document_type": "work_state",
+        "content_length": 12,
+        "has_source_role": false,
+        "has_target_role": false
+      }
+    }
+  },
+  "error_data": null,
+  "completed_at": "2025-12-26T21:48:50.929866",
+  "duration_ms": 1
+}

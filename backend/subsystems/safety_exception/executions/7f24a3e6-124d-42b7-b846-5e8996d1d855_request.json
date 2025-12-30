@@ -1,0 +1,23 @@
+{
+  "execution_id": "7f24a3e6-124d-42b7-b846-5e8996d1d855",
+  "action_identifier": "validate_role_definition",
+  "target_subsystem": "role_management",
+  "action_parameters": {
+    "role_definition": {
+      "role_id": "test-role-valid",
+      "purpose": "Test purpose",
+      "inputs": [
+        "input1"
+      ],
+      "outputs": [
+        "output1"
+      ],
+      "boundaries": [
+        "boundary1"
+      ]
+    },
+    "strict": true
+  },
+  "requested_at": "2025-12-26T23:17:04.401634",
+  "requested_by": "test_user"
+}

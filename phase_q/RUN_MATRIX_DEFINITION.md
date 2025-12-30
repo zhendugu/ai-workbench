@@ -1,0 +1,173 @@
+# Run Matrix Definition
+
+**Document Status**: SIMULATION-EXECUTION / NON-CANONICAL  
+**Document Type**: Execution Matrix Definition  
+**Date**: 2026-01-10  
+**Work Order**: WO-Q-2-LONGITUDINAL-ADVERSARIAL-SIMULATION-EXECUTION-AND-DOMINANCE-DETECTION  
+**Parent Baselines**: Q-1 Simulation Design (WO-Q-1)
+
+---
+
+## Purpose
+
+This document defines the execution matrix for Q-2 longitudinal adversarial simulation.
+
+All runs are deterministic and reproducible.
+
+---
+
+## Run Matrix Structure
+
+### Dimensions
+
+**Adversary Strategies**: 3
+- STRATEGY-SLOW-DRIFT
+- STRATEGY-BURST-THEN-STABILIZE
+- STRATEGY-ALTERNATING-NOISE
+
+**Human Models**: 3
+- MODEL-STRICT-SOVEREIGN
+- MODEL-FATIGUED-APPROVER
+- MODEL-DELEGATING-OPTIMIZER
+
+**Random Seeds**: 3
+- seed_001: 42
+- seed_002: 123
+- seed_003: 999
+
+**Horizons**: 2
+- H1: 200 steps (short horizon)
+- H2: 2000 steps (long horizon)
+
+**Total Runs**: 3 × 3 × 3 × 2 = 54 runs
+
+---
+
+## Run ID Structure
+
+**Format**: `run_{strategy_id}_{model_id}_seed{seed_num}_H{horizon}_{timestamp_hash}`
+
+**Example**: `run_SLOW-DRIFT_FATIGUED-APPROVER_seed001_H1_20260110_abc123`
+
+**Components**:
+- `strategy_id`: Strategy identifier (e.g., `SLOW-DRIFT`)
+- `model_id`: Human model identifier (e.g., `FATIGUED-APPROVER`)
+- `seed_num`: Seed number (e.g., `001`)
+- `horizon`: Horizon identifier (e.g., `H1` or `H2`)
+- `timestamp_hash`: Execution timestamp and hash (e.g., `20260110_abc123`)
+
+**Traceability**: `phase_q/ADVERSARY_STRATEGY_CATALOG.md`, `phase_q/HUMAN_MODEL_CATALOG.md`
+
+---
+
+## Run Matrix Table
+
+| Run ID | Strategy | Human Model | Seed | Horizon | Steps |
+|--------|----------|-------------|------|---------|-------|
+| run_001 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 42 | H1 | 200 |
+| run_002 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 42 | H2 | 2000 |
+| run_003 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 123 | H1 | 200 |
+| run_004 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 123 | H2 | 2000 |
+| run_005 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 999 | H1 | 200 |
+| run_006 | STRATEGY-SLOW-DRIFT | MODEL-STRICT-SOVEREIGN | 999 | H2 | 2000 |
+| run_007 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 42 | H1 | 200 |
+| run_008 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 42 | H2 | 2000 |
+| run_009 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 123 | H1 | 200 |
+| run_010 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 123 | H2 | 2000 |
+| run_011 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 999 | H1 | 200 |
+| run_012 | STRATEGY-SLOW-DRIFT | MODEL-FATIGUED-APPROVER | 999 | H2 | 2000 |
+| run_013 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 42 | H1 | 200 |
+| run_014 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 42 | H2 | 2000 |
+| run_015 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 123 | H1 | 200 |
+| run_016 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 123 | H2 | 2000 |
+| run_017 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 999 | H1 | 200 |
+| run_018 | STRATEGY-SLOW-DRIFT | MODEL-DELEGATING-OPTIMIZER | 999 | H2 | 2000 |
+| run_019 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 42 | H1 | 200 |
+| run_020 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 42 | H2 | 2000 |
+| run_021 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 123 | H1 | 200 |
+| run_022 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 123 | H2 | 2000 |
+| run_023 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 999 | H1 | 200 |
+| run_024 | STRATEGY-BURST-THEN-STABILIZE | MODEL-STRICT-SOVEREIGN | 999 | H2 | 2000 |
+| run_025 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 42 | H1 | 200 |
+| run_026 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 42 | H2 | 2000 |
+| run_027 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 123 | H1 | 200 |
+| run_028 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 123 | H2 | 2000 |
+| run_029 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 999 | H1 | 200 |
+| run_030 | STRATEGY-BURST-THEN-STABILIZE | MODEL-FATIGUED-APPROVER | 999 | H2 | 2000 |
+| run_031 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 42 | H1 | 200 |
+| run_032 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 42 | H2 | 2000 |
+| run_033 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 123 | H1 | 200 |
+| run_034 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 123 | H2 | 2000 |
+| run_035 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 999 | H1 | 200 |
+| run_036 | STRATEGY-BURST-THEN-STABILIZE | MODEL-DELEGATING-OPTIMIZER | 999 | H2 | 2000 |
+| run_037 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 42 | H1 | 200 |
+| run_038 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 42 | H2 | 2000 |
+| run_039 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 123 | H1 | 200 |
+| run_040 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 123 | H2 | 2000 |
+| run_041 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 999 | H1 | 200 |
+| run_042 | STRATEGY-ALTERNATING-NOISE | MODEL-STRICT-SOVEREIGN | 999 | H2 | 2000 |
+| run_043 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 42 | H1 | 200 |
+| run_044 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 42 | H2 | 2000 |
+| run_045 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 123 | H1 | 200 |
+| run_046 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 123 | H2 | 2000 |
+| run_047 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 999 | H1 | 200 |
+| run_048 | STRATEGY-ALTERNATING-NOISE | MODEL-FATIGUED-APPROVER | 999 | H2 | 2000 |
+| run_049 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 42 | H1 | 200 |
+| run_050 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 42 | H2 | 2000 |
+| run_051 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 123 | H1 | 200 |
+| run_052 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 123 | H2 | 2000 |
+| run_053 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 999 | H1 | 200 |
+| run_054 | STRATEGY-ALTERNATING-NOISE | MODEL-DELEGATING-OPTIMIZER | 999 | H2 | 2000 |
+
+---
+
+## Run Execution Order
+
+**Order**: Sequential (run_001 through run_054)
+
+**Parallel Execution**: Not allowed (ensures deterministic ordering)
+
+**Failure Handling**: Manual rerun only (no automatic retry)
+
+---
+
+## Run Output Structure
+
+Each run produces:
+- `runs/<run_id>/inputs/`: Input snapshots (strategy, model, seed, horizon, version hash)
+- `runs/<run_id>/logs/`: Raw interaction logs (Q-1 LOGGING_SCHEMA format)
+- `runs/<run_id>/metrics/`: Computed metrics (16 metrics, machine-readable + human-readable)
+- `runs/<run_id>/hashes/`: SHA256 hashes (inputs, logs, metrics)
+
+**Traceability**: `phase_q/LOGGING_SCHEMA_AND_TRACE_FORMAT.md` (log format), `phase_q/METRICS_AND_SUCCESS_CRITERIA.md` (metrics)
+
+---
+
+## Matrix Summary
+
+**Total Runs**: 54
+
+**Strategies**: 3
+
+**Human Models**: 3
+
+**Seeds**: 3
+
+**Horizons**: 2 (H1=200, H2=2000)
+
+**All Runs Deterministic**: YES
+
+**All Runs Reproducible**: YES
+
+---
+
+## No Recommendations
+
+This matrix provides no recommendations.
+
+This matrix defines only execution structure.
+
+---
+
+**END OF RUN MATRIX DEFINITION**
+

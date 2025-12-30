@@ -1,0 +1,64 @@
+{
+  "capability_id": "C-MD-HTML-001",
+  "capability_name": "Markdown to HTML Conversion",
+  "capability_version": "1.0.0",
+  "created_at": "2025-12-27T10:00:00Z",
+  "created_by": "human",
+  "element_types": {
+    "capability_identifier": {
+      "unique_id": "C-MD-HTML-001",
+      "human_readable_name": "Markdown to HTML Conversion",
+      "semantic_category": "document_transformation",
+      "descriptive_metadata": {
+        "domain": "document_processing",
+        "type": "transformation"
+      }
+    },
+    "input_specification": {
+      "input_type": "markdown_document",
+      "input_structure": {
+        "format": "text/markdown",
+        "encoding": "utf-8",
+        "max_size": "10MB"
+      },
+      "input_validation_rules": {
+        "description": "Input must be valid UTF-8 encoded Markdown text",
+        "required_fields": ["content"]
+      },
+      "input_metadata": {
+        "accepted_extensions": [".md", ".markdown"],
+        "content_type": "text/markdown"
+      }
+    },
+    "output_specification": {
+      "output_type": "html_document",
+      "output_structure": {
+        "format": "text/html",
+        "encoding": "utf-8",
+        "structure": "valid HTML5 document"
+      },
+      "output_metadata": {
+        "content_type": "text/html",
+        "doctype": "HTML5"
+      }
+    },
+    "semantic_description": {
+      "purpose": "Converts Markdown formatted text into HTML formatted text",
+      "scope": "Single document transformation from Markdown syntax to HTML syntax",
+      "limitations": "Does not process multiple documents, does not handle embedded media, does not perform validation beyond format conversion",
+      "atomic_nature": "This capability performs a single, atomic transformation operation",
+      "referability": "This capability can be referenced by Patterns or other descriptive structures"
+    }
+  },
+  "constitutional_compliance": {
+    "is_descriptive": true,
+    "is_atomic": true,
+    "is_referable": true,
+    "no_workflow_semantics": true,
+    "no_execution_coordination": true,
+    "no_judgment_mechanism": true,
+    "no_conditional_logic": true,
+    "no_behavior_trigger": true
+  }
+}
+

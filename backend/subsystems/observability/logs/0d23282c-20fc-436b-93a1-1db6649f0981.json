@@ -1,0 +1,12 @@
+{
+  "log_id": "0d23282c-20fc-436b-93a1-1db6649f0981",
+  "task_id": "task_output_456747c3-55cf-49ae-83a4-6aaef5556598",
+  "goal": "C-SAFE-4: Generate Standard Output for Uncompletable Task",
+  "input": "{'task_id': 'test_task_dead_loop', 'failure_reason': 'Dead loop condition detected'}",
+  "output": "None",
+  "status": "in_progress",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:16:34.745847",
+  "completed_at": "2025-12-26T20:16:34.745847"
+}

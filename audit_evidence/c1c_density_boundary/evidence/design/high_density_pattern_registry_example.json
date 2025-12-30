@@ -1,0 +1,315 @@
+{
+  "registry_id": "pattern-registry-high-density-example",
+  "registry_name": "Pattern Registry",
+  "description": "A registry of pattern instances registered in the system. This registry contains high information density while maintaining strict neutrality.",
+  "last_updated": "2025-12-26T10:00:00Z",
+  "registry_entries": [
+    {
+      "registry_entry_id": "reg-entry-001",
+      "pattern_id": "pattern-access-control-001",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-04-20T11:00:00Z",
+      "registered_by": "human-registrar-001",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": ["pattern-access-control-002"],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-acc-001", "audit-acc-002"],
+        "created_at": "2025-04-20T11:00:00Z",
+        "created_by": "human-creator-001",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "access-control",
+        "knowledge-management",
+        "permission-management",
+        "security"
+      ],
+      "metadata": {
+        "category": "access-control",
+        "domain": "knowledge-management",
+        "functional_area": "security",
+        "related_subsystems": ["role-management", "knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-002",
+      "pattern_id": "pattern-access-control-002",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "2.0.0",
+      "registered_at": "2025-08-15T14:30:00Z",
+      "registered_by": "human-registrar-002",
+      "version_lineage": {
+        "parent_version": "pattern-access-control-001",
+        "child_versions": [],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-acc-003", "audit-acc-004", "audit-acc-005"],
+        "created_at": "2025-08-15T14:30:00Z",
+        "created_by": "human-creator-002",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "access-control",
+        "knowledge-management",
+        "permission-management",
+        "security"
+      ],
+      "metadata": {
+        "category": "access-control",
+        "domain": "knowledge-management",
+        "functional_area": "security",
+        "related_subsystems": ["role-management", "knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-003",
+      "pattern_id": "pattern-doc-retrieval-001",
+      "pattern_name": "Document Retrieval Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-03-10T10:00:00Z",
+      "registered_by": "human-registrar-003",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": [],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-ret-001"],
+        "created_at": "2025-03-10T10:00:00Z",
+        "created_by": "human-creator-003",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "retrieval",
+        "knowledge-management",
+        "document-management",
+        "query"
+      ],
+      "metadata": {
+        "category": "retrieval",
+        "domain": "knowledge-management",
+        "functional_area": "data-access",
+        "related_subsystems": ["knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-004",
+      "pattern_id": "pattern-doc-storage-001",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-01-15T08:00:00Z",
+      "registered_by": "human-registrar-004",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": ["pattern-doc-storage-002", "pattern-doc-storage-003"],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-stor-001", "audit-stor-002"],
+        "created_at": "2025-01-15T08:00:00Z",
+        "created_by": "human-creator-004",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management",
+        "document-management",
+        "persistence"
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-005",
+      "pattern_id": "pattern-doc-storage-002",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "2.0.0",
+      "registered_at": "2025-06-01T09:00:00Z",
+      "registered_by": "human-registrar-005",
+      "version_lineage": {
+        "parent_version": "pattern-doc-storage-001",
+        "child_versions": ["pattern-doc-storage-003"],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-stor-003", "audit-stor-004", "audit-stor-005", "audit-stor-006"],
+        "created_at": "2025-06-01T09:00:00Z",
+        "created_by": "human-creator-005",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management",
+        "document-management",
+        "persistence"
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-006",
+      "pattern_id": "pattern-doc-storage-003",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "3.0.0",
+      "registered_at": "2025-11-10T16:45:00Z",
+      "registered_by": "human-registrar-006",
+      "version_lineage": {
+        "parent_version": "pattern-doc-storage-002",
+        "child_versions": [],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-stor-007"],
+        "created_at": "2025-11-10T16:45:00Z",
+        "created_by": "human-creator-006",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management",
+        "document-management",
+        "persistence"
+      ],
+      "metadata": {
+        "category": "storage",
+        "domain": "knowledge-management",
+        "functional_area": "data-persistence",
+        "related_subsystems": ["knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-007",
+      "pattern_id": "pattern-versioning-001",
+      "pattern_name": "Versioning Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-05-05T12:00:00Z",
+      "registered_by": "human-registrar-007",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": [],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-ver-001", "audit-ver-002", "audit-ver-003"],
+        "created_at": "2025-05-05T12:00:00Z",
+        "created_by": "human-creator-007",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "versioning",
+        "knowledge-management",
+        "document-management",
+        "history-tracking"
+      ],
+      "metadata": {
+        "category": "versioning",
+        "domain": "knowledge-management",
+        "functional_area": "data-management",
+        "related_subsystems": ["knowledge-management"]
+      }
+    },
+    {
+      "registry_entry_id": "reg-entry-008",
+      "pattern_id": "pattern-conflict-detection-001",
+      "pattern_name": "Conflict Detection Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-07-20T13:15:00Z",
+      "registered_by": "human-registrar-008",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": [],
+        "sibling_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": ["audit-conf-001"],
+        "created_at": "2025-07-20T13:15:00Z",
+        "created_by": "human-creator-008",
+        "modified_at": null,
+        "modified_by": null
+      },
+      "descriptive_tags": [
+        "conflict-detection",
+        "knowledge-management",
+        "data-integrity",
+        "validation"
+      ],
+      "metadata": {
+        "category": "conflict-detection",
+        "domain": "knowledge-management",
+        "functional_area": "data-integrity",
+        "related_subsystems": ["knowledge-management"]
+      }
+    }
+  ],
+  "registry_metadata": {
+    "presentation_order": {
+      "method": "lexical_by_pattern_id",
+      "description": "Entries are ordered alphabetically by pattern_id for stable, non-preferential presentation. This ordering is mechanical and does not imply any preference, ranking, or recommendation.",
+      "non_preferential": true
+    },
+    "available_categories": [
+      "access-control",
+      "retrieval",
+      "storage",
+      "versioning",
+      "conflict-detection",
+      "knowledge-management",
+      "document-management",
+      "permission-management",
+      "security",
+      "data-access",
+      "data-persistence",
+      "data-management",
+      "data-integrity",
+      "query",
+      "persistence",
+      "history-tracking",
+      "validation"
+    ],
+    "available_domains": [
+      "knowledge-management"
+    ],
+    "available_functional_areas": [
+      "security",
+      "data-access",
+      "data-persistence",
+      "data-management",
+      "data-integrity"
+    ],
+    "version_lineage_summary": {
+      "total_patterns": 8,
+      "patterns_with_parents": 3,
+      "patterns_with_children": 3,
+      "patterns_without_lineage": 5
+    }
+  }
+}
+

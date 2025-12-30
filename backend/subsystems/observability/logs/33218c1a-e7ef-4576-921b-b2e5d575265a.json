@@ -1,0 +1,12 @@
+{
+  "log_id": "33218c1a-e7ef-4576-921b-b2e5d575265a",
+  "task_id": "exception_detection_095184da-86d4-41e4-9741-3b587fba61a8",
+  "goal": "C-SAFE-3: Detect Exception",
+  "input": "{'component_id': 'test_component_1', 'operation_type': 'test_operation'}",
+  "output": "{'exception_detected': True, 'exception_id': '2aaaf525-9804-4fd4-9354-3a39477cf7df', 'exception_type': 'failure_budget_violation'}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T20:12:02.878676",
+  "completed_at": "2025-12-26T20:12:02.878676"
+}

@@ -1,0 +1,12 @@
+{
+  "log_id": "f83f02d2-d907-4df0-a001-71de7439793e",
+  "task_id": "register_role_88ad161e-f690-4c1d-b01f-241680224e6b",
+  "goal": "Register Role Definition (C-ROLE-1)",
+  "input": "{'role_id': 'test-role-7', 'requested_by': 'test_user'}",
+  "output": "{'error': 'purpose must be a non-empty string', 'error_type': 'ValueError'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T21:57:00.515991",
+  "completed_at": "2025-12-26T21:57:00.515992"
+}

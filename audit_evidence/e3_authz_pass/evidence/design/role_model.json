@@ -1,0 +1,71 @@
+{
+  "role_model_version": "1.0.0",
+  "created_at": "2025-12-27T12:00:00Z",
+  "created_by": "human",
+  "note": "This is application-level configuration, NOT a CANONICAL document",
+  "roles": [
+    {
+      "role_id": "ROLE_OWNER",
+      "role_name": "Owner",
+      "description": "Full human authority, can create authorizations",
+      "permissions": {
+        "can_create_authorizations": true,
+        "can_execute_capabilities": true,
+        "can_view_audits": true,
+        "can_manage_workspaces": true,
+        "can_assign_roles": true
+      },
+      "assignment_method": "explicit_human_assignment",
+      "no_derived_roles": true,
+      "no_implicit_elevation": true,
+      "no_inference_from_history": true,
+      "no_inference_from_audit": true
+    },
+    {
+      "role_id": "ROLE_OPERATOR",
+      "role_name": "Operator",
+      "description": "Can execute only when explicitly authorized",
+      "permissions": {
+        "can_create_authorizations": false,
+        "can_execute_capabilities": true,
+        "can_view_audits": false,
+        "can_manage_workspaces": false,
+        "can_assign_roles": false
+      },
+      "assignment_method": "explicit_human_assignment",
+      "execution_requires_explicit_authorization": true,
+      "no_derived_roles": true,
+      "no_implicit_elevation": true,
+      "no_inference_from_history": true,
+      "no_inference_from_audit": true
+    },
+    {
+      "role_id": "ROLE_AUDITOR",
+      "role_name": "Auditor",
+      "description": "Read-only, can view audits/evidence but cannot influence behavior",
+      "permissions": {
+        "can_create_authorizations": false,
+        "can_execute_capabilities": false,
+        "can_view_audits": true,
+        "can_manage_workspaces": false,
+        "can_assign_roles": false
+      },
+      "assignment_method": "explicit_human_assignment",
+      "read_only": true,
+      "cannot_influence_behavior": true,
+      "no_derived_roles": true,
+      "no_implicit_elevation": true,
+      "no_inference_from_history": true,
+      "no_inference_from_audit": true
+    }
+  ],
+  "constitutional_compliance": {
+    "no_privilege_inference": true,
+    "no_auto_grant": true,
+    "no_implicit_elevation": true,
+    "no_history_based_permissions": true,
+    "no_audit_based_permissions": true,
+    "explicit_assignment_only": true
+  }
+}
+

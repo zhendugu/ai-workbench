@@ -1,0 +1,12 @@
+{
+  "log_id": "d879959d-4276-4619-8771-b4b3887cdc57",
+  "task_id": "store_document_4f161389-afa4-4786-80ea-134354c928a1",
+  "goal": "Store Document (C-KM-1)",
+  "input": "{'content_length': 13, 'metadata': None}",
+  "output": "{'error': 'metadata must be a dict, got NoneType', 'error_type': 'ValueError', 'error_details': {'content_length': 13}}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T16:50:50.424947",
+  "completed_at": "2025-12-26T16:50:50.424948"
+}

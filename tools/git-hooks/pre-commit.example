@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# Pre-commit hook for Constitutional File Change Detection
+#
+# This hook runs constitutional_diff_detect.py on staged changes.
+# If constitutional files are staged and no auth env vars are set, the commit is blocked.
+#
+# To enable this hook:
+#   cp tools/git-hooks/pre-commit.example .git/hooks/pre-commit
+#   chmod +x .git/hooks/pre-commit
+
+# Get repository root
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Run constitutional diff detector on staged changes
+"$REPO_ROOT/scripts/constitutional_diff_detect.py"
+
+# Exit with the script's exit code
+exit $?
+
+

@@ -1,0 +1,190 @@
+{
+  "registry_id": "pattern-registry-adversarial-cross-view",
+  "registry_name": "Pattern Registry",
+  "description": "A registry of pattern instances registered in the system.",
+  "last_updated": "2025-12-26T10:00:00Z",
+  "registry_entries": [
+    {
+      "registry_entry_id": "reg-entry-001",
+      "pattern_id": "pattern-access-control-001",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-04-20T11:00:00Z",
+      "registered_by": "human-registrar-001",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "access-control",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-002",
+      "pattern_id": "pattern-cell-composition-001",
+      "pattern_name": "Cell Composition Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-10-20T11:45:00Z",
+      "registered_by": "human-registrar-002",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "composition",
+        "cell-composition"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-003",
+      "pattern_id": "pattern-conflict-detection-001",
+      "pattern_name": "Conflict Detection Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-07-20T13:15:00Z",
+      "registered_by": "human-registrar-003",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "conflict-detection",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-004",
+      "pattern_id": "pattern-doc-retrieval-001",
+      "pattern_name": "Document Retrieval Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-03-10T10:00:00Z",
+      "registered_by": "human-registrar-004",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "retrieval",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-005",
+      "pattern_id": "pattern-doc-storage-001",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-01-15T08:00:00Z",
+      "registered_by": "human-registrar-005",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-006",
+      "pattern_id": "pattern-handoff-validation-001",
+      "pattern_name": "Handoff Validation Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-08-10T09:30:00Z",
+      "registered_by": "human-registrar-006",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "validation",
+        "handoff-protocol"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-007",
+      "pattern_id": "pattern-role-query-001",
+      "pattern_name": "Role Query Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-09-15T14:00:00Z",
+      "registered_by": "human-registrar-007",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "query",
+        "role-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-008",
+      "pattern_id": "pattern-versioning-001",
+      "pattern_name": "Versioning Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-05-05T12:00:00Z",
+      "registered_by": "human-registrar-008",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "versioning",
+        "knowledge-management"
+      ]
+    }
+  ],
+  "registry_metadata": {
+    "presentation_order": {
+      "method": "lexical_by_pattern_id",
+      "description": "Entries are ordered alphabetically by pattern_id for stable, non-preferential presentation. This ordering is mechanical and does not imply any preference, ranking, or recommendation.",
+      "non_preferential": true
+    },
+    "available_categories": [
+      "access-control",
+      "composition",
+      "conflict-detection",
+      "retrieval",
+      "storage",
+      "validation",
+      "query",
+      "versioning",
+      "knowledge-management",
+      "handoff-protocol",
+      "role-management",
+      "cell-composition"
+    ]
+  }
+}
+

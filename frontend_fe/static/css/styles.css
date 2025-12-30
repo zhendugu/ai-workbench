@@ -1,0 +1,446 @@
+/* Frontend FE Styles - Read-Only Cognitive Interface */
+/* FE_COGNITIVE_GUIDANCE_ADDENDUM compliance */
+
+/* 全局样式 - 无颜色编码、无状态指示 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    padding-top: 120px; /* 为信任横幅和导航留出空间 */
+}
+
+/* 持久信任信号横幅 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 8) */
+.trust-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: normal;
+    z-index: 1001;
+    color: #333;
+}
+
+/* Where am I / What am I viewing 信号 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.1) */
+.location-header {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    padding: 0.75rem 2rem;
+    z-index: 1000;
+}
+
+.location-breadcrumb {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.layer-declaration {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: #333;
+    font-style: italic;
+}
+
+/* 主导航（顶部固定） */
+.primary-nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border-color: #ccc;
+}
+
+/* 主内容区域 */
+.main-content {
+    margin-top: 160px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 认知路径导航 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 5) */
+.cognitive-paths {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.cognitive-path-section h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0.75rem;
+}
+
+.path-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.path-link {
+    text-decoration: none;
+    color: #0066cc;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.path-link:hover {
+    border-color: #999;
+}
+
+/* 层特定声明 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 4) */
+.layer-statement {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #333;
+}
+
+/* 微词汇表 (FE_COGNITIVE_GUIDANCE_ADDENDUM Section 6.2) */
+.micro-glossary {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+}
+
+.micro-glossary details {
+    margin-bottom: 0.75rem;
+}
+
+.micro-glossary summary {
+    cursor: pointer;
+    font-weight: normal;
+    color: #0066cc;
+    padding: 0.25rem 0;
+}
+
+.micro-glossary summary:hover {
+    text-decoration: underline;
+}
+
+.micro-glossary p {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.view-container {
+    display: block;
+}
+
+.view-container h1 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/* Company 锚点视图 */
+.company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.company-info-section {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+}
+
+.company-info-section h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.company-info-section p {
+    margin-bottom: 0.5rem;
+}
+
+.company-info-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.company-info-section li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.company-info-section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.company-info-section a:hover {
+    text-decoration: underline;
+}
+
+/* Cell 责任结构视图 */
+.cell-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cell-item {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+}
+
+.cell-item h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.cell-item-section {
+    margin-bottom: 1rem;
+}
+
+.cell-item-section h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.cell-item-section p {
+    margin-bottom: 0.5rem;
+}
+
+.cell-item-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cell-item-section li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.cell-role-list {
+    margin-top: 0.5rem;
+}
+
+.cell-role-item {
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    margin-bottom: 0.5rem;
+}
+
+/* 声明性拓扑视图 */
+.topology-graph {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    min-height: 400px;
+}
+
+.topology-node {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+}
+
+.topology-relationship {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-top: 1px solid #ddd;
+}
+
+/* 人类判断点视图 */
+.decision-points-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.decision-point-item {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+}
+
+.decision-point-item h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.decision-point-item-section {
+    margin-bottom: 1rem;
+}
+
+.decision-point-item-section h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.decision-point-item-section p {
+    margin-bottom: 0.5rem;
+}
+
+.decision-point-item-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.decision-point-item-section li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.evidence-link {
+    color: #0066cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.evidence-link:hover {
+    text-decoration: underline;
+}
+
+/* 方法论视角切换器 */
+.methodology-switcher {
+    position: fixed;
+    top: 60px;
+    right: 2rem;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    z-index: 999;
+}
+
+.methodology-switcher label {
+    margin-right: 0.5rem;
+}
+
+.methodology-select {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* 证据回溯视图（模态框） */
+.evidence-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.evidence-modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.evidence-modal-close {
+    float: right;
+    font-size: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+    color: #333;
+}
+
+.evidence-modal-close:hover {
+    color: #000;
+}
+
+.evidence-content {
+    margin-top: 2rem;
+}
+
+.evidence-content-section {
+    margin-bottom: 1.5rem;
+}
+
+.evidence-content-section h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.evidence-content-section p {
+    margin-bottom: 0.5rem;
+}
+
+/* 次级导航 */
+.secondary-nav {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+.secondary-nav-link {
+    text-decoration: none;
+    color: #0066cc;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.secondary-nav-link:hover {
+    border-color: #999;
+}
+
+/* 禁止元素样式 - 确保这些样式不存在 */
+/* 无进度条、无状态颜色、无健康度指示、无评分 */
+/* 无默认选中、无快捷操作、无智能排序 */
+

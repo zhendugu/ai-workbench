@@ -1,0 +1,12 @@
+{
+  "log_id": "473d6a23-9c8c-4f32-bf33-27f642db6ada",
+  "task_id": "register_role_9c9ca914-6ed3-47dd-a62b-696627bf2cff",
+  "goal": "Register Role Definition (C-ROLE-1)",
+  "input": "{'role_id': 'test-role-5', 'requested_by': 'test_user', 'input_type': 'dict'}",
+  "output": "{'error': 'outputs must be a list', 'error_type': 'ValueError'}",
+  "status": "failure",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T22:03:23.751670",
+  "completed_at": "2025-12-26T22:03:23.751670"
+}

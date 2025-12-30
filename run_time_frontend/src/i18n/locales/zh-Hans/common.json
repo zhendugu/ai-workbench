@@ -1,0 +1,109 @@
+{
+  "banner": {
+    "runtimeReadOnly": "运行时 - 只读视图",
+    "frozenCannotModify": "该结构已冻结，无法修改。",
+    "nothingRunning": "无任何运行。无数据更新。",
+    "readOnlyView": "这是结构声明的只读视图。"
+  },
+  "company": {
+    "frozenCompany": "已冻结公司",
+    "frozenReadOnly": "已冻结 - 只读",
+    "frozenAt": "冻结时间",
+    "frozenBy": "冻结人",
+    "companyIdentifier": "公司标识符",
+    "cannotModify": "该结构无法修改。",
+    "companyIdentity": "公司身份",
+    "frozenStructureIdentity": "已冻结的公司结构身份和元数据",
+    "frozenCompanyReadOnly": "已冻结公司 - 只读",
+    "frozenStructuralDeclaration": "这是已冻结的结构声明。无法修改。要更改，请在设计时创建新的草稿。",
+    "companyName": "公司名称",
+    "companyDescription": "公司描述"
+  },
+  "navigation": {
+    "viewNavigation": "视图导航（无推荐顺序）",
+    "companyOverview": "公司概览",
+    "structureView": "结构视图",
+    "topologyView": "拓扑视图",
+    "methodologyContext": "方法论上下文",
+    "freezeRecord": "冻结记录"
+  },
+  "structure": {
+    "title": "结构视图",
+    "description": "已冻结的责任声明（单元和角色）",
+    "readOnly": "只读",
+    "frozenDeclarations": "这些是已冻结的责任声明。单元不执行或运行。",
+    "cells": "单元",
+    "noCells": "此冻结结构中未定义单元。",
+    "cellDetail": "单元详情",
+    "cellIsDeclaration": "单元是已冻结的责任声明。它不是执行器，也不运行。",
+    "cellIdentifier": "单元标识符",
+    "cellName": "单元名称",
+    "responsibilityWhat": "责任（做什么）",
+    "responsibilityWhatNot": "责任边界（不做什么）",
+    "roleConstraints": "角色约束",
+    "noRoleConstraints": "此单元未附加角色约束。",
+    "roleIsConstraint": "角色是附加到此单元的已冻结约束条件。它不是独立实体。",
+    "selectCell": "选择单元以查看详情"
+  },
+  "topology": {
+    "title": "拓扑视图",
+    "description": "已冻结的声明式拓扑（结构关系）",
+    "readOnly": "只读",
+    "frozenDeclarativeTopology": "这是已冻结的声明式拓扑。关系表示结构依赖，而非执行顺序。无任何运行。",
+    "viewMode": "视图模式",
+    "canvas": "画布",
+    "list": "列表",
+    "noRelationships": "此冻结结构中未定义关系。",
+    "relationshipLegend": "关系图例",
+    "declarativeTopologyView": "这是声明式拓扑视图。",
+    "relationshipsStructuralDependencies": "关系表示结构依赖，而非执行顺序或运行时流。",
+    "noCellsDefined": "未定义单元",
+    "noTopologyToVisualize": "无拓扑可可视化",
+    "relations": "关系",
+    "noRelationsDefined": "未定义关系",
+    "dependency": "依赖",
+    "reference": "引用",
+    "inputOutput": "输入输出",
+    "dependencyDescription": "单元 A 依赖于单元 B 的存在",
+    "referenceDescription": "单元 A 引用单元 B 的输出",
+    "inputOutputDescription": "单元 A 的输出是单元 B 的输入"
+  },
+  "methodology": {
+    "title": "方法论上下文",
+    "description": "冻结时活跃的方法论视角",
+    "readOnly": "只读",
+    "noMethodology": "冻结此结构时未指定方法论。",
+    "methodologyPerspective": "这是冻结时活跃的方法论视角。它是只读的，无法更改。",
+    "methodologyIdentifier": "方法论标识符",
+    "methodologyName": "方法论名称",
+    "methodologyDescription": "方法论描述",
+    "methodologyPerspectiveFrozen": "这是冻结此结构时活跃的方法论视角。它是只读的，无法更改。"
+  },
+  "freezeRecord": {
+    "title": "冻结记录",
+    "description": "冻结操作的不可变记录",
+    "immutable": "不可变",
+    "immutableRecord": "此冻结记录不可变。结构无法解冻或修改。",
+    "frozenAt": "冻结时间",
+    "frozenAtDescription": "此时间戳是静态的，表示冻结时刻。它不表示任何更改或活动。",
+    "frozenBy": "冻结人",
+    "frozenCompanyIdentifier": "已冻结公司标识符",
+    "copyCompanyIdentifier": "复制公司标识符",
+    "freezeRecordIdentifier": "冻结记录标识符",
+    "previousDraftId": "先前草稿 ID",
+    "freezeSummary": "冻结摘要",
+    "immutableStatement": "此冻结记录不可变。结构无法解冻或修改。要更改，请在设计时创建新的草稿。"
+  },
+  "errors": {
+    "invalidSnapshot": "无效快照（只读）",
+    "snapshotValidationFailed": "快照验证失败",
+    "snapshotDoesNotConform": "此快照不符合权威层模式，无法显示。",
+    "loading": "正在加载已冻结的公司结构..."
+  },
+  "language": {
+    "switch": "语言",
+    "english": "English",
+    "chinese": "中文"
+  }
+}
+

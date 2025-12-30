@@ -1,0 +1,14 @@
+{
+  "output_id": "7ffe2032-9104-485a-b103-5c1ca4d776d0",
+  "task_id": "test_task_timeout",
+  "reason": "Operation timeout exceeded",
+  "suggestions": [
+    "Operation duration exceeded expected time window",
+    "System may have been under high load during execution"
+  ],
+  "risk_warnings": [
+    "Operation may have been interrupted or incomplete",
+    "System resources may have been unavailable"
+  ],
+  "generated_at": "2025-12-26T20:16:34.745401"
+}

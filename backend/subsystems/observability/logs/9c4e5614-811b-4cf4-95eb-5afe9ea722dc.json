@@ -1,0 +1,12 @@
+{
+  "log_id": "9c4e5614-811b-4cf4-95eb-5afe9ea722dc",
+  "task_id": "trace_8fc0e1c7-bb2f-4994-8ac2-e8f84e02f484",
+  "goal": "Record Trace Entry (C-OBS-2)",
+  "input": "{'task_id': 'test_task_123', 'decision_point': 'Test decision point', 'tool_call_keys': ['tool_name', 'parameters']}",
+  "output": "{'trace_id': '8fc0e1c7-bb2f-4994-8ac2-e8f84e02f484'}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T17:52:14.448338",
+  "completed_at": "2025-12-26T17:52:14.448338"
+}

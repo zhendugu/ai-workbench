@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1 Operator Control Surface</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>S1 Operator Control Surface</h1>
+            <p class="subtitle">Read-Only System Navigation Interface</p>
+            <div class="warning">
+                <strong>READ-ONLY:</strong> This interface does not execute, modify, or recommend actions.
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <button class="nav-btn active" data-view="phases">Phases</button>
+            <button class="nav-btn" data-view="work-orders">Work Orders</button>
+            <button class="nav-btn" data-view="executions">Executions</button>
+            <button class="nav-btn" data-view="evidence">Evidence</button>
+            <button class="nav-btn" data-view="decisions">Decisions</button>
+            <button class="nav-btn" data-view="traceability">Traceability</button>
+        </nav>
+
+        <main id="main-content">
+            <div id="loading" class="loading">Loading...</div>
+            <div id="content" class="content hidden"></div>
+        </main>
+
+        <footer>
+            <p>Local-only interface. No network access. No modifications.</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/phase-view.js"></script>
+    <script src="/static/js/work-order-list.js"></script>
+    <script src="/static/js/execution-viewer.js"></script>
+    <script src="/static/js/evidence-browser.js"></script>
+    <script src="/static/js/decision-viewer.js"></script>
+    <script src="/static/js/traceability-view.js"></script>
+</body>
+</html>
+

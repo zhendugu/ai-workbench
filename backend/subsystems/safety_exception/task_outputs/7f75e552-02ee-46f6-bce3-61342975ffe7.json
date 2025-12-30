@@ -1,0 +1,14 @@
+{
+  "output_id": "7f75e552-02ee-46f6-bce3-61342975ffe7",
+  "task_id": "test_task_dead_loop",
+  "reason": "Dead loop condition detected",
+  "suggestions": [
+    "Task execution encountered conditions that prevented completion",
+    "System state or input conditions did not allow successful completion"
+  ],
+  "risk_warnings": [
+    "Task completion failure may indicate underlying system conditions",
+    "System state or configuration may require attention"
+  ],
+  "generated_at": "2025-12-26T20:16:34.745928"
+}

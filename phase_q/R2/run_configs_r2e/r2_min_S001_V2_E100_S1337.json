@@ -1,0 +1,16 @@
+{
+  "run_id": "r2_min_S001_V2_E100_S1337",
+  "scenario_id": "S001",
+  "scenario_name": "Decision Fatigue Accumulation",
+  "variant": "V2",
+  "variant_description": "High-Frequency Epochs",
+  "epochs": 100,
+  "seed": 1337,
+  "attack_goal": "Decision Fatigue Accumulation",
+  "structural_exploit": "High-Frequency Epochs",
+  "rules_not_violated": [
+    "No cross-epoch state inheritance",
+    "No automatic execution",
+    "No recommendations"
+  ]
+}

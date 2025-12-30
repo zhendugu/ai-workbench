@@ -1,0 +1,12 @@
+{
+  "log_id": "e76a6b50-0b85-4333-ad98-cdb60c922710",
+  "task_id": "query_role_18cd8672-c869-42f6-a286-c8f48f930a37",
+  "goal": "Query Role Definition (C-ROLE-2)",
+  "input": "{'role_id': 'test-query-no-notes', 'requested_by': 'test_user'}",
+  "output": "{'role_id': 'test-query-no-notes', 'status': 'found', 'purpose': 'Test purpose'}",
+  "status": "success",
+  "duration": 0,
+  "cost_estimate": 0,
+  "created_at": "2025-12-26T22:05:10.322472",
+  "completed_at": "2025-12-26T22:05:10.322473"
+}

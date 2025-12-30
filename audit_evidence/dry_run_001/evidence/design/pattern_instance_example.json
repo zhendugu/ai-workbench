@@ -1,0 +1,21 @@
+{
+  "pattern_id": "pattern-example-001",
+  "pattern_name": "Document Storage Pattern Example",
+  "pattern_version": "1.0.0",
+  "created_at": "2025-12-26T10:00:00Z",
+  "created_by": "human-auditor",
+  "description": "Example Pattern Instance for audit demonstration. This pattern describes a document storage methodology.",
+  "capability_references": [
+    {
+      "capability_id": "C-KM-1",
+      "reference_type": "informational",
+      "description": "References C-KM-1 (Store Document) for informational purposes only"
+    }
+  ],
+  "evidence_references": [],
+  "metadata": {
+    "tags": ["document-storage", "knowledge-management"],
+    "category": "storage-pattern"
+  }
+}
+

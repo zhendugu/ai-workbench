@@ -1,0 +1,18 @@
+{
+  "adversarial_patterns": [
+    {
+      "id": "ADV-KA-[NUMBER]-001",
+      "name": "[Pattern Name]",
+      "description": "[Pattern Description]",
+      "typical_implementation": [
+        "[Implementation detail 1]",
+        "[Implementation detail 2]"
+      ],
+      "violated_constraints": [
+        "[Constraint reference 1]",
+        "[Constraint reference 2]"
+      ]
+    }
+  ]
+}
+

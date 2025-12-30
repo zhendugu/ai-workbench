@@ -1,0 +1,23 @@
+{
+  "execution_id": "838cc7ed-4771-4ce7-9c1c-f5c5d50ad47d",
+  "action_identifier": "register_role_definition",
+  "target_subsystem": "role_management",
+  "action_parameters": {
+    "role_definition": {
+      "role_id": "test-role-exec",
+      "purpose": "Test purpose",
+      "inputs": [
+        "input1"
+      ],
+      "outputs": [
+        "output1"
+      ],
+      "boundaries": [
+        "boundary1"
+      ]
+    },
+    "requested_by": "test_user"
+  },
+  "requested_at": "2025-12-26T21:56:58.047081",
+  "requested_by": "test_user"
+}

@@ -1,0 +1,103 @@
+{
+  "patterns": [
+    {
+      "pattern_id": "ADV-001",
+      "name": "Implicit Cache Persistence",
+      "description": "Cache pool not explicitly destroyed at Epoch end",
+      "run_id": "run_XXX",
+      "leakage_vector": "LEAK-059",
+      "minimal_repro": "minimal_repro/adv_001_cache_persistence.sh"
+    },
+    {
+      "pattern_id": "ADV-002",
+      "name": "Observer State Accumulation",
+      "description": "Observer logs/metrics accumulate across Epochs",
+      "run_id": "run_YYY",
+      "leakage_vector": "LEAK-067",
+      "minimal_repro": "minimal_repro/adv_002_observer_accumulation.sh"
+    },
+    {
+      "pattern_id": "ADV-003",
+      "name": "Thread Pool State Leakage",
+      "description": "Thread pool executor state persists across Epochs",
+      "run_id": "run_ZZZ",
+      "leakage_vector": "LEAK-047",
+      "minimal_repro": "minimal_repro/adv_003_thread_pool.sh"
+    },
+    {
+      "pattern_id": "ADV-004",
+      "name": "Fault Injector State Persistence",
+      "description": "Fault injector statistics persist across Epochs",
+      "run_id": "run_AAA",
+      "leakage_vector": "LEAK-076",
+      "minimal_repro": "minimal_repro/adv_004_fault_injector.sh"
+    },
+    {
+      "pattern_id": "ADV-005",
+      "name": "Concurrent Epoch State Collision",
+      "description": "Concurrent Epochs share state through adapter",
+      "run_id": "run_BBB",
+      "leakage_vector": "LEAK-042",
+      "minimal_repro": "minimal_repro/adv_005_concurrent_collision.sh"
+    },
+    {
+      "pattern_id": "ADV-006",
+      "name": "Async Future State Leakage",
+      "description": "Async futures persist across Epoch boundaries",
+      "run_id": "run_CCC",
+      "leakage_vector": "LEAK-046",
+      "minimal_repro": "minimal_repro/adv_006_async_future.sh"
+    },
+    {
+      "pattern_id": "ADV-007",
+      "name": "Lock State Persistence",
+      "description": "Lock state causes implicit continuity",
+      "run_id": "run_DDD",
+      "leakage_vector": "LEAK-048",
+      "minimal_repro": "minimal_repro/adv_007_lock_state.sh"
+    },
+    {
+      "pattern_id": "ADV-008",
+      "name": "Request Queue State Leakage",
+      "description": "Request queue state persists across Epochs",
+      "run_id": "run_EEE",
+      "leakage_vector": "LEAK-052",
+      "minimal_repro": "minimal_repro/adv_008_request_queue.sh"
+    },
+    {
+      "pattern_id": "ADV-009",
+      "name": "Object Pool Reuse Leakage",
+      "description": "Object pool reuse causes cross-Epoch leakage",
+      "run_id": "run_FFF",
+      "leakage_vector": "LEAK-062",
+      "minimal_repro": "minimal_repro/adv_009_object_pool.sh"
+    },
+    {
+      "pattern_id": "ADV-010",
+      "name": "Memory Growth Over Long Runs",
+      "description": "Memory grows over 10k Epoch cycles",
+      "run_id": "run_p5_s0",
+      "leakage_vector": "LEAK-083",
+      "minimal_repro": "minimal_repro/adv_010_memory_growth.sh"
+    },
+    {
+      "pattern_id": "ADV-011",
+      "name": "Handle Leakage",
+      "description": "File/network handles leak over long runs",
+      "run_id": "run_p5_s1",
+      "leakage_vector": "LEAK-084",
+      "minimal_repro": "minimal_repro/adv_011_handle_leak.sh"
+    },
+    {
+      "pattern_id": "ADV-012",
+      "name": "Observer Callback State",
+      "description": "Observer callback state persists across Epochs",
+      "run_id": "run_GGG",
+      "leakage_vector": "LEAK-072",
+      "minimal_repro": "minimal_repro/adv_012_observer_callback.sh"
+    }
+  ],
+  "total_patterns": 12,
+  "note": "These patterns represent adversarial implementations that would cause leakage. Actual patterns depend on test execution results."
+}
+

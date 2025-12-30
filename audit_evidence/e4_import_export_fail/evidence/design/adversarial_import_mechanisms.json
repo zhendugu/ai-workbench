@@ -1,0 +1,145 @@
+{
+  "adversarial_import_mechanisms_version": "1.0.0",
+  "created_at": "2025-12-27T13:30:00Z",
+  "created_by": "human",
+  "note": "These are adversarial import mechanisms that MUST FAIL constitutional compliance",
+  "adversarial_mechanisms": [
+    {
+      "mechanism_id": "ADV-IMPORT-001",
+      "mechanism_name": "Auto-Select Target Workspace",
+      "description": "System auto-selects target workspace based on recent usage or frequency",
+      "violation_type": "default_selection",
+      "example": {
+        "scenario": "Import dialog auto-selects WORKSPACE-A because it was used most recently",
+        "violation": "Default workspace selection",
+        "expected_result": "FAIL - Must require explicit workspace selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-002",
+      "mechanism_name": "Auto-Merge Conflict Resolution with Implied Best",
+      "description": "System auto-merges conflicts with implied 'best' option selected",
+      "violation_type": "recommendation_semantics",
+      "example": {
+        "scenario": "Conflict resolution auto-selects 'keep latest version' as best option",
+        "violation": "Implied 'best' option in conflict resolution",
+        "expected_result": "FAIL - Must present options neutrally without recommendation"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No recommendation, no decision space compression",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-003",
+      "mechanism_name": "Upgrade to Latest Toggle Enabled by Default",
+      "description": "Upgrade to latest version toggle is enabled by default",
+      "violation_type": "default_selection",
+      "example": {
+        "scenario": "Import dialog has 'upgrade to latest version' checkbox pre-checked",
+        "violation": "Default selection of upgrade option",
+        "expected_result": "FAIL - Must require explicit selection"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No default selection, PATTERN_REGISTRY_LIFECYCLE_RULES.md - No auto-upgrade",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-004",
+      "mechanism_name": "Auto-Deprecate Older Versions After Import",
+      "description": "System automatically deprecates older versions after importing newer versions",
+      "violation_type": "auto_deprecation",
+      "example": {
+        "scenario": "After importing P-MD-CONV-001 v2.0.0, system auto-deprecates v1.0.0",
+        "violation": "Automatic deprecation without explicit human declaration",
+        "expected_result": "FAIL - Deprecation must be human-explicit"
+      },
+      "constitutional_violation": {
+        "violates": "PATTERN_REGISTRY_LIFECYCLE_RULES.md - Deprecation must be human-explicit, no auto-deprecation",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-005",
+      "mechanism_name": "Recommended Mapping of Capabilities During Import",
+      "description": "System recommends capability mappings during import",
+      "violation_type": "recommendation_semantics",
+      "example": {
+        "scenario": "Import shows 'recommended mapping: C-MD-HTML-001 -> C-MD-HTML-002'",
+        "violation": "Recommended mapping implies preference",
+        "expected_result": "FAIL - Must present mappings neutrally"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No recommendation",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-006",
+      "mechanism_name": "Clean Up Duplicates That Removes Options by Default",
+      "description": "Clean up duplicates feature removes options by default",
+      "violation_type": "decision_space_compression",
+      "example": {
+        "scenario": "Import dialog has 'clean up duplicates' option that removes duplicate patterns by default",
+        "violation": "Default removal of options compresses decision space",
+        "expected_result": "FAIL - Must require explicit selection, no default removal"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No decision space compression",
+        "violation_severity": "HIGH"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-007",
+      "mechanism_name": "Latest Version Highlighted in Preview",
+      "description": "Latest version of each pattern is highlighted in import preview",
+      "violation_type": "recommendation_semantics",
+      "example": {
+        "scenario": "Import preview highlights P-MD-CONV-001 v2.0.0 as 'latest version'",
+        "violation": "Highlighting implies preference for latest version",
+        "expected_result": "FAIL - Must present all versions equally"
+      },
+      "constitutional_violation": {
+        "violates": "HUMAN_DECISION_SELECTION_BOUNDARY.md - No highlighting, no 'latest is best' semantics",
+        "violation_severity": "MEDIUM"
+      }
+    },
+    {
+      "mechanism_id": "ADV-IMPORT-008",
+      "mechanism_name": "Auto-Select Best Version Based on Usage Stats",
+      "description": "System auto-selects 'best' version based on usage statistics from audit",
+      "violation_type": "audit_derived_selection",
+      "example": {
+        "scenario": "Import auto-selects P-MD-CONV-001 v2.0.0 because it has highest usage count in audit",
+        "violation": "Audit-derived selection, usage-based ranking",
+        "expected_result": "FAIL - Must not use audit/history for selection"
+      },
+      "constitutional_violation": {
+        "violates": "AUDIT_EVIDENCE_ONTOLOGY.md - Audit must not drive behavior, HUMAN_DECISION_SELECTION_BOUNDARY.md - No audit/history influence",
+        "violation_severity": "HIGH"
+      }
+    }
+  ],
+  "expected_violations": 30,
+  "violation_categories": {
+    "default_selection": 2,
+    "recommendation_semantics": 3,
+    "auto_deprecation": 1,
+    "decision_space_compression": 1,
+    "audit_derived_selection": 1
+  },
+  "constitutional_compliance": {
+    "all_mechanisms_must_fail": true,
+    "no_auto_upgrade_allowed": true,
+    "no_auto_merge_allowed": true,
+    "no_default_selection_allowed": true,
+    "no_recommendation_allowed": true,
+    "no_audit_derived_selection_allowed": true
+  }
+}
+

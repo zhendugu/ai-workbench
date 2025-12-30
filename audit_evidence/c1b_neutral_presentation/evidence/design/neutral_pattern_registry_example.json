@@ -1,0 +1,123 @@
+{
+  "registry_id": "pattern-registry-neutral-example",
+  "registry_name": "Pattern Registry",
+  "description": "A registry of pattern instances registered in the system.",
+  "last_updated": "2025-12-26T10:00:00Z",
+  "registry_entries": [
+    {
+      "registry_entry_id": "reg-entry-001",
+      "pattern_id": "pattern-access-control-001",
+      "pattern_name": "Access Control Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-04-20T11:00:00Z",
+      "registered_by": "human-registrar-001",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "access-control",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-002",
+      "pattern_id": "pattern-doc-retrieval-001",
+      "pattern_name": "Document Retrieval Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-03-10T10:00:00Z",
+      "registered_by": "human-registrar-002",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "retrieval",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-003",
+      "pattern_id": "pattern-doc-storage-001",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-01-15T08:00:00Z",
+      "registered_by": "human-registrar-003",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": ["pattern-doc-storage-002"]
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-004",
+      "pattern_id": "pattern-doc-storage-002",
+      "pattern_name": "Document Storage Pattern",
+      "pattern_version": "2.0.0",
+      "registered_at": "2025-06-01T09:00:00Z",
+      "registered_by": "human-registrar-004",
+      "version_lineage": {
+        "parent_version": "pattern-doc-storage-001",
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "storage",
+        "knowledge-management"
+      ]
+    },
+    {
+      "registry_entry_id": "reg-entry-005",
+      "pattern_id": "pattern-versioning-001",
+      "pattern_name": "Versioning Pattern",
+      "pattern_version": "1.0.0",
+      "registered_at": "2025-05-05T12:00:00Z",
+      "registered_by": "human-registrar-005",
+      "version_lineage": {
+        "parent_version": null,
+        "child_versions": []
+      },
+      "traceability": {
+        "source": "human-created",
+        "audit_references": []
+      },
+      "descriptive_tags": [
+        "versioning",
+        "knowledge-management"
+      ]
+    }
+  ],
+  "registry_metadata": {
+    "presentation_order": {
+      "method": "lexical_by_pattern_id",
+      "description": "Entries are ordered alphabetically by pattern_id for stable, non-preferential presentation. This ordering is mechanical and does not imply any preference, ranking, or recommendation.",
+      "non_preferential": true
+    },
+    "available_categories": [
+      "access-control",
+      "retrieval",
+      "storage",
+      "versioning",
+      "knowledge-management"
+    ]
+  }
+}
+

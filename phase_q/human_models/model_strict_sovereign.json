@@ -1,0 +1,19 @@
+{
+  "model_id": "MODEL-STRICT-SOVEREIGN",
+  "model_name": "Strict-Sovereign",
+  "model_params": {
+    "attention_level": 1.0,
+    "trust_level": 0.0,
+    "fatigue_rate": 0.0,
+    "rejection_cost": 0.0
+  },
+  "default_values": {
+    "attention_level": 1.0,
+    "trust_level": 0.0,
+    "fatigue_rate": 0.0,
+    "rejection_cost": 0.0
+  },
+  "degradation_factors": [],
+  "traceability": "phase_q/HUMAN_MODEL_CATALOG.md MODEL-STRICT-SOVEREIGN"
+}
+

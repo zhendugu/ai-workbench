@@ -1,0 +1,26 @@
+{
+  "run_id": "run_p1_s2",
+  "profile": "P1",
+  "scenario": "Scenario_2",
+  "seed": 125,
+  "epochs": 100,
+  "concurrency": {
+    "threads": 2,
+    "coroutines": 4,
+    "tasks": 4
+  },
+  "fault_injection": {
+    "timeout_prob": 0.05,
+    "exception_prob": 0.02,
+    "cancellation_prob": 0.0,
+    "interruption_prob": 0.0,
+    "partial_write_prob": 0.0
+  },
+  "cache_pool": {
+    "enabled": false,
+    "max_size": 100
+  },
+  "observer": {
+    "enabled": true
+  }
+}
